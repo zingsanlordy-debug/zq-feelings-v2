@@ -1,0 +1,6 @@
+{
+  "name": "Dil Ki Awaaz - Shayariyon Ke Sath",
+  "description": "5,900+ Best Shayari in Hindi & 77 Languages. Love, Sad, Attitude & Festival Shayari. 240+ Stylish Fonts, 1-Click Copy, WhatsApp Share & Photo Card Download.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
