@@ -187,17 +187,32 @@
       "permanent": true
     },
     {
-      "source": "/feelings/?$",
+      "source": "/feelings",
       "destination": "/feelings-shayari",
       "permanent": true
     },
     {
-      "source": "/festival/?$",
+      "source": "/feelings/",
+      "destination": "/feelings-shayari",
+      "permanent": true
+    },
+    {
+      "source": "/festival",
       "destination": "/festival-shayari",
       "permanent": true
     },
     {
-      "source": "/religious/?$",
+      "source": "/festival/",
+      "destination": "/festival-shayari",
+      "permanent": true
+    },
+    {
+      "source": "/religious",
+      "destination": "/religious/sanatan-hindu",
+      "permanent": true
+    },
+    {
+      "source": "/religious/",
       "destination": "/religious/sanatan-hindu",
       "permanent": true
     },
@@ -207,7 +222,12 @@
       "permanent": true
     },
     {
-      "source": "/family-rituals/?$",
+      "source": "/family-rituals",
+      "destination": "/newborn-babies-shayari/",
+      "permanent": true
+    },
+    {
+      "source": "/family-rituals/",
       "destination": "/newborn-babies-shayari/",
       "permanent": true
     },
@@ -217,7 +237,12 @@
       "permanent": true
     },
     {
-      "source": "/valentine/?$",
+      "source": "/valentine",
+      "destination": "/valentine-week",
+      "permanent": true
+    },
+    {
+      "source": "/valentine/",
       "destination": "/valentine-week",
       "permanent": true
     },
@@ -237,7 +262,12 @@
       "permanent": true
     },
     {
-      "source": "/apni-shayari$",
+      "source": "/apni-shayari",
+      "destination": "/apni-shayari-likhe",
+      "permanent": true
+    },
+    {
+      "source": "/apni-shayari/",
       "destination": "/apni-shayari-likhe",
       "permanent": true
     },
@@ -247,7 +277,12 @@
       "permanent": true
     },
     {
-      "source": "/pasandida$",
+      "source": "/pasandida",
+      "destination": "/pasandida-shayari",
+      "permanent": true
+    },
+    {
+      "source": "/pasandida/",
       "destination": "/pasandida-shayari",
       "permanent": true
     }
