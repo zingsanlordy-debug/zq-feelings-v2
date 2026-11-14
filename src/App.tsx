@@ -946,7 +946,7 @@ export default function App() {
         : 'hindi';
 
   return (
-    <div className="relative min-h-screen bg-white text-slate-800 flex flex-col font-poppins selection:bg-[#d94f70] selection:text-white">
+    <div className="relative min-h-screen w-full max-w-full overflow-x-clip bg-white text-slate-800 flex flex-col font-poppins selection:bg-[#d94f70] selection:text-white">
       {/* 2. THEME: WHITE BACKGROUND WITH LIGHT PINK AMBIENCE & PASTEL FLOATING HEARTS */}
       <ConfettiSparkles />
 
@@ -964,7 +964,7 @@ export default function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
         {/* If user is searching globally */}
         {activeSearchTerm ? (
           <div

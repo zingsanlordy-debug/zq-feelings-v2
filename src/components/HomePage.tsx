@@ -258,10 +258,10 @@ export const HomePage: React.FC<HomePageProps> = ({
   return (
     <div
       dir={isRtl ? 'rtl' : 'ltr'}
-      className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-7 sm:py-9 space-y-10 bg-white"
+      className="relative z-10 w-full max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 pt-2 pb-7 sm:py-9 flex flex-col gap-6 sm:gap-10 bg-white overflow-x-hidden"
     >
       {/* 4. MAIN SECTION — TWO COLUMNS SIDE BY SIDE WITH A VERTICAL LINE IN MIDDLE */}
-      <section className="bg-[#fff8f9] border-2 border-[#ffe4e8] rounded-3xl p-5 sm:p-8 shadow-xs">
+      <section className="order-2 md:order-1 bg-[#fff8f9] border-2 border-[#ffe4e8] rounded-3xl p-4 sm:p-8 shadow-xs">
         <div className="grid grid-cols-1 md:grid-cols-[1fr_2px_1fr] gap-7 md:gap-8 items-stretch">
           {/* LEFT SIDE: FEELING SHAYARI + ALL FEELING CATEGORY CHIPS DIRECTLY BELOW */}
           <div className="flex flex-col space-y-5">
@@ -406,7 +406,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* 5. VALENTINE WEEK SPECIAL — SINGLE FULL-WIDTH SECTION WITH 15 CATEGORY CARDS (4 PER ROW, RELIGIOUS CARD DESIGN) */}
-      <section className="bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-6 sm:p-9 space-y-6">
+      <section className="order-3 md:order-2 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-4 sm:p-9 space-y-6">
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#ffe4e8] pb-5">
           <div className="flex items-center gap-3">
             <Heart className="w-7 h-7 text-[#e11d48] fill-[#e11d48] shrink-0" />
@@ -485,7 +485,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* 5. RELIGIOUS SHAYARI — 4 CARDS (Sanatan Hindu, Islamic Allah, Masih Faith, Sikh Dharm) */}
-      <section className="bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-6 sm:p-9 space-y-6">
+      <section className="order-4 md:order-3 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-4 sm:p-9 space-y-6">
         <div className="flex items-center gap-3 border-b border-[#ffe4e8] pb-5">
           <Sparkles className="w-7 h-7 text-[#d94f70] shrink-0" />
           <h2 className="font-rozha text-[26px] font-bold text-[#d94f70] leading-snug">
@@ -545,7 +545,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       </section>
 
       {/* 6. SANSKAR & FAMILY RITUALS — 4 CATEGORIES DIRECTLY (Newborn Baby, Godh Bharai, Naamkaran & Mundan, Grah Pravesh) */}
-      <section className="bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-6 sm:p-9 space-y-6">
+      <section className="order-5 md:order-4 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-4 sm:p-9 space-y-6">
         <div className="flex items-center gap-3 border-b border-[#ffe4e8] pb-5">
           <HeartHandshake className="w-7 h-7 text-[#d94f70] shrink-0" />
           <h2 className="font-rozha text-[26px] font-bold text-[#d94f70] leading-snug">
@@ -611,11 +611,11 @@ export const HomePage: React.FC<HomePageProps> = ({
 
       {/* 7. RECENT & TRENDING SHAYARI */}
       {trendingShayaris.length > 0 && isFavorite && onToggleFavorite && (
-        <section className="bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-6 sm:p-9 space-y-6">
-          <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[#ffe4e8] pb-5">
+        <section className="order-1 md:order-5 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-4 sm:p-9 flex flex-col gap-5 sm:gap-6">
+          <div className="order-1 flex flex-wrap items-center justify-between gap-3 border-b border-[#ffe4e8] pb-4 sm:pb-5">
             <div className="flex items-center gap-3">
               <Flame className="w-7 h-7 text-[#d94f70] shrink-0" />
-              <h2 className="font-rozha text-[24px] sm:text-[26px] font-bold text-[#d94f70] leading-snug">
+              <h2 className="font-rozha text-[21px] sm:text-[26px] font-bold text-[#d94f70] leading-snug">
                 <TranslatedText
                   text="ट्रेंडिंग और नई शायरी (Recent & Trending Shayari)"
                   english="Recent & Trending Shayari"
@@ -631,7 +631,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                   e.preventDefault();
                   onOpenWriteShayari();
                 }}
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[14px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer"
+                className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[13px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer"
               >
                 <span>Apni Shayari Likhe</span>
                 <ArrowRight className="w-4 h-4" />
@@ -640,7 +640,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           </div>
 
           {/* 4 Naye Pages Links (100 Nayi Shayari x 35 Languages) */}
-          <div className="p-4 sm:p-6 rounded-2xl bg-white border border-[#ffd6df] shadow-2xs space-y-3.5">
+          <div className="order-5 md:order-2 p-4 sm:p-6 rounded-2xl bg-white border border-[#ffd6df] shadow-2xs space-y-3.5">
             <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#ffe4e8] pb-3">
               <div className="flex items-center gap-2">
                 <Sparkles className="w-5 h-5 text-[#d94f70]" />
@@ -768,7 +768,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="order-2 md:order-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
             {trendingPagination.pageItems.slice(0, visibleTrendingCount).map((shayari) => (
               <ShayariCard
                 key={shayari.id}
@@ -784,7 +784,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           </div>
 
           {visibleTrendingCount < trendingPagination.pageItems.length && (
-            <div className="mt-6 text-center">
+            <div className="order-3 md:order-4 text-center">
               <button
                 type="button"
                 onClick={() =>
@@ -799,21 +799,23 @@ export const HomePage: React.FC<HomePageProps> = ({
             </div>
           )}
 
-          <ShayariPagination
-            currentPage={trendingPagination.currentPage}
-            totalPages={trendingPagination.totalPages}
-            startIndex={trendingPagination.startIndex}
-            endIndex={trendingPagination.endIndex}
-            totalItems={trendingPagination.totalItems}
-            onPageChange={(pg) => onPageChange?.(pg)}
-            getPageHref={(pg) => (pg <= 1 ? '/' : `/page/${pg}`)}
-          />
+          <div className="order-4 md:order-5">
+            <ShayariPagination
+              currentPage={trendingPagination.currentPage}
+              totalPages={trendingPagination.totalPages}
+              startIndex={trendingPagination.startIndex}
+              endIndex={trendingPagination.endIndex}
+              totalItems={trendingPagination.totalItems}
+              onPageChange={(pg) => onPageChange?.(pg)}
+              getPageHref={(pg) => (pg <= 1 ? '/' : `/page/${pg}`)}
+            />
+          </div>
         </section>
       )}
 
       {/* 8. APNI SHAYARI LIKHE */}
       {onOpenWriteShayari && (
-        <section className="bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <section className="order-6 md:order-6 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-5 sm:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-2 max-w-2xl">
             <h2 className="font-rozha text-[26px] sm:text-[30px] font-bold text-[#d94f70] leading-snug flex items-center gap-2.5">
               <Pencil className="w-7 h-7 text-[#d94f70] shrink-0" />
@@ -844,7 +846,7 @@ export const HomePage: React.FC<HomePageProps> = ({
 
       {/* 8. ZQ MOMENTS */}
       {onOpenZqMoments && (
-        <section className="bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-6 sm:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <section className="order-7 md:order-7 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-5 sm:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-2 max-w-2xl">
             <h2 className="font-rozha text-[26px] sm:text-[30px] font-bold text-[#d94f70] leading-snug">
               ZQ Moments 💗

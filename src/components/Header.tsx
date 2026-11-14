@@ -157,6 +157,7 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const { globalLanguage, ui, isRtl } = useGlobalLanguage();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isDescExpanded, setIsDescExpanded] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     try {
       return localStorage.getItem('zq_dark_mode') === 'dark';
@@ -180,45 +181,54 @@ export const Header: React.FC<HeaderProps> = ({
     onNavigate(route);
   };
 
+  const fullHomeDescription =
+    globalLanguage === 'english'
+      ? 'Discover 5,900+ original shayaris across 63+ categories including Love, Sad, Attitude, Festivals & Sanskar. Supported in 77 languages with 240+ stylish fonts, 1-click copy, and WhatsApp/Instagram/Facebook share. Download custom photo cards, write your own shayari, or upload photos in ZQ Moments — 100% Free!'
+      : globalLanguage === 'urdu'
+        ? '63 سے زیادہ زمروں میں 5,900 سے زائد دل چھو لینے والی اصل شاعری، جن میں محبت، درد، تہوار اور رسومات شامل ہیں۔ 77 زبانوں اور 240 سے زیادہ اسٹائلش فونٹس کے ساتھ 1-کلک کاپی، واٹس ایپ شیئر، فوٹو کارڈ ڈاؤن لوڈ، اپنی شاعری اور لمحات — 100% مفت!'
+        : EXACT_HOME_SEO_DESCRIPTION;
+
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[#ffe4e8] bg-white shadow-xs">
-      {/* TOP NAVIGATION BAR: LOGO + 1 LANGUAGE SELECTOR + SEARCH BAR + FAVORITES + MENU BUTTON */}
-      <div className="border-b border-[#fff0f3] bg-white/95">
+    <header className="w-full max-w-full border-b border-[#ffe4e8] bg-white shadow-xs">
+      {/* STICKY TOP NAVIGATION BAR ONLY: LOGO + 1 LANGUAGE SELECTOR + SEARCH BAR + FAVORITES + MENU BUTTON */}
+      <div className="sticky top-0 z-50 w-full max-w-full border-b border-[#fff0f3] bg-white/95 shadow-2xs">
         <div
           dir={isRtl ? 'rtl' : 'ltr'}
-          className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex flex-wrap items-center justify-between gap-2.5 sm:gap-3"
+          className="w-full max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 py-2 sm:py-3 flex flex-wrap items-center justify-between gap-2 sm:gap-3"
         >
           {/* Left: Back to Home (on subpages) + Clickable ZQ FEELINGS Logo + THE ONLY 1 LANGUAGE BUTTON */}
-          <div className="flex items-center gap-1.5 sm:gap-2.5 shrink-0">
-            {currentRoute !== 'home' && (
+          <div className="flex items-center justify-between sm:justify-start gap-1.5 sm:gap-2.5 w-full sm:w-auto min-w-0 max-w-full">
+            <div className="flex items-center gap-1.5 sm:gap-2.5 min-w-0">
+              {currentRoute !== 'home' && (
+                <a
+                  href="/"
+                  onClick={(e) => handleLinkClick(e, 'home')}
+                  className="min-h-[34px] sm:min-h-[40px] inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-3 py-1 sm:py-1.5 rounded-xl sm:rounded-2xl bg-[#fff0f3] hover:bg-[#d94f70] text-[#d94f70] hover:text-white border border-[#ffe4e8] text-[12px] sm:text-[14px] font-extrabold transition-colors cursor-pointer shrink-0"
+                >
+                  <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+                  <span className="hidden xs:inline">{ui.btnHome}</span>
+                </a>
+              )}
+
               <a
                 href="/"
                 onClick={(e) => handleLinkClick(e, 'home')}
-                className="min-h-[36px] sm:min-h-[40px] inline-flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl sm:rounded-2xl bg-[#fff0f3] hover:bg-[#d94f70] text-[#d94f70] hover:text-white border border-[#ffe4e8] text-[13px] sm:text-[14px] font-extrabold transition-colors cursor-pointer"
+                aria-label="ZQ FEELINGS - Dil Ki Awaaz | Best New Shayari 2026"
+                className="inline-flex items-center gap-1.5 sm:gap-2 select-none cursor-pointer group min-w-0"
               >
-                <ArrowLeft className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-                <span className="hidden xs:inline">{ui.btnHome}</span>
+                <span className="w-7 h-7 sm:w-9 sm:h-9 rounded-full btn-glossy-pink border border-[#ffe4e8] flex items-center justify-center text-white shadow-2xs shrink-0 group-hover:scale-105 transition-transform">
+                  <Heart className="w-3 h-3 sm:w-4 sm:h-4 fill-white text-white" />
+                </span>
+                <span className="flex flex-col min-w-0">
+                  <span className="zq-feelings-logo text-[15px] sm:text-[22px] font-black text-[#d94f70] leading-tight whitespace-nowrap">
+                    ZQ FEELINGS
+                  </span>
+                  <span className="text-[10px] sm:text-[11px] font-bold text-[#d94f70] leading-tight hidden sm:block">
+                    Dil Ki Awaaz
+                  </span>
+                </span>
               </a>
-            )}
-
-            <a
-              href="/"
-              onClick={(e) => handleLinkClick(e, 'home')}
-              aria-label="ZQ FEELINGS - Dil Ki Awaaz | Best New Shayari 2026"
-              className="inline-flex items-center gap-2 select-none cursor-pointer group"
-            >
-              <span className="w-8 h-8 sm:w-9 sm:h-9 rounded-full btn-glossy-pink border border-[#ffe4e8] flex items-center justify-center text-white shadow-2xs shrink-0 group-hover:scale-105 transition-transform">
-                <Heart className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-white text-white" />
-              </span>
-              <span className="flex flex-col">
-                <span className="zq-feelings-logo text-[18px] sm:text-[22px] font-black text-[#d94f70] leading-tight">
-                  ZQ FEELINGS
-                </span>
-                <span className="text-[10px] sm:text-[11px] font-bold text-[#d94f70] leading-tight hidden xs:block">
-                  Dil Ki Awaaz
-                </span>
-              </span>
-            </a>
+            </div>
 
             {/* THE ONLY 1 LANGUAGE BUTTON ON THE ENTIRE WEBSITE */}
             <LanguageSelectorDropdown />
@@ -226,9 +236,9 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Center: Live Global Search Bar */}
           {onSearchChange && (
-            <div className="order-3 sm:order-2 w-full sm:flex-1 sm:max-w-md">
-              <div className="relative flex items-center">
-                <Search className="w-4 h-4 text-[#d94f70] absolute left-3.5 pointer-events-none" />
+            <div className="order-3 sm:order-2 w-full sm:flex-1 sm:max-w-md min-w-0">
+              <div className="relative flex items-center w-full">
+                <Search className="w-4 h-4 text-[#d94f70] absolute left-3 sm:left-3.5 pointer-events-none" />
                 <input
                   type="search"
                   value={searchQuery}
@@ -241,7 +251,7 @@ export const Header: React.FC<HeaderProps> = ({
                         : 'शायरी खोजें... (Love, Sad, Rose Day, Diwali)'
                   }
                   aria-label="Search Shayari"
-                  className="w-full min-h-[40px] sm:min-h-[42px] pl-10 pr-9 py-2 rounded-2xl bg-[#fff8f9] border border-[#ffd6df] focus:border-[#d94f70] focus:bg-white focus:outline-none text-[13px] sm:text-[15px] font-semibold text-slate-900 placeholder:text-slate-400 transition-colors"
+                  className="w-full min-h-[36px] sm:min-h-[42px] pl-9 sm:pl-10 pr-8 sm:pr-9 py-1.5 sm:py-2 rounded-xl sm:rounded-2xl bg-[#fff8f9] border border-[#ffd6df] focus:border-[#d94f70] focus:bg-white focus:outline-none text-[13px] sm:text-[15px] font-semibold text-slate-900 placeholder:text-slate-400 transition-colors"
                 />
                 {searchQuery && (
                   <button
@@ -263,7 +273,7 @@ export const Header: React.FC<HeaderProps> = ({
               href="/pasandida-shayari"
               onClick={(e) => handleLinkClick(e, 'favorites')}
               title={ui.btnPasandida}
-              className="min-h-[38px] sm:min-h-[42px] inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-2xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] text-[#d94f70] text-[13px] sm:text-[14px] font-extrabold transition-colors cursor-pointer tabular-nums"
+              className="min-h-[34px] sm:min-h-[42px] inline-flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-xl sm:rounded-2xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] text-[#d94f70] text-[12px] sm:text-[14px] font-extrabold transition-colors cursor-pointer tabular-nums"
             >
               <Heart className="w-3.5 h-3.5 sm:w-4 sm:h-4 fill-[#d94f70] text-[#d94f70]" />
               <span>{favoritesCount}</span>
@@ -274,7 +284,7 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => setIsDarkMode((prev) => !prev)}
               aria-label={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
               title={isDarkMode ? 'Light Mode' : 'Dark Mode'}
-              className="min-h-[38px] min-w-[38px] sm:min-h-[42px] sm:min-w-[42px] inline-flex items-center justify-center p-2 rounded-2xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] text-[#d94f70] transition-colors cursor-pointer"
+              className="min-h-[34px] min-w-[34px] sm:min-h-[42px] sm:min-w-[42px] inline-flex items-center justify-center p-1.5 sm:p-2 rounded-xl sm:rounded-2xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] text-[#d94f70] transition-colors cursor-pointer"
             >
               {isDarkMode ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
             </button>
@@ -284,13 +294,13 @@ export const Header: React.FC<HeaderProps> = ({
               onClick={() => setMenuOpen((prev) => !prev)}
               aria-expanded={menuOpen}
               aria-label="Toggle Navigation Menu"
-              className={`min-h-[38px] sm:min-h-[42px] inline-flex items-center gap-1.5 px-3 sm:px-3.5 py-1.5 rounded-2xl border text-[13px] sm:text-[14px] font-extrabold transition-colors cursor-pointer ${
+              className={`min-h-[34px] sm:min-h-[42px] inline-flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-xl sm:rounded-2xl border text-[12px] sm:text-[14px] font-extrabold transition-colors cursor-pointer ${
                 menuOpen
                   ? 'bg-[#d94f70] text-white border-[#d94f70]'
                   : 'bg-[#fff8f9] text-slate-800 border-[#ffd6df] hover:border-[#d94f70] hover:text-[#d94f70]'
               }`}
             >
-              {menuOpen ? <X className="w-4 h-4" /> : <Menu className="w-4 h-4" />}
+              {menuOpen ? <X className="w-3.5 h-3.5 sm:w-4 sm:h-4" /> : <Menu className="w-3.5 h-3.5 sm:w-4 sm:h-4" />}
               <span>Menu</span>
             </button>
           </div>
@@ -300,7 +310,7 @@ export const Header: React.FC<HeaderProps> = ({
         {menuOpen && (
           <nav
             aria-label="Main Website Menu"
-            className="border-t border-[#ffe4e8] bg-[#fff8f9] px-4 sm:px-6 lg:px-8 py-4 shadow-md"
+            className="border-t border-[#ffe4e8] bg-[#fff8f9] px-4 sm:px-6 lg:px-8 py-4 shadow-md max-h-[70vh] overflow-y-auto"
           >
             <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2.5">
               {MENU_NAV_ITEMS.map((item) => {
@@ -332,27 +342,43 @@ export const Header: React.FC<HeaderProps> = ({
         )}
       </div>
 
-      {/* HOMEPAGE LOCKED HERO: 1. EXACT SEO TITLE -> 2. EXACT DESCRIPTION (NO EXTRA LANGUAGE BUTTONS BELOW) */}
+      {/* HOMEPAGE HERO (SCROLLS NORMALLY SO MOBILE NEVER GETS STUCK): 1. TITLE -> 2. DESCRIPTION */}
       {currentRoute === 'home' && (
         <div
           dir={isRtl ? 'rtl' : 'ltr'}
-          className="relative z-30 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-5 pb-5 sm:pt-6 sm:pb-6 space-y-4"
+          className="relative z-20 w-full max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 pt-3 pb-3 sm:pt-6 sm:pb-6 space-y-2 sm:space-y-4 overflow-x-hidden"
         >
-          {/* 1. VERY TOP — EXACT SEO TITLE */}
+          {/* 1. VERY TOP — SHORT ON MOBILE, EXACT SEO TITLE ON DESKTOP */}
           <div className="text-center max-w-5xl mx-auto">
-            <h1 className="text-[20px] sm:text-[26px] md:text-[30px] font-extrabold tracking-tight text-[#991B1B] leading-[1.4]">
-              {EXACT_HOME_SEO_TITLE}
+            <h1 className="text-[17px] sm:text-[26px] md:text-[30px] font-extrabold tracking-tight text-[#991B1B] leading-[1.3] sm:leading-[1.4]">
+              <span className="sm:hidden">Dil Ki Awaaz - Best Shayari Collection</span>
+              <span className="hidden sm:inline">{EXACT_HOME_SEO_TITLE}</span>
             </h1>
           </div>
 
-          {/* 2. JUST BELOW TITLE — EXACT DESCRIPTION */}
-          <div className="max-w-5xl mx-auto bg-[#fff8f9] border-2 border-[#ffd6df] rounded-2xl px-5 sm:px-8 py-4 sm:py-5 text-center shadow-2xs">
-            <p className="text-[15px] sm:text-[18px] font-medium text-slate-900 leading-[1.8]">
-              {globalLanguage === 'english'
-                ? 'Discover 5,900+ original shayaris across 63+ categories including Love, Sad, Attitude, Festivals & Sanskar. Supported in 77 languages with 240+ stylish fonts, 1-click copy, and WhatsApp/Instagram/Facebook share. Download custom photo cards, write your own shayari, or upload photos in ZQ Moments — 100% Free!'
-                : globalLanguage === 'urdu'
-                  ? '63 سے زیادہ زمروں میں 5,900 سے زائد دل چھو لینے والی اصل شاعری، جن میں محبت، درد، تہوار اور رسومات شامل ہیں۔ 77 زبانوں اور 240 سے زیادہ اسٹائلش فونٹس کے ساتھ 1-کلک کاپی، واٹس ایپ شیئر، فوٹو کارڈ ڈاؤن لوڈ، اپنی شاعری اور لمحات — 100% مفت!'
-                  : EXACT_HOME_SEO_DESCRIPTION}
+          {/* 2. JUST BELOW TITLE — 2-LINE EXPANDABLE ON MOBILE, EXACT FULL DESCRIPTION ON DESKTOP */}
+          <div className="max-w-5xl mx-auto bg-[#fff8f9] border sm:border-2 border-[#ffd6df] rounded-xl sm:rounded-2xl px-3.5 py-2 sm:px-8 sm:py-5 text-center shadow-2xs">
+            <div className="sm:hidden">
+              <p
+                className={`text-[12.5px] font-medium text-slate-900 leading-[1.45] ${
+                  isDescExpanded ? '' : 'line-clamp-2'
+                }`}
+              >
+                {isDescExpanded
+                  ? fullHomeDescription
+                  : '5,900+ Best Shayari in 63+ Categories, 77 Languages & 240+ Fonts. Copy, Share & Download.'}
+              </p>
+              <button
+                type="button"
+                onClick={() => setIsDescExpanded((prev) => !prev)}
+                className="mt-1 inline-block text-[12px] font-extrabold text-[#d94f70] underline cursor-pointer"
+              >
+                {isDescExpanded ? 'Show Less' : 'Read More'}
+              </button>
+            </div>
+
+            <p className="hidden sm:block text-[18px] font-medium text-slate-900 leading-[1.8]">
+              {fullHomeDescription}
             </p>
           </div>
         </div>

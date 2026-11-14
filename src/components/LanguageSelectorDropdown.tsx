@@ -80,7 +80,7 @@ export const LanguageSelectorDropdown: React.FC = () => {
   }, [activeLanguageOption]);
 
   return (
-    <div ref={containerRef} className="relative inline-block z-40">
+    <div ref={containerRef} className="relative inline-block z-40 max-w-full shrink-0">
       {/* 1 SINGLE PROMINENT HEADER LANGUAGE BUTTON (🌐 SELECT LANGUAGE - Language Name) */}
       <button
         type="button"
@@ -89,17 +89,21 @@ export const LanguageSelectorDropdown: React.FC = () => {
         aria-expanded={isOpen}
         aria-label={`Select Website Language: currently ${displayLabel}`}
         title={`Change Language (77+ Languages Available) - Current: ${displayLabel}`}
-        className={`group min-h-[38px] sm:min-h-[42px] inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-1 sm:py-1.5 rounded-2xl border-2 transition-all cursor-pointer select-none shadow-xs ${
+        className={`group min-h-[34px] sm:min-h-[42px] max-w-full inline-flex items-center gap-1 sm:gap-2 px-2 sm:px-3.5 py-1 sm:py-1.5 rounded-xl sm:rounded-2xl border sm:border-2 transition-all cursor-pointer select-none shadow-xs ${
           isOpen
             ? 'bg-[#fff0f3] border-[#d94f70] shadow-sm ring-2 ring-[#d94f70]/20'
             : 'bg-white hover:bg-[#fff0f3] border-[#ffd6df] hover:border-[#d94f70]'
         }`}
       >
-        <span className="text-base sm:text-lg leading-none shrink-0" aria-hidden="true">
+        <span className="text-sm sm:text-lg leading-none shrink-0" aria-hidden="true">
           🌐
         </span>
 
-        <span className="font-outfit text-[12px] sm:text-[14px] font-black tracking-wider text-[#991B1B] uppercase shrink-0">
+        <span className="sm:hidden font-outfit text-[12px] font-extrabold tracking-wide text-[#991B1B] leading-none whitespace-nowrap">
+          Language
+        </span>
+
+        <span className="hidden sm:inline font-outfit text-[14px] font-black tracking-wider text-[#991B1B] uppercase shrink-0">
           SELECT LANGUAGE
         </span>
 
@@ -108,7 +112,7 @@ export const LanguageSelectorDropdown: React.FC = () => {
         </span>
 
         {activeLanguageOption && (
-          <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-xl bg-[#991B1B] text-white text-[11px] sm:text-[12px] font-bold shadow-2xs shrink-0 max-w-[130px] sm:max-w-none truncate">
+          <span className="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded-xl bg-[#991B1B] text-white text-[12px] font-bold shadow-2xs shrink-0">
             <span aria-hidden="true">{activeLanguageOption.flag}</span>
             <span className="truncate">{displayLabel}</span>
           </span>

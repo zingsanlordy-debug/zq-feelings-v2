@@ -24,8 +24,10 @@
 @layer base {
   html,
   body {
-    overflow-x: clip;
+    width: 100%;
     max-width: 100%;
+    overflow-x: clip;
+    -webkit-overflow-scrolling: touch;
   }
 
   body {
