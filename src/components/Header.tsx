@@ -42,6 +42,7 @@ interface MenuNavItem {
   route: AppRoute;
   href: string;
   labelHi: string;
+  labelHinglish?: string;
   labelEn: string;
   labelUr: string;
 }
@@ -51,6 +52,7 @@ const MENU_NAV_ITEMS: ReadonlyArray<MenuNavItem> = [
     route: 'home',
     href: '/',
     labelHi: '🏠 Home (मुख्य पृष्ठ)',
+    labelHinglish: '🏠 Home',
     labelEn: '🏠 Home',
     labelUr: '🏠 ہوم (Home)'
   },
@@ -244,11 +246,13 @@ export const Header: React.FC<HeaderProps> = ({
                   value={searchQuery}
                   onChange={(e) => onSearchChange(e.target.value)}
                   placeholder={
-                    globalLanguage === 'english'
+                    globalLanguage === 'english' || globalLanguage === 'english-uk'
                       ? 'Search Shayari... (Love, Sad, Diwali)'
                       : globalLanguage === 'urdu'
                         ? 'شاعری تلاش کریں... (محبت، درد، دیوالی)'
-                        : 'शायरी खोजें... (Love, Sad, Rose Day, Diwali)'
+                        : globalLanguage === 'hindi'
+                          ? 'शायरी खोजें... (Love, Sad, Rose Day, Diwali)'
+                          : 'Shayari khojein... (Love, Sad, Rose Day, Diwali)'
                   }
                   aria-label="Search Shayari"
                   className="w-full min-h-[36px] sm:min-h-[42px] pl-9 sm:pl-10 pr-8 sm:pr-9 py-1.5 sm:py-2 rounded-xl sm:rounded-2xl bg-[#fff8f9] border border-[#ffd6df] focus:border-[#d94f70] focus:bg-white focus:outline-none text-[13px] sm:text-[15px] font-semibold text-slate-900 placeholder:text-slate-400 transition-colors"
@@ -316,11 +320,13 @@ export const Header: React.FC<HeaderProps> = ({
               {MENU_NAV_ITEMS.map((item) => {
                 const active = currentRoute === item.route;
                 const label =
-                  globalLanguage === 'english'
+                  globalLanguage === 'english' || globalLanguage === 'english-uk'
                     ? item.labelEn
                     : globalLanguage === 'urdu'
                       ? item.labelUr
-                      : item.labelHi;
+                      : globalLanguage === 'hinglish' || globalLanguage === 'default'
+                        ? item.labelHinglish || item.labelHi
+                        : item.labelHi;
 
                 return (
                   <a

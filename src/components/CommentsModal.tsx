@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { X, Heart, MessageCircle, Send, AlertTriangle, ShieldCheck } from 'lucide-react';
+import { X, MessageCircle, Send, AlertTriangle, ShieldCheck } from 'lucide-react';
 import { CommentItem } from '../types/shayari';
 import { checkIsClean, saveBlockedLog, recordSuccessfulPost } from '../utils/autoFilter';
+import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
 
 interface CommentsModalProps {
   isOpen: boolean;
@@ -20,6 +21,11 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
   comments,
   onAddComment
 }) => {
+  const { globalLanguage } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
+  const isEnglishMode = globalLanguage === 'english' || globalLanguage === 'english-uk';
+  const translatedTargetTitle = useTranslatedText(targetTitle);
+
   const [userName, setUserName] = useState('');
   const [commentText, setCommentText] = useState('');
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
@@ -32,18 +38,33 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
     setErrorMsg(null);
     setSuccessMsg(null);
 
-    const name = userName.trim() || 'प्यारा पाठक 🌸';
+    const defaultReader = isHinglishMode
+      ? 'Pyara Pathak 🌸'
+      : isEnglishMode
+        ? 'Lovely Reader 🌸'
+        : 'प्यारा पाठक 🌸';
+    const name = userName.trim() || defaultReader;
     const text = commentText.trim();
 
     if (!text) {
-      setErrorMsg('कृपया अपनी टिप्पणी लिखें!');
+      setErrorMsg(
+        isHinglishMode
+          ? 'Kripya apna comment likhein!'
+          : isEnglishMode
+            ? 'Please write your comment!'
+            : 'कृपया अपनी टिप्पणी लिखें!'
+      );
       return;
     }
 
     // Auto-filter validation (100% Google Safe)
     const filterResult = checkIsClean(text, name);
     if (!filterResult.isClean) {
-      setErrorMsg(`Apshabd/link mana hai 🙏 - ${filterResult.reason || 'आपत्तिजनक भाषा'}`);
+      setErrorMsg(
+        `Apshabd/link mana hai 🙏 - ${
+          filterResult.reason || (isHinglishMode ? 'Ghalat bhasha' : 'आपत्तिजनक भाषा')
+        }`
+      );
       saveBlockedLog(name, text, filterResult.reason || 'Apshabd/link mana hai 🙏');
       return;
     }
@@ -52,14 +73,18 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
       id: `comm-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
       userName: name,
       text: text,
-      date: new Date().toLocaleDateString('hi-IN', { day: 'numeric', month: 'short', year: 'numeric' }),
+      date: new Date().toLocaleDateString(isHinglishMode || isEnglishMode ? 'en-IN' : 'hi-IN', {
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
+      }),
       likes: 1
     };
 
     recordSuccessfulPost();
     onAddComment(newComment);
     setCommentText('');
-    setSuccessMsg('Shayari publish ✅ Auto Verified');
+    setSuccessMsg(isHinglishMode ? 'Comment post ho gaya ✅ Auto Verified' : 'Shayari publish ✅ Auto Verified');
     setTimeout(() => setSuccessMsg(null), 3000);
   };
 
@@ -74,10 +99,10 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
             </div>
             <div className="min-w-0">
               <h3 className="text-[26px] font-bold text-[#d94f70] leading-snug">
-                टिप्पणियाँ (Comments)
+                {isHinglishMode || isEnglishMode ? 'Comments' : 'टिप्पणियाँ (Comments)'}
               </h3>
               <p className="text-[15px] text-slate-500 truncate max-w-[230px] sm:max-w-xs">
-                {targetTitle}
+                {translatedTargetTitle || targetTitle}
               </p>
             </div>
           </div>
@@ -92,7 +117,13 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
         {/* Safety Note */}
         <div className="px-6 py-2.5 bg-emerald-50/70 border-b border-emerald-100 flex items-center gap-2 text-[14px] text-emerald-800">
           <ShieldCheck className="w-4 h-4 shrink-0 text-emerald-600" />
-          <span>सुरक्षित टिप्पणी प्रणाली: अभद्र भाषा व स्पैम स्वतः ब्लॉक किए जाते हैं।</span>
+          <span>
+            {isHinglishMode
+              ? 'Safe Comment System: Ghalat bhasha aur spam apne aap block kar diye jaate hain.'
+              : isEnglishMode
+                ? 'Safe Comment System: Abusive words and spam are automatically blocked.'
+                : 'सुरक्षित टिप्पणी प्रणाली: अभद्र भाषा व स्पैम स्वतः ब्लॉक किए जाते हैं।'}
+          </span>
         </div>
 
         {/* Comment List */}
@@ -120,7 +151,11 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
           ) : (
             <div className="text-center py-10 text-slate-500 text-[17px]">
               <span className="text-3xl block mb-2">💬</span>
-              अभी तक कोई टिप्पणी नहीं है। पहली खूबसूरत टिप्पणी आप लिखें!
+              {isHinglishMode
+                ? 'Abhi tak koi comment nahi hai. Pehla pyara comment aap likhein!'
+                : isEnglishMode
+                  ? 'No comments yet. Be the first to write a lovely comment!'
+                  : 'अभी तक कोई टिप्पणी नहीं है। पहली खूबसूरत टिप्पणी आप लिखें!'}
             </div>
           )}
         </div>
@@ -143,7 +178,9 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
           <div className="flex flex-col sm:flex-row gap-2.5">
             <input
               type="text"
-              placeholder="आपका नाम"
+              placeholder={
+                isHinglishMode ? 'Aapka Naam' : isEnglishMode ? 'Your Name' : 'आपका नाम'
+              }
               value={userName}
               onChange={(e) => setUserName(e.target.value)}
               className="sm:w-1/3 min-h-[48px] bg-white border border-[#ffe4e8] rounded-xl px-3.5 py-2.5 text-[17px] text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-[#d94f70]"
@@ -151,7 +188,13 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
             />
             <input
               type="text"
-              placeholder="प्यारी टिप्पणी लिखें..."
+              placeholder={
+                isHinglishMode
+                  ? 'Pyara comment likhein...'
+                  : isEnglishMode
+                    ? 'Write a lovely comment...'
+                    : 'प्यारी टिप्पणी लिखें...'
+              }
               value={commentText}
               onChange={(e) => setCommentText(e.target.value)}
               className="flex-1 min-h-[48px] bg-white border border-[#ffe4e8] rounded-xl px-3.5 py-2.5 text-[17px] text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-[#d94f70]"
@@ -162,7 +205,7 @@ export const CommentsModal: React.FC<CommentsModalProps> = ({
               className="min-h-[48px] px-5 py-2.5 bg-[#d94f70] hover:bg-[#b32f4f] text-white rounded-xl text-[18px] font-bold flex items-center justify-center gap-2 cursor-pointer shadow-xs active:scale-95 transition-all shrink-0"
             >
               <Send className="w-4 h-4" />
-              <span>भेजें</span>
+              <span>{isHinglishMode ? 'Bhejein' : isEnglishMode ? 'Send' : 'भेजें'}</span>
             </button>
           </div>
         </form>

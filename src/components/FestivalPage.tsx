@@ -27,7 +27,7 @@ import {
 } from '../data/static35/static35Loader';
 import { DIWALI_35_FAQS, DIWALI_35_SEO } from '../data/static35/diwali35Data';
 import { DiwaliOfferBox } from './DiwaliOfferBox';
-import { DiwaliTopBanner320x50 } from './DiwaliAds';
+import { AdsterraCategoryBanner } from './DiwaliAds';
 
 interface FestivalPageProps {
   initialCategory?: string;
@@ -73,6 +73,8 @@ export const FestivalPage: React.FC<FestivalPageProps> = ({
     initialPage && initialPage >= 1 ? initialPage : 1
   );
   const { globalLanguage, activeLanguageOption, ui, isRtl } = useGlobalLanguage();
+  const isHinglishMode =
+    globalLanguage === 'default' || globalLanguage === 'hinglish' || activeLang === 'hi-Latn';
 
   useEffect(() => {
     if (initialCategory) {
@@ -119,7 +121,15 @@ export const FestivalPage: React.FC<FestivalPageProps> = ({
     setCurrentPage(1);
     onSelectLanguageUrl?.(nextLang, activeCategory);
     void triggerLoadLang(nextLang);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [activeCategory, activeLang, currentPage]);
 
   const handlePageSelect = (nextPage: number) => {
     setCurrentPage(nextPage);
@@ -216,13 +226,13 @@ export const FestivalPage: React.FC<FestivalPageProps> = ({
             <h1 className="font-rozha text-[24px] sm:text-[30px] font-bold text-[#d94f70] leading-snug">
               {activeFestObj ? `${activeFestObj.icon} ` : '🎉 '}
               {activeCategory === 'diwali'
-                ? (DIWALI_35_SEO[activeLang]?.h1 || '125 Happy Diwali Wishes, Shayari aur Messages in Hindi')
+                ? (DIWALI_35_SEO[activeLang]?.h1 || '125 Happy Diwali Wishes, Status aur Messages in Hinglish')
                 : isStatic35Holiday
                   ? staticHolidayHeading
-                  : globalLanguage === 'default'
+                  : isHinglishMode
                     ? activeFestObj
-                      ? `${activeFestObj.name} Shayari (${activeFestObj.hindiName} शायरी)`
-                      : 'Festival Shayari (त्यौहार शायरी)'
+                      ? `${activeFestObj.name} Shayari`
+                      : 'Festival Shayari'
                     : translatedActiveHeading}
             </h1>
           </div>
@@ -241,9 +251,6 @@ export const FestivalPage: React.FC<FestivalPageProps> = ({
           </div>
         )}
       </div>
-
-      {/* Top Diwali 320x50 Ad Banner (only on Diwali section) */}
-      {activeCategory === 'diwali' && <DiwaliTopBanner320x50 />}
 
       {/* Diwali H2 Section Title above shayari cards */}
       {activeCategory === 'diwali' && (
@@ -292,13 +299,18 @@ export const FestivalPage: React.FC<FestivalPageProps> = ({
                 }
                 className="px-6 py-2.5 rounded-2xl bg-[#fff0f3] hover:bg-[#d94f70] text-[#d94f70] hover:text-white border border-[#ffd6df] font-bold text-[14px] transition-all cursor-pointer shadow-2xs"
               >
-                और शायरी लोड करें ({pagination.pageItems.length - visibleFestCount} बाकी) ↓
+                {isHinglishMode
+                  ? `Aur Shayari Load Karein (${pagination.pageItems.length - visibleFestCount} Baaki) ↓`
+                  : `और शायरी लोड करें (${pagination.pageItems.length - visibleFestCount} बाकी) ↓`}
               </button>
             </div>
           )}
 
           {/* Festive Diwali Gift Offer Box (Auto-Link System + 6 Cards) */}
           {activeCategory === 'diwali' && <DiwaliOfferBox />}
+
+          {/* Adsterra Ad: Page 1 ONLY, after last card and right before Pagination */}
+          {pagination.currentPage === 1 && <AdsterraCategoryBanner />}
 
           <ShayariPagination
             currentPage={pagination.currentPage}
@@ -386,7 +398,7 @@ export const FestivalPage: React.FC<FestivalPageProps> = ({
                 }`}
               >
                 <span className="text-lg shrink-0">{fest.icon}</span>
-                <span className="text-[13px] sm:text-[14px] font-extrabold truncate">
+                <span className="text-[13px] sm:text-[14px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal] leading-tight">
                   {fest.name}
                 </span>
               </a>

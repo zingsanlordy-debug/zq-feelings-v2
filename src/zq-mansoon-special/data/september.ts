@@ -857,7 +857,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
             "जब अंगूठे की छाप की जगह कोई बुज़ुर्ग या बच्चा गर्व से अपना नाम लिखता है, तब हर छोटा लम्हा भी जान से प्यारा लगता है।"
           ],
           "linesHinglish": [
-            "Zindagi ki bhaagdaud mein Insaan ko shoshan se mukt karane wale akshar gyan ka bal hi sabse bada sahara lagta hai,",
+            "Zindagi ki bhaagdaud mein Insaan ko shoshan se mukt karne wale akshar gyan ka bal hi sabse bada sahara lagta hai,",
             "Jab angoothe ki chhaap ki jagah koi buzurg ya baccha garv se apna naam likhta hai, tab har chhota lamha bhi jaan se pyara lagta hai."
           ],
           "linesEnglish": [
@@ -890,7 +890,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Slate-pencil ki khadkhad aur ped ke neeche lagi pathshala ke beech aaj bhi kitne ankahe jazbaat chupchaap muskurate hain,",
-            "Hum Insaan ko shoshan se mukt karane wale akshar gyan ka bal ko sir jhukakar poore aadar se gale lagate hain."
+            "Hum Insaan ko shoshan se mukt karne wale akshar gyan ka bal ko sir jhukakar poore aadar se gale lagate hain."
           ],
           "linesEnglish": [
             "Amidst chalk slates and joyful open-air village classrooms, so many unspoken feelings still smile quietly today,",
@@ -937,7 +937,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
             "जहाँ दिल में किसी एक अशिक्षित ज़रूरतमंद को पढ़ना-लिखना सिखाकर मदद करना बसा हो वहाँ कोई भी सपना अधूरा नहीं रहता।"
           ],
           "linesHinglish": [
-            "Shabd chhote pad jaate hain magar Insaan ko shoshan se mukt karane wale akshar gyan ka bal kabhi pheeka nahi padta,",
+            "Shabd chhote pad jaate hain magar Insaan ko shoshan se mukt karne wale akshar gyan ka bal kabhi pheeka nahi padta,",
             "Jahan dil mein Kisi ek ashikshit zarooratmand ko padhna-likhna sikhakar madad karna basa ho wahan koi bhi sapna adhoora nahi rehta."
           ],
           "linesEnglish": [
@@ -1015,7 +1015,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
             "जहाँ किसी एक अशिक्षित ज़रूरतमंद को पढ़ना-लिखना सिखाकर मदद करना शामिल हो वहाँ अँधेरा ख़ुद सवेरा बन जाता है।"
           ],
           "linesHinglish": [
-            "Kitabon ke panno se badhkar Insaan ko shoshan se mukt karane wale akshar gyan ka bal dhadkanon mein ukera jaata hai,",
+            "Kitabon ke panno se badhkar Insaan ko shoshan se mukt karne wale akshar gyan ka bal dhadkanon mein ukera jaata hai,",
             "Antarrashtriya akshar evam saksharta divas ki is ujli subah mein har aangan mein neki ka ujala bikhera jaata hai,",
             "Sacche man ki saadgi aur Pehla shabd padhne par chehre par khili anmol chamak aaj phir dil ko chhoo gayi,",
             "Jahan Kisi ek ashikshit zarooratmand ko padhna-likhna sikhakar madad karna shaamil ho wahan andhera khud savera ban jaata hai."
@@ -1061,7 +1061,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
           "linesHinglish": [
             "Jab angoothe ki chhaap ki jagah koi buzurg ya baccha garv se apna naam likhta hai, toh seene mein swabhimaan ka sooraj jaag jaata hai,",
             "Antarrashtriya akshar evam saksharta divas ki is ujli subah mein har kathin mod se bhi ummeed ka karwan nikal aata hai,",
-            "Yugon-yugon tak Insaan ko shoshan se mukt karane wale akshar gyan ka bal sikhata rahega insaniyat ki sacchi raah,",
+            "Yugon-yugon tak Insaan ko shoshan se mukt karne wale akshar gyan ka bal sikhata rahega insaniyat ki sacchi raah,",
             "Hamari yahi dil se dua hai ki desh ke kisi bhi kone mein koi bhi bachpan bina school aur kitaab na rahe."
           ],
           "linesEnglish": [
@@ -1082,7 +1082,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Manzilein chahe kitni bhi door hon par Slate-pencil ki khadkhad aur ped ke neeche lagi pathshala ke beech jadon ka sneh nahi badalta,",
-            "Jahan ghar ki mehek aur Insaan ko shoshan se mukt karane wale akshar gyan ka bal zinda ho wahan koi paraya nahi lagta,",
+            "Jahan ghar ki mehek aur Insaan ko shoshan se mukt karne wale akshar gyan ka bal zinda ho wahan koi paraya nahi lagta,",
             "Antarrashtriya akshar evam saksharta divas ki is ujli subah mein apno ke chehron par khili raunak dekhkar man bhar aaya,",
             "Kyunki Pehla shabd padhne par chehre par khili anmol chamak ka mol kisi heere-moti se kabhi nahi tulta."
           ],
@@ -1126,7 +1126,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Jab angoothe ki chhaap ki jagah koi buzurg ya baccha garv se apna naam likhta hai, toh veeran raaston par bhi hauslon ke phool khilte hain,",
-            "Sacche man mein Insaan ko shoshan se mukt karane wale akshar gyan ka bal ho toh bichhde hue kinare bhi milte hain,",
+            "Sacche man mein Insaan ko shoshan se mukt karne wale akshar gyan ka bal ho toh bichhde hue kinare bhi milte hain,",
             "Maa ke aanchal jaisi sheetal dua deti hai Pehla shabd padhne par chehre par khili anmol chamak,",
             "Ishwar kare har ghadi ki desh ke kisi bhi kone mein koi bhi bachpan bina school aur kitaab na rahe."
           ],
@@ -1172,7 +1172,7 @@ export const SEPTEMBER_COLLECTION: MonthCollection = {
             "Aane wala har savera Antarrashtriya akshar evam saksharta divas ki is ujli subah mein khushiyon ki nayi baraat laaye,",
             "Muskurati hui Ka-kha-ga ki pehli takhti se shuru hoti aatmavishwas ki roshni har roothe hue dil ko pyar se manaaye,",
             "Sada aabaad rahe ghar ki mehek aur apno ke saath Kisi ek ashikshit zarooratmand ko padhna-likhna sikhakar madad karna,",
-            "Aapki zindagi mein Insaan ko shoshan se mukt karane wale akshar gyan ka bal hamesha chaand-sitaron sa jagmagaaye."
+            "Aapki zindagi mein Insaan ko shoshan se mukt karne wale akshar gyan ka bal hamesha chaand-sitaron sa jagmagaaye."
           ],
           "linesEnglish": [
             "May every coming dawn On this bright morning of International Literacy Day bring a fresh procession of joy,",

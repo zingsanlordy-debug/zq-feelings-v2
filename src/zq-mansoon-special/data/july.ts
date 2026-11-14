@@ -826,7 +826,7 @@ export const JULY_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Vishwa chocolate mithaas divas ki is pyari shaam mein yah Pyar se baanti gayi meethi saugaat se khilti bacchon ki chahak sachmuch aaj dil ko chhoo gayi,",
-            "Jaise sookhi hui rooh ko Munh meetha karane wali desi reet ki pyari si nazakat sneh ki phuhaar se bhigo gayi."
+            "Jaise sookhi hui rooh ko Munh meetha karne wali desi reet ki pyari si nazakat sneh ki phuhaar se bhigo gayi."
           ],
           "linesEnglish": [
             "On this delightful evening of World Chocolate Sweetness Day, the delighted sparkle of children sharing a sweet treat truly touched the deepest corner of my heart today,",
@@ -842,7 +842,7 @@ export const JULY_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Aaj achanak Pyar se baanti gayi meethi saugaat se khilti bacchon ki chahak ne purani galiyan aur meethi bachpan yaad dila di,",
-            "Man ko Munh meetha karane wali desi reet ki pyari si nazakat ne maa ke aanchal jaisi thandi raahat lauta di."
+            "Man ko Munh meetha karne wali desi reet ki pyari si nazakat ne maa ke aanchal jaisi thandi raahat lauta di."
           ],
           "linesEnglish": [
             "Today the delighted sparkle of children sharing a sweet treat suddenly brought back old lanes and sweet childhood memories,",
@@ -906,7 +906,7 @@ export const JULY_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Savere ki pehli dhoop ke sang Vishwa chocolate mithaas divas ki is pyari shaam mein bas ek hi sacchi dil se dua hai,",
-            "ki aapke ghar ke har rishte mein hamesha shahad aur chocolate si mithaas ghuli rahe, kyunki Munh meetha karane wali desi reet ki pyari si nazakat mein hi rab ki raza hai."
+            "ki aapke ghar ke har rishte mein hamesha shahad aur chocolate si mithaas ghuli rahe, kyunki Munh meetha karne wali desi reet ki pyari si nazakat mein hi rab ki raza hai."
           ],
           "linesEnglish": [
             "With morning's first sunlight On this delightful evening of World Chocolate Sweetness Day rises one sincere prayer from the heart,",
@@ -922,7 +922,7 @@ export const JULY_COLLECTION: MonthCollection = {
           ],
           "linesHinglish": [
             "Maa ke aanchal jaisi meethi chhaon liye aati hai Pyar se baanti gayi meethi saugaat se khilti bacchon ki chahak,",
-            "Thake hue kadmon mein bhi naya hausla jagati hai Munh meetha karane wali desi reet ki pyari si nazakat."
+            "Thake hue kadmon mein bhi naya hausla jagati hai Munh meetha karne wali desi reet ki pyari si nazakat."
           ],
           "linesEnglish": [
             "Bringing gentle shade like a mother's loving veil comes the delighted sparkle of children sharing a sweet treat,",
@@ -995,7 +995,7 @@ export const JULY_COLLECTION: MonthCollection = {
           "linesHinglish": [
             "Waqt ke panno ko palta toh Bacchon ki nanhi hatheliyon aur bant-te meethe tukdon ke beech kai meethi yaadein muskura uthin,",
             "Ek hi pal mein Pyar se baanti gayi meethi saugaat se khilti bacchon ki chahak ne befikr bachpan yaad dila di,",
-            "Maa ke aanchal jaisi mamta ghuli lagti hai Munh meetha karane wali desi reet ki pyari si nazakat ke har ehsaas mein,",
+            "Maa ke aanchal jaisi mamta ghuli lagti hai Munh meetha karne wali desi reet ki pyari si nazakat ke har ehsaas mein,",
             "Dil se dua hai har apne ke liye ki aapke ghar ke har rishte mein hamesha shahad aur chocolate si mithaas ghuli rahe."
           ],
           "linesEnglish": [
@@ -1017,7 +1017,7 @@ export const JULY_COLLECTION: MonthCollection = {
           "linesHinglish": [
             "Kitabon ke panno se badhkar Roothe palon ko bhi meethi muskaan mein badal dene wale sneh ka jadoo dhadkanon mein ukera jaata hai,",
             "Vishwa chocolate mithaas divas ki is pyari shaam mein har aangan mein neki ka ujala bikhera jaata hai,",
-            "Sacche man ki saadgi aur Munh meetha karane wali desi reet ki pyari si nazakat aaj phir dil ko chhoo gayi,",
+            "Sacche man ki saadgi aur Munh meetha karne wali desi reet ki pyari si nazakat aaj phir dil ko chhoo gayi,",
             "Jahan Meethe bol aur chhote tohfon se har rishte ka swaad sanwarna shaamil ho wahan andhera khud savera ban jaata hai."
           ],
           "linesEnglish": [
@@ -1084,7 +1084,7 @@ export const JULY_COLLECTION: MonthCollection = {
             "Manzilein chahe kitni bhi door hon par Bacchon ki nanhi hatheliyon aur bant-te meethe tukdon ke beech jadon ka sneh nahi badalta,",
             "Jahan ghar ki mehek aur Roothe palon ko bhi meethi muskaan mein badal dene wale sneh ka jadoo zinda ho wahan koi paraya nahi lagta,",
             "Vishwa chocolate mithaas divas ki is pyari shaam mein apno ke chehron par khili raunak dekhkar man bhar aaya,",
-            "Kyunki Munh meetha karane wali desi reet ki pyari si nazakat ka mol kisi heere-moti se kabhi nahi tulta."
+            "Kyunki Munh meetha karne wali desi reet ki pyari si nazakat ka mol kisi heere-moti se kabhi nahi tulta."
           ],
           "linesEnglish": [
             "However far our journeys take us, love for our roots stays unchanged amidst tiny outstretched palms and happily shared pieces of chocolate,",
@@ -1127,7 +1127,7 @@ export const JULY_COLLECTION: MonthCollection = {
           "linesHinglish": [
             "Jab daftar se lautte waqt jeb se bacchon ke liye meetha tohfa nikalta hai, toh veeran raaston par bhi hauslon ke phool khilte hain,",
             "Sacche man mein Roothe palon ko bhi meethi muskaan mein badal dene wale sneh ka jadoo ho toh bichhde hue kinare bhi milte hain,",
-            "Maa ke aanchal jaisi sheetal dua deti hai Munh meetha karane wali desi reet ki pyari si nazakat,",
+            "Maa ke aanchal jaisi sheetal dua deti hai Munh meetha karne wali desi reet ki pyari si nazakat,",
             "Ishwar kare har ghadi ki aapke ghar ke har rishte mein hamesha shahad aur chocolate si mithaas ghuli rahe."
           ],
           "linesEnglish": [
@@ -1149,7 +1149,7 @@ export const JULY_COLLECTION: MonthCollection = {
           "linesHinglish": [
             "Badi-badi khushiyon se zyada sukoon Bacchon ki nanhi hatheliyon aur bant-te meethe tukdon ke beech chhupa hota hai,",
             "Jab daftar se lautte waqt jeb se bacchon ke liye meetha tohfa nikalta hai, tab har shikwa khud hi dhuan hota hai,",
-            "Is meethe pal mein Munh meetha karane wali desi reet ki pyari si nazakat ne phir masoom bachpan yaad dila di,",
+            "Is meethe pal mein Munh meetha karne wali desi reet ki pyari si nazakat ne phir masoom bachpan yaad dila di,",
             "Hum sabki taraf se dil se dua hai ki aapke ghar ke har rishte mein hamesha shahad aur chocolate si mithaas ghuli rahe."
           ],
           "linesEnglish": [

@@ -17,8 +17,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तुझसे शुरू होती है मोहब्बत, तुझपे ही ख़त्म मेरी दास्ताँ।"
     ],
     "linesHinglish": [
-      "Teree ek muskaan se roshan hai meraa saaraa jahaan,",
-      "Tujhase shuroo hotee hai mohabbat, tujhape hee khatma meree daastaan."
+      "Teri ek muskaan se roshan hai mera saara jahaan,",
+      "Tujhse shuru hoti hai mohabbat, tujhpe hi khatam meri dastaan."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -60,8 +60,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दिल के हर कोने में बस तेरा ही ख़्वाब आबाद रहता है।"
     ],
     "linesHinglish": [
-      "Dharakanon ko bhee ab teraa hee naam yaad rahataa hai,",
-      "Dil ke har kone men bas teraa hee khvaab aabaad rahataa hai."
+      "Dhadkanon ko bhi ab tera hi naam yaad rehta hai,",
+      "Dil ke har kone mein bas tera hi khwab aabaad rehta hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -103,8 +103,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरे सिवा इस दिल में किसी और का सिलसिला न रहे।"
     ],
     "linesHinglish": [
-      "Haath thaam le meraa ki ab koee faasalaa na rahe,",
-      "Tere sivaa is dil men kisee aur kaa silasilaa na rahe."
+      "Haath thaam le mera ki ab koi faasla na rahe,",
+      "Tere siwa is dil mein kisi aur ka silsila na rahe."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -146,8 +146,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे हर मर्ज़ की सबसे खूबसूरत दवा हो तुम।"
     ],
     "linesHinglish": [
-      "Chaay kee mithaas aur shaam kee thandee havaa ho tum,",
-      "Mere har marza kee sabase khoobasoorat davaa ho tum."
+      "Chai ki mithaas aur shaam ki thandi hawa ho tum,",
+      "Mere har marz ki sabse khoobsurat dawa ho tum."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -189,8 +189,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरा बेकाबू सा दिल सिर्फ़ तेरे काबू में हो गया।"
     ],
     "linesHinglish": [
-      "Nigaahon se nigaahen mileen to ek ajeeb saa jaadoo ho gayaa,",
-      "Meraa bekaaboo saa dil sirfa tere kaaboo men ho gayaa."
+      "Nigahon se nigahein milin toh ek ajeeb sa jadoo ho gaya,",
+      "Mera bekaboo sa dil sirf tere kaaboo mein ho gaya."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -232,8 +232,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मगर रूह को सुकून सिर्फ़ तेरे दीदार से मिला।"
     ],
     "linesHinglish": [
-      "Hazaaron chehare dekhe is bheer bharee duniyaa men hamane,",
-      "Magar rooh ko sukoon sirfa tere deedaar se milaa."
+      "Hazaaron chehre dekhe is bheed bhari duniya mein humne,",
+      "Magar rooh ko sukoon sirf tere deedaar se mila."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -275,8 +275,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सच कहूँ उस पल तुम मेरी पूरी कायनात लगते हो।"
     ],
     "linesHinglish": [
-      "Maathe ko choom kar jab tum mujhe apanaa kahate ho,",
-      "Sach kahoon us pal tum meree pooree kaayanaat lagate ho."
+      "Mathe ko choom kar jab tum mujhe apna kehte ho,",
+      "Sach kahoon us pal tum meri poori kaynat lagte ho."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -318,8 +318,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी हर साँस ने बस तेरी ही वफ़ा की क़सम खाई।"
     ],
     "linesHinglish": [
-      "Lafzon men kaise bayaan karoon main apanee mohabbat kee gaharaaee,",
-      "Meree har saans ne bas teree hee vafaa kee qasam khaaee."
+      "Lafzon mein kaise bayan karoon main apni mohabbat ki gahrai,",
+      "Meri har saans ne bas teri hi wafa ki qasam khai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -361,8 +361,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तुम दूर रहकर भी मेरे सबसे क़रीब नज़र आते हो।"
     ],
     "linesHinglish": [
-      "Chupake se aakar mere khayaalon men muskuraa jaate ho,",
-      "Tum door rahakar bhee mere sabase qareeb nazar aate ho."
+      "Chupke se aakar mere khayalon mein muskura jaate ho,",
+      "Tum door rahkar bhi mere sabse kareeb nazar aate ho."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -404,8 +404,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी हर ग़ज़ल बस तेरी ही तारीफ़ में उतरती है।"
     ],
     "linesHinglish": [
-      "Chaand bhee sharamaa jaae jab too saadagee men sanvaratee hai,",
-      "Meree har ghazal bas teree hee taareef men utaratee hai."
+      "Chaand bhi sharma jaaye jab tu saadgi mein sanvarti hai,",
+      "Meri har ghazal bas teri hi tarif mein utarti hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -447,8 +447,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुझे तो हर जन्म में बस तेरा ही साथ चाहिए।"
     ],
     "linesHinglish": [
-      "Na daulat chaahie na shoharat kaa koee taaj chaahie,",
-      "Mujhe to har janma men bas teraa hee saath chaahie."
+      "Na daulat chahiye na shohrat ka koi taj chahiye,",
+      "Mujhe toh har janm mein bas tera hi saath chahiye."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -490,8 +490,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी एक झलक से मेरी सूनी ज़िंदगी संवर जाती है।"
     ],
     "linesHinglish": [
-      "Teree aavaaz sun loon to din bhar kee thakaan utar jaatee hai,",
-      "Teree ek jhalak se meree soonee zindagee sanvar jaatee hai."
+      "Teri aawaz sun loon toh din bhar ki thakan utar jaati hai,",
+      "Teri ek jhalak se meri sooni zindagi sanvar jaati hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -533,8 +533,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इश्क़ वो है जो आख़िरी साँस तक निभाने के लिए जिया जाए।"
     ],
     "linesHinglish": [
-      "Ishqa vo naheen jo duniyaa ko dikhaane ke lie kiyaa jaae,",
-      "Ishqa vo hai jo aakhiree saans tak nibhaane ke lie jiyaa jaae."
+      "Ishq woh nahi jo duniya ko dikhane ke liye kiya jaaye,",
+      "Ishq woh hai jo aakhiri saans tak nibhane ke liye jiya jaaye."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -576,8 +576,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दिल तुझे खोने के ख़याल से भी सहम जाता है।"
     ],
     "linesHinglish": [
-      "Meree har duaa men sabase pahale teraa hee zikra aataa hai,",
-      "Dil tujhe khone ke khayaal se bhee saham jaataa hai."
+      "Meri har dua mein sabse pehle tera hi zikr aata hai,",
+      "Dil tujhe khone ke khayal se bhi saham jaata hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -619,8 +619,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "भीगी हवाएँ मुझे तेरे और क़रीब ले आती हैं।"
     ],
     "linesHinglish": [
-      "Baarish kee boonden bhee teraa hee paighaam laatee hain,",
-      "Bheegee havaaen mujhe tere aur qareeb le aatee hain."
+      "Baarish ki boondein bhi tera hi paigaam lati hain,",
+      "Bhigi hawayein mujhe tere aur kareeb le aati hain."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -662,8 +662,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी बाहों का घेरा ही है मेरी सबसे महफ़ूज़ पनाह।"
     ],
     "linesHinglish": [
-      "Teree hansee men chhupee hai mere jeene kee saaree vajah,",
-      "Teree baahon kaa gheraa hee hai meree sabase mahafooz panaah."
+      "Teri hansi mein chhupi hai mere jeene ki sari wajah,",
+      "Teri baahon ka ghera hi hai meri sabse mahfooz panah."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -705,8 +705,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरे इश्क़ के नशे में मैं बेवजह झूम लेता हूँ।"
     ],
     "linesHinglish": [
-      "Kaaghaz par likhataa hoon naam teraa aur choom letaa hoon,",
-      "Tere ishqa ke nashe men main bevajah jhoom letaa hoon."
+      "Kagaz par likhta hoon naam tera aur choom leta hoon,",
+      "Tere ishq ke nashe mein main bewajah jhoom leta hoon."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -748,8 +748,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी आँखें बस तेरी ही तस्वीर उतारती रहती हैं।"
     ],
     "linesHinglish": [
-      "Vaqta thahar jaataa hai jab too mere saamane baithatee hai,",
-      "Meree aankhen bas teree hee tasveer utaaratee rahatee hain."
+      "Waqt theher jaata hai jab tu mere samne baithti hai,",
+      "Meri aankhein bas teri hi tasveer utarti rehti hain."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -791,8 +791,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं मुस्कुरा कर तेरी हथेली पर अपना सर रख दूँ।"
     ],
     "linesHinglish": [
-      "Koee poochhe mujhase ki jannat kahaan hai is zameen par,",
-      "Main muskuraa kar teree hathelee par apanaa sar rakh doon."
+      "Koi poochhe mujhse ki jannat kahan hai is zameen par,",
+      "Main muskura kar teri hatheli par apna sar rakh doon."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -834,8 +834,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वो पगली मेरी ख़ामोशी में भी सौ सवाल समझ लेती है।"
     ],
     "linesHinglish": [
-      "Binaa kahe bhee jo mere dil kaa har haal samajh letee hai,",
-      "Vo pagalee meree khaamoshee men bhee sau savaal samajh letee hai."
+      "Bina kahe bhi jo mere dil ka har hal samajh leti hai,",
+      "Woh pagli meri khamoshi mein bhi sau sawaal samajh leti hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -877,8 +877,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तू मिल गया तो अब रब से कोई भी गिला न रहा।"
     ],
     "linesHinglish": [
-      "Tere naam se hee mahakatee hai mere aangan kee subah,",
-      "Too mil gayaa to ab rab se koee bhee gilaa na rahaa."
+      "Tere naam se hi mehekti hai mere aangan ki subah,",
+      "Tu mil gaya toh ab Rab se koi bhi gila na raha."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -920,8 +920,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरा आज और मेरा कल सब तुझमें ही खो गया है।"
     ],
     "linesHinglish": [
-      "Kismat kee lakeeron ko bhee tujhase ishqa ho gayaa hai,",
-      "Meraa aaj aur meraa kal sab tujhamen hee kho gayaa hai."
+      "Kismat ki lakiron ko bhi tujhse ishq ho gaya hai,",
+      "Mera aaj aur mera kal sab tujhmein hi kho gaya hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -963,8 +963,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सारी दुनिया झुकती है हमारी मोहब्बत की मिसाल के आगे।"
     ],
     "linesHinglish": [
-      "Gulaab bhee feeke lagate hain tere gaalon kee laalee ke aage,",
-      "Saaree duniyaa jhukatee hai hamaaree mohabbat kee misaal ke aage."
+      "Gulab bhi fike lagte hain tere galon ki lali ke aage,",
+      "Sari duniya jhukti hai hamari mohabbat ki misal ke aage."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1006,8 +1006,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मनाने का मज़ा आए मुझे, यूँ प्यार लुटाया कर।"
     ],
     "linesHinglish": [
-      "Thoraa saa haq jataayaa kar, thoraa saa rooth jaayaa kar,",
-      "Manaane kaa mazaa aae mujhe, yoon pyaar lutaayaa kar."
+      "Thoda sa haq jataya kar, thoda sa rooth jaya kar,",
+      "Manane ka maza aaye mujhe, yun pyar lutaya kar."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1049,8 +1049,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वैसा चैन तो मुझे अपने घर के तकिये पर भी नहीं मिलता।"
     ],
     "linesHinglish": [
-      "Tere kandhe par sar rakhakar jo sukoon mujhe milataa hai,",
-      "Vaisaa chain to mujhe apane ghar ke takiye par bhee naheen milataa."
+      "Tere kandhe par sar rakhkar jo sukoon mujhe milta hai,",
+      "Vaisa chain toh mujhe apne ghar ke takiye par bhi nahi milta."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1092,8 +1092,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमने अपनी हर धड़कन को तेरा गुलाम बना लिया है।"
     ],
     "linesHinglish": [
-      "Nazaron se utaar kar tujhe dil men basaa liyaa hai,",
-      "Hamane apanee har dharakan ko teraa gulaam banaa liyaa hai."
+      "Nazron se utar kar tujhe dil mein basa liya hai,",
+      "Humne apni har dhadkan ko tera gulam bana liya hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1135,8 +1135,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "खूबसूरत हो गई है मेरी हर सुबह और हर रात।"
     ],
     "linesHinglish": [
-      "Jab se juree hai meree taqadeer tere naam ke saath,",
-      "Khoobasoorat ho gaee hai meree har subah aur har raat."
+      "Jab se judi hai meri taqdeer tere naam ke saath,",
+      "Khoobsurat ho gayi hai meri har subah aur har raat."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1178,8 +1178,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे सारे अरमान बस तेरे ही वास्ते सजते हैं।"
     ],
     "linesHinglish": [
-      "Teree paayal kee chhanak se mere dil ke taar bajate hain,",
-      "Mere saare aramaan bas tere hee vaaste sajate hain."
+      "Teri payal ki chhanak se mere dil ke tar bajte hain,",
+      "Mere saare arman bas tere hi vaste sajte hain."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1221,8 +1221,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैंने तेरी आँखों में अपना पूरा कल देखा है।"
     ],
     "linesHinglish": [
-      "Mohabbat kee koee had naheen hotee ye tumase seekhaa hai,",
-      "Mainne teree aankhon men apanaa pooraa kal dekhaa hai."
+      "Mohabbat ki koi had nahi hoti yeh tumse sikha hai,",
+      "Maine teri aankhon mein apna poora kal dekha hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1264,8 +1264,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी मीठी सी बातों से मेरा सारा गुस्सा भुला देना।"
     ],
     "linesHinglish": [
-      "Rooth bhee jaaoon agar kabhee to gale se lagaa lenaa,",
-      "Apanee meethee see baaton se meraa saaraa gussaa bhulaa denaa."
+      "Rooth bhi jaoon agar kabhi toh gale se laga lena,",
+      "Apni mithi si baaton se mera saara gussa bhula dena."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1307,8 +1307,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वैसे ही मेरे सीने में सिर्फ़ तेरा प्यार धड़कता है।"
     ],
     "linesHinglish": [
-      "Sitaaron kee mahafil men jaise pooraa chaand chamakataa hai,",
-      "Vaise hee mere seene men sirfa teraa pyaar dharakataa hai."
+      "Sitaaron ki mehfil mein jaise poora chaand chamakta hai,",
+      "Vaise hi mere seene mein sirf tera pyar dhadakta hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1350,8 +1350,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरा हाथ तेरे हाथ में हो तो हर सफ़र सुहाना है।"
     ],
     "linesHinglish": [
-      "Umra bhar chaloongaa tere saath chaahe raaste kitane bhee kathin hon,",
-      "Meraa haath tere haath men ho to har safar suhaanaa hai."
+      "Umr bhar chaloonga tere saath chahe raaste kitne bhi kathin hon,",
+      "Mera haath tere haath mein ho toh har safar suhana hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1393,8 +1393,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वरना हुस्न तो इस ज़माने में बहुत नज़र आया है।"
     ],
     "linesHinglish": [
-      "Teree saadagee ne hee to meraa dil churaayaa hai,",
-      "Varanaa husna to is zamaane men bahut nazar aayaa hai."
+      "Teri saadgi ne hi toh mera dil churaya hai,",
+      "Warna husn toh is zamane mein bahut nazar aaya hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1436,8 +1436,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सूखे हुए रेगिस्तान में तुम सावन की घटा छाए हो।"
     ],
     "linesHinglish": [
-      "Meree berang see duniyaa men tum indradhanush banakar aae ho,",
-      "Sookhe hue registaan men tum saavan kee ghataa chhaae ho."
+      "Meri berang si duniya mein tum indradhnush bankar aaye ho,",
+      "Sookhe hue registan mein tum saawan ki ghata chhae ho."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1479,8 +1479,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे हर लफ़्ज़ की सबसे प्यारी सूरत बन चुके हो।"
     ],
     "linesHinglish": [
-      "Aadat naheen ab tum meree zaroorat ban chuke ho,",
-      "Mere har lafza kee sabase pyaaree soorat ban chuke ho."
+      "Aadat nahi ab tum meri zaroorat ban chuke ho,",
+      "Mere har lafz ki sabse pyari soorat ban chuke ho."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1522,8 +1522,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुझे अपनी जान से भी ज़्यादा है तेरी खुशी प्यारी।"
     ],
     "linesHinglish": [
-      "Teree palakon kee chhaanv men guzaar doon main sadiyaan saaree,",
-      "Mujhe apanee jaan se bhee zyaadaa hai teree khushee pyaaree."
+      "Teri palkon ki chhanv mein guzar doon main sadiyan sari,",
+      "Mujhe apni jan se bhi zyada hai teri khushi pyari."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1565,8 +1565,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं फिर भी बिना सोचे बस तेरा ही हाथ चुनूँगा।"
     ],
     "linesHinglish": [
-      "Ek taraf saaree duniyaa kee khushiyaan rakh de koee,",
-      "Main phir bhee binaa soche bas teraa hee haath chunoongaa."
+      "Ek taraf sari duniya ki khushiyan rakh de koi,",
+      "Main phir bhi bina soche bas tera hi haath chunoonga."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1608,8 +1608,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "लगता है जैसे रूह के सारे ज़ख़्म संवारते हो।"
     ],
     "linesHinglish": [
-      "Jab tum pyaar se meraa naam pukaarate ho,",
-      "Lagataa hai jaise rooh ke saare zakhma sanvaarate ho."
+      "Jab tum pyar se mera naam pukarte ho,",
+      "Lagta hai jaise rooh ke saare zakhm sanvarte ho."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1651,8 +1651,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रब ने जो फ़ुर्सत से गढ़ा वो हसीन रूप हो तुम।"
     ],
     "linesHinglish": [
-      "Dhoop men chhaanv aur sarda raaton kee narma dhoop ho tum,",
-      "Rab ne jo fursat se garhaa vo haseen roop ho tum."
+      "Dhoop mein chhanv aur sard raaton ki narm dhoop ho tum,",
+      "Rab ne jo fursat se gadha woh hasin roop ho tum."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1694,8 +1694,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दर्द भी प्यारा लगता है जब मरहम लगाने वाले तुम हो।"
     ],
     "linesHinglish": [
-      "Intazaar bhee meethaa lagataa hai jab aane vaale tum ho,",
-      "Darda bhee pyaaraa lagataa hai jab maraham lagaane vaale tum ho."
+      "Intezaar bhi mitha lagta hai jab aane wale tum ho,",
+      "Dard bhi pyara lagta hai jab marham lagane wale tum ho."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1737,8 +1737,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस इतनी सी ख़्वाहिश है मेरी इस छोटी सी ज़िंदगी से।"
     ],
     "linesHinglish": [
-      "Teree ungaliyon men ulajhee rahen meree ungaliyaan hameshaa,",
-      "Bas itanee see khvaahish hai meree is chhotee see zindagee se."
+      "Teri ungliyon mein uljhi rahein meri ungliyan hamesha,",
+      "Bas itni si khwahish hai meri is chhoti si zindagi se."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1780,8 +1780,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरा इश्क़ हर गुज़रते दिन के साथ और भी बढ़ा है।"
     ],
     "linesHinglish": [
-      "Mohabbat kaa matalab hee mainne teree aankhon men parhaa hai,",
-      "Meraa ishqa har guzarate din ke saath aur bhee barhaa hai."
+      "Mohabbat ka matlab hi maine teri aankhon mein padha hai,",
+      "Mera ishq har guzarte din ke saath aur bhi badha hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1823,8 +1823,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी पलकों की संदूक में तुझे हमेशा के लिए बसा लूँ।"
     ],
     "linesHinglish": [
-      "Dil karataa hai tujhe duniyaa kee buree nazaron se chhupaa loon,",
-      "Apanee palakon kee sandook men tujhe hameshaa ke lie basaa loon."
+      "Dil karta hai tujhe duniya ki buri nazron se chhupa loon,",
+      "Apni palkon ki sandook mein tujhe hamesha ke liye basa loon."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1866,8 +1866,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तू ही मेरा पहला इश्क़ है, तू ही मेरा आख़िरी मीत।"
     ],
     "linesHinglish": [
-      "Tere binaa adhooraa hai meraa har khvaab aur har geet,",
-      "Too hee meraa pahalaa ishqa hai, too hee meraa aakhiree meet."
+      "Tere bina adhoora hai mera har khwab aur har geet,",
+      "Tu hi mera pehla ishq hai, tu hi mera aakhiri meet."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1909,8 +1909,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुझे तेरी ज़ुल्फ़ों को छूने वाली हवा से भी रश्क़ होता है।"
     ],
     "linesHinglish": [
-      "Havaaon se kah do zaraa aahistaa guzaraa karen tere qareeb se,",
-      "Mujhe teree zulfon ko chhoone vaalee havaa se bhee rashqa hotaa hai."
+      "Hawaon se kah do zara aahista guzra karein tere kareeb se,",
+      "Mujhe teri zulfon ko chhoone wali hawa se bhi rashq hota hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1952,8 +1952,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमने तो बस तुझे अपनी रूह का नवाब रखा है।"
     ],
     "linesHinglish": [
-      "Na koee sharta hai tujhase, na koee hisaab rakhaa hai,",
-      "Hamane to bas tujhe apanee rooh kaa navaab rakhaa hai."
+      "Na koi shart hai tujhse, na koi hisab rakha hai,",
+      "Humne toh bas tujhe apni rooh ka navab rakha hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -1995,8 +1995,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मरते दम तक निगाहों में तस्वीर सिर्फ़ तेरी रहेगी।"
     ],
     "linesHinglish": [
-      "Saanson kee dor chaahe jab bhee toot jaae meree,",
-      "Marate dam tak nigaahon men tasveer sirfa teree rahegee."
+      "Saanson ki dor chahe jab bhi toot jaaye meri,",
+      "Marte dam tak nigahon mein tasveer sirf teri rahegi."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -2038,8 +2038,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी एक नज़र से मुझ पर खुमार छा जाती है।"
     ],
     "linesHinglish": [
-      "Too hans de to mere aangan men bahaar aa jaatee hai,",
-      "Teree ek nazar se mujh par khumaar chhaa jaatee hai."
+      "Tu hans de toh mere aangan mein bahar aa jaati hai,",
+      "Teri ek nazar se mujh par khumar chha jaati hai."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -2081,8 +2081,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "शुक्र है खुदा का कि उसने तुझे मेरी क़िस्मत में लिखा।"
     ],
     "linesHinglish": [
-      "Sachchaa ishqa naseeb vaalon ko hee milataa hai jahaan men,",
-      "Shukra hai khudaa kaa ki usane tujhe meree qismat men likhaa."
+      "Saccha ishq nasib walon ko hi milta hai jahaan mein,",
+      "Shukr hai Khuda ka ki usne tujhe meri kismat mein likha."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -2124,8 +2124,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तुझसे मिलकर जाना कि रूह से चाहना किसे कहते हैं।"
     ],
     "linesHinglish": [
-      "Kahaaniyaan to bahut sunee theen heer-raanjhe ke ishqa kee,",
-      "Tujhase milakar jaanaa ki rooh se chaahanaa kise kahate hain."
+      "Kahaniyan toh bahut suni thin hir-ranjhe ke ishq ki,",
+      "Tujhse milkar jaana ki rooh se chahna kise kehte hain."
     ],
     "linesEnglish": [
       "Sweet whispers of eternal love and heartfelt romance",
@@ -2167,8 +2167,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "काश कोई सीने में दफ़न समंदर का दर्द पढ़ पाता।"
     ],
     "linesHinglish": [
-      "Hansataa huaa cheharaa dekh kar log khush samajh lete hain,",
-      "Kaash koee seene men dafan samandar kaa darda parh paataa."
+      "Hansta hua chehra dekh kar log khush samajh lete hain,",
+      "Kash koi seene mein dafan samandar ka dard padh pata."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2210,8 +2210,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक शख़्स सारे शहर को वीरान कर गया।"
     ],
     "linesHinglish": [
-      "Vo bichharaa kuchh is adaa se ki rut hee badal gaee,",
-      "Ek shakhsa saare shahar ko veeraan kar gayaa."
+      "Woh bichhda kuch is ada se ki rut hi badal gayi,",
+      "Ek shakhs saare shahar ko veeran kar gaya."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2253,8 +2253,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मगर पहला तूफ़ान आते ही उसने कश्ती बदल ली।"
     ],
     "linesHinglish": [
-      "Vaade to hazaaron kie the usane saath nibhaane ke,",
-      "Magar pahalaa toofaan aate hee usane kashtee badal lee."
+      "Waade toh hazaaron kie the usne saath nibhane ke,",
+      "Magar pehla toofan aate hi usne kashti badal li."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2296,8 +2296,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "टूट कर बिखर जाते हैं वो लोग जो दर्द सह नहीं पाते।"
     ],
     "linesHinglish": [
-      "Aansoo vo khaamosh duaaen hain jo lab kah naheen paate,",
-      "Toot kar bikhar jaate hain vo log jo darda sah naheen paate."
+      "Aansu woh khamosh duayein hain jo lab kah nahi pate,",
+      "Toot kar bikhar jaate hain woh log jo dard sah nahi pate."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2339,8 +2339,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वही शख़्स आज किसी और की दुआओं का हिस्सा है।"
     ],
     "linesHinglish": [
-      "Jisako apanee har duaa men maangaa thaa hamane raat-din,",
-      "Vahee shakhsa aaj kisee aur kee duaaon kaa hissaa hai."
+      "Jisko apni har dua mein manga tha humne raat-din,",
+      "Wahi shakhs aaj kisi aur ki duaon ka hissa hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2382,8 +2382,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पहले आदत बनाते हैं फिर तन्हा छोड़ जाते हैं।"
     ],
     "linesHinglish": [
-      "Kamaal kaa hunar rakhate hain kuchh log dil torane kaa,",
-      "Pahale aadat banaate hain phir tanhaa chhor jaate hain."
+      "Kamal ka hunar rakhte hain kuch log dil todne ka,",
+      "Pehle aadat banate hain phir tanha chhod jaate hain."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2425,8 +2425,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जब अपने ही बदल गए तो ग़ैरों से क्या शिकायत करूँ।"
     ],
     "linesHinglish": [
-      "Ab kisee se koee gilaa naheen karataa ye dil meraa,",
-      "Jab apane hee badal gae to ghairon se kyaa shikaayat karoon."
+      "Ab kisi se koi gila nahi karta yeh dil mera,",
+      "Jab apne hi badal gaye toh ghairon se kya shikayat karoon."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2468,8 +2468,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दिन भर तो मैं दुनिया के सामने मुस्कुराता रहता हूँ।"
     ],
     "linesHinglish": [
-      "Takiye kaa bheegaa konaa hee jaanataa hai meraa haal,",
-      "Din bhar to main duniyaa ke saamane muskuraataa rahataa hoon."
+      "Takiye ka bhiga kona hi janta hai mera hal,",
+      "Din bhar toh main duniya ke samne muskurata rehta hoon."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2511,8 +2511,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जिस्म तो चलता रहता है मगर अंदर जान नहीं होती।"
     ],
     "linesHinglish": [
-      "Mohabbat men haare hue insaan kee koee pahachaan naheen hotee,",
-      "Jisma to chalataa rahataa hai magar andar jaan naheen hotee."
+      "Mohabbat mein hare hue insaan ki koi pahchan nahi hoti,",
+      "Jism toh chalta rehta hai magar andar jan nahi hoti."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2554,8 +2554,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "साँस लेना छोड़ दूँ क्या अब ज़िंदा रहने के लिए।"
     ],
     "linesHinglish": [
-      "Kitanee aasaanee se kah diyaa tumane ki bhool jaao mujhe,",
-      "Saans lenaa chhor doon kyaa ab zindaa rahane ke lie."
+      "Kitni aasaani se kah diya tumne ki bhool jao mujhe,",
+      "Saans lena chhod doon kya ab zinda rahne ke liye."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2597,8 +2597,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे हर लफ़्ज़ पर अब ख़ामोशियों के पहरे हैं।"
     ],
     "linesHinglish": [
-      "Zakhma dikhate naheen hain par dukhate bahut gahare hain,",
-      "Mere har lafza par ab khaamoshiyon ke pahare hain."
+      "Zakhm dikhte nahi hain par dukhte bahut gehre hain,",
+      "Mere har lafz par ab khamoshiyon ke pahre hain."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2640,8 +2640,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "न दिल लगता, न उम्मीद जगती, न ये जान जाती।"
     ],
     "linesHinglish": [
-      "Kaash tumase kabhee mulaaqaat hee na huee hotee hamaaree,",
-      "Na dil lagataa, na ummeed jagatee, na ye jaan jaatee."
+      "Kash tumse kabhi mulaqat hi na hui hoti hamari,",
+      "Na dil lagta, na ummeed jagti, na yeh jan jaati."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2683,8 +2683,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जिन्हें किसी के टूट कर रोने से भी फ़र्क़ नहीं पड़ता।"
     ],
     "linesHinglish": [
-      "Vafaa kee ummeed bhee hamane un pattharon se lagaaee thee,",
-      "Jinhen kisee ke toot kar rone se bhee farqa naheen parataa."
+      "Wafa ki ummeed bhi humne un pattharon se lagai thi,",
+      "Jinhein kisi ke toot kar rone se bhi farq nahi padta."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2726,8 +2726,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वो पास से गुज़र गया हमें अजनबी बता कर।"
     ],
     "linesHinglish": [
-      "Ek umar guzaar dee jisakee ek jhalak ke intazaar men,",
-      "Vo paas se guzar gayaa hamen ajanabee bataa kar."
+      "Ek umar guzar di jiski ek jhalak ke intezaar mein,",
+      "Woh paas se guzar gaya humein ajanbi bata kar."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2769,8 +2769,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फिर लाख कोशिश कर लो पुरानी सूरत नज़र नहीं आती।"
     ],
     "linesHinglish": [
-      "Dil ke aaeene men jab ek baar daraar par jaatee hai,",
-      "Phir laakh koshish kar lo puraanee soorat nazar naheen aatee."
+      "Dil ke aaine mein jab ek bar darar pad jaati hai,",
+      "Phir lakh koshish kar lo purani soorat nazar nahi aati."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2812,8 +2812,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कैसे बताऊँ कि अंदर ही अंदर रोज़ थोड़ा मरता हूँ।"
     ],
     "linesHinglish": [
-      "Vo poochhate hain aajakal main itanaa chup kyon rahataa hoon,",
-      "Kaise bataaoon ki andar hee andar roz thoraa marataa hoon."
+      "Woh poochhte hain aajkal main itna chup kyun rehta hoon,",
+      "Kaise bataoon ki andar hi andar roz thoda marta hoon."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2855,8 +2855,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जिस पर सबसे ज़्यादा यक़ीन था वही मुकर चुका है।"
     ],
     "linesHinglish": [
-      "Jhoothee tasalliyon se ab meraa jee bhar chukaa hai,",
-      "Jis par sabase zyaadaa yaqeen thaa vahee mukar chukaa hai."
+      "Jhoothi tasalliyon se ab mera ji bhar chuka hai,",
+      "Jis par sabse zyada yakeen tha wahi mukar chuka hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2898,8 +2898,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "डूबे तो पता चला कि माझी ही हत्यारा था।"
     ],
     "linesHinglish": [
-      "Kaaghaz kee kashtee thee aur ashkon kaa kinaaraa thaa,",
-      "Doobe to pataa chalaa ki maajhee hee hatyaaraa thaa."
+      "Kagaz ki kashti thi aur ashkon ka kinara tha,",
+      "Doobe toh pata chala ki majhi hi hatyara tha."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2941,8 +2941,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इंसान तो चला जाता है पर निशान छोड़ जाता है।"
     ],
     "linesHinglish": [
-      "Yaaden bhee kitanee zaalim hotee hain guzare vaqta kee,",
-      "Insaan to chalaa jaataa hai par nishaan chhor jaataa hai."
+      "Yaadein bhi kitni zalim hoti hain guzre waqt ki,",
+      "Insaan toh chala jaata hai par nishaan chhod jaata hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -2984,8 +2984,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और वो बाज़ार में हमारे जज़्बातों की क़ीमत लगाते रहे।"
     ],
     "linesHinglish": [
-      "Hamane to rooh tak giravee rakh dee thee unakee chaahat men,",
-      "Aur vo baazaar men hamaare jazbaaton kee qeemat lagaate rahe."
+      "Humne toh rooh tak girvi rakh di thi unki chahat mein,",
+      "Aur woh bazaar mein hamare jazbaaton ki keemat lagate rahe."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3027,8 +3027,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सारी रात करवटें बदल कर सवेरा करना पड़ता है।"
     ],
     "linesHinglish": [
-      "Neend bhee rooth gaee hai meree aankhon se teree tarah,",
-      "Saaree raat karavaten badal kar saveraa karanaa parataa hai."
+      "Neend bhi rooth gayi hai meri aankhon se teri tarah,",
+      "Sari raat karavtein badal kar savera karna padta hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3070,8 +3070,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रोने को तो हज़ारों कंधे हैं पर अपना हमदम नहीं मिलता।"
     ],
     "linesHinglish": [
-      "Kuchh darda aise hote hain jinakaa koee maraham naheen milataa,",
-      "Rone ko to hazaaron kandhe hain par apanaa hamadam naheen milataa."
+      "Kuch dard aise hote hain jinka koi marham nahi milta,",
+      "Rone ko toh hazaaron kandhe hain par apna hamdam nahi milta."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3113,8 +3113,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कि मैंने एक बेवफ़ा पर ख़ुद से ज़्यादा भरोसा किया।"
     ],
     "linesHinglish": [
-      "Mohabbat kee adaalat men kasoor sirfa itanaa thaa meraa,",
-      "Ki mainne ek bevafaa par khud se zyaadaa bharosaa kiyaa."
+      "Mohabbat ki adalat mein kasoor sirf itna tha mera,",
+      "Ki maine ek bewafa par khud se zyada bharosa kiya."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3156,8 +3156,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हवा का हर झोंका अब मुझे और रौंद जाता है।"
     ],
     "linesHinglish": [
-      "Sookhe patton kee tarah bikhar gaee hain khvaahishen meree,",
-      "Havaa kaa har jhonkaa ab mujhe aur raund jaataa hai."
+      "Sookhe patton ki tarah bikhar gayi hain khvahishein meri,",
+      "Hawa ka har jhonka ab mujhe aur raund jaata hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3199,8 +3199,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कल तक जो जान देते थे आज कमियाँ गिनवाते हैं।"
     ],
     "linesHinglish": [
-      "Jab dil bhar jaataa hai to log bahaane dhoondhate hain,",
-      "Kal tak jo jaan dete the aaj kamiyaan ginavaate hain."
+      "Jab dil bhar jaata hai toh log bahane dhoondhte hain,",
+      "Kal tak jo jan dete the aaj kamiyan ginvate hain."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3242,8 +3242,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी ही उजड़ी हुई आँखें अब मुझसे देखी नहीं जातीं।"
     ],
     "linesHinglish": [
-      "Tere jaane ke baad mainne aaeenaa dekhanaa chhor diyaa,",
-      "Apanee hee ujaree huee aankhen ab mujhase dekhee naheen jaateen."
+      "Tere jaane ke bad maine aaina dekhna chhod diya,",
+      "Apni hi ujdi hui aankhein ab mujhse dekhi nahi jatin."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3285,8 +3285,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस उन लफ़्ज़ों में अब पहले जैसी सच्चाई नहीं रही।"
     ],
     "linesHinglish": [
-      "Khat to aaj bhee rakhe hain tere meree puraanee kitaab men,",
-      "Bas un lafzon men ab pahale jaisee sachchaaee naheen rahee."
+      "Khat toh aaj bhi rakhe hain tere meri purani kitaab mein,",
+      "Bas un lafzon mein ab pehle jaisi sachchai nahi rahi."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3328,8 +3328,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और गले में घुटन हो मगर आँख से आँसू न निकले।"
     ],
     "linesHinglish": [
-      "Sabase zyaadaa darda tab hotaa hai jab aap ronaa chaaho,",
-      "Aur gale men ghutan ho magar aankh se aansoo na nikale."
+      "Sabse zyada dard tab hota hai jab aap rona chaho,",
+      "Aur gale mein ghutan ho magar aankh se aansu na nikle."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3371,8 +3371,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस इतना याद रखना कि फिर ऐसा चाहने वाला न मिलेगा।"
     ],
     "linesHinglish": [
-      "Shauq se toro tum dil meraa, koee ilzaam na doongaa,",
-      "Bas itanaa yaad rakhanaa ki phir aisaa chaahane vaalaa na milegaa."
+      "Shauq se todo tum dil mera, koi ilzam na doonga,",
+      "Bas itna yaad rakhna ki phir aisa chahne wala na milega."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3414,8 +3414,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उसे फिर भी शिकायत रही कि मैंने किया ही क्या है।"
     ],
     "linesHinglish": [
-      "Rishtaa bachaate-bachaate main khud hee khatma ho gayaa,",
-      "Use phir bhee shikaayat rahee ki mainne kiyaa hee kyaa hai."
+      "Rishta bachate-bachate main khud hi khatam ho gaya,",
+      "Use phir bhi shikayat rahi ki maine kiya hi kya hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3457,8 +3457,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी बेरुख़ी ने मुझे जीते-जी पत्थर बनाया है।"
     ],
     "linesHinglish": [
-      "Mehafil men baithe hain phir bhee andar sannaataa chhaayaa hai,",
-      "Teree berukhee ne mujhe jeete-jee patthar banaayaa hai."
+      "Mehfil mein baithe hain phir bhi andar sannata chhaya hai,",
+      "Teri berukhi ne mujhe jite-ji patthar banaya hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3500,8 +3500,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पुराने घाव आज भी बारिश की रातों में टीस उठते हैं।"
     ],
     "linesHinglish": [
-      "Vaqta sab theek kar detaa hai ye sirfa kahane kee baat hai,",
-      "Puraane ghaav aaj bhee baarish kee raaton men tees uthate hain."
+      "Waqt sab thik kar deta hai yeh sirf kahne ki baat hai,",
+      "Purane ghav aaj bhi baarish ki raaton mein tis uthte hain."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3543,8 +3543,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पढ़ने वालों के लिए तो बस पन्ना पलट जाता है।"
     ],
     "linesHinglish": [
-      "Adhooree kahaaniyon kaa darda sirfa kiradaar jaanate hain,",
-      "Parhane vaalon ke lie to bas pannaa palat jaataa hai."
+      "Adhoori kahaniyon ka dard sirf kirdar jante hain,",
+      "Padhne walon ke liye toh bas panna palat jaata hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3586,8 +3586,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कैसे एक हँसता हुआ इंसान राख का ढेर बन गया।"
     ],
     "linesHinglish": [
-      "Kabhee fursat mile to aakar dekhanaa meraa ujaraa aashiyaanaa,",
-      "Kaise ek hansataa huaa insaan raakh kaa dher ban gayaa."
+      "Kabhi fursat mile toh aakar dekhna mera ujda aashiyana,",
+      "Kaise ek hansta hua insaan rakh ka dher ban gaya."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3629,8 +3629,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रात भर ख़्वाबों का जनाज़ा कंधों पर उठाया है।"
     ],
     "linesHinglish": [
-      "Mat poochho ki meree aankhon men ye surkhee kaisee hai,",
-      "Raat bhar khvaabon kaa janaazaa kandhon par uthaayaa hai."
+      "Mat poochho ki meri aankhon mein yeh surkhi kaisi hai,",
+      "Raat bhar khwabon ka janaza kandhon par uthaya hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3672,8 +3672,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अभी कल ही तो कहा था कि तेरे बिन मर जाऊँगा।"
     ],
     "linesHinglish": [
-      "Badalate mausam se bhee tez badalate dekhaa hai tujhe,",
-      "Abhee kal hee to kahaa thaa ki tere bin mar jaaoongaa."
+      "Badalte mausam se bhi tez badalte dekha hai tujhe,",
+      "Abhi kal hi toh kaha tha ki tere bin mar jaoonga."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3715,8 +3715,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुझे क्या ख़बर थी कि वो मेरी बर्बादी का सपना है।"
     ],
     "linesHinglish": [
-      "Har baar maaf kiyaa mainne ye soch kar ki apanaa hai,",
-      "Mujhe kyaa khabar thee ki vo meree barbaadee kaa sapanaa hai."
+      "Har bar maaf kiya maine yeh soch kar ki apna hai,",
+      "Mujhe kya khabar thi ki woh meri barbadi ka sapna hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3758,8 +3758,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "भले ही तूने मेरे हिस्से में सिर्फ़ काँटे बिछाए हों।"
     ],
     "linesHinglish": [
-      "Dil to aaj bhee teree salaamatee kee duaa maangataa hai,",
-      "Bhale hee toone mere hisse men sirfa kaante bichhaae hon."
+      "Dil toh aaj bhi teri salamti ki dua mangta hai,",
+      "Bhale hi tune mere hisse mein sirf kaante bichhae hon."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3801,8 +3801,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो जितना सच्चा होता है वो उतना ही रोता है।"
     ],
     "linesHinglish": [
-      "Chot khaakar hee samajh aayaa is duniyaa kaa dastoor,",
-      "Jo jitanaa sachchaa hotaa hai vo utanaa hee rotaa hai."
+      "Chot khakar hi samajh aaya is duniya ka dastoor,",
+      "Jo jitna saccha hota hai woh utna hi rota hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3844,8 +3844,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कहीं चार दिन हँसा कर फिर से उमर भर न रुला दे।"
     ],
     "linesHinglish": [
-      "Ab to khushiyon se bhee dar lagataa hai is toote dil ko,",
-      "Kaheen chaar din hansaa kar phir se umar bhar na rulaa de."
+      "Ab toh khushiyon se bhi dar lagta hai is toote dil ko,",
+      "Kahin char din hansa kar phir se umar bhar na rula de."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3887,8 +3887,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कहीं किसी मोड़ पर मेरा गुज़रा हुआ कल न मिल जाए।"
     ],
     "linesHinglish": [
-      "Tere shahar kee galiyon se aaj bhee guzarane se darataa hoon,",
-      "Kaheen kisee mor par meraa guzaraa huaa kal na mil jaae."
+      "Tere shahar ki galiyon se aaj bhi guzarne se darta hoon,",
+      "Kahin kisi mod par mera guzra hua kal na mil jaaye."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3930,8 +3930,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दर्द तो उसने मुझे पूरी ईमानदारी से दिया है।"
     ],
     "linesHinglish": [
-      "Mohabbat adhooree rah gaee to kyaa huaa ai mere dosta,",
-      "Darda to usane mujhe pooree eemaanadaaree se diyaa hai."
+      "Mohabbat adhoori rah gayi toh kya hua ai mere dost,",
+      "Dard toh usne mujhe poori imandari se diya hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -3973,8 +3973,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अगर बरस पड़ा तो तेरा झूठा गुरूर बह जाएगा।"
     ],
     "linesHinglish": [
-      "Khaamosh labon ke peechhe jo toofaan chhupaa rakhaa hai,",
-      "Agar baras paraa to teraa jhoothaa guroor bah jaaegaa."
+      "Khamosh labon ke peechhe jo toofan chhupa rakha hai,",
+      "Agar baras pada toh tera jhootha guroor bah jaega."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4016,8 +4016,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उन्होंने दुनिया की ख़ातिर हमारा नाम ही भुला दिया।"
     ],
     "linesHinglish": [
-      "Jinake lie hamane duniyaa kee har rasma bhulaa dee thee,",
-      "Unhonne duniyaa kee khaatir hamaaraa naam hee bhulaa diyaa."
+      "Jinke liye humne duniya ki har rasm bhula di thi,",
+      "Unhonne duniya ki khatir hamara naam hi bhula diya."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4059,8 +4059,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "किसी अपने का नज़रअंदाज़ करना ही काफ़ी होता है।"
     ],
     "linesHinglish": [
-      "Kabra men dafan hone ke lie maranaa zarooree to naheen,",
-      "Kisee apane kaa nazaraandaaz karanaa hee kaafee hotaa hai."
+      "Kabr mein dafan hone ke liye marna zaroori toh nahi,",
+      "Kisi apne ka nazarandaz karna hi kafi hota hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4102,8 +4102,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दिमाग़ जानता था तू नहीं आएगा पर दिल मानता कहाँ है।"
     ],
     "linesHinglish": [
-      "Hazaaron kee bheer men bhee nigaahen tujhe hee talaashatee raheen,",
-      "Dimaagh jaanataa thaa too naheen aaegaa par dil maanataa kahaan hai."
+      "Hazaaron ki bheed mein bhi nigahein tujhe hi talashti rahin,",
+      "Dimagh janta tha tu nahi aaega par dil manta kahan hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4145,8 +4145,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जवानी में दिल टूटा तो रोने की आवाज़ ही खो गई।"
     ],
     "linesHinglish": [
-      "Bachapan ke khilaune toote to thoraa rokar chup ho gae the,",
-      "Javaanee men dil tootaa to rone kee aavaaz hee kho gaee."
+      "Bachpan ke khilaune toote toh thoda rokar chup ho gaye the,",
+      "Javani mein dil toota toh rone ki aawaz hi kho gayi."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4188,8 +4188,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरा इश्क़ ख़त्म हो गया मगर सज़ा अभी बाक़ी है।"
     ],
     "linesHinglish": [
-      "Charaagh bujh gayaa hai magar dhuaan abhee baaqee hai,",
-      "Teraa ishqa khatma ho gayaa magar sazaa abhee baaqee hai."
+      "Charagh bujh gaya hai magar dhuaan abhi baqi hai,",
+      "Tera ishq khatam ho gaya magar saza abhi baqi hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4231,8 +4231,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "लोग कहते हैं बड़े मज़े में ज़िंदगी गुज़र रही है।"
     ],
     "linesHinglish": [
-      "Apanee hee laash ko apane kandhon par lie phirataa hoon,",
-      "Log kahate hain bare maze men zindagee guzar rahee hai."
+      "Apni hi lash ko apne kandhon par liye phirta hoon,",
+      "Log kehte hain bade maze mein zindagi guzar rahi hai."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4274,8 +4274,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "क़लम से स्याही की जगह सिर्फ़ दर्द टपकता रहा।"
     ],
     "linesHinglish": [
-      "Likhane baithaa thaa apanee vafaa kee daastaan pannon par,",
-      "Qalam se syaahee kee jagah sirfa darda tapakataa rahaa."
+      "Likhne baitha tha apni wafa ki dastaan pannon par,",
+      "Qalam se syahi ki jagah sirf dard tapakta raha."
     ],
     "linesEnglish": [
       "Silent tears of heartbreak, longing, and unspoken pain",
@@ -4317,8 +4317,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ज़रा मचल गए तो शहर का शहर ले डूबेंगे।"
     ],
     "linesHinglish": [
-      "Ham samandar hain hamen khaamosh hee rahane do,",
-      "Zaraa machal gae to shahar kaa shahar le doobenge."
+      "Hum samandar hain humein khamosh hi rahne do,",
+      "Zara machal gaye toh shahar ka shahar le doobenge."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4360,8 +4360,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जंगल की ख़ामोशी ख़ुद बता देती है कि राजा कौन है।"
     ],
     "linesHinglish": [
-      "Sher apanee taaqat kaa kabhee dhindhoraa naheen peetataa,",
-      "Jangal kee khaamoshee khud bataa detee hai ki raajaa kaun hai."
+      "Sher apni taqat ka kabhi dhindhora nahi pitta,",
+      "Jangal ki khamoshi khud bata deti hai ki raja kaun hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4403,8 +4403,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जहाँ ज़मीर का सौदा हो वहाँ हम ताज भी ठुकरा कर आते हैं।"
     ],
     "linesHinglish": [
-      "Ham apane usoolon kee saltanat khud apane dam par sajaate hain,",
-      "Jahaan zameer kaa saudaa ho vahaan ham taaj bhee thukaraa kar aate hain."
+      "Hum apne usoolon ki saltanat khud apne dam par sajate hain,",
+      "Jahaan zameer ka sauda ho wahan hum taj bhi thukra kar aate hain."
     ],
     "linesEnglish": [
       "We build the kingdom of our principles entirely on our own strength,",
@@ -4446,8 +4446,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम जहाँ खड़े हो जाते हैं क़ाफ़िला वहीं से शुरू होता है।"
     ],
     "linesHinglish": [
-      "Bheer men chalanaa hamaaree fitarat men shaamil naheen,",
-      "Ham jahaan khare ho jaate hain qaafilaa vaheen se shuroo hotaa hai."
+      "Bheed mein chalna hamari fitrat mein shamil nahi,",
+      "Hum jahaan khade ho jaate hain qafila wahin se shuru hota hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4489,8 +4489,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी पूरी बस्ती ख़रीद ले इतना तो हमारा सिर्फ़ नाम है।"
     ],
     "linesHinglish": [
-      "Aukaat kee baat mat kar ai mere naadaan dushman,",
-      "Teree pooree bastee khareed le itanaa to hamaaraa sirfa naam hai."
+      "Aukaat ki baat mat kar ai mere nadan dushman,",
+      "Teri poori basti kharid le itna toh hamara sirf naam hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4532,8 +4532,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमने तो तूफ़ानों का भी रुख़ मोड़ कर दिखाया है।"
     ],
     "linesHinglish": [
-      "Hamase ulajhane se pahale itihaas zaroor parh lenaa,",
-      "Hamane to toofaanon kaa bhee rukh mor kar dikhaayaa hai."
+      "Humse ulajhne se pehle itihas zaroor padh lena,",
+      "Humne toh toofanon ka bhi rukh mod kar dikhaya hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4575,8 +4575,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अकड़ना तो मुर्दों की ख़ास पहचान हुआ करती है।"
     ],
     "linesHinglish": [
-      "Jhukataa vahee hai jisamen jaan aur sanskaar hote hain,",
-      "Akaranaa to murdon kee khaas pahachaan huaa karatee hai."
+      "Jhukta wahi hai jismein jan aur Sanskar hote hain,",
+      "Akadna toh murdon ki khaas pahchan hua karti hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4618,8 +4618,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं उसका हरगिज़ नहीं होता जो हर किसी का हो जाए।"
     ],
     "linesHinglish": [
-      "Mere mizaaj ko samajhane ke lie bas itanaa kaafee hai,",
-      "Main usakaa haragiz naheen hotaa jo har kisee kaa ho jaae."
+      "Mere mizaj ko samajhne ke liye bas itna kafi hai,",
+      "Main uska hargiz nahi hota jo har kisi ka ho jaaye."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4661,8 +4661,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दिल में वफ़ा और आँखों में खुद्दारी बेहिसाब रखते हैं।"
     ],
     "linesHinglish": [
-      "Baadashaah naheen hain ham par andaaz navaabee rakhate hain,",
-      "Dil men vafaa aur aankhon men khuddaaree behisaab rakhate hain."
+      "Badshah nahi hain hum par andaaz navabi rakhte hain,",
+      "Dil mein wafa aur aankhon mein khuddari behisab rakhte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4704,8 +4704,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "क्योंकि हमने कभी पीठ पीछे वार नहीं किया।"
     ],
     "linesHinglish": [
-      "Naam hamaaraa aaj bhee mahafilon men izzat se liyaa jaataa hai,",
-      "Kyonki hamane kabhee peeth peechhe vaar naheen kiyaa."
+      "Naam hamara aaj bhi mahfilon mein izzat se liya jaata hai,",
+      "Kyunki humne kabhi pith peechhe var nahi kiya."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4747,8 +4747,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम मुस्कुरा देते हैं और उनका ख़ून सूख जाता है।"
     ],
     "linesHinglish": [
-      "Jalane vaalon ko aur jalaanaa hamaaraa puraanaa shauq hai,",
-      "Ham muskuraa dete hain aur unakaa khoon sookh jaataa hai."
+      "Jalne walon ko aur jalana hamara purana shauq hai,",
+      "Hum muskura dete hain aur unka khoon sookh jaata hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4790,8 +4790,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम वो वज़ीर हैं जो पूरी बाज़ी अकेले पलट देते हैं।"
     ],
     "linesHinglish": [
-      "Shataranj ke pyaade naheen jo kisee ke ishaare par chalen,",
-      "Ham vo vazeer hain jo pooree baazee akele palat dete hain."
+      "Shatranj ke pyade nahi jo kisi ke ishare par chalein,",
+      "Hum woh vazir hain jo poori bazi akele palat dete hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4833,8 +4833,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमारी तो तरक़्क़ी से ही लोगों के सीने जल उठते हैं।"
     ],
     "linesHinglish": [
-      "Maachis kee zaroorat yahaan kise paratee hai janaab,",
-      "Hamaaree to taraqqee se hee logon ke seene jal uthate hain."
+      "Machis ki zaroorat yahan kise padti hai janab,",
+      "Hamari toh taraqqi se hi logon ke seene jal uthte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4876,8 +4876,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आसमान भी छू लेंगे पर किसी के क़दमों में गिरकर नहीं।"
     ],
     "linesHinglish": [
-      "Ham apane usoolon par jeete hain kisee ke ehasaan par naheen,",
-      "Aasamaan bhee chhoo lenge par kisee ke qadamon men girakar naheen."
+      "Hum apne usoolon par jite hain kisi ke ehsan par nahi,",
+      "Aasmaan bhi chhoo lenge par kisi ke kadmon mein girkar nahi."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4919,8 +4919,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं वक़्त आने पर लफ़्ज़ों से नहीं काम से जवाब देता हूँ।"
     ],
     "linesHinglish": [
-      "Khaamosh hoon to ise meree kamazoree mat samajh lenaa,",
-      "Main vaqta aane par lafzon se naheen kaam se javaab detaa hoon."
+      "Khamosh hoon toh ise meri kamzori mat samajh lena,",
+      "Main waqt aane par lafzon se nahi kaam se jawaab deta hoon."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -4962,8 +4962,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हर ऐरे-ग़ैरे को हम अपने दुश्मनों में नहीं गिनते।"
     ],
     "linesHinglish": [
-      "Nafarat bhee ham haisiyat dekh kar kiyaa karate hain,",
-      "Har aire-ghaire ko ham apane dushmanon men naheen ginate."
+      "Nafrat bhi hum haisiyat dekh kar kiya karte hain,",
+      "Har aire-ghaire ko hum apne dushmanon mein nahi ginte."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5005,8 +5005,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमारी नज़रें ही बता देती हैं कि रगों में किसका ख़ून है।"
     ],
     "linesHinglish": [
-      "Taaj kee mohataaj naheen hotee hamaaree baadashaahat,",
-      "Hamaaree nazaren hee bataa detee hain ki ragon men kisakaa khoon hai."
+      "Taj ki mohtaj nahi hoti hamari badshahat,",
+      "Hamari nazrein hi bata deti hain ki ragon mein kiska khoon hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5048,8 +5048,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो आँख दिखाए हम उसका गुरूर मिट्टी में मिला दें।"
     ],
     "linesHinglish": [
-      "Jo hamase pyaar se mile ham usake qadamon men dil rakh den,",
-      "Jo aankh dikhaae ham usakaa guroor mittee men milaa den."
+      "Jo humse pyar se mile hum uske kadmon mein dil rakh dein,",
+      "Jo aankh dikhae hum uska guroor mitti mein mila dein."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5091,8 +5091,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम वो शोले हैं जो आँधियों में और भड़क उठते हैं।"
     ],
     "linesHinglish": [
-      "Zamaane kee havaaon se bujh jaaen vo deeye ham naheen,",
-      "Ham vo shole hain jo aandhiyon men aur bharak uthate hain."
+      "Zamane ki hawaon se bujh jaein woh diye hum nahi,",
+      "Hum woh shole hain jo aandhiyon mein aur bhadak uthte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5134,8 +5134,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तभी तो आधी दुनिया हमारी दीवानी और आधी दुश्मन है।"
     ],
     "linesHinglish": [
-      "Hamaaraa staail aur hamaaraa tevar donon hee khaanadaanee hain,",
-      "Tabhee to aadhee duniyaa hamaaree deevaanee aur aadhee dushman hai."
+      "Hamara Style aur hamara tevar donon hi khandani hain,",
+      "Tabhi toh aadhi duniya hamari deewani aur aadhi dushman hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5177,8 +5177,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जहाँ से हमने अपनी कामयाबी का सफ़र शुरू किया है।"
     ],
     "linesHinglish": [
-      "Vahaan tak soch bhee naheen pahunchatee tere jaise logon kee,",
-      "Jahaan se hamane apanee kaamayaabee kaa safar shuroo kiyaa hai."
+      "Wahan tak soch bhi nahi pahunchti tere jaise logon ki,",
+      "Jahaan se humne apni kamyabi ka safar shuru kiya hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5220,8 +5220,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अकड़ दिखाओगे तो नज़र से हमेशा के लिए उतर जाओगे।"
     ],
     "linesHinglish": [
-      "Izzat doge to dogunee izzat paaoge hamase,",
-      "Akar dikhaaoge to nazar se hameshaa ke lie utar jaaoge."
+      "Izzat doge toh doguni izzat paoge humse,",
+      "Akad dikhaoge toh nazar se hamesha ke liye utar jaoge."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5263,8 +5263,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और दोगले लोगों से यारी का रिश्ता हम नहीं रखते।"
     ],
     "linesHinglish": [
-      "Kaaghaz ke phoolon se mahak kee ummeed ham naheen rakhate,",
-      "Aur dogale logon se yaaree kaa rishtaa ham naheen rakhate."
+      "Kagaz ke phoolon se mehek ki ummeed hum nahi rakhte,",
+      "Aur dogle logon se yari ka rishta hum nahi rakhte."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5306,8 +5306,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी माँ की दुआएँ मेरी ढाल बनकर चलती हैं।"
     ],
     "linesHinglish": [
-      "Teree saazishen meraa ek baal bhee baankaa na kar sakengee,",
-      "Meree maan kee duaaen meree dhaal banakar chalatee hain."
+      "Teri sazishein mera ek bal bhi banka na kar sakengi,",
+      "Meri maa ki duayein meri dhal bankar chalti hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5349,8 +5349,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इसका मतलब ये नहीं कि कुत्ते जंगल पर राज करेंगे।"
     ],
     "linesHinglish": [
-      "Sher ke paanv men agar kaantaa chubh bhee jaae to kyaa,",
-      "Isakaa matalab ye naheen ki kutte jangal par raaj karenge."
+      "Sher ke paon mein agar kanta chubh bhi jaaye toh kya,",
+      "Iska matlab yeh nahi ki kutte jangal par raj karenge."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5392,8 +5392,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जहाँ दुनिया रुक जाती है हम वहाँ से उड़ान भरते हैं।"
     ],
     "linesHinglish": [
-      "Ham kisee kee naqal naheen karate apanee raah khud banaate hain,",
-      "Jahaan duniyaa ruk jaatee hai ham vahaan se uraan bharate hain."
+      "Hum kisi ki naqal nahi karte apni rah khud banate hain,",
+      "Jahaan duniya ruk jaati hai hum wahan se udaan bharte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5435,8 +5435,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम हर कर्ज़ और हर ज़ख़्म का पूरा हिसाब रखते हैं।"
     ],
     "linesHinglish": [
-      "Chehare par saadagee hai par jigar phaulaad kaa rakhate hain,",
-      "Ham har karza aur har zakhma kaa pooraa hisaab rakhate hain."
+      "Chehre par saadgi hai par jigar phaulad ka rakhte hain,",
+      "Hum har karz aur har zakhm ka poora hisab rakhte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5478,8 +5478,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "यूँ पीठ पीछे भौंकने से कोई सिकंदर नहीं बनता।"
     ],
     "linesHinglish": [
-      "Muqaabalaa karanaa hai to pahale khud ko hamaare qaabil banaa,",
-      "Yoon peeth peechhe bhaunkane se koee sikandar naheen banataa."
+      "Muqabla karna hai toh pehle khud ko hamare qabil bana,",
+      "Yun pith peechhe bhaunkne se koi sikandar nahi banta."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5521,8 +5521,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आज खामोश बैठे हैं कल पूरा आसमान नापेंगे।"
     ],
     "linesHinglish": [
-      "Vaqta kharaab ho sakataa hai janaab par hamaaraa hausalaa naheen,",
-      "Aaj khaamosh baithe hain kal pooraa aasamaan naapenge."
+      "Waqt kharab ho sakta hai janab par hamara hausla nahi,",
+      "Aaj khamosh baithe hain kal poora aasmaan napenge."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5564,8 +5564,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ख़ौफ़ फैलाने के लिए तो बस हमारी मौजूदगी ही काफ़ी है।"
     ],
     "linesHinglish": [
-      "Hathiyaar to shauq ke lie rakhe jaate hain mere dosta,",
-      "Khauf phailaane ke lie to bas hamaaree maujoodagee hee kaafee hai."
+      "Hathiyar toh shauq ke liye rakhe jaate hain mere dost,",
+      "Khauf phailane ke liye toh bas hamari maujoodgi hi kafi hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5607,8 +5607,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फटे कपड़ों में भी हम शहंशाहों सा रौब रखते हैं।"
     ],
     "linesHinglish": [
-      "Zameer bech kar ameer bananaa hamen manzoor naheen,",
-      "Phate kaparon men bhee ham shahanshaahon saa raub rakhate hain."
+      "Zameer bech kar amir banna humein manzoor nahi,",
+      "Phate kapdon mein bhi hum shahanshahon sa raub rakhte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5650,8 +5650,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आफ़ताब के आगे जुगनुओं की चमक नहीं चला करती।"
     ],
     "linesHinglish": [
-      "Raastaa chhor do jab ham apane tevar men nikalate hain,",
-      "Aafataab ke aage juganuon kee chamak naheen chalaa karatee."
+      "Raasta chhod do jab hum apne tevar mein nikalte hain,",
+      "Aaftab ke aage jugnuon ki chamak nahi chala karti."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5693,8 +5693,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम आज भी वहीं चट्टान की तरह मुस्कुराते खड़े हैं।"
     ],
     "linesHinglish": [
-      "Hamen giraane kee koshish men kaee log khud gir gae,",
-      "Ham aaj bhee vaheen chattaan kee tarah muskuraate khare hain."
+      "Humein girane ki koshish mein kai log khud gir gaye,",
+      "Hum aaj bhi wahin chattan ki tarah muskurate khade hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5736,8 +5736,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वरना जिस दिन ज़िद पर आ गए तो भूचाल आ जाएगा।"
     ],
     "linesHinglish": [
-      "Sharaafat kee chaadar orh rakhee hai bas buzurgon ke lihaaz men,",
-      "Varanaa jis din zid par aa gae to bhoochaal aa jaaegaa."
+      "Sharafat ki chadar odh rakhi hai bas buzurgon ke lihaz mein,",
+      "Warna jis din zid par aa gaye toh bhoochal aa jaega."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5779,8 +5779,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम अपनी कहानी अपने पसीने और ख़ून से लिखते हैं।"
     ],
     "linesHinglish": [
-      "Kitaabon men naheen milegaa tujhe hamaare jaisaa kiradaar,",
-      "Ham apanee kahaanee apane paseene aur khoon se likhate hain."
+      "Kitabon mein nahi milega tujhe hamare jaisa kirdar,",
+      "Hum apni kahani apne pasine aur khoon se likhte hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5822,8 +5822,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो जैसा मिलता है उसे वैसा ही आईना दिखा देते हैं।"
     ],
     "linesHinglish": [
-      "Bhaav ham kisee ko fizool men naheen diyaa karate,",
-      "Jo jaisaa milataa hai use vaisaa hee aaeenaa dikhaa dete hain."
+      "Bhav hum kisi ko fizool mein nahi diya karte,",
+      "Jo jaisa milta hai use vaisa hi aaina dikha dete hain."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5865,8 +5865,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और हमें चमकने के लिए किसी की सिफ़ारिश नहीं चाहिए।"
     ],
     "linesHinglish": [
-      "Sooraj ko ugane ke lie kisee kee ijaazat naheen chaahie,",
-      "Aur hamen chamakane ke lie kisee kee sifaarish naheen chaahie."
+      "Suraj ko ugne ke liye kisi ki ijazat nahi chahiye,",
+      "Aur humein chamakne ke liye kisi ki sifarish nahi chahiye."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5908,8 +5908,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कौन कब बदला है मेरे पास सबका पूरा हिसाब है।"
     ],
     "linesHinglish": [
-      "Zubaan karavee zaroor hai meree magar dil aaeene saa saaf hai,",
-      "Kaun kab badalaa hai mere paas sabakaa pooraa hisaab hai."
+      "Zuban kadwi zaroor hai meri magar dil aaine sa saf hai,",
+      "Kaun kab badla hai mere paas sabka poora hisab hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5951,8 +5951,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमारे परों में तो पूरे गगन को चीरने का दम है।"
     ],
     "linesHinglish": [
-      "Vo parinde aur honge jo pinjaron men khush rahate hain,",
-      "Hamaare paron men to poore gagan ko cheerane kaa dam hai."
+      "Woh parinde aur honge jo pinjron mein khush rehte hain,",
+      "Hamare paron mein toh poore gagan ko chirne ka dam hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -5994,8 +5994,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जिस दिन टूटा उस दिन तेरी हस्ती का निशान न बचेगा।"
     ],
     "linesHinglish": [
-      "Mat aazamaa mere sabra ke baandh ko ai zamaane,",
-      "Jis din tootaa us din teree hastee kaa nishaan na bachegaa."
+      "Mat aazma mere sabr ke bandh ko ai zamane,",
+      "Jis din toota us din teri hasti ka nishaan na bachega."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6037,8 +6037,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "म्यानों में रखी तलवारें अपनी धार कभी नहीं भूलतीं।"
     ],
     "linesHinglish": [
-      "Hamaaree saadagee ko hamaaree bebasee samajhane kee bhool mat karanaa,",
-      "Myaanon men rakhee talavaaren apanee dhaar kabhee naheen bhoolateen."
+      "Hamari saadgi ko hamari bebsi samajhne ki bhool mat karna,",
+      "Myanon mein rakhi talvarein apni dhar kabhi nahi bhooltin."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6080,8 +6080,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुर्दों से तो कभी किसी को कोई तकलीफ़ नहीं होती।"
     ],
     "linesHinglish": [
-      "Dushmanon kee taadaad bataatee hai ki ham sahee raaste par hain,",
-      "Murdon se to kabhee kisee ko koee takaleef naheen hotee."
+      "Dushmanon ki tadad batati hai ki hum sahi raaste par hain,",
+      "Murdon se toh kabhi kisi ko koi taklif nahi hoti."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6123,8 +6123,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमने कभी पैसों से किसी की मज़बूरी नहीं ख़रीदी।"
     ],
     "linesHinglish": [
-      "Salaam karate hain log hamaare rutabe aur eemaan ko,",
-      "Hamane kabhee paison se kisee kee mazabooree naheen khareedee."
+      "Salam karte hain log hamare rutbe aur iman ko,",
+      "Humne kabhi paison se kisi ki mazboori nahi kharidi."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6166,8 +6166,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फिर वो ख़ुदा भी बन जाए तो हम पलट कर नहीं देखते।"
     ],
     "linesHinglish": [
-      "Ek baar jise dil se utaar diyaa so utaar diyaa,",
-      "Phir vo khudaa bhee ban jaae to ham palat kar naheen dekhate."
+      "Ek bar jise dil se utar diya so utar diya,",
+      "Phir woh Khuda bhi ban jaaye toh hum palat kar nahi dekhte."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6209,8 +6209,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "किसी के साये में पलना हमारे ख़ून में नहीं है।"
     ],
     "linesHinglish": [
-      "Khud kee pahachaan banaane kaa junoon savaar hai sir par,",
-      "Kisee ke saaye men palanaa hamaare khoon men naheen hai."
+      "Khud ki pahchan banane ka junoon savar hai sir par,",
+      "Kisi ke saye mein palna hamare khoon mein nahi hai."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6252,8 +6252,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जब हमारी बारिश होगी तो सब ज़मीन पर बैठ जाएंगे।"
     ],
     "linesHinglish": [
-      "Urane do in mittee ke gubaaron ko jitanee oonchaaee tak uren,",
-      "Jab hamaaree baarish hogee to sab zameen par baith jaaenge."
+      "Udne do in mitti ke gubaron ko jitni oonchai tak udein,",
+      "Jab hamari baarish hogi toh sab zameen par baith jaenge."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6295,8 +6295,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हीरे की क़ीमत पत्थरों के बाज़ार में कम नहीं होती।"
     ],
     "linesHinglish": [
-      "Ham mahafil men der se aate hain par charchaa hamaaree hee hotee hai,",
-      "Heere kee qeemat pattharon ke baazaar men kam naheen hotee."
+      "Hum mehfil mein der se aate hain par charcha hamari hi hoti hai,",
+      "Hire ki keemat pattharon ke bazaar mein kam nahi hoti."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6338,8 +6338,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम झूठे नक़ाब पहन कर रिश्तों का व्यापार नहीं करते।"
     ],
     "linesHinglish": [
-      "Aankhon men aankhen daal kar baat karane kaa jigar rakhate hain,",
-      "Ham jhoothe naqaab pahan kar rishton kaa vyaapaar naheen karate."
+      "Aankhon mein aankhein dal kar baat karne ka jigar rakhte hain,",
+      "Hum jhoothe naqab pahan kar rishton ka vyapar nahi karte."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6381,8 +6381,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपना इक्का हम तब दिखाते हैं जब सामने वाला बादशाह निकाले।"
     ],
     "linesHinglish": [
-      "Khel taash kaa ho yaa zindagee kaa ai mere dosta,",
-      "Apanaa ikkaa ham tab dikhaate hain jab saamane vaalaa baadashaah nikaale."
+      "Khel tash ka ho ya zindagi ka ai mere dost,",
+      "Apna ikka hum tab dikhate hain jab samne wala badshah nikale."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6424,8 +6424,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी अपनी मंज़िल है और मेरी अपनी अलग दौड़।"
     ],
     "linesHinglish": [
-      "Naa kisee se eershyaa rakhate hain naa kisee se koee hor,",
-      "Meree apanee manzil hai aur meree apanee alag daur."
+      "Na kisi se irshya rakhte hain na kisi se koi hod,",
+      "Meri apni manzil hai aur meri apni alag daud."
     ],
     "linesEnglish": [
       "Fearless royal pride, unbreakable rules, and bold grace",
@@ -6467,8 +6467,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मगर कोई ऐसा नहीं जो बिन कहे मेरा हाल पूछ ले।"
     ],
     "linesHinglish": [
-      "Bheer to bahut hai is shahar kee chamachamaatee galiyon men,",
-      "Magar koee aisaa naheen jo bin kahe meraa haal poochh le."
+      "Bheed toh bahut hai is shahar ki chamachmati galiyon mein,",
+      "Magar koi aisa nahi jo bin kahe mera hal poochh le."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6510,8 +6510,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उजालों में अपनों के बदलते चेहरे ज़्यादा डराते हैं।"
     ],
     "linesHinglish": [
-      "Ab mujhe andheron se koee khauf naheen lagataa ai dosta,",
-      "Ujaalon men apanon ke badalate chehare zyaadaa daraate hain."
+      "Ab mujhe andheron se koi khauf nahi lagta ai dost,",
+      "Ujaalon mein apnon ke badalte chehre zyada darate hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6553,8 +6553,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ये न कभी सवाल करती है और न कभी साथ छोड़ती है।"
     ],
     "linesHinglish": [
-      "Khaamoshee se behatar koee hamasafar naheen is duniyaa men,",
-      "Ye na kabhee savaal karatee hai aur na kabhee saath chhoratee hai."
+      "Khamoshi se behtar koi hamsafar nahi is duniya mein,",
+      "Yeh na kabhi sawaal karti hai aur na kabhi saath chhodti hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6596,8 +6596,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वो भी मेरी तरह सितारों के बीच बिल्कुल तन्हा है।"
     ],
     "linesHinglish": [
-      "Chaand ko takate hue kat jaatee hain meree soonee raaten,",
-      "Vo bhee meree tarah sitaaron ke beech bilkul tanhaa hai."
+      "Chaand ko takte hue kat jaati hain meri sooni raatein,",
+      "Woh bhi meri tarah sitaaron ke beech bilkul tanha hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6639,8 +6639,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "क्योंकि परछाई भी अंधेरा होते ही हाथ छोड़ देती है।"
     ],
     "linesHinglish": [
-      "Akele chalane kaa hunar seekh liyaa hai mainne zindagee se,",
-      "Kyonki parachhaaee bhee andheraa hote hee haath chhor detee hai."
+      "Akele chalne ka hunar sikh liya hai maine zindagi se,",
+      "Kyunki parchhai bhi andhera hote hi haath chhod deti hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6682,8 +6682,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "यहाँ न कोई झूठा दिखावा है न किसी के रूठने का डर।"
     ],
     "linesHinglish": [
-      "Kamare kee chaaradeevaaree hee ab meree sabase sachchee dosta hai,",
-      "Yahaan na koee jhoothaa dikhaavaa hai na kisee ke roothane kaa dar."
+      "Kamre ki chardivari hi ab meri sabse sacchi dost hai,",
+      "Yahan na koi jhootha dikhava hai na kisi ke roothne ka dar."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6725,8 +6725,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आज ख़ुद से ही बात करके जी बहला लिया करते हैं।"
     ],
     "linesHinglish": [
-      "Kabhee mahafilon kee jaan huaa karate the ham bhee kisee daur men,",
-      "Aaj khud se hee baat karake jee bahalaa liyaa karate hain."
+      "Kabhi mahfilon ki jan hua karte the hum bhi kisi daur mein,",
+      "Aaj khud se hi baat karke ji bahla liya karte hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6768,8 +6768,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हवा भी दस्तक दे दरवाज़े पर तो चौंक उठता हूँ।"
     ],
     "linesHinglish": [
-      "Tanhaaee kaa aalam kuchh aisaa hai meree veeraan zindagee men,",
-      "Havaa bhee dastak de daravaaze par to chaunk uthataa hoon."
+      "Tanhai ka aalam kuch aisa hai meri veeran zindagi mein,",
+      "Hawa bhi dastak de darwaze par toh chaunk uthta hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6811,8 +6811,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक शोर है मेरे भीतर जिसे मैं चुपचाप सहता हूँ।"
     ],
     "linesHinglish": [
-      "Sabake saath hokar bhee sabase alag thalag saa rahataa hoon,",
-      "Ek shor hai mere bheetar jise main chupachaap sahataa hoon."
+      "Sabke saath hokar bhi sabse alag thalag sa rehta hoon,",
+      "Ek shor hai mere bhitar jise main chupchap sahta hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6854,8 +6854,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस यही दो चीज़ें अब मेरी शामों की साथी हैं।"
     ],
     "linesHinglish": [
-      "Ek kap chaay aur khirakee se dikhataa soonaa aasamaan,",
-      "Bas yahee do cheezen ab meree shaamon kee saathee hain."
+      "Ek kap chai aur khidki se dikhta soona aasmaan,",
+      "Bas yahi do chizein ab meri shamon ki sathi hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6897,8 +6897,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इस मतलबी मेले में हम अकेले ही बहुत अच्छे हैं।"
     ],
     "linesHinglish": [
-      "Log milate hain matalab se aur matalab nikalate hee gum hain,",
-      "Is matalabee mele men ham akele hee bahut achchhe hain."
+      "Log milte hain matlab se aur matlab nikalte hi gum hain,",
+      "Is Matlabi mele mein hum akele hi bahut achhe hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6940,8 +6940,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर साथ चलने को कोई एक हमसाया तक नहीं।"
     ],
     "linesHinglish": [
-      "Raaste lanbe hain aur paanv men chhaale bhee bahut hain,",
-      "Par saath chalane ko koee ek hamasaayaa tak naheen."
+      "Raaste lambe hain aur paon mein chhale bhi bahut hain,",
+      "Par saath chalne ko koi ek hamsaya tak nahi."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -6983,8 +6983,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तब लफ़्ज़ों को ज़ाया करने से खामोश रहना बेहतर है।"
     ],
     "linesHinglish": [
-      "Jab koee samajhane vaalaa na ho aapake dil kee zubaan,",
-      "Tab lafzon ko zaayaa karane se khaamosh rahanaa behatar hai."
+      "Jab koi samajhne wala na ho aapke dil ki zuban,",
+      "Tab lafzon ko zaya karne se khamosh rehna behtar hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7026,8 +7026,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं रोज़ अपनी खोई हुई हँसी को ख़ुद में तलाशता हूँ।"
     ],
     "linesHinglish": [
-      "Shor bharee duniyaa se door ek konaa talaashataa hoon,",
-      "Main roz apanee khoee huee hansee ko khud men talaashataa hoon."
+      "Shor bhari duniya se door ek kona talashta hoon,",
+      "Main roz apni khoi hui hansi ko khud mein talashta hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7069,8 +7069,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बिखरे हुए ख़्वाबों के टूटे मोती चुनता रहता हूँ।"
     ],
     "linesHinglish": [
-      "Tanhaa baith kar samandar kee laharon ko ginataa rahataa hoon,",
-      "Bikhare hue khvaabon ke toote motee chunataa rahataa hoon."
+      "Tanha baith kar samandar ki lahron ko ginta rehta hoon,",
+      "Bikhre hue khwabon ke toote moti chunta rehta hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7112,8 +7112,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर आधी रात को जिसे पुकार सकूँ ऐसा कोई नहीं।"
     ],
     "linesHinglish": [
-      "Fon kee lanbee lista men saikaron naam darja hain mere,",
-      "Par aadhee raat ko jise pukaar sakoon aisaa koee naheen."
+      "Phone ki lambi List mein saikdon naam darj hain mere,",
+      "Par aadhi raat ko jise pukar sakoon aisa koi nahi."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7155,8 +7155,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जहाँ न कोई उम्मीद टूटती है न कोई दिल दुखाता है।"
     ],
     "linesHinglish": [
-      "Akelaapan koee sazaa naheen balki ek gaharaa sukoon hai,",
-      "Jahaan na koee ummeed tootatee hai na koee dil dukhaataa hai."
+      "Akelapan koi saza nahi balki ek gehra sukoon hai,",
+      "Jahaan na koi ummeed tootti hai na koi dil dukhata hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7198,8 +7198,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ख़्वाबों में भी अब कोई अपना दस्तक नहीं देता।"
     ],
     "linesHinglish": [
-      "Soonepan kee chaadar orh kar so jaataa hoon har roz,",
-      "Khvaabon men bhee ab koee apanaa dastak naheen detaa."
+      "Soonepan ki chadar odh kar so jaata hoon har roz,",
+      "Khwabon mein bhi ab koi apna dastak nahi deta."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7241,8 +7241,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "शायद उसका भी आशियाना मेरी तरह उजड़ गया था।"
     ],
     "linesHinglish": [
-      "Ek parindaa shaakh par baithaa der tak udaas rahaa,",
-      "Shaayad usakaa bhee aashiyaanaa meree tarah ujar gayaa thaa."
+      "Ek parinda shakh par baitha der tak udas raha,",
+      "Shayad uska bhi aashiyana meri tarah ujad gaya tha."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7284,8 +7284,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अंदर का इंसान तो कब का तन्हाई में सो चुका है।"
     ],
     "linesHinglish": [
-      "Hansanaa to bas samaaj kee rasma nibhaane ke lie parataa hai,",
-      "Andar kaa insaan to kab kaa tanhaaee men so chukaa hai."
+      "Hansna toh bas samaj ki rasm nibhane ke liye padta hai,",
+      "Andar ka insaan toh kab ka tanhai mein so chuka hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7327,8 +7327,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तब से लोगों की बेरुख़ी का बुरा लगना बंद हो गया।"
     ],
     "linesHinglish": [
-      "Jab se khud ke saath vaqta bitaanaa shuroo kiyaa hai mainne,",
-      "Tab se logon kee berukhee kaa buraa laganaa band ho gayaa."
+      "Jab se khud ke saath waqt bitana shuru kiya hai maine,",
+      "Tab se logon ki berukhi ka bura lagna band ho gaya."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7370,8 +7370,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी तन्हाई की आवाज़ उतनी ही तेज़ सुनाई देती है।"
     ],
     "linesHinglish": [
-      "Raat jitanee gaharee hotee jaatee hai is shahar men,",
-      "Meree tanhaaee kee aavaaz utanee hee tez sunaaee detee hai."
+      "Raat jitni gehri hoti jaati hai is shahar mein,",
+      "Meri tanhai ki aawaz utni hi tez sunai deti hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7413,8 +7413,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हर कोई सिर्फ़ उगते सूरज को सलाम करने में मशगूल है।"
     ],
     "linesHinglish": [
-      "Koee naheen aataa yahaan udaas cheharon kaa haal jaanane,",
-      "Har koee sirfa ugate sooraj ko salaam karane men mashagool hai."
+      "Koi nahi aata yahan udas chehron ka hal janne,",
+      "Har koi sirf ugte suraj ko salam karne mein mashgool hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7456,8 +7456,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "गिरता हूँ तो ख़ुद ही अपने आँसू पोंछ कर उठ जाता हूँ।"
     ],
     "linesHinglish": [
-      "Aaeene ke saamane khare hokar khud kee peeth thapathapaa letaa hoon,",
-      "Girataa hoon to khud hee apane aansoo ponchh kar uth jaataa hoon."
+      "Aaine ke samne khade hokar khud ki pith thapathpa leta hoon,",
+      "Girta hoon toh khud hi apne aansu ponchh kar uth jaata hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7499,8 +7499,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हर मोड़ पर उँगली पकड़ने वाला कोई नहीं मिलता।"
     ],
     "linesHinglish": [
-      "Kuchh safar zindagee ke akele hee tay karane parate hain,",
-      "Har mor par ungalee pakarane vaalaa koee naheen milataa."
+      "Kuch safar zindagi ke akele hi tay karne padte hain,",
+      "Har mod par ungli pakadne wala koi nahi milta."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7542,8 +7542,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ये सूनी दीवारें मुझे हर पल काटने को दौड़ती हैं।"
     ],
     "linesHinglish": [
-      "Band kamare men gharee kee tik-tik bhee shor machaatee hai,",
-      "Ye soonee deevaaren mujhe har pal kaatane ko dauratee hain."
+      "Band kamre mein ghadi ki tik-tik bhi shor machati hai,",
+      "Yeh sooni deewarein mujhe har pal katne ko daudti hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7585,8 +7585,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आज देख लो तन्हाइयों से कैसी पक्की यारी हो गई।"
     ],
     "linesHinglish": [
-      "Kabhee lagataa thaa ki tere binaa ek pal na jee sakenge,",
-      "Aaj dekh lo tanhaaiyon se kaisee pakkee yaaree ho gaee."
+      "Kabhi lagta tha ki tere bina ek pal na ji sakenge,",
+      "Aaj dekh lo tanhaiyon se kaisi pakki yari ho gayi."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7628,8 +7628,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपने ही दायरे में अब सिमट कर रह गए हैं हम।"
     ],
     "linesHinglish": [
-      "Na kisee ke aane kee khushee rahee na jaane kaa koee gham,",
-      "Apane hee daayare men ab simat kar rah gae hain ham."
+      "Na kisi ke aane ki khushi rahi na jaane ka koi gham,",
+      "Apne hi dayre mein ab simat kar rah gaye hain hum."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7671,8 +7671,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "समझो उसने अकेलेपन को अपना मुक़द्दर मान लिया है।"
     ],
     "linesHinglish": [
-      "Baarish men bheegate hue jab koee aansoo chhupaa letaa hai,",
-      "Samajho usane akelepan ko apanaa muqaddar maan liyaa hai."
+      "Baarish mein bhigte hue jab koi aansu chhupa leta hai,",
+      "Samjho usne akelepan ko apna muqaddar maan liya hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7714,8 +7714,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे सफ़र में बस उदासी ही चलती है मेरे साथ।"
     ],
     "linesHinglish": [
-      "Door tak phailee huee pagadandee aur dhalatee huee shaam,",
-      "Mere safar men bas udaasee hee chalatee hai mere saath."
+      "Door tak phaili hui pagdandi aur dhalti hui shaam,",
+      "Mere safar mein bas udasi hi chalti hai mere saath."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7757,8 +7757,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उन्हें क्या पता मैं ख़ुद से ही बिछड़ा हुआ बैठा हूँ।"
     ],
     "linesHinglish": [
-      "Logon ko shikaayat hai ki main ab kisee se milataa naheen,",
-      "Unhen kyaa pataa main khud se hee bichharaa huaa baithaa hoon."
+      "Logon ko shikayat hai ki main ab kisi se milta nahi,",
+      "Unhein kya pata main khud se hi bichhda hua baitha hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7800,8 +7800,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "गुज़रते अजनबियों में जाने किस अपने को ढूँढता हूँ।"
     ],
     "linesHinglish": [
-      "Khaalee bench par paarka men ghanton baithaa rahataa hoon main,",
-      "Guzarate ajanabiyon men jaane kis apane ko dhoondhataa hoon."
+      "Khali Bench par Park mein ghanton baitha rehta hoon main,",
+      "Guzarte ajanbiyon mein jaane kis apne ko dhoondhta hoon."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7843,8 +7843,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो भी लिखने आया उसने बस काटा और फाड़ दिया।"
     ],
     "linesHinglish": [
-      "Dil kee kitaab ke panne ab kore hee achchhe lagate hain,",
-      "Jo bhee likhane aayaa usane bas kaataa aur phaar diyaa."
+      "Dil ki kitaab ke panne ab kore hi achhe lagte hain,",
+      "Jo bhi likhne aaya usne bas kata aur phad diya."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7886,8 +7886,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वरना हम तो औरों की ख़ुशी में ख़ुद को भूल बैठे थे।"
     ],
     "linesHinglish": [
-      "Tanhaaee ne sikhaa diyaa mujhe khud se mohabbat karanaa,",
-      "Varanaa ham to auron kee khushee men khud ko bhool baithe the."
+      "Tanhai ne sikha diya mujhe khud se mohabbat karna,",
+      "Warna hum toh auron ki khushi mein khud ko bhool baithe the."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7929,8 +7929,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कुछ ऐसी ही धुंधली सी हो गई है मेरी ज़िंदगानी।"
     ],
     "linesHinglish": [
-      "Sarda raaton kaa koharaa aur door jalatee ek maddham roshanee,",
-      "Kuchh aisee hee dhundhalee see ho gaee hai meree zindagaanee."
+      "Sard raaton ka kohra aur door jalti ek maddham roshni,",
+      "Kuch aisi hi dhundhli si ho gayi hai meri zindgani."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -7972,8 +7972,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तब जाकर मेरी मुलाक़ात मेरे अपने वजूद से हुई।"
     ],
     "linesHinglish": [
-      "Jab saare daravaaze band ho gae duniyaa kee ummeedon ke,",
-      "Tab jaakar meree mulaaqaat mere apane vajood se huee."
+      "Jab saare darwaze band ho gaye duniya ki ummeedon ke,",
+      "Tab jakar meri mulaqat mere apne vajood se hui."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8015,8 +8015,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे क़दमों के निशान भी हवाएँ मिटा देती हैं।"
     ],
     "linesHinglish": [
-      "Musaafir hoon main us raah kaa jahaan koee kaaravaan naheen,",
-      "Mere qadamon ke nishaan bhee havaaen mitaa detee hain."
+      "Musafir hoon main us rah ka jahaan koi karvan nahi,",
+      "Mere kadmon ke nishaan bhi hawayein mita deti hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8058,8 +8058,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस इस भीड़ से दूर मेरी अपनी तन्हा दुनिया ख़ैर है।"
     ],
     "linesHinglish": [
-      "Naa koee shikavaa kisee se naa kisee se koee bair hai,",
-      "Bas is bheer se door meree apanee tanhaa duniyaa khair hai."
+      "Na koi shikva kisi se na kisi se koi bair hai,",
+      "Bas is bheed se door meri apni tanha duniya khair hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8101,8 +8101,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सफ़ाई देने का मन अब किसी के आगे नहीं करता।"
     ],
     "linesHinglish": [
-      "Chupachaap sun letaa hoon ab sabakee karavee-meethee baaten,",
-      "Safaaee dene kaa man ab kisee ke aage naheen karataa."
+      "Chupchap sun leta hoon ab sabki kadwi-mithi baatein,",
+      "Safai dene ka man ab kisi ke aage nahi karta."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8144,8 +8144,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हज़ारों लोगों की बस्ती में कितना सूना सवेरा है।"
     ],
     "linesHinglish": [
-      "Har taraf raushanee ke mele hain phir bhee dil men andheraa hai,",
-      "Hazaaron logon kee bastee men kitanaa soonaa saveraa hai."
+      "Har taraf roshni ke mele hain phir bhi dil mein andhera hai,",
+      "Hazaaron logon ki basti mein kitna soona savera hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8187,8 +8187,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "यहाँ हमदर्दी भी लोग ब्याज समेत वसूल करते हैं।"
     ],
     "linesHinglish": [
-      "Apane hee kandhe par sir rakh kar ronaa seekh lo dosta,",
-      "Yahaan hamadardee bhee log byaaj samet vasool karate hain."
+      "Apne hi kandhe par sir rakh kar rona sikh lo dost,",
+      "Yahan hamdardi bhi log byaj samet vasool karte hain."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8230,8 +8230,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "न कोई छाँव माँगने आता है न कोई पंछी बैठता है।"
     ],
     "linesHinglish": [
-      "Sookhe darakhta saa kharaa hoon main vaqta ke registaan men,",
-      "Na koee chhaanv maangane aataa hai na koee panchhee baithataa hai."
+      "Sookhe darakht sa khada hoon main waqt ke registan mein,",
+      "Na koi chhanv mangne aata hai na koi panchhi baithta hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8273,8 +8273,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कोई पत्थर भी फेंके तो अब हलचल नहीं होती।"
     ],
     "linesHinglish": [
-      "Khaamosh jheel ke paanee saa thahar gayaa hai man meraa,",
-      "Koee patthar bhee phenke to ab halachal naheen hotee."
+      "Khamosh jhil ke paani sa theher gaya hai man mera,",
+      "Koi patthar bhi phenke toh ab halchal nahi hoti."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8316,8 +8316,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ताकि दुनिया मेरे अंदर के खालीपन को न पढ़ सके।"
     ],
     "linesHinglish": [
-      "Kitaabon ke pannon men chhupaa letaa hoon apanaa soonaa cheharaa,",
-      "Taaki duniyaa mere andar ke khaaleepan ko na parh sake."
+      "Kitabon ke pannon mein chhupa leta hoon apna soona chehra,",
+      "Taki duniya mere andar ke khalipan ko na padh sake."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8359,8 +8359,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तब से मैंने किसी से साथ की उम्मीद करना छोड़ दिया।"
     ],
     "linesHinglish": [
-      "Jab apane hee saaye ne shaam dhalate hee rukh mor liyaa,",
-      "Tab se mainne kisee se saath kee ummeed karanaa chhor diyaa."
+      "Jab apne hi saye ne shaam dhalte hi rukh mod liya,",
+      "Tab se maine kisi se saath ki ummeed karna chhod diya."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8402,8 +8402,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो दिल एक बार वीरान हुआ वो फिर कब बसेगा शायद।"
     ],
     "linesHinglish": [
-      "Tanhaaiyon kaa ye silasilaa ab umar bhar chalegaa shaayad,",
-      "Jo dil ek baar veeraan huaa vo phir kab basegaa shaayad."
+      "Tanhaiyon ka yeh silsila ab umar bhar chalega shayad,",
+      "Jo dil ek bar veeran hua woh phir kab basega shayad."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8445,8 +8445,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इयरफ़ोन के सहारे दबा देता हूँ दिल के जज़्बात को।"
     ],
     "linesHinglish": [
-      "Sangeet ke suron men dhoondhataa hoon sukoon aadhee raat ko,",
-      "Iyarafon ke sahaare dabaa detaa hoon dil ke jazbaat ko."
+      "Sangeet ke suron mein dhoondhta hoon sukoon aadhi raat ko,",
+      "Iyarfon ke sahare daba deta hoon dil ke jazbaat ko."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8488,8 +8488,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सो सारे लफ़्ज़ समेट कर सीने की तिजोरी में रख लिए।"
     ],
     "linesHinglish": [
-      "Bahut kuchh kahanaa thaa magar sunane vaalaa koee na milaa,",
-      "So saare lafza samet kar seene kee tijoree men rakh lie."
+      "Bahut kuch kehna tha magar sunne wala koi na mila,",
+      "So saare lafz samet kar seene ki tijori mein rakh liye."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8531,8 +8531,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फिर बीच के इस मेले में किस बात पर रोना है।"
     ],
     "linesHinglish": [
-      "Akele aae the jahaan men akele hee rukhasat honaa hai,",
-      "Phir beech ke is mele men kis baat par ronaa hai."
+      "Akele aaye the jahaan mein akele hi rukhsat hona hai,",
+      "Phir beech ke is mele mein kis baat par rona hai."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8574,8 +8574,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उन्हें क्या ख़बर कि अंदर से कितना टूटा और तन्हा हूँ मैं।"
     ],
     "linesHinglish": [
-      "Meree khaamoshee ko meraa guroor samajhate hain zamaane vaale,",
-      "Unhen kyaa khabar ki andar se kitanaa tootaa aur tanhaa hoon main."
+      "Meri khamoshi ko mera guroor samajhte hain zamane wale,",
+      "Unhein kya khabar ki andar se kitna toota aur tanha hoon main."
     ],
     "linesEnglish": [
       "Quiet nights of solitude, reflection, and peaceful silence",
@@ -8617,8 +8617,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पंखों से कुछ नहीं होता हौसलों से उड़ान होती है।"
     ],
     "linesHinglish": [
-      "Manzil unheen ko milatee hai jinake sapanon men jaan hotee hai,",
-      "Pankhon se kuchh naheen hotaa hausalon se uraan hotee hai."
+      "Manzil unhi ko milti hai jinke sapnon mein jan hoti hai,",
+      "Pankhon se kuch nahi hota hauslon se udaan hoti hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8660,8 +8660,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वही एक दिन अंधेरों में सूरज सा चमकना जानता है।"
     ],
     "linesHinglish": [
-      "Thokaren khaakar bhee jo musaafir sanbhalanaa jaanataa hai,",
-      "Vahee ek din andheron men sooraj saa chamakanaa jaanataa hai."
+      "Thokrein khakar bhi jo musafir sambhalna janta hai,",
+      "Wahi ek din andheron mein suraj sa chamakna janta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8703,8 +8703,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उनके मुक़द्दर के पन्ने कभी कोरे नहीं हुआ करते।"
     ],
     "linesHinglish": [
-      "Paseene kee syaahee se jo likhate hain apane iraadon ko,",
-      "Unake muqaddar ke panne kabhee kore naheen huaa karate."
+      "Pasine ki syahi se jo likhte hain apne iradon ko,",
+      "Unke muqaddar ke panne kabhi kore nahi hua karte."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8746,8 +8746,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अभी तो पूरा आसमान जीत कर दिखाना बाक़ी है।"
     ],
     "linesHinglish": [
-      "Abhee to naapee hai mutthee bhar zameen hamane ai dosta,",
-      "Abhee to pooraa aasamaan jeet kar dikhaanaa baaqee hai."
+      "Abhi toh napi hai mutthi bhar zameen humne ai dost,",
+      "Abhi toh poora aasmaan jeet kar dikhana baqi hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8789,8 +8789,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैदान छोड़ कर भागना बहादुरों की निशानी नहीं।"
     ],
     "linesHinglish": [
-      "Haar to vo sabak hai jo aapako behatar hone kaa mauqaa de,",
-      "Maidaan chhor kar bhaaganaa bahaaduron kee nishaanee naheen."
+      "Haar toh woh sabak hai jo aapko behtar hone ka mauqa de,",
+      "Maidan chhod kar bhagna bahaduron ki nishani nahi."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8832,8 +8832,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सुबह के सूरज को उगने से कोई रोक नहीं सकता।"
     ],
     "linesHinglish": [
-      "Raat chaahe jitanee bhee kaalee aur lanbee kyon na ho,",
-      "Subah ke sooraj ko ugane se koee rok naheen sakataa."
+      "Raat chahe jitni bhi kali aur lambi kyun na ho,",
+      "Subah ke suraj ko ugne se koi rok nahi sakta."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8875,8 +8875,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "संघर्ष की भट्टी में तप कर ही इंसान कुंदन कहलाता है।"
     ],
     "linesHinglish": [
-      "Patthar bhee taraashane se bhagavaan kee moorat ban jaataa hai,",
-      "Sangharsha kee bhattee men tap kar hee insaan kundan kahalaataa hai."
+      "Patthar bhi tarashne se Bhagwan ki moorat ban jaata hai,",
+      "Sangharsh ki bhatti mein tap kar hi insaan kundan kahlata hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8918,8 +8918,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जितना मेहनत करने वाले अक्सर छोड़ दिया करते हैं।"
     ],
     "linesHinglish": [
-      "Kismat ke bharose baithane vaalon ko sirfa utanaa milataa hai,",
-      "Jitanaa mehanat karane vaale aksar chhor diyaa karate hain."
+      "Kismat ke bharose baithne walon ko sirf utna milta hai,",
+      "Jitna mehnat karne wale aksar chhod diya karte hain."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -8961,8 +8961,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मल्लाहों का चक्कर छोड़ो तैर कर दरिया पार करो।"
     ],
     "linesHinglish": [
-      "Toofaanon se aankh milaao sailaabon par vaar karo,",
-      "Mallaahon kaa chakkar chhoro tair kar dariyaa paar karo."
+      "Toofanon se aankh milao sailabon par var karo,",
+      "Mallahon ka chakkar chhodo tair kar dariya par karo."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9004,8 +9004,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपने सीने में कामयाबी की सुलगती हुई आग रख।"
     ],
     "linesHinglish": [
-      "Jab tak torenge naheen tab tak chhorenge naheen ye zid rakh,",
-      "Apane seene men kaamayaabee kee sulagatee huee aag rakh."
+      "Jab tak todenge nahi tab tak chhodenge nahi yeh zid rakh,",
+      "Apne seene mein kamyabi ki sulagti hui aag rakh."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9047,8 +9047,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वही लोग ताली बजाएंगे जब तू इतिहास रचेगा।"
     ],
     "linesHinglish": [
-      "Log hansenge tujh par jab too naee shuruaat karegaa,",
-      "Vahee log taalee bajaaenge jab too itihaas rachegaa."
+      "Log hansenge tujh par jab tu nayi shuruaat karega,",
+      "Wahi log tali bajaenge jab tu itihas rachega."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9090,8 +9090,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बीज को विशाल वृक्ष बनने में थोड़ा वक़्त लगता है।"
     ],
     "linesHinglish": [
-      "Zindagee men baree jeet haasil karanee hai to sabra rakh,",
-      "Beej ko vishaal vriksha banane men thoraa vaqta lagataa hai."
+      "Zindagi mein badi jeet hasil karni hai toh sabr rakh,",
+      "Bij ko vishal vriksh banne mein thoda waqt lagta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9133,8 +9133,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "नदी पहाड़ों को चीर कर भी समंदर तक पहुँच जाती है।"
     ],
     "linesHinglish": [
-      "Raaste kabhee band naheen hote bas nazariye kee baat hai,",
-      "Nadee pahaaron ko cheer kar bhee samandar tak pahunch jaatee hai."
+      "Raaste kabhi band nahi hote bas nazriye ki baat hai,",
+      "Nadi pahadon ko chir kar bhi samandar tak pahunch jaati hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9176,8 +9176,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "शायद अगला ही क़दम तेरी कामयाबी की दहलीज़ हो।"
     ],
     "linesHinglish": [
-      "Thak kar na baith ai manzil ke musaafir abhee se,",
-      "Shaayad agalaa hee qadam teree kaamayaabee kee dahaleez ho."
+      "Thak kar na baith ai manzil ke musafir abhi se,",
+      "Shayad agla hi kadam teri kamyabi ki dehleez ho."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9219,8 +9219,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो पसीने से नहाता है वही इतिहास बदलता है।"
     ],
     "linesHinglish": [
-      "Jo paanee se nahaataa hai vo sirfa libaas badalataa hai,",
-      "Jo paseene se nahaataa hai vahee itihaas badalataa hai."
+      "Jo paani se nahata hai woh sirf libas badalta hai,",
+      "Jo pasine se nahata hai wahi itihas badalta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9262,8 +9262,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और टूटे मन से कोई खड़ा नहीं होता मैदान में।"
     ],
     "linesHinglish": [
-      "Chhote man se koee baraa naheen hotaa kabhee jahaan men,",
-      "Aur toote man se koee kharaa naheen hotaa maidaan men."
+      "Chhote man se koi bada nahi hota kabhi jahaan mein,",
+      "Aur toote man se koi khada nahi hota maidan mein."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9305,8 +9305,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी मेहनत के शोर से सोई हुई तक़दीर जगा दे।"
     ],
     "linesHinglish": [
-      "Kal kee chintaa chhor kar aaj men jee-jaan lagaa de,",
-      "Apanee mehanat ke shor se soee huee taqadeer jagaa de."
+      "Kal ki chinta chhod kar aaj mein ji-jan laga de,",
+      "Apni mehnat ke shor se soi hui taqdeer jaga de."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9348,8 +9348,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "क्योंकि काँटे क़दमों की रफ़्तार बढ़ा दिया करते हैं।"
     ],
     "linesHinglish": [
-      "Kaanton par chalane vaale hee manzil par jaldee pahunchate hain,",
-      "Kyonki kaante qadamon kee raftaar barhaa diyaa karate hain."
+      "Kaanton par chalne wale hi manzil par jaldi pahunchte hain,",
+      "Kyunki kaante kadmon ki raftar badha diya karte hain."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9391,8 +9391,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कमज़ोर लोग रुक जाते हैं और जाँबाज़ बाज़ी जीत लेते हैं।"
     ],
     "linesHinglish": [
-      "Mushkilen to sirfa tere iraadon kaa imtihaan letee hain,",
-      "Kamazor log ruk jaate hain aur jaanbaaz baazee jeet lete hain."
+      "Mushkilein toh sirf tere iradon ka imtihan leti hain,",
+      "Kamzor log ruk jaate hain aur janbaz bazi jeet lete hain."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9434,8 +9434,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरे अंदर जो ताक़त है उसे यूँ बेकार जाने मत दे।"
     ],
     "linesHinglish": [
-      "Khud par yaqeen rakh duniyaa kee baaton par dhyaan mat de,",
-      "Tere andar jo taaqat hai use yoon bekaar jaane mat de."
+      "Khud par yakeen rakh duniya ki baaton par dhyan mat de,",
+      "Tere andar jo taqat hai use yun bekar jaane mat de."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9477,8 +9477,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर उससे पहले उसे आसमान छूकर दिखाना है।"
     ],
     "linesHinglish": [
-      "Patang ko bhee pataa hai ki ant men kachare men jaanaa hai,",
-      "Par usase pahale use aasamaan chhookar dikhaanaa hai."
+      "Patang ko bhi pata hai ki ant mein kachre mein jaana hai,",
+      "Par usse pehle use aasmaan chhookar dikhana hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9520,8 +9520,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ज़िंदगी की जंग से पीछे हट जाऊँ वो बेचारा नहीं हूँ।"
     ],
     "linesHinglish": [
-      "Giraa hoon main aaj magar abhee haaraa naheen hoon,",
-      "Zindagee kee jang se peechhe hat jaaoon vo bechaaraa naheen hoon."
+      "Gira hoon main aaj magar abhi hara nahi hoon,",
+      "Zindagi ki jang se peechhe hat jaoon woh bechara nahi hoon."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9563,8 +9563,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सपने वो हैं जो हमें रात भर सोने नहीं देते।"
     ],
     "linesHinglish": [
-      "Sapane vo naheen jo ham neend men sote hue dekhate hain,",
-      "Sapane vo hain jo hamen raat bhar sone naheen dete."
+      "Sapne woh nahi jo hum neend mein sote hue dekhte hain,",
+      "Sapne woh hain jo humein raat bhar sone nahi dete."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9606,8 +9606,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "शेर की तरह अपनी मंज़िल की चोटी पर ख़ुद चढ़ना।"
     ],
     "linesHinglish": [
-      "Bheer kaa hissaa banane se behatar hai akele aage barhanaa,",
-      "Sher kee tarah apanee manzil kee chotee par khud charhanaa."
+      "Bheed ka hissa banne se behtar hai akele aage badhna,",
+      "Sher ki tarah apni manzil ki choti par khud chadhna."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9649,8 +9649,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तो पहले सूरज की तरह जलना सीखो हर इम्तिहान में।"
     ],
     "linesHinglish": [
-      "Agar sooraj kee tarah chamakanaa chaahate ho is jahaan men,",
-      "To pahale sooraj kee tarah jalanaa seekho har imtihaan men."
+      "Agar suraj ki tarah chamakna chahte ho is jahaan mein,",
+      "Toh pehle suraj ki tarah jalna sikho har imtihan mein."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9692,8 +9692,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हारा वही है जो दिल से कभी लड़ा नहीं होता।"
     ],
     "linesHinglish": [
-      "Koee bhee lakshya manushya ke saahas se baraa naheen hotaa,",
-      "Haaraa vahee hai jo dil se kabhee laraa naheen hotaa."
+      "Koi bhi lakshya manushya ke sahas se bada nahi hota,",
+      "Hara wahi hai jo dil se kabhi lada nahi hota."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9735,8 +9735,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेहनत का फल सही समय आने पर सबको देता है।"
     ],
     "linesHinglish": [
-      "Vaqta goongaa naheen hai bas thoraa maun rahataa hai,",
-      "Mehanat kaa phal sahee samay aane par sabako detaa hai."
+      "Waqt goonga nahi hai bas thoda maun rehta hai,",
+      "Mehnat ka phal sahi samay aane par sabko deta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9778,8 +9778,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हमारी मंज़िल आसमान है रास्ता हमें ख़ुद बनाना है।"
     ],
     "linesHinglish": [
-      "Seerhiyaan unhen mubaarak hon jinhen sirfa chhat tak jaanaa hai,",
-      "Hamaaree manzil aasamaan hai raastaa hamen khud banaanaa hai."
+      "Sidhiyan unhein mubarak hon jinhein sirf chhat tak jaana hai,",
+      "Hamari manzil aasmaan hai raasta humein khud banana hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9821,8 +9821,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बल्कि मंज़िल पाने के अपने तरीक़े और प्रयास बदलो।"
     ],
     "linesHinglish": [
-      "Naakaamiyon se dar kar kabhee apane khvaab mat badalo,",
-      "Balki manzil paane ke apane tareeqe aur prayaas badalo."
+      "Nakamiyon se dar kar kabhi apne khwab mat badlo,",
+      "Balki manzil pane ke apne tariqe aur prayas badlo."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9864,8 +9864,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "संघर्ष के बिना किसी की भी कहानी पूरी नहीं।"
     ],
     "linesHinglish": [
-      "Zakhmon ko apanee taaqat banaa lo kamazoree naheen,",
-      "Sangharsha ke binaa kisee kee bhee kahaanee pooree naheen."
+      "Zakhmon ko apni taqat bana lo kamzori nahi,",
+      "Sangharsh ke bina kisi ki bhi kahani poori nahi."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9907,8 +9907,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ऐसा काम करो कि आने वाली सदियाँ तुम्हें याद रखें।"
     ],
     "linesHinglish": [
-      "Soch ko apanee le jaao shikhar tak ki sitaare bhee jhuk jaaen,",
-      "Aisaa kaam karo ki aane vaalee sadiyaan tumhen yaad rakhen."
+      "Soch ko apni le jao shikhar tak ki sitaare bhi jhuk jaein,",
+      "Aisa kaam karo ki aane wali sadiyan tumhein yaad rakhein."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9950,8 +9950,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "शर्त बस इतनी है कि तूफ़ान में पतवार मत छोड़ना।"
     ],
     "linesHinglish": [
-      "Kashtiyaan sabakee kinaare par pahunch hee jaatee hain ek din,",
-      "Sharta bas itanee hai ki toofaan men patavaar mat chhoranaa."
+      "Kashtiyan sabki kinare par pahunch hi jaati hain ek din,",
+      "Shart bas itni hai ki toofan mein patvar mat chhodna."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -9993,8 +9993,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दुनिया तेरे नाम के आगे एक दिन सिर झुकाएगी।"
     ],
     "linesHinglish": [
-      "Teree aaj kee khaamosh mehanat kal shor machaaegee,",
-      "Duniyaa tere naam ke aage ek din sir jhukaaegee."
+      "Teri aaj ki khamosh mehnat kal shor machaegi,",
+      "Duniya tere naam ke aage ek din sir jhukaegi."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10036,8 +10036,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और जीतने वाले कभी हार का बहाना नहीं रखते।"
     ],
     "linesHinglish": [
-      "Bahaane banaane vaale kabhee kaamayaabee kaa svaad naheen chakhate,",
-      "Aur jeetane vaale kabhee haar kaa bahaanaa naheen rakhate."
+      "Bahane banane wale kabhi kamyabi ka swaad nahi chakhte,",
+      "Aur jitne wale kabhi haar ka bahana nahi rakhte."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10079,8 +10079,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सब्र रखने वाले की झोली में ख़ुशियों का फूल खिलता है।"
     ],
     "linesHinglish": [
-      "Har patajhar ke baad basant kaa mausam zaroor aataa hai,",
-      "Sabra rakhane vaale kee jholee men khushiyon kaa phool khilataa hai."
+      "Har patjhad ke bad basant ka mausam zaroor aata hai,",
+      "Sabr rakhne wale ki jholi mein khushiyon ka phool khilta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10122,8 +10122,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुसीबतों से लड़कर ही ज़िंदगी खूबसूरती से निखरती है।"
     ],
     "linesHinglish": [
-      "Havaaon ke vipareet jaakar hee cheel oonchee uraan bharatee hai,",
-      "Museebaton se larakar hee zindagee khoobasooratee se nikharatee hai."
+      "Hawaon ke viprit jakar hi chil oonchi udaan bharti hai,",
+      "Musibton se ladkar hi zindagi khoobsoorti se nikharti hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10165,8 +10165,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रोने से नहीं लड़ने से तक़दीरें बदलनी पड़ेंगी।"
     ],
     "linesHinglish": [
-      "Lakeeren apane haathon kee hamen khud banaanee parengee,",
-      "Rone se naheen larane se taqadeeren badalanee parengee."
+      "Lakirein apne haathon ki humein khud banani padengi,",
+      "Rone se nahi ladne se taqdirein badalni padengi."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10208,8 +10208,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बार-बार गिरकर भी वो हमें हिम्मत सिखा जाती है।"
     ],
     "linesHinglish": [
-      "Ek chhotee see cheentee bhee pahaar par charh jaatee hai,",
-      "Baar-baar girakar bhee vo hamen himmat sikhaa jaatee hai."
+      "Ek chhoti si chinti bhi pahad par chadh jaati hai,",
+      "Bar-bar girkar bhi woh humein himmat sikha jaati hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10251,8 +10251,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उठो और फिर से जुट जाओ नया सवेरा तुम्हारा है।"
     ],
     "linesHinglish": [
-      "Asaphalataa ye siddha karatee hai ki prayaas poore man se naheen huaa,",
-      "Utho aur phir se jut jaao nayaa saveraa tumhaaraa hai."
+      "Asphalta yeh siddh karti hai ki prayas poore man se nahi hua,",
+      "Utho aur phir se jut jao naya savera tumhara hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10294,8 +10294,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इतनी बड़ी कामयाबी हासिल करो कि उनकी बोलती बंद हो।"
     ],
     "linesHinglish": [
-      "Taane maarane vaalon ko apanee jubaan se javaab mat do,",
-      "Itanee baree kaamayaabee haasil karo ki unakee bolatee band ho."
+      "Tane marne walon ko apni juban se jawaab mat do,",
+      "Itni badi kamyabi hasil karo ki unki bolti band ho."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10337,8 +10337,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और सफलता की क़ीमत सिर्फ़ रातों को जागने वाला जानता है।"
     ],
     "linesHinglish": [
-      "Mittee kaa matakaa aur parivaar kee qeemat sirfa banaane vaalaa jaanataa hai,",
-      "Aur saphalataa kee qeemat sirfa raaton ko jaagane vaalaa jaanataa hai."
+      "Mitti ka matka aur parivaar ki keemat sirf banane wala janta hai,",
+      "Aur safalta ki keemat sirf raaton ko jagne wala janta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10380,8 +10380,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रुकने वाले खरगोश कभी दौड़ जीता नहीं करते।"
     ],
     "linesHinglish": [
-      "Chalate raho apanee raftaar se chaahe kachhue kee chaal hee sahee,",
-      "Rukane vaale kharagosh kabhee daur jeetaa naheen karate."
+      "Chalte raho apni raftar se chahe kachhue ki chal hi sahi,",
+      "Rukne wale khargosh kabhi daud jita nahi karte."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10423,8 +10423,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी परेशानी को बताओ कि तुम्हारा हौसला कितना बड़ा है।"
     ],
     "linesHinglish": [
-      "Apane hausale ko ye mat bataao ki tumhaaree pareshaanee kitanee baree hai,",
-      "Apanee pareshaanee ko bataao ki tumhaaraa hausalaa kitanaa baraa hai."
+      "Apne hausle ko yeh mat batao ki tumhari pareshani kitni badi hai,",
+      "Apni pareshani ko batao ki tumhara hausla kitna bada hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10466,8 +10466,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तब जाकर वो सम्राटों के मुकुट की शोभा बनता है।"
     ],
     "linesHinglish": [
-      "Heeraa bhee koyale kee khaan men sadiyon kaa dabaav sahataa hai,",
-      "Tab jaakar vo samraaton ke mukut kee shobhaa banataa hai."
+      "Hira bhi koyle ki khan mein sadiyon ka dabav sahta hai,",
+      "Tab jakar woh samraton ke mukut ki shobha banta hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10509,8 +10509,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हर बंद दरवाज़े के पास एक नई खिड़की ज़रूर खुलती है।"
     ],
     "linesHinglish": [
-      "Niraashaa ke baadalon ko cheer kar ummeed kee kiran dhoondho,",
-      "Har band daravaaze ke paas ek naee khirakee zaroor khulatee hai."
+      "Nirasha ke badlon ko chir kar ummeed ki kiran dhoondho,",
+      "Har band darwaze ke paas ek nayi khidki zaroor khulti hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10552,8 +10552,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कल पूरी दुनिया के सामने तुम्हारा सिर गर्व से उठेगा।"
     ],
     "linesHinglish": [
-      "Aaj kitaabon ke saamane sir jhukaa kar parh lo mere dosta,",
-      "Kal pooree duniyaa ke saamane tumhaaraa sir garva se uthegaa."
+      "Aaj kitabon ke samne sir jhuka kar padh lo mere dost,",
+      "Kal poori duniya ke samne tumhara sir garv se uthega."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10595,8 +10595,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मगर सफलता मिलते ही सारी दुनिया साथ खड़ी होती है।"
     ],
     "linesHinglish": [
-      "Sangharsha men aadamee akelaa hotaa hai ye karavaa sach hai,",
-      "Magar saphalataa milate hee saaree duniyaa saath kharee hotee hai."
+      "Sangharsh mein aadmi akela hota hai yeh kadwa sach hai,",
+      "Magar safalta milte hi sari duniya saath khadi hoti hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10638,8 +10638,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक नन्हीं सी लौ भी घने अंधियारे को हरा देती है।"
     ],
     "linesHinglish": [
-      "Dil men ummeed kaa deeyaa kabhee bujhane mat denaa,",
-      "Ek nanheen see lau bhee ghane andhiyaare ko haraa detee hai."
+      "Dil mein ummeed ka diya kabhi bujhne mat dena,",
+      "Ek nanhin si lau bhi ghane andhiyare ko hara deti hai."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10681,8 +10681,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और इतना विनम्र रखो कि कामयाबी सिर चढ़कर बोल न सके।"
     ],
     "linesHinglish": [
-      "Khud ko itanaa mazaboot banaao ki koee dukh tumhen tor na sake,",
-      "Aur itanaa vinamra rakho ki kaamayaabee sir charhakar bol na sake."
+      "Khud ko itna mazboot banao ki koi dukh tumhein tod na sake,",
+      "Aur itna vinamr rakho ki kamyabi sir chadhkar bol na sake."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10724,8 +10724,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दर्शक बनकर सिर्फ़ तालियाँ बजाने के लिए जन्म नहीं लिया।"
     ],
     "linesHinglish": [
-      "Zindagee ek khel hai ise khilaaree banakar jeeto,",
-      "Darshak banakar sirfa taaliyaan bajaane ke lie janma naheen liyaa."
+      "Zindagi ek khel hai ise khiladi bankar jito,",
+      "Darshak bankar sirf taliyan bajane ke liye janm nahi liya."
     ],
     "linesEnglish": [
       "Unstoppable courage, relentless hustle, and rising above storms",
@@ -10767,8 +10767,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रूठ मत जाना मुझसे मैं तुझसे बेइंतहा प्यार करता हूँ।"
     ],
     "linesHinglish": [
-      "Galatee huee hai mujhase ye dil se sveekaar karataa hoon,",
-      "Rooth mat jaanaa mujhase main tujhase beintahaa pyaar karataa hoon."
+      "Galti hui hai mujhse yeh dil se sweekar karta hoon,",
+      "Rooth mat jaana mujhse main tujhse beintha pyar karta hoon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -10810,8 +10810,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक छोटी सी भूल की इतनी बड़ी सज़ा मत दो।"
     ],
     "linesHinglish": [
-      "Kaan pakar kar maafee maangataa hoon ab gussaa thook bhee do,",
-      "Ek chhotee see bhool kee itanee baree sazaa mat do."
+      "Kan pakad kar maafi mangta hoon ab gussa thook bhi do,",
+      "Ek chhoti si bhool ki itni badi saza mat do."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -10853,8 +10853,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "चाहे सौ बार डाँट ले पर यूँ बात करना बंद मत कर।"
     ],
     "linesHinglish": [
-      "Teree khaamoshee mujhe andar hee andar maar rahee hai,",
-      "Chaahe sau baar daant le par yoon baat karanaa band mat kar."
+      "Teri khamoshi mujhe andar hi andar mar rahi hai,",
+      "Chahe sau bar dant le par yun baat karna band mat kar."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -10896,8 +10896,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपने समझ कर माफ़ कर दे ग़ैरों सा सुलूक मत कर।"
     ],
     "linesHinglish": [
-      "Insaan hoon koee farishtaa naheen jo khataa na ho mujhase,",
-      "Apane samajh kar maaf kar de ghairon saa sulook mat kar."
+      "Insaan hoon koi farishta nahi jo khata na ho mujhse,",
+      "Apne samajh kar maaf kar de ghairon sa sulook mat kar."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -10939,8 +10939,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर खुदा गवाह है मेरे दिल में तेरे लिए सिर्फ़ प्यार है।"
     ],
     "linesHinglish": [
-      "Maan liyaa ki meree zubaan se kuchh karave lafza nikal gae,",
-      "Par khudaa gavaah hai mere dil men tere lie sirfa pyaar hai."
+      "Maan liya ki meri zuban se kuch kadwe lafz nikal gaye,",
+      "Par Khuda gavah hai mere dil mein tere liye sirf pyar hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -10982,8 +10982,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक बार मुस्कुरा दे कि मेरी अटकी हुई साँस लौट आए।"
     ],
     "linesHinglish": [
-      "Tere rooth jaane se meree pooree duniyaa berang ho gaee hai,",
-      "Ek baar muskuraa de ki meree atakee huee saans laut aae."
+      "Tere rooth jaane se meri poori duniya berang ho gayi hai,",
+      "Ek bar muskura de ki meri atki hui saans laut aaye."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11025,8 +11025,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "चलो पुरानी बातें भूल कर एक बार फिर गले लग जाओ।"
     ],
     "linesHinglish": [
-      "Rishte anamol hote hain inhen gusse kee bhent mat charhaao,",
-      "Chalo puraanee baaten bhool kar ek baar phir gale lag jaao."
+      "Rishte anmol hote hain inhein gusse ki bhent mat chadhao,",
+      "Chalo purani baatein bhool kar ek bar phir gale lag jao."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11068,8 +11068,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "माफ़ी का तलबगार हूँ मैं ये मेरा तुझको पैग़ाम है।"
     ],
     "linesHinglish": [
-      "Aankhon men namee aur labon par sirfa teraa hee naam hai,",
-      "Maafee kaa talabagaar hoon main ye meraa tujhako paighaam hai."
+      "Aankhon mein nami aur labon par sirf tera hi naam hai,",
+      "Maafi ka talabgar hoon main yeh mera tujhko paigaam hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11111,8 +11111,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस अपनी नज़रों से दूर मत करना वरना जी न सकूँगा।"
     ],
     "linesHinglish": [
-      "Sazaa jo chaahe de de mujhe main hans kar qabool karoongaa,",
-      "Bas apanee nazaron se door mat karanaa varanaa jee na sakoongaa."
+      "Saza jo chahe de de mujhe main hans kar qubool karoonga,",
+      "Bas apni nazron se door mat karna warna ji na sakoonga."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11154,8 +11154,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अब पछतावे के आँसू बह रहे हैं हर गुज़रते लम्हे में।"
     ],
     "linesHinglish": [
-      "Naadaanee men dil dukhaa baithaa hoon apane hee sabase pyaare kaa,",
-      "Ab pachhataave ke aansoo bah rahe hain har guzarate lamhe men."
+      "Nadani mein dil dukha baitha hoon apne hi sabse pyare ka,",
+      "Ab pachhtave ke aansu bah rahe hain har guzarte lamhe mein."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11197,8 +11197,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तो मैं एक बार नहीं हज़ार बार तेरे आगे झुकने को तैयार हूँ।"
     ],
     "linesHinglish": [
-      "Jhukane se agar hamaaraa pyaaraa saa rishtaa bachataa hai,",
-      "To main ek baar naheen hazaar baar tere aage jhukane ko taiyaar hoon."
+      "Jhukne se agar hamara pyara sa rishta bachta hai,",
+      "Toh main ek bar nahi hazaar bar tere aage jhukne ko taiyar hoon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11240,7 +11240,7 @@ export const FEELINGS_ALL: Shayari[] = [
       "माफ़ कर दो मुझे कि बिन तेरे सूने मेरे दिन-रात हैं।"
     ],
     "linesHinglish": [
-      "Akar aur ahankaar se bare to hamaare jazbaat hain,",
+      "Akad aur ahankar se bade toh hamare jazbaat hain,",
       "Maaf kar do mujhe ki bin tere soone mere din-raat hain."
     ],
     "linesEnglish": [
@@ -11283,8 +11283,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी वजह से तेरी आँख भीगी ये सोच कर रूह काँपती है।"
     ],
     "linesHinglish": [
-      "Tere chehare par udaasee kee lakeeren mujhase dekhee naheen jaateen,",
-      "Meree vajah se teree aankh bheegee ye soch kar rooh kaanpatee hai."
+      "Tere chehre par udasi ki lakirein mujhse dekhi nahi jatin,",
+      "Meri wajah se teri aankh bhigi yeh soch kar rooh kanpti hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11326,8 +11326,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी हर छोटी-बड़ी ख़ुशी का ख़ुद से ज़्यादा ख़याल रखूँगा।"
     ],
     "linesHinglish": [
-      "Vaadaa karataa hoon aaj ke baad kabhee shikaayat kaa mauqaa na doongaa,",
-      "Teree har chhotee-baree khushee kaa khud se zyaadaa khayaal rakhoongaa."
+      "Waada karta hoon aaj ke bad kabhi shikayat ka mauqa na doonga,",
+      "Teri har chhoti-badi khushi ka khud se zyada khayal rakhoonga."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11369,8 +11369,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अब मान भी जाओ वरना दिल रो-रो कर बीमार हो जाएगा।"
     ],
     "linesHinglish": [
-      "Naaraazagee apanee jagah hai aur mohabbat apanee jagah yaar,",
-      "Ab maan bhee jaao varanaa dil ro-ro kar beemaar ho jaaegaa."
+      "Narazgi apni jagah hai aur mohabbat apni jagah yar,",
+      "Ab maan bhi jao warna dil ro-ro kar bimar ho jaega."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11412,8 +11412,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी अदालत में बस एक मुस्कान की भीख मांगता हूँ।"
     ],
     "linesHinglish": [
-      "Gunaahagaar hoon teraa kataghare men sir jhukaae kharaa hoon,",
-      "Teree adaalat men bas ek muskaan kee bheekh maangataa hoon."
+      "Gunahgar hoon tera kataghre mein sir jhukae khada hoon,",
+      "Teri adalat mein bas ek muskaan ki bhikh mangta hoon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11455,8 +11455,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तुझे चोट पहुँचा कर मैं ख़ुद भी चैन से सोया नहीं।"
     ],
     "linesHinglish": [
-      "Lafza mere ghalat the magar meree neeyat kabhee buree na thee,",
-      "Tujhe chot pahunchaa kar main khud bhee chain se soyaa naheen."
+      "Lafz mere galat the magar meri niyat kabhi buri na thi,",
+      "Tujhe chot pahuncha kar main khud bhi chain se soya nahi."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11498,8 +11498,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी हँसी के बिना मेरे आँगन का एक फूल न खिलेगा।"
     ],
     "linesHinglish": [
-      "Jab tak too maaf naheen karegee tab tak sukoon na milegaa,",
-      "Teree hansee ke binaa mere aangan kaa ek phool na khilegaa."
+      "Jab tak tu maaf nahi karegi tab tak sukoon na milega,",
+      "Teri hansi ke bina mere aangan ka ek phool na khilega."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11541,8 +11541,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर यूँ मुँह मोड़ कर चले जाने का हक़ मैंने नहीं दिया।"
     ],
     "linesHinglish": [
-      "Haq hai tumhaaraa mujh par gussaa karane kaa aur larane kaa,",
-      "Par yoon munh mor kar chale jaane kaa haq mainne naheen diyaa."
+      "Haq hai tumhara mujh par gussa karne ka aur ladne ka,",
+      "Par yun munh mod kar chale jaane ka haq maine nahi diya."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11584,8 +11584,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी हर भूल पर दिल से पश्चाताप किया है मैंने।"
     ],
     "linesHinglish": [
-      "Saaree raat jaag kar teraa hee intazaar kiyaa hai mainne,",
-      "Apanee har bhool par dil se pashchaataap kiyaa hai mainne."
+      "Sari raat jag kar tera hi intezaar kiya hai maine,",
+      "Apni har bhool par dil se pashchatap kiya hai maine."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11627,8 +11627,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर सच्चे दोस्त एक सॉरी पर सब कुछ भुला देते हैं।"
     ],
     "linesHinglish": [
-      "Dostee men kabhee-kabhee anaban ho hee jaatee hai mere yaar,",
-      "Par sachche dosta ek soree par sab kuchh bhulaa dete hain."
+      "Dosti mein kabhi-kabhi anban ho hi jaati hai mere yar,",
+      "Par sacche dost ek Sorry par sab kuch bhula dete hain."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11670,8 +11670,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सच कहता हूँ तुझे नाराज़ रखकर एक पल जिया नहीं जाता।"
     ],
     "linesHinglish": [
-      "Teree berukhee kaa zahar ab mujhase piyaa naheen jaataa,",
-      "Sach kahataa hoon tujhe naaraaz rakhakar ek pal jiyaa naheen jaataa."
+      "Teri berukhi ka zahar ab mujhse piya nahi jaata,",
+      "Sach kehta hoon tujhe naraz rakhkar ek pal jiya nahi jaata."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11713,8 +11713,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी खताएँ तुम भूल जाओ तुम्हारा गुस्सा मैं पी जाऊँ।"
     ],
     "linesHinglish": [
-      "Chalo phir se ek naee shuruaat karate hain ham donon,",
-      "Meree khataaen tum bhool jaao tumhaaraa gussaa main pee jaaoon."
+      "Chalo phir se ek nayi shuruaat karte hain hum donon,",
+      "Meri khataein tum bhool jao tumhara gussa main pi jaoon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11756,8 +11756,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी रहमत की नज़र कर दे और मिटा दे सारे ग़म।"
     ],
     "linesHinglish": [
-      "Haath jor kar kharaa hoon teree chaukhat par ai mere hamadam,",
-      "Apanee rahamat kee nazar kar de aur mitaa de saare gham."
+      "Haath jod kar khada hoon teri chaukhat par ai mere hamdam,",
+      "Apni rahmat ki nazar kar de aur mita de saare gham."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11799,8 +11799,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इतनी खूबसूरत मोहब्बत को यूँ ख़ामोशी में मत जाने दो।"
     ],
     "linesHinglish": [
-      "Ghalatafahamiyon kee deevaar ko hamaare beech mat aane do,",
-      "Itanee khoobasoorat mohabbat ko yoon khaamoshee men mat jaane do."
+      "Ghalatfahmiyon ki deewar ko hamare beech mat aane do,",
+      "Itni khoobsurat mohabbat ko yun khamoshi mein mat jaane do."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11842,8 +11842,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर अब मान भी जाओ कि तुम्हें सीने से लगाऊँ।"
     ],
     "linesHinglish": [
-      "Gussaa bhee tum par kitanaa pyaaraa lagataa hai ye kyaa bataaoon,",
-      "Par ab maan bhee jaao ki tumhen seene se lagaaoon."
+      "Gussa bhi tum par kitna pyara lagta hai yeh kya bataoon,",
+      "Par ab maan bhi jao ki tumhein seene se lagaoon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11885,8 +11885,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इस बार भी माफ़ कर दे कि तू ही मेरी इबादत है।"
     ],
     "linesHinglish": [
-      "Meree naadaaniyon ko daraguzar karanaa to teree puraanee aadat hai,",
-      "Is baar bhee maaf kar de ki too hee meree ibaadat hai."
+      "Meri nadaniyon ko darguzar karna toh teri purani aadat hai,",
+      "Is bar bhi maaf kar de ki tu hi meri ibadat hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11928,8 +11928,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरे हर आँसू का बोझ मैंने अपनी पलकों पर उठाया है।"
     ],
     "linesHinglish": [
-      "Dil dukhaayaa hai teraa to chain mujhe bhee kahaan aayaa hai,",
-      "Tere har aansoo kaa bojh mainne apanee palakon par uthaayaa hai."
+      "Dil dukhaya hai tera toh chain mujhe bhi kahan aaya hai,",
+      "Tere har aansu ka bojh maine apni palkon par uthaya hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -11971,8 +11971,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मगर इस जानलेवा सन्नाटे को अब हमारे बीच से हटा दो।"
     ],
     "linesHinglish": [
-      "Bol do jo bhee dil men hai chaahe jee bhar kar sunaa do,",
-      "Magar is jaanalevaa sannaate ko ab hamaare beech se hataa do."
+      "Bol do jo bhi dil mein hai chahe ji bhar kar suna do,",
+      "Magar is janleva sannate ko ab hamare beech se hata do."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12014,8 +12014,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुझे जीत नहीं चाहिए मुझे बस तुम चाहिए संसार में।"
     ],
     "linesHinglish": [
-      "Main haar maanataa hoon tum jeet gae is takaraar men,",
-      "Mujhe jeet naheen chaahie mujhe bas tum chaahie sansaar men."
+      "Main haar manta hoon tum jeet gaye is takrar mein,",
+      "Mujhe jeet nahi chahiye mujhe bas tum chahiye sansar mein."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12057,8 +12057,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आओ बैठकर सुलझा लें अपने दिल के सारे अफ़साने।"
     ],
     "linesHinglish": [
-      "Ek pyaalee chaay banaa kar laayaa hoon tumhaare gusse ko pighalaane,",
-      "Aao baithakar sulajhaa len apane dil ke saare afasaane."
+      "Ek pyali chai bana kar laya hoon tumhare gusse ko pighlane,",
+      "Aao baithkar suljha lein apne dil ke saare afsane."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12100,8 +12100,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ग़ैरों से तो इंसान बस हाथ मिलाकर निकल जाता है।"
     ],
     "linesHinglish": [
-      "Koee apanaa hee to roothataa hai aur apanaa hee manaataa hai,",
-      "Ghairon se to insaan bas haath milaakar nikal jaataa hai."
+      "Koi apna hi toh roothta hai aur apna hi manata hai,",
+      "Ghairon se toh insaan bas haath milakar nikal jaata hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12143,8 +12143,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इससे पहले कि देर हो जाए मुझे दिल से माफ़ कर दे।"
     ],
     "linesHinglish": [
-      "Vaqta kaa koee bharosaa naheen kab saanson kee dor toot jaae,",
-      "Isase pahale ki der ho jaae mujhe dil se maaf kar de."
+      "Waqt ka koi bharosa nahi kab saanson ki dor toot jaaye,",
+      "Isse pehle ki der ho jaaye mujhe dil se maaf kar de."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12186,8 +12186,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बिन तेरे तो मेरे चारों तरफ़ बस घुटन भरी हवा है।"
     ],
     "linesHinglish": [
-      "Teree maafee hee mere zakhmee dil kee ikalautee davaa hai,",
-      "Bin tere to mere chaaron taraf bas ghutan bharee havaa hai."
+      "Teri maafi hi mere zakhmi dil ki iklauti dawa hai,",
+      "Bin tere toh mere charon taraf bas ghutan bhari hawa hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12229,8 +12229,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फिर से महका दे हमारी मोहब्बत के मुरझाए फूल को।"
     ],
     "linesHinglish": [
-      "Naadaan samajh kar bakhsha de meree aaj kee is bhool ko,",
-      "Phir se mahakaa de hamaaree mohabbat ke murajhaae phool ko."
+      "Nadan samajh kar bakhsh de meri aaj ki is bhool ko,",
+      "Phir se mahka de hamari mohabbat ke murjhae phool ko."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12272,8 +12272,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी एक मीठी नज़र से मेरी रूह को ठंडक दे दे।"
     ],
     "linesHinglish": [
-      "Pachhataave kee aag men jal rahaa hoon kal shaam se main,",
-      "Apanee ek meethee nazar se meree rooh ko thandak de de."
+      "Pachhtave ki aag mein jal raha hoon kal shaam se main,",
+      "Apni ek mithi nazar se meri rooh ko thandak de de."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12315,8 +12315,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर यक़ीन मान तेरे सिवा इस दिल में कोई न समाया है।"
     ],
     "linesHinglish": [
-      "Main jaanataa hoon mainne teraa bharosaa thoraa saa dukhaayaa hai,",
-      "Par yaqeen maan tere sivaa is dil men koee na samaayaa hai."
+      "Main janta hoon maine tera bharosa thoda sa dukhaya hai,",
+      "Par yakeen maan tere siwa is dil mein koi na samaya hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12358,8 +12358,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जब तक तू हँस न दे तब तक तेरे पास ही बैठूँगा आज।"
     ],
     "linesHinglish": [
-      "Roothe hue chaand ko manaane kee har koshish karoongaa aaj,",
-      "Jab tak too hans na de tab tak tere paas hee baithoongaa aaj."
+      "Roothe hue chaand ko manane ki har koshish karoonga aaj,",
+      "Jab tak tu hans na de tab tak tere paas hi baithoonga aaj."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12401,8 +12401,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "और मुझे पता है तेरा दिल समंदर से भी बड़ा है।"
     ],
     "linesHinglish": [
-      "Bare dil vaale hee aksar doosaron kee khataa maaf karate hain,",
-      "Aur mujhe pataa hai teraa dil samandar se bhee baraa hai."
+      "Bade dil wale hi aksar doosron ki khata maaf karte hain,",
+      "Aur mujhe pata hai tera dil samandar se bhi bada hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12444,8 +12444,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आओ एक छोटी सी मुस्कान से सारे गिले मिटा देते हैं।"
     ],
     "linesHinglish": [
-      "Karavee baaton kee gaanth khol kar havaa men uraa dete hain,",
-      "Aao ek chhotee see muskaan se saare gile mitaa dete hain."
+      "Kadwi baaton ki ganth khol kar hawa mein uda dete hain,",
+      "Aao ek chhoti si muskaan se saare gile mita dete hain."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12487,8 +12487,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरा अपना ही अक्स मुझे मेरा कसूर याद दिलाता है।"
     ],
     "linesHinglish": [
-      "Too khafaa hai to aaeenaa bhee mujhase nazaren churaataa hai,",
-      "Meraa apanaa hee aksa mujhe meraa kasoor yaad dilaataa hai."
+      "Tu khafa hai toh aaina bhi mujhse nazrein churata hai,",
+      "Mera apna hi aks mujhe mera kasoor yaad dilata hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12530,8 +12530,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "थाम ले मेरा हाथ और मुझे फिर से अपना कह दे।"
     ],
     "linesHinglish": [
-      "Chand lamhon kaa gussaa kaheen barason kaa pyaar na chheen le,",
-      "Thaam le meraa haath aur mujhe phir se apanaa kah de."
+      "Chand lamhon ka gussa kahin barson ka pyar na chhin le,",
+      "Thaam le mera haath aur mujhe phir se apna kah de."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12573,8 +12573,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी सारी खुशियां जुड़ी हैं बस तेरी एक मुस्कान से।"
     ],
     "linesHinglish": [
-      "Soree kahane men kaisee sharma jab rishtaa apanee jaan se ho,",
-      "Meree saaree khushiyaan juree hain bas teree ek muskaan se."
+      "Sorry kahne mein kaisi sharm jab rishta apni jan se ho,",
+      "Meri sari khushiyan judi hain bas teri ek muskaan se."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12616,8 +12616,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तो मैं अपनी सारी ज़िंदगी तेरे क़दमों में बहा दूँ।"
     ],
     "linesHinglish": [
-      "Agar mere rone se teraa gussaa shaant hotaa ho hamanavaa,",
-      "To main apanee saaree zindagee tere qadamon men bahaa doon."
+      "Agar mere rone se tera gussa shant hota ho hamanva,",
+      "Toh main apni sari zindagi tere kadmon mein baha doon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12659,8 +12659,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पर अब साया बनकर रहूँगा ज़िंदगी के हर मोड़ पर।"
     ],
     "linesHinglish": [
-      "Maanaa ki vaqta par teraa saath na de sakaa us mor par,",
-      "Par ab saayaa banakar rahoongaa zindagee ke har mor par."
+      "Mana ki waqt par tera saath na de saka us mod par,",
+      "Par ab saaya bankar rahoonga zindagi ke har mod par."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12702,8 +12702,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "तेरी नाराज़गी के आगे अपनी हर दलील हार रहा हूँ।"
     ],
     "linesHinglish": [
-      "Khaamosh labon se naheen aankhon se maafee maang rahaa hoon,",
-      "Teree naaraazagee ke aage apanee har daleel haar rahaa hoon."
+      "Khamosh labon se nahi aankhon se maafi mang raha hoon,",
+      "Teri narazgi ke aage apni har dalil haar raha hoon."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12745,8 +12745,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक मौक़ा और दे दो अपने इस गुनहगार के लिए।"
     ],
     "linesHinglish": [
-      "Phool lekar aayaa hoon apane roothe hue sarakaar ke lie,",
-      "Ek mauqaa aur de do apane is gunahagaar ke lie."
+      "Phool lekar aaya hoon apne roothe hue sarkar ke liye,",
+      "Ek mauqa aur de do apne is gunahgar ke liye."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12788,8 +12788,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "माफ़ कर दो मुझे क्योंकि तुममें ही बसती मेरी जान है।"
     ],
     "linesHinglish": [
-      "Rishton men jhukanaa kamazoree naheen barappan kee pahachaan hai,",
-      "Maaf kar do mujhe kyonki tumamen hee basatee meree jaan hai."
+      "Rishton mein jhukna kamzori nahi badappan ki pahchan hai,",
+      "Maaf kar do mujhe kyunki tummein hi basti meri jan hai."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12831,8 +12831,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कर दे माफ़ कि आज मेरा खोया सुकून मिल उठेगा।"
     ],
     "linesHinglish": [
-      "Teree ek haan se meraa ujaraa huaa chaman phir khil uthegaa,",
-      "Kar de maaf ki aaj meraa khoyaa sukoon mil uthegaa."
+      "Teri ek han se mera ujda hua chaman phir khil uthega,",
+      "Kar de maaf ki aaj mera khoya sukoon mil uthega."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12874,8 +12874,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "गले लगा कर कह दे कि चल जा तुझे माफ़ किया।"
     ],
     "linesHinglish": [
-      "Na kar itanaa imtihaan meree tarap aur mere sabra kaa,",
-      "Gale lagaa kar kah de ki chal jaa tujhe maaf kiyaa."
+      "Na kar itna imtihan meri tadap aur mere sabr ka,",
+      "Gale laga kar kah de ki chal ja tujhe maaf kiya."
     ],
     "linesEnglish": [
       "Humble apology from the heart to heal a cherished bond",
@@ -12917,8 +12917,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के हैं जनाब अपना दर्द कहाँ किसी को दिखाते हैं।"
     ],
     "linesHinglish": [
-      "Chehare par hansee rakhakar kandhon par ghar kaa bojh uthaate hain,",
-      "Ham larake hain janaab apanaa darda kahaan kisee ko dikhaate hain."
+      "Chehre par hansi rakhkar kandhon par ghar ka bojh uthate hain,",
+      "Hum ladke hain janab apna dard kahan kisi ko dikhate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -12960,8 +12960,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "लड़के अपनी यारी में हमेशा वफ़ादार रहते हैं।"
     ],
     "linesHinglish": [
-      "Jeb khaalee ho phir bhee doston men diladaar rahate hain,",
-      "Larake apanee yaaree men hameshaa vafaadaar rahate hain."
+      "Jeb khali ho phir bhi doston mein dildar rehte hain,",
+      "Ladke apni yari mein hamesha wafadaar rehte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13003,8 +13003,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ख़्वाहिशें मार कर घर की ज़रूरतें खड़ी कर देती हैं।"
     ],
     "linesHinglish": [
-      "Umra se pahale hee hamen zimmedaariyaan baraa kar detee hain,",
-      "Khvaahishen maar kar ghar kee zarooraten kharee kar detee hain."
+      "Umr se pehle hi humein zimmedariyan bada kar deti hain,",
+      "Khvahishein mar kar ghar ki zaroortein khadi kar deti hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13046,8 +13046,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सीने में तूफ़ान छुपा कर मुस्कुराना सिखाया गया।"
     ],
     "linesHinglish": [
-      "Larake rote naheen ye kahakar bachapan se chup karaayaa gayaa,",
-      "Seene men toofaan chhupaa kar muskuraanaa sikhaayaa gayaa."
+      "Ladke rote nahi yeh kahkar bachpan se chup karaya gaya,",
+      "Seene mein toofan chhupa kar muskurana sikhaya gaya."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13089,8 +13089,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के टूटे दिल में भी मंज़िल का जुनून ढूँढते हैं।"
     ],
     "linesHinglish": [
-      "Baaik kee raftaar aur chaay kee chuskee men sukoon dhoondhate hain,",
-      "Ham larake toote dil men bhee manzil kaa junoon dhoondhate hain."
+      "Bike ki raftar aur chai ki chuski mein sukoon dhoondhte hain,",
+      "Hum ladke toote dil mein bhi manzil ka junoon dhoondhte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13132,8 +13132,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "पिता के पसीने की ख़ातिर अपने शौक़ भुला जाते हैं।"
     ],
     "linesHinglish": [
-      "Maan ke aanchal ke lie pooree duniyaa se takaraa jaate hain,",
-      "Pitaa ke paseene kee khaatir apane shauq bhulaa jaate hain."
+      "Maa ke aanchal ke liye poori duniya se takra jaate hain,",
+      "Pita ke pasine ki khatir apne shauq bhula jaate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13175,8 +13175,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के जिस से जुड़ते हैं रिश्ता आख़िर तक निभाते हैं।"
     ],
     "linesHinglish": [
-      "Dikhane men sakhta hain magar dil mom jaisaa rakhate hain,",
-      "Ham larake jis se jurate hain rishtaa aakhir tak nibhaate hain."
+      "Dikhne mein sakht hain magar dil mom jaisa rakhte hain,",
+      "Hum ladke jis se judte hain rishta aakhir tak nibhate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13218,8 +13218,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक लड़का घर की इज़्ज़त के लिए रात-दिन तपता है।"
     ],
     "linesHinglish": [
-      "Berozagaaree ke taane sunakar bhee jo chupachaap sahataa hai,",
-      "Ek larakaa ghar kee izzat ke lie raat-din tapataa hai."
+      "Berozgari ke tane sunkar bhi jo chupchap sahta hai,",
+      "Ek ladka ghar ki izzat ke liye raat-din tapta hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13261,8 +13261,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़कों को अपने दम पर ही शिखर तक पहुँचना है।"
     ],
     "linesHinglish": [
-      "Akar hamaaree pahachaan naheen bas khuddaaree kaa gahanaa hai,",
-      "Ham larakon ko apane dam par hee shikhar tak pahunchanaa hai."
+      "Akad hamari pahchan nahi bas khuddari ka gahna hai,",
+      "Hum ladkon ko apne dam par hi shikhar tak pahunchna hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13304,8 +13304,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बस यही ताक़त बदल देती है हर लड़के की तक़दीर।"
     ],
     "linesHinglish": [
-      "Ek phataa huaa batuaa aur usamen rakhee parivaar kee tasveer,",
-      "Bas yahee taaqat badal detee hai har larake kee taqadeer."
+      "Ek phata hua batuaa aur usmein rakhi parivaar ki tasveer,",
+      "Bas yahi taqat badal deti hai har ladke ki taqdeer."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13347,8 +13347,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक लड़की की ख़ुशी में अपना सारा गुस्सा हार देता है।"
     ],
     "linesHinglish": [
-      "Mohabbat agar sachchee ho to larakaa sab kuchh vaar detaa hai,",
-      "Ek larakee kee khushee men apanaa saaraa gussaa haar detaa hai."
+      "Mohabbat agar sacchi ho toh ladka sab kuch var deta hai,",
+      "Ek ladki ki khushi mein apna saara gussa haar deta hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13390,8 +13390,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "शरीफ़ों के लिए भाई और दुश्मनों के लिए काल कहलाते हैं।"
     ],
     "linesHinglish": [
-      "Na ham kisee ke aage jhukate hain na kisee ko giraate hain,",
-      "Shareefon ke lie bhaaee aur dushmanon ke lie kaal kahalaate hain."
+      "Na hum kisi ke aage jhukte hain na kisi ko girate hain,",
+      "Sharifon ke liye bhai aur dushmanon ke liye kal kahlate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13433,8 +13433,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फ़ोन पर माँ पूछे तो बढ़िया खाना खाया बताते हैं।"
     ],
     "linesHinglish": [
-      "Ghar se door parades men sookhee rotee khaakar so jaate hain,",
-      "Fon par maan poochhe to barhiyaa khaanaa khaayaa bataate hain."
+      "Ghar se door pardes mein sookhi roti khakar so jaate hain,",
+      "Phone par maa poochhe toh badhiya khana khaya batate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13476,8 +13476,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सीधा-सादा लड़का भी मेहनत से सितारा बनकर चमकता है।"
     ],
     "linesHinglish": [
-      "Braanded kaparon se naheen hamaare kiradaar se raub jhalakataa hai,",
-      "Seedhaa-saadaa larakaa bhee mehanat se sitaaraa banakar chamakataa hai."
+      "Branded kapdon se nahi hamare kirdar se raub jhalakta hai,",
+      "Seedha-sada ladka bhi mehnat se sitara bankar chamakta hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13519,8 +13519,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वरना बेवजह चुप रहना लड़कों की फ़ितरत में नहीं होता।"
     ],
     "linesHinglish": [
-      "Jab ek larakaa khaamosh ho jaae to samajh lenaa andar se tootaa hai,",
-      "Varanaa bevajah chup rahanaa larakon kee fitarat men naheen hotaa."
+      "Jab ek ladka khamosh ho jaaye toh samajh lena andar se toota hai,",
+      "Warna bewajah chup rehna Ladkon Ki fitrat mein nahi hota."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13562,8 +13562,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक आवाज़ पर जान हाज़िर करने की आदत हुआ करती है।"
     ],
     "linesHinglish": [
-      "Yaaron kee mahafil hee hamaaree asalee daulat huaa karatee hai,",
-      "Ek aavaaz par jaan haazir karane kee aadat huaa karatee hai."
+      "Yaron ki mehfil hi hamari asli daulat hua karti hai,",
+      "Ek aawaz par jan hazir karne ki aadat hua karti hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13605,8 +13605,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कि हम लड़के अपने सीने में कितने समंदर पालते हैं।"
     ],
     "linesHinglish": [
-      "Tanhaaee men aadhe jale sigaret yaa chaay ke pyaale jaanate hain,",
-      "Ki ham larake apane seene men kitane samandar paalate hain."
+      "Tanhai mein aadhe jale sigret ya chai ke pyale jante hain,",
+      "Ki hum ladke apne seene mein kitne samandar palte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13648,8 +13648,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वही भाई उसकी रक्षा के लिए चट्टान सा अड़ पड़ता है।"
     ],
     "linesHinglish": [
-      "Bahan kee vidaaee par jo kone men chhup kar ro parataa hai,",
-      "Vahee bhaaee usakee rakshaa ke lie chattaan saa ar parataa hai."
+      "Behen ki vidai par jo kone mein chhup kar ro padta hai,",
+      "Wahi bhai uski raksha ke liye chattan sa ad padta hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13691,8 +13691,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कल हमारा ही होगा भले ही थोड़ा कठिन आज है।"
     ],
     "linesHinglish": [
-      "Hamen roop-rang kaa ghamand naheen apane paseene par naaz hai,",
-      "Kal hamaaraa hee hogaa bhale hee thoraa kathin aaj hai."
+      "Humein roop-rang ka ghamand nahi apne pasine par naz hai,",
+      "Kal hamara hi hoga bhale hi thoda kathin aaj hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13734,8 +13734,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "यहाँ मुस्कुराहट तो दिखती है पर आँखें नम नहीं होतीं।"
     ],
     "linesHinglish": [
-      "Larakon kee zindagee bhee kisee imtihaan se kam naheen hotee,",
-      "Yahaan muskuraahat to dikhatee hai par aankhen nam naheen hoteen."
+      "Ladkon Ki zindagi bhi kisi imtihan se kam nahi hoti,",
+      "Yahan muskurahat toh dikhti hai par aankhein nam nahi hotin."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13777,8 +13777,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के संस्कारों से बंधे हैं कमज़ोर मत समझना।"
     ],
     "linesHinglish": [
-      "Izzat karanaa hamaare khoon men hai ise dar mat samajhanaa,",
-      "Ham larake sanskaaron se bandhe hain kamazor mat samajhanaa."
+      "Izzat karna hamare khoon mein hai ise dar mat samajhna,",
+      "Hum ladke sanskaron se bandhe hain kamzor mat samajhna."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13820,8 +13820,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बड़े बेटे अक्सर घर में दूसरे पिता का फ़र्ज़ निभाते हैं।"
     ],
     "linesHinglish": [
-      "Apane joote ghis jaaen par chhote bhaaee ko nae dilaate hain,",
-      "Bare bete aksar ghar men doosare pitaa kaa farza nibhaate hain."
+      "Apne joote ghis jaein par chhote bhai ko naye dilate hain,",
+      "Bade bete aksar ghar mein doosre pita ka farz nibhate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13863,8 +13863,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम ज़ख़्म खाकर भी माहिर हैं शान से जीने में।"
     ],
     "linesHinglish": [
-      "Dil tootane kee aavaaz naheen hotee ham larakon ke seene men,",
-      "Ham zakhma khaakar bhee maahir hain shaan se jeene men."
+      "Dil tootne ki aawaz nahi hoti hum ladkon ke seene mein,",
+      "Hum zakhm khakar bhi mahir hain shan se jeene mein."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13906,8 +13906,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उस लड़के के अपने सपने अक्सर अलमारी में सो जाएं।"
     ],
     "linesHinglish": [
-      "Sailaree aate hee jo sabakee faramaaishon men khatma ho jaae,",
-      "Us larake ke apane sapane aksar alamaaree men so jaaen."
+      "Salary aate hi jo sabki farmaishon mein khatam ho jaaye,",
+      "Us ladke ke apne sapne aksar almari mein so jaein."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13949,8 +13949,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के मुसीबतों को देखकर कभी पीछे नहीं हटते हैं।"
     ],
     "linesHinglish": [
-      "Sher saa kalejaa lekar maidaan-e-jang men utarate hain,",
-      "Ham larake museebaton ko dekhakar kabhee peechhe naheen hatate hain."
+      "Sher sa kaleja lekar maidan-e-jang mein utarte hain,",
+      "Hum ladke musibton ko dekhkar kabhi peechhe nahi hatte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -13992,8 +13992,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वो प्यार न भी करे पर सम्मान हमेशा दिल से करता।"
     ],
     "linesHinglish": [
-      "Sachchaa larakaa kabhee kisee kee izzat se khilavaar naheen karataa,",
-      "Vo pyaar na bhee kare par sammaan hameshaa dil se karataa."
+      "Saccha ladka kabhi kisi ki izzat se khilvad nahi karta,",
+      "Woh pyar na bhi kare par samman hamesha dil se karta."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14035,8 +14035,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वो लड़के वक़्त की मार सह-सह कर फ़ौलाद बन जाते हैं।"
     ],
     "linesHinglish": [
-      "Daarhee kee safedee se pahale jo tajurbon se pak jaate hain,",
-      "Vo larake vaqta kee maar sah-sah kar faulaad ban jaate hain."
+      "Dadhi ki safedi se pehle jo tajurbon se pak jaate hain,",
+      "Woh ladke waqt ki mar sah-sah kar faulad ban jaate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14078,8 +14078,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के कम शब्दों में भी गहरी बात कहते हैं।"
     ],
     "linesHinglish": [
-      "Dikhaave kee duniyaa se koson door apanee saadagee rakhate hain,",
-      "Ham larake kam shabdon men bhee gaharee baat kahate hain."
+      "Dikhave ki duniya se koson door apni saadgi rakhte hain,",
+      "Hum ladke kam shabdon mein bhi gehri baat kehte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14121,8 +14121,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक लड़के को ज़माने के असली रंग बहुत जल्दी दिखते हैं।"
     ],
     "linesHinglish": [
-      "Jab jeb men paise na hon tab apane bhee paraae lagate hain,",
-      "Ek larake ko zamaane ke asalee rang bahut jaldee dikhate hain."
+      "Jab jeb mein paise na hon tab apne bhi parae lagte hain,",
+      "Ek ladke ko zamane ke asli rang bahut jaldi dikhte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14164,8 +14164,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वो लड़का अपनी शराफ़त का सबसे बड़ा सबूत देता है।"
     ],
     "linesHinglish": [
-      "Mohabbat men dhokhaa khaakar bhee jo badaduaa naheen detaa,",
-      "Vo larakaa apanee sharaafat kaa sabase baraa saboot detaa hai."
+      "Mohabbat mein dhokha khakar bhi jo badduaa nahi deta,",
+      "Woh ladka apni sharafat ka sabse bada saboot deta hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14207,8 +14207,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कि एक लड़के के कंधों पर कितनी अनकही परवाह है।"
     ],
     "linesHinglish": [
-      "Raat ke do baje chhat par tahalate hue qadam gavaah hain,",
-      "Ki ek larake ke kandhon par kitanee anakahee paravaah hai."
+      "Raat ke do baje chhat par tahalte hue kadam gavah hain,",
+      "Ki ek ladke ke kandhon par kitni anakhi parwah hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14250,8 +14250,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दगा करोगे तो मुड़कर तुम्हारा नाम भी नहीं लेंगे।"
     ],
     "linesHinglish": [
-      "Hamase vafaa karoge to jaan bhee hathelee par rakh denge,",
-      "Dagaa karoge to murakar tumhaaraa naam bhee naheen lenge."
+      "Humse wafa karoge toh jan bhi hatheli par rakh denge,",
+      "Daga karoge toh mudkar tumhara naam bhi nahi lenge."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14293,8 +14293,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "बिना किसी शिकायत के हर दिन अंगारों पर चलना है।"
     ],
     "linesHinglish": [
-      "Larakaa honaa aasaan naheen har mor par khud ko saabit karanaa hai,",
-      "Binaa kisee shikaayat ke har din angaaron par chalanaa hai."
+      "Ladka hona aasan nahi har mod par khud ko sabit karna hai,",
+      "Bina kisi shikayat ke har din angaron par chalna hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14336,8 +14336,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के दिल के राजा हैं न कि जज़्बातों के व्यापार।"
     ],
     "linesHinglish": [
-      "Hamaaree saadagee par mat jaa ai duniyaa ke adaakaar,",
-      "Ham larake dil ke raajaa hain na ki jazbaaton ke vyaapaar."
+      "Hamari saadgi par mat ja ai duniya ke adakar,",
+      "Hum ladke dil ke raja hain na ki jazbaaton ke vyapar."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14379,8 +14379,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वही लड़का एक दिन अपने ख़ानदान का नाम रोशन कर जाता है।"
     ],
     "linesHinglish": [
-      "Maathe par shikan laae binaa jo har qarza chukaataa hai,",
-      "Vahee larakaa ek din apane khaanadaan kaa naam roshan kar jaataa hai."
+      "Mathe par shikan lae bina jo har qarz chukata hai,",
+      "Wahi ladka ek din apne khandan ka naam roshan kar jaata hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14422,8 +14422,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के दुश्मनी भी मर्दों की तरह आमने-सामने रखते हैं।"
     ],
     "linesHinglish": [
-      "Gussaa hamaaraa tez hai par dil bachchon saa saaf rakhate hain,",
-      "Ham larake dushmanee bhee mardon kee tarah aamane-saamane rakhate hain."
+      "Gussa hamara tez hai par dil bachchon sa saf rakhte hain,",
+      "Hum ladke dushmani bhi mardon ki tarah aamne-samne rakhte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14465,8 +14465,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उस कमाने वाले लड़के की पीड़ा कोई किताब नहीं लिखती।"
     ],
     "linesHinglish": [
-      "Tyohaaron par bhee jise ghar kee chhuttee naseeb naheen hotee,",
-      "Us kamaane vaale larake kee peeraa koee kitaab naheen likhatee."
+      "Festivals par bhi jise ghar ki chhutti nasib nahi hoti,",
+      "Us kamane wale ladke ki pida koi kitaab nahi likhti."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14508,8 +14508,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के विरासत से ज़्यादा अपनी मेहनत पर फ़ख़्र करते हैं।"
     ],
     "linesHinglish": [
-      "Apane dam par shoonya se shikhar banaane kaa hunar rakhate hain,",
-      "Ham larake viraasat se zyaadaa apanee mehanat par fakhra karate hain."
+      "Apne dam par shoonya se shikhar banane ka hunar rakhte hain,",
+      "Hum ladke virasat se zyada apni mehnat par fakhr karte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14551,8 +14551,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "ख़ुद ही मरहम बनना पड़ता है अपने घाव मिटाने को।"
     ],
     "linesHinglish": [
-      "Koee kandhaa naheen milataa aksar larakon ko sir tikaane ko,",
-      "Khud hee maraham bananaa parataa hai apane ghaav mitaane ko."
+      "Koi kandha nahi milta aksar ladkon ko sir tikane ko,",
+      "Khud hi marham banna padta hai apne ghav mitane ko."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14594,8 +14594,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हर संघर्षशील लड़के के सिर पर स्वाभिमान का ताज होता है।"
     ],
     "linesHinglish": [
-      "Hamaaree khaamoshee men bhee ek alag hee shaahee andaaz hotaa hai,",
-      "Har sangharshasheel larake ke sir par svaabhimaan kaa taaj hotaa hai."
+      "Hamari khamoshi mein bhi ek alag hi shahi andaaz hota hai,",
+      "Har sangharshashil ladke ke sir par swabhimaan ka taj hota hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14637,8 +14637,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़कों के सीने में बसता है पूरा आसमान भी।"
     ],
     "linesHinglish": [
-      "Pyaar men paagal bhee hote hain aur farza men chattaan bhee,",
-      "Ham larakon ke seene men basataa hai pooraa aasamaan bhee."
+      "Pyar mein pagal bhi hote hain aur farz mein chattan bhi,",
+      "Hum ladkon ke seene mein basta hai poora aasmaan bhi."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14680,8 +14680,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उस लड़के के आगे फ़रिश्ता भी अपना शीश झुकाता है।"
     ],
     "linesHinglish": [
-      "Tootee chappal pahan kar bhee jo baap kee davaaee laataa hai,",
-      "Us larake ke aage farishtaa bhee apanaa sheesh jhukaataa hai."
+      "Tooti chappal pahan kar bhi jo bap ki davai lata hai,",
+      "Us ladke ke aage farishta bhi apna shish jhukata hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14723,8 +14723,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "प्यार के दो मीठे बोल ही हमारे हर दुख की अचूक दवा है।"
     ],
     "linesHinglish": [
-      "Hamen mahange tohafon kee naheen bas thore se sammaan kee bhookh hai,",
-      "Pyaar ke do meethe bol hee hamaare har dukh kee achook davaa hai."
+      "Humein mahange tohfon ki nahi bas thode se samman ki bhookh hai,",
+      "Pyar ke do mithe bol hi hamare har dukh ki achook dawa hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14766,8 +14766,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के कोयले की खान से हीरा बनकर निकलते हैं।"
     ],
     "linesHinglish": [
-      "Zamaane ke taanon ko apanee taaqat banaa kar chalate hain,",
-      "Ham larake koyale kee khaan se heeraa banakar nikalate hain."
+      "Zamane ke tanon ko apni taqat bana kar chalte hain,",
+      "Hum ladke koyle ki khan se hira bankar nikalte hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14809,8 +14809,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के जिस राह चलें उसे यादगार कर दें।"
     ],
     "linesHinglish": [
-      "Dostee men jaan lutaa den aur dushmanee men had paar kar den,",
-      "Ham larake jis raah chalen use yaadagaar kar den."
+      "Dosti mein jan luta dein aur dushmani mein had par kar dein,",
+      "Hum ladke jis rah chalein use yadgar kar dein."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14852,8 +14852,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "सुबह होते ही चेहरा धोकर फिर से जंग में जुट जाते हैं।"
     ],
     "linesHinglish": [
-      "Kamare ke band daravaaze ke peechhe takiyaa bhigo lete hain,",
-      "Subah hote hee cheharaa dhokar phir se jang men jut jaate hain."
+      "Kamre ke band darwaze ke peechhe takiya bhigo lete hain,",
+      "Subah hote hi chehra dhokar phir se jang mein jut jaate hain."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14895,8 +14895,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इसी उसूल पर क़ायम हर ख़ानदानी लड़के की शान है।"
     ],
     "linesHinglish": [
-      "Larakiyon kee izzat karanaa hee asalee mardaanagee kee pahachaan hai,",
-      "Isee usool par qaayam har khaanadaanee larake kee shaan hai."
+      "Ladkiyon Ki izzat karna hi asli mardangi ki pahchan hai,",
+      "Isi usool par qayam har khandani ladke ki shan hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14938,8 +14938,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़के काम करके दिखाते हैं फ़िज़ूल नहीं बोलते।"
     ],
     "linesHinglish": [
-      "Chaahe laakh aandhiyaan aaen hamaare hausale naheen dolate,",
-      "Ham larake kaam karake dikhaate hain fizool naheen bolate."
+      "Chahe lakh aandhiyan aaein hamare hausle nahi dolte,",
+      "Hum ladke kaam karke dikhate hain fizool nahi bolte."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -14981,8 +14981,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "रब हर उस मेहनतकश लड़के का नसीब रोशन करे।"
     ],
     "linesHinglish": [
-      "Apanee khushiyon kee qurbaanee dekar jo ghar men ujaalaa kare,",
-      "Rab har us mehanatakash larake kaa naseeb roshan kare."
+      "Apni khushiyon ki qurbani dekar jo ghar mein ujaala kare,",
+      "Rab har us mehnatkash ladke ka nasib roshan kare."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -15024,8 +15024,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़कों की यही कहानी सबसे अलग और ख़ास है।"
     ],
     "linesHinglish": [
-      "Dil men darda kaa samandar aur aankhon men kaamayaabee kee pyaas hai,",
-      "Ham larakon kee yahee kahaanee sabase alag aur khaas hai."
+      "Dil mein dard ka samandar aur aankhon mein kamyabi ki pyas hai,",
+      "Hum Ladkon Ki yahi kahani sabse alag aur khaas hai."
     ],
     "linesEnglish": [
       "Silent responsibilities, loyal brotherhood, and a boy's resilience",
@@ -15067,8 +15067,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं आज की नारी हूँ अपने स्वाभिमान की पहरेदार भी हूँ।"
     ],
     "linesHinglish": [
-      "Phool see komal hoon main par vaqta parane par talavaar bhee hoon,",
-      "Main aaj kee naaree hoon apane svaabhimaan kee paharedaar bhee hoon."
+      "Phool si komal hoon main par waqt padne par talvar bhi hoon,",
+      "Main aaj ki nari hoon apne swabhimaan ki pahredar bhi hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15110,8 +15110,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "दो घरों को रोशन करने वाली ख़ुशियों की पहचान हूँ मैं।"
     ],
     "linesHinglish": [
-      "Paapaa kee paree naheen paapaa ke sir kaa abhimaan hoon main,",
-      "Do gharon ko roshan karane vaalee khushiyon kee pahachaan hoon main."
+      "Papa ki pari nahi papa ke sir ka abhiman hoon main,",
+      "Do gharon ko roshan karne wali khushiyon ki pahchan hoon main."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15153,8 +15153,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "झूठे दिखावे से दूर मेरा अपना अलग किरदार है।"
     ],
     "linesHinglish": [
-      "Meree saadagee hee meraa sabase khoobasoorat shringaar hai,",
-      "Jhoothe dikhaave se door meraa apanaa alag kiradaar hai."
+      "Meri saadgi hi mera sabse khoobsurat shringar hai,",
+      "Jhoothe dikhave se door mera apna alag kirdar hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15196,8 +15196,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "आँधियों में भी उड़ान भरना जानती हूँ मुझे मोम मत समझना।"
     ],
     "linesHinglish": [
-      "Nazaakat meree adaa hai ise meree kamazoree mat samajhanaa,",
-      "Aandhiyon men bhee uraan bharanaa jaanatee hoon mujhe mom mat samajhanaa."
+      "Nazakat meri ada hai ise meri kamzori mat samajhna,",
+      "Aandhiyon mein bhi udaan bharna janti hoon mujhe mom mat samajhna."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15239,8 +15239,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी देसी अदा के आगे फ़ीकी है सारी दुनिया की चाँदनी।"
     ],
     "linesHinglish": [
-      "Kaajal kee ek lakeer aur maathe kee chhotee see bindee,",
-      "Meree desee adaa ke aage feekee hai saaree duniyaa kee chaandanee."
+      "Kajal ki ek lakir aur mathe ki chhoti si bindi,",
+      "Meri desi ada ke aage fiki hai sari duniya ki chandni."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15282,8 +15282,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी मेहनत से लिखी हुई कामयाबी का नया पैग़ाम हूँ।"
     ],
     "linesHinglish": [
-      "Main kisee kee manzil kaa sahaaraa naheen khud ek muqaam hoon,",
-      "Apanee mehanat se likhee huee kaamayaabee kaa nayaa paighaam hoon."
+      "Main kisi ki manzil ka sahara nahi khud ek mukaam hoon,",
+      "Apni mehnat se likhi hui kamyabi ka naya paigaam hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15325,8 +15325,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे आत्मविश्वास के आगे हर अंधेरा ख़ुद सिमटता है।"
     ],
     "linesHinglish": [
-      "Jhumakon kee chhanak men bhee meraa shaahee andaaz jhalakataa hai,",
-      "Mere aatmavishvaas ke aage har andheraa khud simatataa hai."
+      "Jhumkon ki chhanak mein bhi mera shahi andaaz jhalakta hai,",
+      "Mere aatmavishvas ke aage har andhera khud simatta hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15368,8 +15368,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हद पार करोगे तो तुम्हारी औकात दिखाना जानती हूँ मैं।"
     ],
     "linesHinglish": [
-      "Izzat doge to palakon par bithaanaa jaanatee hoon main,",
-      "Had paar karoge to tumhaaree aukaat dikhaanaa jaanatee hoon main."
+      "Izzat doge toh palkon par bithana janti hoon main,",
+      "Had par karoge toh tumhari aukaat dikhana janti hoon main."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15411,8 +15411,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हम लड़कियाँ हर किरदार में बेमिसाल हैं किसी से कम नहीं।"
     ],
     "linesHinglish": [
-      "Rasoee sanbhaalane kaa hunar bhee hai aur aasamaan naapane kaa dam bhee,",
-      "Ham larakiyaan har kiradaar men bemisaal hain kisee se kam naheen."
+      "Rasoi sambhalne ka hunar bhi hai aur aasmaan napne ka dam bhi,",
+      "Hum ladkiyan har kirdar mein bemisal hain kisi se kam nahi."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15454,8 +15454,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "परिवार की ख़ुशी के लिए हम हर दर्द हँसकर सहन करते हैं।"
     ],
     "linesHinglish": [
-      "Meree muskaan par mat jaao isamen hazaaron raaz dafan hain,",
-      "Parivaar kee khushee ke lie ham har darda hansakar sahan karate hain."
+      "Meri muskaan par mat jao ismein hazaaron raaz dafan hain,",
+      "Parivaar ki khushi ke liye hum har dard hanskar sahan karte hain."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15497,8 +15497,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे उसूल और मेरी मर्यादा चट्टान की तरह अटूट हैं।"
     ],
     "linesHinglish": [
-      "Taaj kee zaroorat naheen mujhe mere sanskaar hee meraa mukut hain,",
-      "Mere usool aur meree maryaadaa chattaan kee tarah atoot hain."
+      "Taj ki zaroorat nahi mujhe mere Sanskar hi mera mukut hain,",
+      "Mere usool aur meri maryada chattan ki tarah atoot hain."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15540,8 +15540,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं वो परिंदा हूँ जो हौसलों से चीर दे आसमाने।"
     ],
     "linesHinglish": [
-      "Pankh kaatane kee koshish mat kar ai dakiyaanoosee zamaane,",
-      "Main vo parindaa hoon jo hausalon se cheer de aasamaane."
+      "Pankh katne ki koshish mat kar ai dakiyanoosi zamane,",
+      "Main woh parinda hoon jo hauslon se chir de aasmane."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15583,8 +15583,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं बेटी हूँ जहाँ जाती हूँ जन्नत बसाती हूँ।"
     ],
     "linesHinglish": [
-      "Maayake kee raunaq aur sasuraal kee lakshmee kahalaatee hoon,",
-      "Main betee hoon jahaan jaatee hoon jannat basaatee hoon."
+      "Mayke ki raunaq aur sasural ki Lakshmi kahlati hoon,",
+      "Main beti hoon jahaan jaati hoon jannat basati hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15626,8 +15626,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी खुद्दारी ही मेरे चेहरे पर नूर बनकर चमकती है।"
     ],
     "linesHinglish": [
-      "Mekaap se naheen meree soch se meree khoobasooratee jhalakatee hai,",
-      "Meree khuddaaree hee mere chehare par noor banakar chamakatee hai."
+      "Makeup se nahi meri soch se meri khoobsoorti jhalakti hai,",
+      "Meri khuddari hi mere chehre par noor bankar chamakti hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15669,8 +15669,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं अपने सपनों की उड़ान का ख़ुद आग़ाज़ करती हूँ।"
     ],
     "linesHinglish": [
-      "Kisee ke paison par naheen apane hunar par naaz karatee hoon,",
-      "Main apane sapanon kee uraan kaa khud aaghaaz karatee hoon."
+      "Kisi ke paison par nahi apne hunar par naz karti hoon,",
+      "Main apne sapnon ki udaan ka khud aaghaz karti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15712,8 +15712,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फिर दुनिया की कोई दीवार उसका रास्ता रोक नहीं पाती।"
     ],
     "linesHinglish": [
-      "Jab ek larakee thaan letee hai apanaa muqaddar badalane kee,",
-      "Phir duniyaa kee koee deevaar usakaa raastaa rok naheen paatee."
+      "Jab ek ladki than leti hai apna muqaddar badalne ki,",
+      "Phir duniya ki koi deewar uska raasta rok nahi pati."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15755,8 +15755,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मुझे परवाह नहीं इस जलने वाली दुनिया के तानों की।"
     ],
     "linesHinglish": [
-      "Shahazaadee hoon main apane baabul ke pyaare aangan kee,",
-      "Mujhe paravaah naheen is jalane vaalee duniyaa ke taanon kee."
+      "Shahzadi hoon main apne babul ke pyare aangan ki,",
+      "Mujhe parwah nahi is jalne wali duniya ke tanon ki."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15798,8 +15798,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अपनी संस्कृति से जुड़े रहना ही मेरा असली वैभव है।"
     ],
     "linesHinglish": [
-      "Dupattaa sir par rakhanaa meree bebasee naheen meraa gaurav hai,",
-      "Apanee sanskriti se jure rahanaa hee meraa asalee vaibhav hai."
+      "Dupatta sir par rakhna meri bebsi nahi mera gaurav hai,",
+      "Apni sanskriti se jude rehna hi mera asli vaibhav hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15841,8 +15841,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "स्वाभिमान पर आँच आए तो काली बन जाना जानती हूँ।"
     ],
     "linesHinglish": [
-      "Mohabbat karoon to meeraa see bhakti nibhaanaa jaanatee hoon,",
-      "Svaabhimaan par aanch aae to kaalee ban jaanaa jaanatee hoon."
+      "Mohabbat karoon toh mira si bhakti nibhana janti hoon,",
+      "Swabhimaan par aanch aaye toh kali ban jaana janti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15884,8 +15884,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं वो किताब हूँ जिसे हर कोई समझ नहीं पाता।"
     ],
     "linesHinglish": [
-      "Mujhe parakhane kee koshish mat kar ai naadaan musaafir,",
-      "Main vo kitaab hoon jise har koee samajh naheen paataa."
+      "Mujhe parakhne ki koshish mat kar ai nadan musafir,",
+      "Main woh kitaab hoon jise har koi samajh nahi pata."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15927,8 +15927,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उन्हें क्या पता मेरी चुप्पी में कितने तूफ़ान पलते हैं।"
     ],
     "linesHinglish": [
-      "Khaamosh rahatee hoon to log mujhe bezubaan samajh lete hain,",
-      "Unhen kyaa pataa meree chuppee men kitane toofaan palate hain."
+      "Khamosh rehti hoon toh log mujhe bezuban samajh lete hain,",
+      "Unhein kya pata meri chuppi mein kitne toofan palte hain."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -15970,8 +15970,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "अब किसी के झूठे सहारे की मोहताज नहीं हूँ मैं।"
     ],
     "linesHinglish": [
-      "Apane aansoo ponchh kar khud muskuraanaa seekh liyaa hai mainne,",
-      "Ab kisee ke jhoothe sahaare kee mohataaj naheen hoon main."
+      "Apne aansu ponchh kar khud muskurana sikh liya hai maine,",
+      "Ab kisi ke jhoothe sahare ki mohtaj nahi hoon main."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16013,8 +16013,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं बेटी हूँ बिना शर्त सब पर प्यार लुटाती हूँ।"
     ],
     "linesHinglish": [
-      "Paayal kee jhankaar se ghar kaa konaa-konaa chahakaatee hoon,",
-      "Main betee hoon binaa sharta sab par pyaar lutaatee hoon."
+      "Payal ki jhankar se ghar ka kona-kona chahkati hoon,",
+      "Main beti hoon bina shart sab par pyar lutati hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16056,8 +16056,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जहाँ लोग हार मान लें मैं वहीं से जीत लेती हूँ।"
     ],
     "linesHinglish": [
-      "Baraabaree kaa haq maangatee naheen apane dam par chheen letee hoon,",
-      "Jahaan log haar maan len main vaheen se jeet letee hoon."
+      "Barabri ka haq mangti nahi apne dam par chhin leti hoon,",
+      "Jahaan log haar maan lein main wahin se jeet leti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16099,8 +16099,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं अपनी शर्तों पर जीती हूँ भीड़ से नहीं डरती।"
     ],
     "linesHinglish": [
-      "Meraa tevar meree pahachaan hai kisee kee naqal naheen karatee,",
-      "Main apanee sharton par jeetee hoon bheer se naheen daratee."
+      "Mera tevar meri pahchan hai kisi ki naqal nahi karti,",
+      "Main apni sharton par jiti hoon bheed se nahi darti."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16142,8 +16142,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं किसी के हाथ का खिलौना नहीं ख़ुद अपनी तक़दीर हूँ।"
     ],
     "linesHinglish": [
-      "Maan kee parachhaaee hoon aur pitaa ke hausale kee tasveer hoon,",
-      "Main kisee ke haath kaa khilaunaa naheen khud apanee taqadeer hoon."
+      "Maa ki parchhai hoon aur pita ke hausle ki tasveer hoon,",
+      "Main kisi ke haath ka khilauna nahi khud apni taqdeer hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16185,8 +16185,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "कपड़ों से जज करने वालों खोट तुम्हारी निगाहों में है।"
     ],
     "linesHinglish": [
-      "Soot pahanoon yaa jeens meree sharaafat meree aankhon men hai,",
-      "Kaparon se jaj karane vaalon khot tumhaaree nigaahon men hai."
+      "Suit pahnoon ya Jeans meri sharafat meri aankhon mein hai,",
+      "Kapdon se jaj karne walon khot tumhari nigahon mein hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16228,8 +16228,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "इतना बड़ा कलेजा सिर्फ़ एक लड़की ही दिखा सकती है।"
     ],
     "linesHinglish": [
-      "Apanaa ghar chhor kar paraae ghar ko apanaa banaa letee hai,",
-      "Itanaa baraa kalejaa sirfa ek larakee hee dikhaa sakatee hai."
+      "Apna ghar chhod kar parae ghar ko apna bana leti hai,",
+      "Itna bada kaleja sirf ek ladki hi dikha sakti hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16271,8 +16271,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "जो क़द्र न जाने मेरी मैं उसकी राह नहीं तकती।"
     ],
     "linesHinglish": [
-      "Heere see chamak hai mujhamen koyale kee paravaah naheen karatee,",
-      "Jo qadra na jaane meree main usakee raah naheen takatee."
+      "Hire si chamak hai mujhmein koyle ki parwah nahi karti,",
+      "Jo qadr na jaane meri main uski rah nahi takti."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16314,8 +16314,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरी इज़्ज़त अनमोल है बाज़ारों में ये मिलती नहीं।"
     ],
     "linesHinglish": [
-      "Bhaav khaanaa meree aadat naheen bas har kisee se khulatee naheen,",
-      "Meree izzat anamol hai baazaaron men ye milatee naheen."
+      "Bhav khana meri aadat nahi bas har kisi se khulti nahi,",
+      "Meri izzat anmol hai bazaron mein yeh milti nahi."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16357,8 +16357,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं अपने आने वाले कल की सबसे सुनहरी झलकी हूँ।"
     ],
     "linesHinglish": [
-      "Sapanon ke peechhe bhaagane vaalee ek aazaad khyaal larakee hoon,",
-      "Main apane aane vaale kal kee sabase sunaharee jhalakee hoon."
+      "Sapnon ke peechhe bhagne wali ek azaad khyal ladki hoon,",
+      "Main apne aane wale kal ki sabse sunahri jhalki hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16400,8 +16400,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं गिरकर भी हर बार दुगुनी ताक़त से उठ जाती हूँ।"
     ],
     "linesHinglish": [
-      "Nafarat karane vaalon ko apanee kaamayaabee se jalaatee hoon,",
-      "Main girakar bhee har baar dugunee taaqat se uth jaatee hoon."
+      "Nafrat karne walon ko apni kamyabi se jalati hoon,",
+      "Main girkar bhi har bar duguni taqat se uth jaati hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16443,8 +16443,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "हर मुश्किल को हरा दे ऐसा मेरा बुलंद अंदाज़ है।"
     ],
     "linesHinglish": [
-      "Meree hansee men sukoon hai aur mere iraadon men faulaad hai,",
-      "Har mushkil ko haraa de aisaa meraa buland andaaz hai."
+      "Meri hansi mein sukoon hai aur mere iradon mein faulad hai,",
+      "Har mushkil ko hara de aisa mera buland andaaz hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16486,8 +16486,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "वक़्त ने सिखा दिया है मुझे हर रूप में ढलना भी।"
     ],
     "linesHinglish": [
-      "Gulaab kee pankhuree bhee hoon aur hifaazat kaa kaantaa bhee,",
-      "Vaqta ne sikhaa diyaa hai mujhe har roop men dhalanaa bhee."
+      "Gulab ki pankhudi bhi hoon aur hifazat ka kanta bhi,",
+      "Waqt ne sikha diya hai mujhe har roop mein dhalna bhi."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16529,8 +16529,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं आज की बेटी हूँ सितारों के पार दिखती हूँ।"
     ],
     "linesHinglish": [
-      "Kismat kee lakeeron se aage barhakar mehanat likhatee hoon,",
-      "Main aaj kee betee hoon sitaaron ke paar dikhatee hoon."
+      "Kismat ki lakiron se aage badhkar mehnat likhti hoon,",
+      "Main aaj ki beti hoon sitaaron ke par dikhti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16572,8 +16572,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक बार मन से उतर गए तो मुड़कर ख़बर नहीं लेती।"
     ],
     "linesHinglish": [
-      "Dhokhaa dene vaalon ko dobaaraa mauqaa main kabhee naheen detee,",
-      "Ek baar man se utar gae to murakar khabar naheen letee."
+      "Dhokha dene walon ko dobara mauqa main kabhi nahi deti,",
+      "Ek bar man se utar gaye toh mudkar khabar nahi leti."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16615,8 +16615,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "प्यार से पेश आओगे तो खुदा की सबसे प्यारी रहमत हूँ।"
     ],
     "linesHinglish": [
-      "Seedhee hoon to gaay mat samajhanaa terhee huee to aafat hoon,",
-      "Pyaar se pesh aaoge to khudaa kee sabase pyaaree rahamat hoon."
+      "Sidhi hoon toh gay mat samajhna tedhi hui toh aafat hoon,",
+      "Pyar se pesh aaoge toh Khuda ki sabse pyari rahmat hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16658,8 +16658,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं ख़ुद में मुकम्मल हूँ यही बात बनाती है मुझे ख़ास।"
     ],
     "linesHinglish": [
-      "Khule baalon kee laharaatee ghataa aur aankhon men gaharaa vishvaas,",
-      "Main khud men mukammal hoon yahee baat banaatee hai mujhe khaas."
+      "Khule balon ki lahrati ghata aur aankhon mein gehra vishwas,",
+      "Main khud mein mukammal hoon yahi baat banati hai mujhe khaas."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16701,8 +16701,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "फिर भी समाज पूछता है कि बेटियाँ क्या कर सकती हैं।"
     ],
     "linesHinglish": [
-      "Beton se barhakar farza nibhaayaa hai har mor par hamane,",
-      "Phir bhee samaaj poochhataa hai ki betiyaan kyaa kar sakatee hain."
+      "Beton se badhkar farz nibhaya hai har mod par humne,",
+      "Phir bhi samaj poochhta hai ki betiyan kya kar sakti hain."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16744,8 +16744,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं अपने क़दमों की आहट से नई मंज़िलें गढ़ती हूँ।"
     ],
     "linesHinglish": [
-      "Dil jeetane kaa hunar rakhatee hoon dimaagh se baazee palatatee hoon,",
-      "Main apane qadamon kee aahat se naee manzilen garhatee hoon."
+      "Dil jitne ka hunar rakhti hoon dimagh se bazi palatti hoon,",
+      "Main apne kadmon ki aahat se nayi manzilein gadhti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16787,8 +16787,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "किसी को रिझाने के लिए मैं अपना रूप नहीं बदलती हूँ।"
     ],
     "linesHinglish": [
-      "Sajane-sanvarane kaa shauq main khud kee khushee ke lie rakhatee hoon,",
-      "Kisee ko rijhaane ke lie main apanaa roop naheen badalatee hoon."
+      "Sajne-sanvarne ka shauq main khud ki khushi ke liye rakhti hoon,",
+      "Kisi ko rijhane ke liye main apna roop nahi badalti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16830,8 +16830,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "एक स्त्री अपने परिवार के लिए अपना आपा भी भूलती है।"
     ],
     "linesHinglish": [
-      "Darda ko seene men chhupaa kar sabakee thaalee men pyaar parosatee hai,",
-      "Ek stree apane parivaar ke lie apanaa aapaa bhee bhoolatee hai."
+      "Dard ko seene mein chhupa kar sabki thali mein pyar parosti hai,",
+      "Ek stri apne parivaar ke liye apna aapa bhi bhoolti hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16873,8 +16873,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं रुकने के लिए नहीं नया इतिहास रचने को निकली हूँ।"
     ],
     "linesHinglish": [
-      "Meree uraan se jalane vaalon zaraa aasamaan baraa kar lo,",
-      "Main rukane ke lie naheen nayaa itihaas rachane ko nikalee hoon."
+      "Meri udaan se jalne walon zara aasmaan bada kar lo,",
+      "Main rukne ke liye nahi naya itihas rachne ko nikli hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16916,8 +16916,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मैं सही और ग़लत के बीच साफ़ फ़ैसला रखती हूँ।"
     ],
     "linesHinglish": [
-      "Naazuk kalaaee men bhee chattaan torane kaa hausalaa rakhatee hoon,",
-      "Main sahee aur ghalat ke beech saaf faisalaa rakhatee hoon."
+      "Nazuk kalai mein bhi chattan todne ka hausla rakhti hoon,",
+      "Main sahi aur galat ke beech saf faisla rakhti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -16959,8 +16959,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरा रुतबा मेरे काम से है किसी के ज़ोर से नहीं।"
     ],
     "linesHinglish": [
-      "Sheranee apanee chaal se pahachaanee jaatee hai shor se naheen,",
-      "Meraa rutabaa mere kaam se hai kisee ke zor se naheen."
+      "Sherni apni chal se pahchani jaati hai shor se nahi,",
+      "Mera rutba mere kaam se hai kisi ke zor se nahi."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -17002,8 +17002,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "उस घर में ख़ुद चलकर आते हैं चारों धाम।"
     ],
     "linesHinglish": [
-      "Jis ghar men betiyon kee hansee goonjatee hai subah-o-shaam,",
-      "Us ghar men khud chalakar aate hain chaaron dhaam."
+      "Jis ghar mein betiyon ki hansi goonjti hai subah-o-shaam,",
+      "Us ghar mein khud chalkar aate hain charon dham."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -17045,8 +17045,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "मेरे सिर पर हमेशा मेरे रब का आशीर्वाद है।"
     ],
     "linesHinglish": [
-      "Akelee chalane se naheen daratee meraa saayaa mere saath hai,",
-      "Mere sir par hameshaa mere rab kaa aasheervaad hai."
+      "Akeli chalne se nahi darti mera saaya mere saath hai,",
+      "Mere sir par hamesha mere Rab ka aashirwad hai."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -17088,8 +17088,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "झूठी चापलूसी करना मैं अपनी तौहीन समझती हूँ।"
     ],
     "linesHinglish": [
-      "Dil se saaf hoon isalie thoree munhaphat kahalaatee hoon,",
-      "Jhoothee chaapaloosee karanaa main apanee tauheen samajhatee hoon."
+      "Dil se saf hoon islie thodi munhphat kahlati hoon,",
+      "Jhoothi chaploosi karna main apni tauhin samajhti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -17131,8 +17131,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "स्वाभिमान से भरी हुई मैं ज्ञान और साहस की गागर हूँ।"
     ],
     "linesHinglish": [
-      "Naaree hoon main srijan kee shakti aur mamataa kaa saagar hoon,",
-      "Svaabhimaan se bharee huee main jnaan aur saahas kee gaagar hoon."
+      "Nari hoon main srijan ki shakti aur mamta ka sagar hoon,",
+      "Swabhimaan se bhari hui main gyan aur sahas ki gagar hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",
@@ -17174,8 +17174,8 @@ export const FEELINGS_ALL: Shayari[] = [
       "काँटों भरी राहों में भी फूल खिलाना जानती हूँ।"
     ],
     "linesHinglish": [
-      "Apanee kahaanee kee naayikaa main khud hee bananaa jaanatee hoon,",
-      "Kaanton bharee raahon men bhee phool khilaanaa jaanatee hoon."
+      "Apni kahani ki nayika main khud hi banna janti hoon,",
+      "Kaanton bhari raahon mein bhi phool khilana janti hoon."
     ],
     "linesEnglish": [
       "Graceful dignity, fierce self-respect, and a woman's crown",

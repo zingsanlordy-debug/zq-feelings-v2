@@ -6,6 +6,7 @@ import {
   UI_TRANSLATIONS,
   UiStrings,
   getSyncTranslation,
+  convertHindiToHinglish,
   requestDynamicTranslation,
   detectDeviceGlobalLanguage
 } from '../utils/globalTranslations';
@@ -79,7 +80,8 @@ export const GlobalLanguageProvider: React.FC<{ children: React.ReactNode }> = (
   }, [activeLanguageOption]);
 
   const value = useMemo<GlobalLanguageContextValue>(() => {
-    const ui = UI_TRANSLATIONS[globalLanguage] || UI_TRANSLATIONS.default;
+    const uiKey = globalLanguage === 'default' ? 'hinglish' : globalLanguage;
+    const ui = UI_TRANSLATIONS[uiKey] || UI_TRANSLATIONS.hinglish || UI_TRANSLATIONS.default;
     return {
       globalLanguage,
       setGlobalLanguage,
@@ -236,16 +238,15 @@ export const TranslatedText: React.FC<{
   defaultDisplay?: string;
 }> = ({ text, english, defaultDisplay }) => {
   const { globalLanguage } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
   const fallback = english || defaultDisplay;
   const translated = useTranslatedText(text, fallback);
 
-  if (
-    (globalLanguage === 'default' ||
-      globalLanguage === 'hinglish' ||
-      globalLanguage === 'english' ||
-      globalLanguage === 'english-uk') &&
-    (defaultDisplay || english)
-  ) {
+  if (isHinglishMode) {
+    const source = defaultDisplay || text;
+    return <>{/[\u0900-\u097F]/.test(source) ? convertHindiToHinglish(source) : source}</>;
+  }
+  if ((globalLanguage === 'english' || globalLanguage === 'english-uk') && (defaultDisplay || english)) {
     return <>{defaultDisplay || english}</>;
   }
   return <>{translated}</>;

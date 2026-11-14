@@ -587,11 +587,19 @@ export default function App() {
     page: number = 1,
     staticLang?: ValentineLangCode
   ) => {
+    if (
+      typeof document !== 'undefined' &&
+      document.activeElement instanceof HTMLElement &&
+      document.activeElement.closest('footer')
+    ) {
+      document.activeElement.blur();
+    }
+    const isRouteSwap = route !== currentRoute;
     setActiveShayariSlug(null);
     setCurrentRoute(route);
     setCurrentPage(page);
     setSearchQuery('');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: isRouteSwap ? 'auto' : 'smooth' });
 
     let newUrl = '/';
     if (route === 'festival') {
@@ -655,6 +663,7 @@ export default function App() {
     setCurrentPage(1);
     const cleanPath = buildValentineCleanPath(catId, lang, false);
     pushCleanUrl(cleanPath, 'valentine-week');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectFestivalCategory = (catId: string, lang?: ValentineLangCode) => {
@@ -667,6 +676,7 @@ export default function App() {
     } else {
       pushCleanUrl(buildCleanSeoUrl('festival', catId), 'festival');
     }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectHolidayLanguageUrl = (
@@ -676,6 +686,7 @@ export default function App() {
     setSelectedStaticLang(lang);
     setCurrentPage(1);
     pushCleanUrl(buildHoliday35CleanPath(holidayId, lang, 1), 'festival');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectFeelingsCategory = (catId: string, lang?: ValentineLangCode) => {
@@ -684,12 +695,14 @@ export default function App() {
     setSelectedFeelingsCat(catId);
     setCurrentPage(1);
     pushCleanUrl(buildFeelingsCleanPath(catId, targetLang, 1, false), 'feelings');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectFeelingsLanguageUrl = (lang: ValentineLangCode, catId: string) => {
     setSelectedStaticLang(lang);
     setCurrentPage(1);
     pushCleanUrl(buildFeelingsCleanPath(catId, lang, 1, false), 'feelings');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Sync Header 35-Language Dropdown changes onto Static-35 & Valentine routes
@@ -724,18 +737,21 @@ export default function App() {
     setSelectedReligiousCat(catId);
     setCurrentPage(1);
     pushCleanUrl(buildCleanSeoUrl('religious', catId), 'religious');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectFamilyRitualCategory = (catId: FamilyRitualCategory) => {
     setSelectedFamilyRitualCat(catId);
     setCurrentPage(1);
     pushCleanUrl(buildCleanSeoUrl('family-rituals', catId), 'family-rituals');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleSelectSpecialMonth = (mId: MonthId | 'all') => {
     setSelectedSpecialMonth(mId);
     setCurrentPage(1);
     pushCleanUrl(buildCleanSeoUrl('zq-mansoon-special', mId), 'zq-mansoon-special');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   // Open Card Download Modal
@@ -807,6 +823,32 @@ export default function App() {
   };
 
   const activeSearchTerm = deferredSearchQuery.trim();
+
+  // Keep viewport at top after any route, category, language, or search change
+  const hasMountedScrollGuardRef = useRef(false);
+  useEffect(() => {
+    if (!hasMountedScrollGuardRef.current) {
+      hasMountedScrollGuardRef.current = true;
+      return;
+    }
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [
+    currentRoute,
+    selectedFestivalCat,
+    selectedFeelingsCat,
+    selectedReligiousCat,
+    selectedFamilyRitualCat,
+    selectedSpecialMonth,
+    selectedValentineCat,
+    activeShayariSlug,
+    selectedStaticLang,
+    selectedValentineLang,
+    globalLanguage,
+    activeSearchTerm
+  ]);
 
   // Pre-indexed Global Search Pool built lazily only when searching
   const indexedSearchable = useMemo(() => {
@@ -1050,7 +1092,9 @@ export default function App() {
         ) : (
           <Suspense
             fallback={
-              <div className="py-16 text-center text-[#d94f70] font-bold text-lg">Loading...</div>
+              <div className="min-h-[85vh] py-16 text-center text-[#d94f70] font-bold text-lg">
+                Loading...
+              </div>
             }
           >
             {/* ROUTE: HOME PAGE */}

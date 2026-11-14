@@ -30,7 +30,8 @@ export const Footer: React.FC<FooterProps> = ({
   onNavigateFavorites,
   onNavigateLegal
 }) => {
-  const { ui, isRtl } = useGlobalLanguage();
+  const { globalLanguage, ui, isRtl } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
   const aboutDesc = useTranslatedText(
     'ZQ FEELINGS - दिल की आवाज़ हिंदी शायरी, स्टेटस, त्यौहार विशेस, फीलिंग्स शायरी और 12 महीनों के खास दिनों की शुभकामनाओं का एक साफ़-सुथरा मंच है, जहाँ आप अपनी शायरी भी लिख और सहेज सकते हैं।',
     'ZQ FEELINGS - Dil Ki Awaaz is a clean home for Shayari, Status, Festival Wishes, Feelings Poetry, and 12 Months Special Days greetings where you can also write and save your own poetry.'
@@ -415,7 +416,7 @@ export const Footer: React.FC<FooterProps> = ({
                   id="privacy-policy-title"
                   className="text-[26px] font-bold text-white leading-snug"
                 >
-                  Privacy Policy · गोपनीयता नीति
+                  {isHinglishMode ? 'Privacy Policy' : 'Privacy Policy · गोपनीयता नीति'}
                 </h2>
                 <p className="text-[15px] text-slate-400 mt-1">
                   Effective Year: 2026 · <span className="zq-feelings-logo text-slate-200">ZQ FEELINGS</span> - Dil Ki Awaaz
@@ -434,7 +435,7 @@ export const Footer: React.FC<FooterProps> = ({
             <div className="mt-5 space-y-5 text-[18px] leading-[1.8] text-slate-300">
               <section className="space-y-1.5">
                 <h3 className="text-[22px] font-bold text-white">
-                  1. Overview (परिचय)
+                  {isHinglishMode ? '1. Overview' : '1. Overview (परिचय)'}
                 </h3>
                 <p>
                   <span className="zq-feelings-logo text-white">ZQ FEELINGS</span> - Dil Ki Awaaz values your privacy. You can browse, read, copy, translate, and share Hindi Shayari, Status, Festival Wishes, Feelings Shayari, and 12 Months Special Days poetry without creating an account or submitting personal credentials.
@@ -443,16 +444,26 @@ export const Footer: React.FC<FooterProps> = ({
 
               <section className="space-y-1.5">
                 <h3 className="text-[22px] font-bold text-white">
-                  2. Local Storage &amp; Saved Shayari (लोकल स्टोरेज)
+                  {isHinglishMode
+                    ? '2. Local Storage & Saved Shayari'
+                    : '2. Local Storage & Saved Shayari (लोकल स्टोरेज)'}
                 </h3>
                 <p>
-                  When you like a shayari or write your own poetry in the &ldquo;अपनी शायरी लिखें&rdquo; section, your entries are stored locally in your browser&rsquo;s Local Storage so they remain available in your Pasandida (Favorites) list. You can remove saved items anytime directly from the website.
+                  {isHinglishMode ? (
+                    <>
+                      When you like a shayari or write your own poetry in the &ldquo;Apni Shayari Likhe&rdquo; section, your entries are stored locally in your browser&rsquo;s Local Storage so they remain available in your Pasandida (Favorites) list. You can remove saved items anytime directly from the website.
+                    </>
+                  ) : (
+                    <>
+                      When you like a shayari or write your own poetry in the &ldquo;अपनी शायरी लिखें&rdquo; section, your entries are stored locally in your browser&rsquo;s Local Storage so they remain available in your Pasandida (Favorites) list. You can remove saved items anytime directly from the website.
+                    </>
+                  )}
                 </p>
               </section>
 
               <section className="space-y-1.5">
                 <h3 className="text-[22px] font-bold text-white">
-                  3. Content Safety (सुरक्षित सामग्री)
+                  {isHinglishMode ? '3. Content Safety' : '3. Content Safety (सुरक्षित सामग्री)'}
                 </h3>
                 <p>
                   To maintain a respectful community experience, user-written entries pass through an automated language and link filter that prevents abusive words and spam URLs.
@@ -479,7 +490,7 @@ export const Footer: React.FC<FooterProps> = ({
 
               <section className="space-y-1.5">
                 <h3 className="text-[22px] font-bold text-white">
-                  5. Contact Us (संपर्क करें)
+                  {isHinglishMode ? '5. Contact Us' : '5. Contact Us (संपर्क करें)'}
                 </h3>
                 <p>
                   For any privacy questions, copyright inquiries, or feedback, contact us at{' '}

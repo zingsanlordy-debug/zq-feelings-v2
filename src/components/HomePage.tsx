@@ -21,6 +21,10 @@ import {
   useTranslatedText,
   TranslatedText
 } from '../context/GlobalLanguageContext';
+import {
+  convertHindiTitleToHinglish,
+  convertHindiLineToHinglish
+} from '../utils/globalTranslations';
 import { VALENTINE_CATEGORIES, ValentineCategoryId, ValentineLangCode } from '../data/valentineWeekMeta';
 import { ShayariCard } from './ShayariCard';
 import { ShayariPagination } from './ShayariPagination';
@@ -162,7 +166,10 @@ export const HomePage: React.FC<HomePageProps> = ({
   onOpenComments,
   onOpenDetail
 }) => {
-  const { ui, isRtl } = useGlobalLanguage();
+  const { globalLanguage, ui, isRtl } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
+  const hTitle = (s: string) => (isHinglishMode ? convertHindiTitleToHinglish(s) : s);
+  const hLine = (s: string) => (isHinglishMode ? convertHindiLineToHinglish(s) : s);
   const momentsDesc = useTranslatedText(ui.homeMomentsDesc);
   const openMomentsText = useTranslatedText(ui.openZqMoments);
   const trendingPagination = useMemo(
@@ -271,7 +278,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <TranslatedText
                   text="फीलिंग्स शायरी (Feelings Shayari)"
                   english="Feelings Shayari"
-                  defaultDisplay="Feelings Shayari (फीलिंग्स शायरी)"
+                  defaultDisplay="Feelings Shayari"
                 />
               </h2>
             </div>
@@ -290,16 +297,16 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <span className="text-xl leading-none shrink-0 group-hover:scale-110 transition-transform">
                     {chip.icon}
                   </span>
-                  <span className="min-w-0 leading-tight">
-                    <span className="block text-[14px] sm:text-[15px] font-extrabold truncate">
+                  <span className="min-w-0 flex-1 leading-tight">
+                    <span className="block text-[14px] sm:text-[15px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal]">
                       <TranslatedText
                         text={chip.hindiName}
                         english={chip.englishName}
                         defaultDisplay={chip.englishName}
                       />
                     </span>
-                    <span className="block text-[12px] font-semibold text-slate-500 group-hover:text-pink-100 truncate">
-                      {chip.hindiName}
+                    <span className="block text-[12px] font-semibold text-slate-500 group-hover:text-pink-100 whitespace-normal [word-break:normal] [overflow-wrap:normal]">
+                      {hTitle(chip.hindiName)}
                     </span>
                   </span>
                 </a>
@@ -324,7 +331,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <TranslatedText
                   text="त्यौहार शायरी (Festival Shayari)"
                   english="Festival Shayari"
-                  defaultDisplay="Festival Shayari (त्यौहार शायरी)"
+                  defaultDisplay="Festival Shayari"
                 />
               </h2>
             </div>
@@ -349,16 +356,16 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <span className="text-xl leading-none shrink-0 group-hover:scale-110 transition-transform">
                     {fest.icon}
                   </span>
-                  <span className="min-w-0 leading-tight">
-                    <span className="block text-[14px] sm:text-[15px] font-extrabold truncate">
+                  <span className="min-w-0 flex-1 leading-tight">
+                    <span className="block text-[14px] sm:text-[15px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal]">
                       <TranslatedText
                         text={fest.hindiName}
                         english={fest.name}
                         defaultDisplay={fest.name}
                       />
                     </span>
-                    <span className="block text-[12px] font-semibold text-slate-500 group-hover:text-amber-100 truncate">
-                      {fest.hindiName}
+                    <span className="block text-[12px] font-semibold text-slate-500 group-hover:text-amber-100 whitespace-normal [word-break:normal] [overflow-wrap:normal]">
+                      {hTitle(fest.hindiName)}
                     </span>
                   </span>
                 </a>
@@ -385,16 +392,16 @@ export const HomePage: React.FC<HomePageProps> = ({
                     <span className="text-lg leading-none shrink-0 group-hover:scale-110 transition-transform">
                       {m.heroIcon}
                     </span>
-                    <span className="min-w-0 leading-tight">
-                      <span className="block text-[13px] sm:text-[14px] font-extrabold truncate">
+                    <span className="min-w-0 flex-1 leading-tight">
+                      <span className="block text-[13px] sm:text-[14px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal]">
                         <TranslatedText
                           text={m.nameHindi}
                           english={m.nameEnglish}
                           defaultDisplay={m.nameEnglish}
                         />
                       </span>
-                      <span className="block text-[11px] font-semibold text-slate-500 group-hover:text-pink-100 truncate">
-                        {m.nameHindi}
+                      <span className="block text-[11px] font-semibold text-slate-500 group-hover:text-pink-100 whitespace-normal [word-break:normal] [overflow-wrap:normal]">
+                        {hTitle(m.nameHindi)}
                       </span>
                     </span>
                   </a>
@@ -468,9 +475,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                   <h3 className="font-rozha text-[22px] font-bold text-slate-900 group-hover:text-[#d94f70] leading-snug">
                     {vCat.shortName} - {vCat.dateLabel}
                   </h3>
-                  <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{vCat.hindiName}</p>
+                  <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{hTitle(vCat.hindiName)}</p>
                   <p className="mt-2.5 text-[14px] text-slate-600 font-medium leading-relaxed line-clamp-2">
-                    {vCat.subtitle}
+                    {hLine(vCat.subtitle)}
                   </p>
                 </div>
 
@@ -492,7 +499,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <TranslatedText
               text="धार्मिक और आध्यात्मिक शायरी (Religious Shayari)"
               english="Religious Shayari"
-              defaultDisplay="Religious Shayari (धार्मिक शायरी)"
+              defaultDisplay="Religious Shayari"
             />
           </h2>
         </div>
@@ -529,9 +536,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                     defaultDisplay={rel.englishTitle}
                   />
                 </h3>
-                <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{rel.hindiTitle}</p>
+                <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{hTitle(rel.hindiTitle)}</p>
                 <p className="mt-2.5 text-[14px] text-slate-600 font-medium leading-relaxed line-clamp-2">
-                  {rel.subtitle}
+                  {hLine(rel.subtitle)}
                 </p>
               </div>
 
@@ -552,7 +559,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <TranslatedText
               text="संस्कार और पारिवारिक रस्में (Sanskar & Family Rituals)"
               english="Sanskar & Family Rituals"
-              defaultDisplay="Sanskar & Family Rituals (संस्कार)"
+              defaultDisplay="Sanskar & Family Rituals"
             />
           </h2>
         </div>
@@ -592,10 +599,10 @@ export const HomePage: React.FC<HomePageProps> = ({
                     />
                   </h3>
                   <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">
-                    {ritual.hindiTitle}
+                    {hTitle(ritual.hindiTitle)}
                   </p>
                   <p className="mt-2.5 text-[14px] text-slate-600 font-medium leading-relaxed line-clamp-2">
-                    {ritual.subtitle}
+                    {hLine(ritual.subtitle)}
                   </p>
                 </div>
 
@@ -619,7 +626,7 @@ export const HomePage: React.FC<HomePageProps> = ({
                 <TranslatedText
                   text="ट्रेंडिंग और नई शायरी (Recent & Trending Shayari)"
                   english="Recent & Trending Shayari"
-                  defaultDisplay="Recent & Trending Shayari (ट्रेंडिंग शायरी)"
+                  defaultDisplay="Recent & Trending Shayari"
                 />
               </h2>
             </div>
@@ -794,7 +801,9 @@ export const HomePage: React.FC<HomePageProps> = ({
                 }
                 className="px-6 py-2.5 rounded-2xl bg-[#fff0f3] hover:bg-[#d94f70] text-[#d94f70] hover:text-white border border-[#ffd6df] font-bold text-[14px] transition-all cursor-pointer shadow-2xs"
               >
-                और शायरी देखें ({trendingPagination.pageItems.length - visibleTrendingCount} बाकी) ↓
+                {isHinglishMode
+                  ? `Aur Shayari Dekhein (${trendingPagination.pageItems.length - visibleTrendingCount} Baaki) ↓`
+                  : `और शायरी देखें (${trendingPagination.pageItems.length - visibleTrendingCount} बाकी) ↓`}
               </button>
             </div>
           )}
@@ -819,7 +828,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="space-y-2 max-w-2xl">
             <h2 className="font-rozha text-[26px] sm:text-[30px] font-bold text-[#d94f70] leading-snug flex items-center gap-2.5">
               <Pencil className="w-7 h-7 text-[#d94f70] shrink-0" />
-              <span>Apni Shayari Likhe (अपनी शायरी लिखें)</span>
+              <span>{isHinglishMode ? 'Apni Shayari Likhe' : 'Apni Shayari Likhe (अपनी शायरी लिखें)'}</span>
             </h2>
             <p className="text-[17px] sm:text-[18px] text-slate-700 leading-relaxed">
               <TranslatedText

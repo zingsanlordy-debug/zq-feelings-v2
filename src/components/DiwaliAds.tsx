@@ -1,16 +1,16 @@
 import React from 'react';
 
 /**
- * Top Adsterra Banner 320x50 for Diwali Section
- * Safe iframe with lazy loading
+ * Shared Adsterra 320x50 Banner for Category Pages (Page 1 only, before pagination).
+ * Safe iframe with lazy loading — script runs once inside isolated iframe.
  */
-export const DiwaliTopBanner320x50: React.FC = () => {
+export const AdsterraCategoryBanner: React.FC = React.memo(() => {
   return (
-    <div className="w-full my-5 flex flex-col items-center justify-center">
+    <div className="w-full my-7 flex flex-col items-center justify-center px-2">
       <span className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-1.5 select-none">
         Advertisement
       </span>
-      <div className="w-[320px] h-[50px] flex items-center justify-center overflow-hidden bg-white/70 border border-[#ffe4e8] rounded-xl shadow-2xs">
+      <div className="w-[320px] max-w-full h-[50px] flex items-center justify-center overflow-hidden bg-white/70 border border-[#ffe4e8] rounded-xl shadow-2xs mx-auto">
         <iframe
           title="Advertisement"
           width="320"
@@ -23,5 +23,8 @@ export const DiwaliTopBanner320x50: React.FC = () => {
       </div>
     </div>
   );
-};
+});
 
+AdsterraCategoryBanner.displayName = 'AdsterraCategoryBanner';
+
+export const DiwaliTopBanner320x50 = AdsterraCategoryBanner;

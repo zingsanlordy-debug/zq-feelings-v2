@@ -1,9 +1,9 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import { ArrowLeft, BookOpen, ChevronRight, Home, Sparkles } from 'lucide-react';
 import { Shayari, FontStyleId, LanguageType } from '../types/shayari';
 import { ShayariCard } from './ShayariCard';
 import { getRelatedShayaris, getShayariPath } from '../utils/shayariSlug';
-import { useGlobalLanguage, TranslatedText } from '../context/GlobalLanguageContext';
+import { useGlobalLanguage, useTranslatedText, TranslatedText } from '../context/GlobalLanguageContext';
 
 interface ShayariDetailPageProps {
   shayari: Shayari;
@@ -37,6 +37,15 @@ export const ShayariDetailPage: React.FC<ShayariDetailPageProps> = ({
   onOpenComments
 }) => {
   const { isRtl } = useGlobalLanguage();
+  const translatedTitle = useTranslatedText(shayari.title || 'Shayari');
+  const translatedCatName = useTranslatedText(shayari.categoryName || shayari.category);
+
+  useEffect(() => {
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [shayari.id]);
 
   const handleHome = onOpenHome || onNavigateHome || onBackToCategory;
 
@@ -73,13 +82,13 @@ export const ShayariDetailPage: React.FC<ShayariDetailPageProps> = ({
           type="button"
           className="hover:text-[#d94f70] transition-colors cursor-pointer capitalize font-bold text-[#d94f70]"
         >
-          {shayari.categoryName || shayari.category}
+          {translatedCatName}
         </button>
 
         <ChevronRight className="w-4 h-4 text-slate-400 shrink-0" />
 
         <span className="text-slate-800 font-extrabold truncate max-w-[220px] sm:max-w-xs">
-          {shayari.title || 'Shayari'}
+          {translatedTitle}
         </span>
       </nav>
 
@@ -127,7 +136,7 @@ export const ShayariDetailPage: React.FC<ShayariDetailPageProps> = ({
               <TranslatedText
                 text="संबंधित शायरी (Related Shayari)"
                 english="Related Shayari"
-                defaultDisplay="Related Shayari (संबंधित शायरी)"
+                defaultDisplay="Related Shayari"
               />
             </h2>
           </div>

@@ -70,6 +70,7 @@ export const SpecialDayCard: React.FC<SpecialDayCardProps> = ({
   } = useFontSize();
 
   const { globalLanguage, setGlobalLanguage, ui, speechLangCode } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
 
   useEffect(() => {
     setCardLanguage(
@@ -198,69 +199,76 @@ export const SpecialDayCard: React.FC<SpecialDayCardProps> = ({
   return (
     <article className="group relative rounded-3xl bg-[#fff8f9] border-2 border-[#ffe4e8] shadow-xs hover:shadow-lg hover:border-[#d94f70]/50 transition-all duration-300 overflow-hidden flex flex-col">
       {/* Card Header: Icon, Date/Title, Listen & Favorites Heart */}
-      <div className="p-5 sm:p-6 pb-4 flex items-start justify-between gap-3 border-b border-[#ffe4e8] bg-white">
-        <div className="flex items-start gap-3.5 min-w-0">
-          <span className="text-2xl sm:text-3xl p-2.5 rounded-2xl bg-[#fff8f9] border border-[#ffe4e8] shadow-2xs shrink-0">
-            {item.icon}
-          </span>
-          <div className="min-w-0">
-            <div className="flex flex-wrap items-center gap-1.5 text-[14px] font-bold text-slate-600">
-              <span className="text-[#d94f70] font-extrabold">{item.dateLabel}</span>
-              <span aria-hidden="true">·</span>
-              <span>
-                {translatedMonthName} ({item.monthNameEnglish})
-              </span>
-              <span aria-hidden="true">·</span>
-              <span>{rawLines.length} Lines</span>
+      <div className="p-5 sm:p-6 pb-4 space-y-2.5 border-b border-[#ffe4e8] bg-white">
+        <div className="flex items-start justify-between gap-2.5 w-full">
+          <div className="flex items-center gap-3 flex-1 min-w-0">
+            <span className="text-2xl sm:text-3xl p-2 rounded-2xl bg-[#fff8f9] border border-[#ffe4e8] shadow-2xs shrink-0">
+              {item.icon}
+            </span>
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 text-[14px] font-bold text-slate-600">
+                <span className="text-[#d94f70] font-extrabold">{item.dateLabel}</span>
+                <span aria-hidden="true">·</span>
+                <span>
+                  {translatedMonthName} ({item.monthNameEnglish})
+                </span>
+                <span aria-hidden="true">·</span>
+                <span>{rawLines.length} Lines</span>
+              </div>
             </div>
-            <h3
-              dir={isRtl ? 'rtl' : 'ltr'}
-              className="text-[22px] sm:text-[24px] font-bold text-[#d94f70] mt-1 leading-snug"
+          </div>
+
+          {/* Listen & Favorites (Dil wala icon) */}
+          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+            <button
+              type="button"
+              onClick={handleSpeak}
+              title={isSpeaking ? 'Awaaz band karein' : 'Shayari sunein (Listen)'}
+              className={`min-h-[46px] min-w-[46px] p-2.5 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
+                isSpeaking
+                  ? 'bg-[#d94f70] text-white border-[#d94f70]'
+                  : 'bg-white text-slate-700 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
+              }`}
             >
-              {translatedDayName}
-            </h3>
-            <p className="text-[14px] text-slate-500 font-semibold truncate">
-              {item.dayNameEnglish}
-            </p>
+              {isSpeaking ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+            </button>
+
+            <button
+              type="button"
+              onClick={() => onToggleFavorite(shayari.id)}
+              title="Pasandida (Favorites) mein save karein"
+              aria-label="Toggle Favorite"
+              className={`min-h-[46px] min-w-[46px] p-2.5 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
+                isFavorite
+                  ? 'bg-[#fff0f3] text-[#d94f70] border-[#d94f70]'
+                  : 'bg-white text-slate-500 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
+              }`}
+            >
+              <Heart className={`w-5 h-5 ${isFavorite ? 'fill-[#d94f70] text-[#d94f70]' : ''}`} />
+            </button>
           </div>
         </div>
 
-        {/* Listen & Favorites (Dil wala icon) */}
-        <div className="flex items-center gap-2 shrink-0">
-          <button
-            type="button"
-            onClick={handleSpeak}
-            title={isSpeaking ? 'आवाज़ बंद करें' : 'शायरी सुनें (Listen)'}
-            className={`min-h-[48px] min-w-[48px] p-2.5 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
-              isSpeaking
-                ? 'bg-[#d94f70] text-white border-[#d94f70]'
-                : 'bg-white text-slate-700 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
-            }`}
-          >
-            {isSpeaking ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
-          </button>
-
-          <button
-            type="button"
-            onClick={() => onToggleFavorite(shayari.id)}
-            title="पसंदीदा (Favorites) में सेव करें"
-            aria-label="Toggle Favorite"
-            className={`min-h-[48px] min-w-[48px] p-2.5 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
-              isFavorite
-                ? 'bg-[#fff0f3] text-[#d94f70] border-[#d94f70]'
-                : 'bg-white text-slate-500 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
-            }`}
-          >
-            <Heart className={`w-5 h-5 ${isFavorite ? 'fill-[#d94f70] text-[#d94f70]' : ''}`} />
-          </button>
-        </div>
+        <h3
+          dir={isRtl ? 'rtl' : 'ltr'}
+          className="w-full flex-1 min-w-0 text-[21px] sm:text-[24px] font-bold text-[#d94f70] leading-snug whitespace-normal [word-break:normal] [overflow-wrap:normal]"
+        >
+          {translatedDayName}
+        </h3>
+        <p className="text-[14px] text-slate-500 font-semibold whitespace-normal [word-break:normal] [overflow-wrap:normal]">
+          {item.dayNameEnglish}
+        </p>
       </div>
 
       {/* Font Size (- / +) Controls */}
       <div className="px-4 sm:px-5 py-2 bg-[#fff0f3]/65 border-b border-[#ffe4e8] flex items-center justify-end">
         <div
           className="inline-flex items-center gap-1 bg-white px-2 py-1 rounded-xl border border-[#ffe4e8]"
-          title="फ़ॉन्ट साइज़ घटाएं या बढ़ाएं (Font Size - / +)"
+          title={
+            isHinglishMode
+              ? 'Font Size kam ya zyada karein (- / +)'
+              : 'फ़ॉन्ट साइज़ घटाएं या बढ़ाएं (Font Size - / +)'
+          }
         >
           <button
             type="button"
@@ -342,11 +350,13 @@ export const SpecialDayCard: React.FC<SpecialDayCardProps> = ({
       <div className="px-5 sm:px-6 py-4 bg-white border-t border-b border-[#ffe4e8]">
         <div className="flex items-center justify-between mb-2.5">
           <span className="text-[15px] font-bold text-slate-800 flex items-center gap-2">
-            <span>{availableFonts.length} स्टाइलिश फ़ॉन्ट्स:</span>
+            <span>
+              {isHinglishMode ? `${availableFonts.length} Stylish Fonts:` : `${availableFonts.length} स्टाइलिश फ़ॉन्ट्स:`}
+            </span>
             <span className="text-[#d94f70] font-extrabold">{currentFontOption.name}</span>
           </span>
           <span className="text-[13px] text-slate-500 font-semibold">
-            स्क्रॉल करें →
+            {ui.scrollStylesHint}
           </span>
         </div>
 

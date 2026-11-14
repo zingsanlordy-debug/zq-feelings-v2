@@ -7,6 +7,7 @@ import { SpecialDayCard } from './SpecialDayCard';
 import { ShayariPagination } from '../components/ShayariPagination';
 import { getPaginatedSlice } from '../utils/pagination';
 import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
+import { AdsterraCategoryBanner } from '../components/DiwaliAds';
 
 interface ZqMansoonSpecialPageProps {
   initialMonth?: MonthId | 'all';
@@ -42,6 +43,7 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
     initialPage && initialPage >= 1 ? initialPage : 1
   );
   const { globalLanguage, ui, isRtl } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
 
   useEffect(() => {
     if (initialMonth) {
@@ -49,6 +51,13 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
     }
     setCurrentPage(initialPage && initialPage >= 1 ? initialPage : 1);
   }, [initialMonth, initialPage]);
+
+  useEffect(() => {
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [selectedMonth, currentPage]);
 
   const handlePageSelect = (nextPage: number) => {
     setCurrentPage(nextPage);
@@ -109,7 +118,11 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
           )}
           <h1 className="font-rozha text-[24px] sm:text-[30px] font-bold text-[#d94f70] leading-snug">
             {activeMonthObj ? `${activeMonthObj.heroIcon} ` : '📅 '}
-            {globalLanguage === 'default' ? monthHeadingSource : translatedHeading}
+            {isHinglishMode
+              ? activeMonthObj
+                ? `${activeMonthObj.nameEnglish} Special Shayari`
+                : '12 Months Special Days Shayari'
+              : translatedHeading}
           </h1>
         </div>
         <span className="px-3.5 py-1 rounded-full bg-[#fff0f3] text-[#d94f70] font-extrabold text-[14px] sm:text-[15px] border border-[#ffe4e8] tabular-nums">
@@ -161,6 +174,8 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
               />
             ))}
           </div>
+
+          {pagination.currentPage === 1 && <AdsterraCategoryBanner />}
 
           <ShayariPagination
             currentPage={pagination.currentPage}

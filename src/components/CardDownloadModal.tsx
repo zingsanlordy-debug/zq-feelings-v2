@@ -5,6 +5,7 @@ import { getFontOptionById, transformShayariLine } from '../data/fonts';
 import { loadGoogleFontAsync } from '../utils/fontLoader';
 import { getCategoryGradientTheme } from '../utils/categoryTheme';
 import { formatShayariCopyText } from '../utils/copyShayariFormat';
+import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
 
 interface CardDownloadModalProps {
   shayari: Shayari | null;
@@ -17,8 +18,11 @@ export const CardDownloadModal: React.FC<CardDownloadModalProps> = ({
   selectedFont,
   onClose
 }) => {
+  const { globalLanguage, ui } = useGlobalLanguage();
   const [copied, setCopied] = useState(false);
   const cardRef = useRef<HTMLDivElement>(null);
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
+  const translatedTitle = useTranslatedText(shayari?.title || '');
 
   if (!shayari) return null;
 
@@ -58,7 +62,11 @@ export const CardDownloadModal: React.FC<CardDownloadModalProps> = ({
         </button>
 
         <h3 className="font-rozha text-[26px] font-bold text-[#d94f70] mb-5 text-center leading-snug pr-8">
-          शायरी कार्ड प्रीव्यू (Shayari Card)
+          {isHinglishMode
+            ? 'Shayari Card Preview'
+            : globalLanguage === 'english' || globalLanguage === 'english-uk'
+              ? 'Shayari Card Preview'
+              : 'शायरी कार्ड प्रीव्यू (Shayari Card)'}
         </h3>
 
         {/* The Card for visual export */}
@@ -96,7 +104,7 @@ export const CardDownloadModal: React.FC<CardDownloadModalProps> = ({
           </div>
 
           <h4 className="text-[18px] font-bold text-[#d94f70] mb-3.5 tracking-wide">
-            ~ {shayari.title} ~
+            ~ {translatedTitle || shayari.title} ~
           </h4>
 
           {/* Shayari in Selected Font (19px, line-height 1.8) */}
@@ -128,7 +136,7 @@ export const CardDownloadModal: React.FC<CardDownloadModalProps> = ({
             className="min-h-[52px] flex items-center justify-center gap-2 py-3 px-4 rounded-2xl bg-white hover:bg-[#fff0f3] text-slate-800 font-bold text-[18px] cursor-pointer border-2 border-[#ffe4e8] transition-colors shadow-2xs"
           >
             {copied ? <Check className="w-5 h-5 text-emerald-600" /> : <Copy className="w-5 h-5 text-[#d94f70]" />}
-            <span>{copied ? 'कॉपी हो गया!' : 'टेक्स्ट कॉपी करें'}</span>
+            <span>{copied ? ui.copiedBtn : ui.copyBtn}</span>
           </button>
 
           <a
@@ -138,7 +146,7 @@ export const CardDownloadModal: React.FC<CardDownloadModalProps> = ({
             className="min-h-[52px] flex items-center justify-center gap-2 py-3 px-4 rounded-2xl bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-[18px] cursor-pointer shadow-xs transition-colors"
           >
             <Share2 className="w-5 h-5" />
-            <span>व्हाट्सएप शेयर</span>
+            <span>{ui.whatsappBtn}</span>
           </a>
         </div>
       </div>

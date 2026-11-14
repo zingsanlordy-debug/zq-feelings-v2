@@ -6,6 +6,7 @@ import { ShayariPagination } from './ShayariPagination';
 import { getPaginatedSlice } from '../utils/pagination';
 import { Shayari, FontStyleId, ReligiousCategory } from '../types/shayari';
 import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
+import { AdsterraCategoryBanner } from './DiwaliAds';
 
 interface ReligiousPageProps {
   initialCategory?: string;
@@ -58,6 +59,13 @@ export const ReligiousPage: React.FC<ReligiousPageProps> = ({
     }
     setCurrentPage(initialPage && initialPage >= 1 ? initialPage : 1);
   }, [initialCategory, initialPage]);
+
+  useEffect(() => {
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [activeCategory, currentPage]);
 
   const handlePageSelect = (nextPage: number) => {
     setCurrentPage(nextPage);
@@ -112,7 +120,7 @@ export const ReligiousPage: React.FC<ReligiousPageProps> = ({
           )}
           <h1 className="font-rozha text-[24px] sm:text-[30px] font-bold text-[#d94f70] leading-snug">
             {activeMeta.icon}{' '}
-            {globalLanguage === 'default' ? activeMeta.name : translatedHeading}
+            {translatedHeading}
           </h1>
         </div>
         <span className="px-3.5 py-1 rounded-full bg-[#fff0f3] text-[#d94f70] font-extrabold text-[14px] sm:text-[15px] border border-[#ffe4e8] tabular-nums">
@@ -135,6 +143,10 @@ export const ReligiousPage: React.FC<ReligiousPageProps> = ({
             />
           ))}
         </div>
+
+        {pagination.currentPage === 1 && pagination.pageItems.length > 0 && (
+          <AdsterraCategoryBanner />
+        )}
 
         <ShayariPagination
           currentPage={pagination.currentPage}
@@ -174,7 +186,9 @@ export const ReligiousPage: React.FC<ReligiousPageProps> = ({
               >
                 <span className="flex items-center gap-2 min-w-0">
                   <span className="text-xl shrink-0">{rel.icon}</span>
-                  <span className="text-[14px] font-extrabold truncate">{rel.englishTitle}</span>
+                  <span className="text-[14px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal] leading-tight">
+                    {rel.englishTitle}
+                  </span>
                 </span>
                 <span className="text-[12px] font-bold tabular-nums shrink-0">{rel.count}</span>
               </a>

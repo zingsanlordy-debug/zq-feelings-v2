@@ -43,7 +43,9 @@ import { loadGoogleFontAsync } from '../utils/fontLoader';
 import { formatShayariCopyText } from '../utils/copyShayariFormat';
 import { FontStyleId, Shayari } from '../types/shayari';
 import { useFontSize } from '../context/FontSizeContext';
-import { useGlobalLanguage } from '../context/GlobalLanguageContext';
+import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
+import { convertHindiLineToHinglish, convertHindiTitleToHinglish } from '../utils/globalTranslations';
+import { AdsterraCategoryBanner } from './DiwaliAds';
 
 interface ValentineShayariCardItemProps {
   item: ValentineBaseShayari;
@@ -103,10 +105,13 @@ const ValentineShayariCardItem: React.FC<ValentineShayariCardItemProps> = ({
     [rawLines, selectedFont]
   );
 
+  const translatedHinglishTitle = useTranslatedText(item.titleHindi);
   const cardTitle =
     langCode === 'hi' || langCode === 'bho' || langCode === 'bgc'
       ? item.titleHindi
-      : item.title;
+      : langCode === 'hi-Latn'
+        ? translatedHinglishTitle
+        : item.title;
 
   const dedicatedCategoryPath = buildValentineCleanPath(category.id, langCode, false);
   const sharePageUrl =
@@ -217,63 +222,67 @@ const ValentineShayariCardItem: React.FC<ValentineShayariCardItemProps> = ({
       <meta itemProp="author" content="ZQ FEELINGS - Dil Ki Awaaz" />
 
       {/* Card Header */}
-      <div className="px-5 py-4 bg-white border-b border-[#ffe4e8] flex items-center justify-between gap-3">
-        <div className="flex items-center gap-3 min-w-0">
-          <span className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#fff0f3] to-[#ffe4e8] border border-[#fecdd3] flex items-center justify-center text-2xl shrink-0">
-            {category.icon}
-          </span>
-          <div className="min-w-0">
-            <div className="flex flex-wrap items-center gap-1.5 text-[13px] font-extrabold text-[#be123c]">
-              <span>#{item.index}</span>
-              <span aria-hidden="true" className="text-pink-300">
-                •
-              </span>
-              <span>{category.shortName}</span>
-              <span aria-hidden="true" className="text-pink-300">
-                •
-              </span>
-              <span className="px-2 py-0.5 rounded-md bg-[#fff0f3] border border-[#fecdd3] text-[#9f1239]">
-                {langMeta.nativeLabel}
-              </span>
+      <div className="px-5 py-4 bg-white border-b border-[#ffe4e8] space-y-2.5">
+        <div className="flex items-start justify-between gap-2.5 w-full">
+          <div className="flex items-center gap-3 flex-1 min-w-0">
+            <span className="w-11 h-11 rounded-2xl bg-gradient-to-br from-[#fff0f3] to-[#ffe4e8] border border-[#fecdd3] flex items-center justify-center text-2xl shrink-0">
+              {category.icon}
+            </span>
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-1.5 text-[13px] font-extrabold text-[#be123c]">
+                <span>#{item.index}</span>
+                <span aria-hidden="true" className="text-pink-300">
+                  •
+                </span>
+                <span>{category.shortName}</span>
+                <span aria-hidden="true" className="text-pink-300">
+                  •
+                </span>
+                <span className="px-2 py-0.5 rounded-md bg-[#fff0f3] border border-[#fecdd3] text-[#9f1239]">
+                  {langMeta.nativeLabel}
+                </span>
+              </div>
             </div>
-            <h3
-              itemProp="headline"
-              className="text-[18px] sm:text-[19px] font-extrabold text-slate-900 truncate mt-0.5"
+          </div>
+
+          <div className="flex items-center gap-1.5 shrink-0">
+            <button
+              type="button"
+              onClick={handleSpeak}
+              title="Listen Shayari"
+              aria-label="Listen Shayari"
+              className={`min-h-[44px] min-w-[44px] p-2.5 rounded-xl border transition-colors cursor-pointer flex items-center justify-center ${
+                isSpeaking
+                  ? 'bg-[#e11d48] text-white border-[#e11d48]'
+                  : 'bg-white text-slate-700 border-[#ffe4e8] hover:text-[#e11d48] hover:bg-[#fff0f3]'
+              }`}
             >
-              {cardTitle}
-            </h3>
+              {isSpeaking ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+            </button>
+
+            <button
+              type="button"
+              onClick={() => onToggleFavorite(item.id)}
+              title="Save to Favorites"
+              aria-label="Save to Favorites"
+              className={`min-h-[44px] min-w-[44px] p-2.5 rounded-xl border transition-colors cursor-pointer flex items-center justify-center ${
+                isFavorite
+                  ? 'bg-[#fff0f3] text-[#e11d48] border-[#e11d48]'
+                  : 'bg-white text-slate-500 border-[#ffe4e8] hover:text-[#e11d48] hover:bg-[#fff0f3]'
+              }`}
+            >
+              <Heart className={`w-4 h-4 ${isFavorite ? 'fill-[#e11d48]' : ''}`} />
+            </button>
           </div>
         </div>
 
-        <div className="flex items-center gap-1.5 shrink-0">
-          <button
-            type="button"
-            onClick={handleSpeak}
-            title="Listen Shayari"
-            aria-label="Listen Shayari"
-            className={`min-h-[44px] min-w-[44px] p-2.5 rounded-xl border transition-colors cursor-pointer flex items-center justify-center ${
-              isSpeaking
-                ? 'bg-[#e11d48] text-white border-[#e11d48]'
-                : 'bg-white text-slate-700 border-[#ffe4e8] hover:text-[#e11d48] hover:bg-[#fff0f3]'
-            }`}
-          >
-            {isSpeaking ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
-          </button>
-
-          <button
-            type="button"
-            onClick={() => onToggleFavorite(item.id)}
-            title="Save to Favorites"
-            aria-label="Save to Favorites"
-            className={`min-h-[44px] min-w-[44px] p-2.5 rounded-xl border transition-colors cursor-pointer flex items-center justify-center ${
-              isFavorite
-                ? 'bg-[#fff0f3] text-[#e11d48] border-[#e11d48]'
-                : 'bg-white text-slate-500 border-[#ffe4e8] hover:text-[#e11d48] hover:bg-[#fff0f3]'
-            }`}
-          >
-            <Heart className={`w-4 h-4 ${isFavorite ? 'fill-[#e11d48]' : ''}`} />
-          </button>
-        </div>
+        <h3
+          itemProp="headline"
+          dir={langMeta.rtl ? 'rtl' : 'ltr'}
+          className="w-full flex-1 min-w-0 text-[18px] sm:text-[19px] font-extrabold text-slate-900 leading-snug whitespace-normal [word-break:normal] [overflow-wrap:normal]"
+        >
+          {cardTitle}
+        </h3>
       </div>
 
       {/* Single-Language Shayari Body */}
@@ -784,10 +793,25 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
     }
   }, []);
 
-  const { globalLanguage } = useGlobalLanguage();
+  const { globalLanguage, activeLanguageOption } = useGlobalLanguage();
+  const isHinglishMode =
+    globalLanguage === 'default' || globalLanguage === 'hinglish' || defaultLang === 'hi-Latn';
+  const hTitle = (s: string) => (isHinglishMode ? convertHindiTitleToHinglish(s) : s);
+  const hLine = (s: string) => (isHinglishMode ? convertHindiLineToHinglish(s) : s);
 
   useEffect(() => {
-    if (globalLanguage === 'english') {
+    if (activeLanguageOption?.apiCode && globalLanguage !== 'default') {
+      const target = activeLanguageOption.apiCode as ValentineLangCode;
+      if (VALENTINE_LANGUAGE_MAP.has(target)) {
+        setDefaultLang(target);
+        setCategoryLangOverrides({});
+        return;
+      }
+    }
+    if (globalLanguage === 'hinglish' || globalLanguage === 'default') {
+      setDefaultLang(initialLang || 'hi-Latn');
+      setCategoryLangOverrides({});
+    } else if (globalLanguage === 'english') {
       setDefaultLang('en-US');
       setCategoryLangOverrides({});
     } else if (globalLanguage === 'urdu') {
@@ -800,7 +824,7 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
       setDefaultLang('hi');
       setCategoryLangOverrides({});
     }
-  }, [initialLang, globalLanguage]);
+  }, [initialLang, globalLanguage, activeLanguageOption]);
 
   useEffect(() => {
     if (activeCategory) {
@@ -813,12 +837,20 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
     void triggerLoadLang(defaultLang);
   }, [defaultLang, triggerLoadLang]);
 
+  useEffect(() => {
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [activeCategory, defaultLang]);
+
   const handleGlobalLanguageSelect = (lang: ValentineLangCode) => {
     setDefaultLang(lang);
     setCategoryLangOverrides({});
     syncCleanLangUrl(lang, activeCategory);
     void triggerLoadLang(lang);
     setTopLangDrawerOpen(false);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const handleCategoryLanguageSelect = (catId: ValentineCategoryId, lang: ValentineLangCode) => {
@@ -827,6 +859,7 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
     if (activeCategory === catId) {
       setDefaultLang(lang);
       syncCleanLangUrl(lang, catId);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       syncCleanLangUrl(lang, activeCategory);
     }
@@ -926,7 +959,9 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
             </h1>
 
             <p className="text-[16px] sm:text-[18px] text-pink-50 font-medium leading-relaxed max-w-3xl mx-auto">
-              {activeCatMeta.hindiName} ({activeCatMeta.dateLabel}) — {activeCatMeta.subtitle}
+              {pageLang === 'hi-Latn' || isHinglishMode
+                ? `${convertHindiTitleToHinglish(activeCatMeta.hindiName)} (${activeCatMeta.dateLabel}) — ${convertHindiLineToHinglish(activeCatMeta.subtitle)}`
+                : `${activeCatMeta.hindiName} (${activeCatMeta.dateLabel}) — ${activeCatMeta.subtitle}`}
             </p>
           </div>
         </section>
@@ -1000,6 +1035,9 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
                   />
                 ))}
               </div>
+
+              {/* Adsterra Ad: Page 1 ONLY, after last card and right before Pagination */}
+              {activePage === 1 && <AdsterraCategoryBanner />}
 
               {/* Bottom Pagination Toggle */}
               <div className="flex flex-wrap items-center justify-between gap-3 pt-2">
@@ -1094,7 +1132,7 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
                   <div className="flex items-center gap-3 min-w-0">
                     <span className="text-2xl shrink-0">{vCat.icon}</span>
                     <div className="min-w-0">
-                      <span className="block text-[15px] font-extrabold truncate">
+                      <span className="block text-[15px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal] leading-tight">
                         {vCat.shortName} - {vCat.dateLabel}
                       </span>
                       <span
@@ -1121,18 +1159,32 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
           <div className="space-y-3 text-[15px] sm:text-[16px] text-slate-800">
             <div className="rounded-2xl bg-white border border-[#ffe4e8] p-4 space-y-1">
               <h3 className="font-extrabold text-[#991B1B]">
-                1. {activeCatMeta.shortName} कब मनाया जाता है?
+                {pageLang === 'hi-Latn' || isHinglishMode
+                  ? `1. ${activeCatMeta.shortName} kab manaya jata hai?`
+                  : `1. ${activeCatMeta.shortName} कब मनाया जाता है?`}
               </h3>
               <p className="text-slate-700 leading-relaxed">
-                {activeCatMeta.shortName} हर साल <strong>{activeCatMeta.dateLabel}</strong> को मनाया जाता है। यहाँ आपको {activeCatMeta.shortName} की 40 मौलिक शायरियाँ 35 भाषाओं और 20 स्टाइलिश फ़ॉन्ट्स में मिलती हैं।
+                {pageLang === 'hi-Latn' || isHinglishMode ? (
+                  <>
+                    {activeCatMeta.shortName} har saal <strong>{activeCatMeta.dateLabel}</strong> ko manaya jata hai. Yahan aapko {activeCatMeta.shortName} ki 40 original shayariyan 35 languages aur 20 stylish fonts me milti hain.
+                  </>
+                ) : (
+                  <>
+                    {activeCatMeta.shortName} हर साल <strong>{activeCatMeta.dateLabel}</strong> को मनाया जाता है। यहाँ आपको {activeCatMeta.shortName} की 40 मौलिक शायरियाँ 35 भाषाओं और 20 स्टाइलिश फ़ॉन्ट्स में मिलती हैं।
+                  </>
+                )}
               </p>
             </div>
             <div className="rounded-2xl bg-white border border-[#ffe4e8] p-4 space-y-1">
               <h3 className="font-extrabold text-[#991B1B]">
-                2. क्या मैं {activeCatMeta.shortName} Shayari को हिंदी, तमिल, अंग्रेज़ी और अन्य भाषाओं में पढ़ सकता हूँ?
+                {pageLang === 'hi-Latn' || isHinglishMode
+                  ? `2. Kya main ${activeCatMeta.shortName} Shayari ko Hindi, Tamil, English aur baaki languages me padh sakta hu?`
+                  : `2. क्या मैं ${activeCatMeta.shortName} Shayari को हिंदी, तमिल, अंग्रेज़ी और अन्य भाषाओं में पढ़ सकता हूँ?`}
               </h3>
               <p className="text-slate-700 leading-relaxed">
-                जी हाँ, ZQ Feelings पर सभी 40 {activeCatMeta.shortName} शायरियाँ 15 भारतीय और 20 वैश्विक भाषाओं (कुल 35 प्री-ट्रांसलेटेड भाषाओं) में क्लीन URL के साथ उपलब्ध हैं।
+                {pageLang === 'hi-Latn' || isHinglishMode
+                  ? `Ji haan, ZQ Feelings par sabhi 40 ${activeCatMeta.shortName} shayariyan 15 Indian aur 20 Global languages (total 35 pre-translated languages) me clean URL ke saath available hain.`
+                  : `जी हाँ, ZQ Feelings पर सभी 40 ${activeCatMeta.shortName} शायरियाँ 15 भारतीय और 20 वैश्विक भाषाओं (कुल 35 प्री-ट्रांसलेटेड भाषाओं) में क्लीन URL के साथ उपलब्ध हैं।`}
               </p>
             </div>
           </div>
@@ -1172,7 +1224,9 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
           </h1>
 
           <p className="text-[16px] sm:text-[18px] text-pink-50 font-medium leading-relaxed max-w-3xl mx-auto">
-            Rose Day की पहली सुर्ख पंखुड़ी से लेकर Valentine Day के सच्चे हमसफ़र और 21 Feb के आत्मसम्मान तक — दिल से लिखी 600 अनमोल शायरियाँ, 35 भाषाएँ, 20 स्टाइलिश फ़ॉन्ट्स, एक क्लिक कॉपी और शेयर के साथ।
+            {isHinglishMode
+              ? 'Rose Day ki pehli surkh pankhudi se lekar Valentine Day ke sacche humsafar aur 21 Feb ke aatmasammaan tak — dil se likhi 600 anmol shayariyan, 35 languages, 20 stylish fonts, 1-click Copy aur Share ke saath.'
+              : 'Rose Day की पहली सुर्ख पंखुड़ी से लेकर Valentine Day के सच्चे हमसफ़र और 21 Feb के आत्मसम्मान तक — दिल से लिखी 600 अनमोल शायरियाँ, 35 भाषाएँ, 20 स्टाइलिश फ़ॉन्ट्स, एक क्लिक कॉपी और शेयर के साथ।'}
           </p>
 
           <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
@@ -1241,9 +1295,9 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
                   <h3 className="font-rozha text-[22px] font-bold text-slate-900 group-hover:text-[#d94f70] leading-snug">
                     {cat.shortName} - {cat.dateLabel}
                   </h3>
-                  <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{cat.hindiName}</p>
+                  <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{hTitle(cat.hindiName)}</p>
                   <p className="mt-2.5 text-[14px] text-slate-600 font-medium leading-relaxed line-clamp-2">
-                    {cat.subtitle}
+                    {hLine(cat.subtitle)}
                   </p>
                 </div>
 
@@ -1337,7 +1391,7 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
                         isExpanded ? 'text-pink-100' : 'text-slate-600'
                       }`}
                     >
-                      {cat.subtitle}
+                      {hLine(cat.subtitle)}
                     </p>
                   </div>
                 </div>
@@ -1452,18 +1506,26 @@ export const ValentineWeekPage: React.FC<ValentineWeekPageProps> = ({
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[15px] sm:text-[16px] text-slate-800">
           <div className="rounded-2xl bg-white border border-[#ffe4e8] p-4 space-y-1">
             <h3 className="font-extrabold text-[#991B1B]">
-              1. Valentine Week में 7 Feb से 21 Feb तक कौन-कौन से 15 दिन आते हैं?
+              {isHinglishMode
+                ? '1. Valentine Week me 7 Feb se 21 Feb tak kaun-kaun se 15 days aate hain?'
+                : '1. Valentine Week में 7 Feb से 21 Feb तक कौन-कौन से 15 दिन आते हैं?'}
             </h3>
             <p className="text-slate-700 leading-relaxed">
-              7 Feb Rose Day, 8 Feb Propose Day, 9 Feb Chocolate Day, 10 Feb Teddy Day, 11 Feb Promise Day, 12 Feb Hug Day, 13 Feb Kiss Day, 14 Feb Valentine Day और 15 से 21 Feb तक Slap, Kick, Perfume, Flirting, Confession, Missing व Breakup Day।
+              {isHinglishMode
+                ? '7 Feb Rose Day, 8 Feb Propose Day, 9 Feb Chocolate Day, 10 Feb Teddy Day, 11 Feb Promise Day, 12 Feb Hug Day, 13 Feb Kiss Day, 14 Feb Valentine Day aur 15 se 21 Feb tak Slap, Kick, Perfume, Flirting, Confession, Missing aur Breakup Day.'
+                : '7 Feb Rose Day, 8 Feb Propose Day, 9 Feb Chocolate Day, 10 Feb Teddy Day, 11 Feb Promise Day, 12 Feb Hug Day, 13 Feb Kiss Day, 14 Feb Valentine Day और 15 से 21 Feb तक Slap, Kick, Perfume, Flirting, Confession, Missing व Breakup Day।'}
             </p>
           </div>
           <div className="rounded-2xl bg-white border border-[#ffe4e8] p-4 space-y-1">
             <h3 className="font-extrabold text-[#991B1B]">
-              2. ZQ Feelings पर Valentine Week की कुल कितनी मौलिक शायरियाँ हैं?
+              {isHinglishMode
+                ? '2. ZQ Feelings par Valentine Week ki total kitni original shayariyan hain?'
+                : '2. ZQ Feelings पर Valentine Week की कुल कितनी मौलिक शायरियाँ हैं?'}
             </h3>
             <p className="text-slate-700 leading-relaxed">
-              यहाँ 15 दिनों के लिए 40-40 यानी कुल 600 सौ-प्रतिशत ओरिजिनल शायरियाँ 35 भाषाओं, 20 स्टाइलिश फ़ॉन्ट्स, फोटो कार्ड डाउनलोड और WhatsApp/Facebook शेयर के साथ उपलब्ध हैं।
+              {isHinglishMode
+                ? 'Yahan 15 dinon ke liye 40-40 yaani total 600 bilkul original shayariyan 35 languages, 20 stylish fonts, Photo Card download aur WhatsApp/Facebook share ke saath available hain.'
+                : 'यहाँ 15 दिनों के लिए 40-40 यानी कुल 600 सौ-प्रतिशत ओरिजिनल शायरियाँ 35 भाषाओं, 20 स्टाइलिश फ़ॉन्ट्स, फोटो कार्ड डाउनलोड और WhatsApp/Facebook शेयर के साथ उपलब्ध हैं।'}
             </p>
           </div>
         </div>

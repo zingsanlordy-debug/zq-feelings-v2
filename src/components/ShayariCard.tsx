@@ -244,110 +244,133 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
       <div className="absolute -top-12 -right-12 w-32 h-32 bg-[#ffe4e8]/60 rounded-full blur-xl pointer-events-none group-hover:bg-[#ffccd5]/80 transition-all" />
 
       {/* Card Header Info (Increased padding for better mobile reading) */}
-      <div className="p-5 sm:p-6 pb-4 flex items-start justify-between gap-3 border-b border-[#ffe4e8] bg-white">
-        <div className="flex items-start gap-3.5 min-w-0">
-          <span className="text-2xl sm:text-3xl p-2.5 rounded-2xl bg-[#fff8f9] border border-[#ffe4e8] shadow-2xs shrink-0">
-            {shayari.categoryIcon}
-          </span>
-          <div className="min-w-0">
-            <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[15px] font-bold">
-              <span className="tracking-wide text-[#d94f70]">{resolvedCategoryName}</span>
-              {shayari.subCategory && (
-                <span className="px-2 py-0.5 rounded-lg bg-[#fff0f3] text-[#d94f70] border border-[#ffd6df] text-[13px] font-extrabold shadow-2xs">
-                  [{shayari.subCategory}]
+      <div className="p-5 sm:p-6 pb-4 space-y-2.5 border-b border-[#ffe4e8] bg-white">
+        <div className="flex items-start justify-between gap-2.5 w-full">
+          <div className="flex items-center gap-3 flex-1 min-w-0">
+            <span className="text-2xl sm:text-3xl p-2 rounded-2xl bg-[#fff8f9] border border-[#ffe4e8] shadow-2xs shrink-0">
+              {shayari.categoryIcon}
+            </span>
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[14px] sm:text-[15px] font-bold">
+                <span className="tracking-wide text-[#d94f70] whitespace-normal [word-break:normal] [overflow-wrap:normal]">
+                  {resolvedCategoryName}
                 </span>
-              )}
-              <span aria-hidden="true" className="text-slate-300">
-                ·
-              </span>
-              <span className="text-slate-700">{languageTagLabel}</span>
-              {timeAgoLabel && (
-                <>
-                  <span aria-hidden="true" className="text-slate-300">
-                    ·
+                {shayari.subCategory && (
+                  <span className="px-2 py-0.5 rounded-lg bg-[#fff0f3] text-[#d94f70] border border-[#ffd6df] text-[13px] font-extrabold shadow-2xs">
+                    [{shayari.subCategory}]
                   </span>
-                  <span className="inline-flex items-center gap-1 text-slate-500 font-semibold">
-                    <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                    <span>{timeAgoLabel}</span>
+                )}
+                <span aria-hidden="true" className="text-slate-300">
+                  ·
+                </span>
+                <span className="text-slate-700">{languageTagLabel}</span>
+                {timeAgoLabel && (
+                  <>
+                    <span aria-hidden="true" className="text-slate-300">
+                      ·
+                    </span>
+                    <span className="inline-flex items-center gap-1 text-slate-500 font-semibold">
+                      <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                      <span>{timeAgoLabel}</span>
+                    </span>
+                  </>
+                )}
+              </div>
+              {authorDisplayName && (
+                <div className="mt-1 flex items-center gap-1.5 text-[15px] text-slate-700 font-bold min-w-0">
+                  <User className="w-4 h-4 text-[#d94f70] shrink-0" />
+                  <span className="whitespace-normal [word-break:normal] [overflow-wrap:normal]">
+                    {authorDisplayName}
                   </span>
-                </>
+                </div>
               )}
             </div>
-            <h3
-              itemProp="headline"
-              dir={isRtl ? 'rtl' : 'ltr'}
-              className="text-[26px] font-bold text-[#d94f70] mt-1.5 leading-[1.4] break-words"
-            >
-              <a
-                href={canonicalShayariHref}
-                onClick={(e) => {
-                  if (onOpenDetail) {
-                    e.preventDefault();
-                    onOpenDetail(shayari);
-                  }
-                }}
-                className="hover:underline hover:text-[#b33957] transition-colors cursor-pointer"
-              >
-                {resolvedTitle}
-              </a>
-            </h3>
-            {authorDisplayName && (
-              <div className="mt-1.5 flex items-center gap-1.5 text-[16px] text-slate-700 font-bold">
-                <User className="w-4 h-4 text-[#d94f70] shrink-0" />
-                <span className="truncate">{authorDisplayName}</span>
-              </div>
-            )}
           </div>
+
+          {/* Header Actions (Listen/Favorite and/or Owner/Admin Delete) */}
+          {(!onlyCopyAndWhatsapp || (canDelete && onDelete)) && (
+            <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+              {!onlyCopyAndWhatsapp && (
+                <>
+                  <button
+                    onClick={handleSpeak}
+                    title={
+                      globalLanguage === 'hinglish' || globalLanguage === 'default'
+                        ? isSpeaking
+                          ? 'Awaaz band karein'
+                          : 'Shayari sunein (Listen)'
+                        : isSpeaking
+                          ? 'आवाज़ बंद करें'
+                          : 'शायरी सुनें (Listen)'
+                    }
+                    className={`min-h-[46px] min-w-[46px] sm:min-h-[52px] sm:min-w-[52px] p-2.5 sm:p-3 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
+                      isSpeaking
+                        ? 'bg-[#d94f70] text-white border-[#d94f70] animate-pulse'
+                        : 'bg-white text-slate-700 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
+                    }`}
+                  >
+                    {isSpeaking ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
+                  </button>
+
+                  <button
+                    onClick={() => onToggleFavorite(shayari.id)}
+                    title={
+                      globalLanguage === 'hinglish' || globalLanguage === 'default'
+                        ? 'Pasandida mein save karein'
+                        : 'पसंदीदा में जोड़ें'
+                    }
+                    className={`min-h-[46px] min-w-[46px] sm:min-h-[52px] sm:min-w-[52px] p-2.5 sm:p-3 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
+                      isFavorite
+                        ? 'bg-[#fff0f3] text-[#d94f70] border-[#d94f70]'
+                        : 'bg-white text-slate-500 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
+                    }`}
+                  >
+                    <Heart className={`w-5 h-5 ${isFavorite ? 'fill-[#d94f70]' : ''}`} />
+                  </button>
+                </>
+              )}
+
+              {canDelete && onDelete && (
+                <button
+                  type="button"
+                  onClick={onDelete}
+                  disabled={isDeleting}
+                  title={
+                    globalLanguage === 'hinglish' || globalLanguage === 'default'
+                      ? 'Shayari delete karein'
+                      : 'शायरी डिलीट करें (Delete Shayari)'
+                  }
+                  aria-label="Delete Shayari"
+                  className={`min-h-[46px] ${
+                    showDeleteLabel ? 'px-4 py-2.5 gap-1.5' : 'min-w-[46px] p-2.5'
+                  } rounded-2xl text-[16px] font-bold transition-all cursor-pointer border flex items-center justify-center bg-red-50 text-red-600 border-red-200 hover:bg-red-600 hover:text-white hover:border-red-600 disabled:opacity-50`}
+                >
+                  <Trash2 className="w-5 h-5 shrink-0" />
+                  {showDeleteLabel && <span>{isDeleting ? 'Deleting...' : 'Delete'}</span>}
+                </button>
+              )}
+            </div>
+          )}
         </div>
 
-        {/* Header Actions (Listen/Favorite and/or Owner/Admin Delete) */}
-        {(!onlyCopyAndWhatsapp || (canDelete && onDelete)) && (
-          <div className="flex items-center gap-2 shrink-0">
-            {!onlyCopyAndWhatsapp && (
-              <>
-                <button
-                  onClick={handleSpeak}
-                  title={isSpeaking ? 'आवाज़ बंद करें' : 'शायरी सुनें (Listen)'}
-                  className={`min-h-[52px] min-w-[52px] p-3 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
-                    isSpeaking
-                      ? 'bg-[#d94f70] text-white border-[#d94f70] animate-pulse'
-                      : 'bg-white text-slate-700 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
-                  }`}
-                >
-                  {isSpeaking ? <VolumeX className="w-5 h-5" /> : <Volume2 className="w-5 h-5" />}
-                </button>
-
-                <button
-                  onClick={() => onToggleFavorite(shayari.id)}
-                  title="पसंदीदा में जोड़ें"
-                  className={`min-h-[52px] min-w-[52px] p-3 rounded-2xl text-[18px] font-bold transition-all cursor-pointer border flex items-center justify-center ${
-                    isFavorite
-                      ? 'bg-[#fff0f3] text-[#d94f70] border-[#d94f70]'
-                      : 'bg-white text-slate-500 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3]'
-                  }`}
-                >
-                  <Heart className={`w-5 h-5 ${isFavorite ? 'fill-[#d94f70]' : ''}`} />
-                </button>
-              </>
-            )}
-
-            {canDelete && onDelete && (
-              <button
-                type="button"
-                onClick={onDelete}
-                disabled={isDeleting}
-                title="शायरी डिलीट करें (Delete Shayari)"
-                aria-label="Delete Shayari"
-                className={`min-h-[48px] ${
-                  showDeleteLabel ? 'px-4 py-2.5 gap-1.5' : 'min-w-[48px] p-3'
-                } rounded-2xl text-[16px] font-bold transition-all cursor-pointer border flex items-center justify-center bg-red-50 text-red-600 border-red-200 hover:bg-red-600 hover:text-white hover:border-red-600 disabled:opacity-50`}
-              >
-                <Trash2 className="w-5 h-5 shrink-0" />
-                {showDeleteLabel && <span>{isDeleting ? 'Deleting...' : 'Delete'}</span>}
-              </button>
-            )}
-          </div>
-        )}
+        <h3
+          itemProp="headline"
+          dir={isRtl ? 'rtl' : 'ltr'}
+          className="w-full flex-1 min-w-0 text-[21px] sm:text-[24px] font-bold text-[#d94f70] leading-[1.4] whitespace-normal [word-break:normal] [overflow-wrap:normal]"
+        >
+          <a
+            href={canonicalShayariHref}
+            onClick={(e) => {
+              if (onOpenDetail) {
+                e.preventDefault();
+                onOpenDetail(shayari);
+              }
+            }}
+            className="hover:underline hover:text-[#b33957] transition-colors cursor-pointer whitespace-normal [word-break:normal] [overflow-wrap:normal]"
+          >
+            {resolvedTitle}
+          </a>
+        </h3>
       </div>
 
       {/* SHAYARI CONTENT (19px, LINE HEIGHT 1.8, GENEROUS MOBILE PADDING) */}
@@ -457,7 +480,13 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
             {onOpenComments && (
               <button
                 onClick={() => onOpenComments(shayari)}
-                title="टिप्पणी देखें व लिखें (Comments)"
+                title={
+                  globalLanguage === 'hinglish' || globalLanguage === 'default'
+                    ? 'Comments dekhein aur likhein'
+                    : globalLanguage === 'english' || globalLanguage === 'english-uk'
+                      ? 'View & write comments'
+                      : 'टिप्पणी देखें व लिखें (Comments)'
+                }
                 className="min-h-[52px] flex items-center gap-2 px-4 py-3 rounded-2xl text-[18px] font-bold text-slate-800 bg-white border border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3] cursor-pointer transition-colors"
               >
                 <MessageCircle className="w-5 h-5" />

@@ -25,7 +25,9 @@ export const ZqOfficialPage: React.FC<ZqOfficialPageProps> = ({
   onOpenCardModal,
   onOpenComments
 }) => {
-  const { globalLanguage } = useGlobalLanguage();
+  const { globalLanguage, ui } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
+  const isEnglishMode = globalLanguage === 'english' || globalLanguage === 'english-uk';
   const [selectedCategory, setSelectedCategory] = useState<string>('love');
   const effectiveLanguage: LanguageType =
     globalLanguage === 'english'
@@ -50,7 +52,7 @@ export const ZqOfficialPage: React.FC<ZqOfficialPageProps> = ({
             className="min-h-[50px] flex items-center gap-2 text-[#d94f70] hover:text-[#b32f4f] text-[18px] sm:text-[20px] font-extrabold cursor-pointer px-4 py-2 rounded-2xl bg-[#fff0f3] border border-[#ffe4e8]"
           >
             <ArrowLeft className="w-5 h-5" />
-            <span>होम (Home)</span>
+            <span>{ui.btnHome}</span>
           </button>
           <span className="text-xl font-bold">/</span>
           <h1 className="text-slate-900 text-[18px] sm:text-[20px] font-bold">
@@ -97,7 +99,11 @@ export const ZqOfficialPage: React.FC<ZqOfficialPageProps> = ({
         <div className="flex items-center gap-2.5 mb-5">
           <Filter className="w-6 h-6 text-[#d94f70]" />
           <h2 className="text-[26px] font-bold text-[#d94f70] tracking-wide">
-            ZQ श्रेणियां चुनें (Choose Category)
+            {isHinglishMode
+              ? 'ZQ Categories Chunein'
+              : isEnglishMode
+                ? 'Choose ZQ Category'
+                : 'ZQ श्रेणियां चुनें (Choose Category)'}
           </h2>
         </div>
 
@@ -110,7 +116,11 @@ export const ZqOfficialPage: React.FC<ZqOfficialPageProps> = ({
                 : 'bg-white text-slate-900 border-[#ffe4e8] hover:border-[#d94f70] hover:text-[#d94f70]'
             }`}
           >
-            🌟 सभी Official ({officialShayaris.length})
+            {isHinglishMode
+              ? `🌟 Sabhi Official (${officialShayaris.length})`
+              : isEnglishMode
+                ? `🌟 All Official (${officialShayaris.length})`
+                : `🌟 सभी Official (${officialShayaris.length})`}
           </button>
 
           {ALL_CATEGORIES_FOR_POSTING.map((cat) => {
@@ -170,10 +180,18 @@ export const ZqOfficialPage: React.FC<ZqOfficialPageProps> = ({
         <div className="text-center py-16 bg-[#fff8f9] rounded-3xl border-2 border-dashed border-[#ffe4e8] p-7 space-y-3">
           <div className="text-5xl">👑</div>
           <h3 className="text-[26px] font-bold text-slate-800">
-            इस श्रेणी में अभी ZQ Official शायरी जोड़ी जा रही है
+            {isHinglishMode
+              ? 'Is category me abhi ZQ Official shayari jodi ja rahi hai'
+              : isEnglishMode
+                ? 'ZQ Official shayari is being added to this category soon'
+                : 'इस श्रेणी में अभी ZQ Official शायरी जोड़ी जा रही है'}
           </h3>
           <p className="text-[18px] text-slate-600 max-w-md mx-auto font-medium">
-            कृपया दूसरी श्रेणी चुनें अथवा नीचे एडमिन पैनल से नई आधिकारिक शायरी पोस्ट करें।
+            {isHinglishMode
+              ? 'Kripya dusri category chunein ya neeche Admin Panel se nayi official shayari post karein.'
+              : isEnglishMode
+                ? 'Please select another category or post new official shayari from the admin panel below.'
+                : 'कृपया दूसरी श्रेणी चुनें अथवा नीचे एडमिन पैनल से नई आधिकारिक शायरी पोस्ट करें।'}
           </p>
         </div>
       )}

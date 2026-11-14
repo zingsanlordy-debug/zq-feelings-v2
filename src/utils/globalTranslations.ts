@@ -582,8 +582,72 @@ export const UI_TRANSLATIONS: Partial<Record<GlobalLanguageId, UiStrings>> & { d
       'शब्दों से ज़्यादा तस्वीरें बोलती हैं। यहाँ 9-फोटो ग्रिड में दर्द और मोहब्बत के पलों को स्टेटस फोटोज़ में देखो।'
   },
   hinglish: {
-    ...DEFAULT_UI,
-    selectLanguageLabel: 'SELECT LANGUAGE (HINGLISH)'
+    headerTitle:
+      'ZQ - DIL KI AWAAZ: ALL IN ONE SHAYARI COLLECTION, FEELINGS & FESTIVAL WISHES',
+    selectLanguageLabel: 'SELECT LANGUAGE (HINGLISH)',
+    welcomeHeading: 'ZQ FEELINGS mein aapka dil se swagat hai!',
+    welcomeLine1:
+      'Har Mood Ke Liye, Har Festival Ke Liye - Yahan Apne Dil Ki Baat Likh Sakte Hain.',
+    welcomeLine2:
+      'Apne Moments Ko Khoobsurat Pictures Ke Jariye Share Kar Sakte Hain.',
+    welcomeLine3:
+      'Har Bhasha Mein, Dher Saare Stylish Fonts Ke Saath - Ek Click Mein Copy & Share Karein!',
+    btnFestival: 'FESTIVAL SHAYARI',
+    btnFeeling: 'FEELING SHAYARI',
+    btnSpecialDays: '12 MONTHS SPECIAL DAYS',
+    btnWriteShayari: 'APNI SHAYARI LIKHE',
+    btnZqMoments: 'ZQ MOMENTS',
+    btnHome: 'Home',
+    btnPasandida: 'Pasandida',
+    searchPlaceholder: 'Search - Apni Shayari Search Karein',
+    homeFestCardTitle: 'Festival Wishes Shayari',
+    homeFestCardSub: 'Festival Wishes & Shubhkamnayein',
+    homeFeelCardTitle: 'Feelings Shayari',
+    homeFeelCardSub: 'Love, Sad, Attitude & Dil Ke Jazbaat',
+    clickHere: 'Yahan Click Karein',
+    home12MonthsTitle: '12 Months Special Days (12 Mahinon Ke Khas Din)',
+    viewAllMonths: 'Sabhi Mahine Dekhein',
+    homeMomentsDesc:
+      'Apne moments 1-9 photos aur 30 stylish fonts ke saath hamare live global feed par share karein. Like, comment aur stylish captions ek tap mein copy karein!',
+    openZqMoments: 'Open ZQ Moments 💗',
+    festivalIntroTitle: 'Festival Shayari - Diwali, Holi, Eid Wishes',
+    festivalIntroDesc:
+      'Yahan milegi har tyohar ke liye dil se likhi hui shayari - Diwali, Holi, Eid, New Year aur sabhi festivals ke liye best wishes aur shubhkamnayein.',
+    selectFestival: 'Festival Chunein (Select Festival)',
+    allFestivals: 'Sabhi 27 Festivals',
+    goToFeelings: 'Feelings Shayari Par Jayein 💗',
+    feelingsIntroTitle: 'Feeling Shayari - Love, Sad, Attitude, Dosti',
+    feelingsIntroDesc:
+      'Apni har feeling ko shabd do. Pyar, Dard, Yaadein, Gussa ya Khushi - har ehsaas ke liye yahan ek perfect shayari hai.',
+    selectFeelings: 'Feelings Chunein (Select Category)',
+    allFeelings: 'Sabhi Feelings',
+    goToFestival: 'Festival Shayari Par Jayein 🎉',
+    loadMoreShayari: 'Aur Shayari Dekhein',
+    specialIntroTitle: '12 Months Special Days - Poore Saal Ke Special Din',
+    specialIntroDesc:
+      'Poore saal bhar duniya mein manaye jaane wale sabhi festivals aur special days ki shayari yahan milegi. January se December tak har important din ke liye best wishes aur status.',
+    selectMonth: '12 Mahine Chunein (January - December)',
+    all12MonthsBtn: 'Poore 12 Mahinon Ke Sabhi Special Days Ek Saath Dekhein',
+    specialSearchPlaceholder: 'Special Day Search Karein (Rose Day, Mother, Army, Kisan, Yoga...)',
+    writeIntroTitle: 'Apni Shayari Likhe - Apne Dil Ki Baat Likhein',
+    writeIntroDesc:
+      'Ab aap bhi shayar ban sakte hain. Yahan apne dil ki baat likhiye aur ek click mein apni shayari ki photo bana kar status par lagayein.',
+    momentsIntroTitle: 'ZQ Moments - Shayari Photo Status',
+    momentsIntroDesc:
+      'Shabdon se zyada tasveerein bolti hain. Yahan 9-photo grid mein dard aur mohabbat ke palon ko status photos mein dekho.',
+    copyBtn: 'Copy',
+    copiedBtn: 'Copied!',
+    whatsappBtn: 'WhatsApp',
+    downloadBtn: 'Download',
+    translateBtn: 'TRANSLATE',
+    shareBtn: 'SHARE',
+    stylesLabel: 'Styles:',
+    scrollStylesHint: 'Scroll karke style chunein →',
+    noShayariFound: 'Koi Shayari Nahi Mili',
+    viewAllShayari: 'Sabhi Shayariyan Dekhein',
+    searchResultsHeading: 'Search Results',
+    closeSearchBtn: 'Search Band Karein',
+    changeLanguageHeading: 'Language Badlein'
   },
   english: {
     headerTitle:
@@ -1649,10 +1713,10 @@ const DEVANAGARI_CONSONANTS: Record<string, string> = {
   च: 'ch', छ: 'chh', ज: 'j', झ: 'jh', ञ: 'ny',
   ट: 't', ठ: 'th', ड: 'd', ढ: 'dh', ण: 'n',
   त: 't', थ: 'th', द: 'd', ध: 'dh', न: 'n',
-  प: 'p', फ: 'f', ब: 'b', भ: 'bh', म: 'm',
-  य: 'y', र: 'r', ल: 'l', व: 'w',
+  प: 'p', फ: 'ph', ब: 'b', भ: 'bh', म: 'm',
+  य: 'y', र: 'r', ल: 'l', व: 'v',
   श: 'sh', ष: 'sh', स: 's', ह: 'h',
-  ळ: 'l', क़: 'q', ख़: 'kh', ग़: 'gh', ज़: 'z', ड़: 'r', ढ़: 'rh', फ़: 'f'
+  ळ: 'l', क़: 'q', ख़: 'kh', ग़: 'gh', ज़: 'z', ड़: 'd', ढ़: 'dh', फ़: 'f'
 };
 
 const DEVANAGARI_VOWELS: Record<string, string> = {
@@ -1666,31 +1730,50 @@ const DEVANAGARI_MATRAS: Record<string, string> = {
 };
 
 const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
-  // Common Poetry Keywords
-  'प्यार': 'Pyar',
-  'शायरी': 'Shayari',
-  'शायरियाँ': 'Shayariyan',
-  'मोहब्बत': 'Mohabbat',
-  'इश्क़': 'Ishq',
-  'इश्क': 'Ishq',
-  'दर्द': 'Dard',
-  'दिल': 'Dil',
-  'ज़िंदगी': 'Zindagi',
-  'जिंदगी': 'Zindagi',
-  'दोस्ती': 'Dosti',
-  'दोस्त': 'Dost',
-  'याद': 'Yaad',
-  'यादें': 'Yaadein',
-  'यादों': 'Yaadon',
-  'खुशी': 'Khushi',
-  'खुशियाँ': 'Khushiyan',
-  'तन्हाई': 'Tanhai',
-  'जुदाई': 'Judai',
-  'किस्मत': 'Kismat',
-  'त्यौहार': 'Festival',
-  'त्योहार': 'Festival',
-  'त्यौहारों': 'Festivals',
-  'त्योहारों': 'Festivals',
+  // Common Poetry & Title Keywords (natural lowercase; Title Case applied for headings/titles)
+  'प्यार': 'pyar',
+  'प्यारी': 'pyari',
+  'प्यारा': 'pyara',
+  'प्यारे': 'pyare',
+  'शायरी': 'shayari',
+  'शायरियाँ': 'shayariyan',
+  'शायरियां': 'shayariyan',
+  'मोहब्बत': 'mohabbat',
+  'इश्क़': 'ishq',
+  'इश्क': 'ishq',
+  'दर्द': 'dard',
+  'दिल': 'dil',
+  'दिलों': 'dilon',
+  'ज़िंदगी': 'zindagi',
+  'जिंदगी': 'zindagi',
+  'ज़िन्दगी': 'zindagi',
+  'दोस्ती': 'dosti',
+  'दोस्त': 'dost',
+  'दोस्तों': 'doston',
+  'याद': 'yaad',
+  'यादें': 'yaadein',
+  'यादों': 'yaadon',
+  'ख़ुशी': 'khushi',
+  'खुशी': 'khushi',
+  'ख़ुशियाँ': 'khushiyan',
+  'खुशियाँ': 'khushiyan',
+  'खुशियां': 'khushiyan',
+  'ख़ुशियों': 'khushiyon',
+  'खुशियों': 'khushiyon',
+  'खुशहाली': 'khushhali',
+  'खुशबू': 'khushboo',
+  'ख़ुशबू': 'khushboo',
+  'तन्हाई': 'tanhai',
+  'तन्हा': 'tanha',
+  'जुदाई': 'judai',
+  'जुदा': 'juda',
+  'किस्मत': 'kismat',
+  'क़िस्मत': 'kismat',
+  'तकदीर': 'taqdeer',
+  'तक़दीर': 'taqdeer',
+  'त्योहार': 'festival',
+  'त्यौहारों': 'festivals',
+  'त्योहारों': 'festivals',
   'फीलिंग्स': 'Feelings',
   'फीलिंग': 'Feeling',
   'हार्ट': 'Heart',
@@ -1705,75 +1788,546 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'शराबी': 'Sharabi',
   'मतलबी': 'Matlabi',
   'फनी': 'Funny',
-  'लड़कों': 'Ladkon',
-  'लड़कियों': 'Ladkiyon',
-  'लाइन': 'Line',
+  'लड़का': 'ladka',
+  'लड़के': 'ladke',
+  'लड़कों': 'ladkon',
+  'लड़की': 'ladki',
+  'लड़कियाँ': 'ladkiyan',
+  'लड़कियां': 'ladkiyan',
+  'लड़कियों': 'ladkiyon',
+  'लाइन': 'line',
   'रोमांटिक': 'Romantic',
   'मोटिवेशनल': 'Motivational',
   'सॉरी': 'Sorry',
-  'माफ़ी': 'Maafi',
-  'माफी': 'Maafi',
+  'माफ़ी': 'maafi',
+  'माफी': 'maafi',
+  'माफ़': 'maaf',
+  'माफ': 'maaf',
   'संस्कार': 'Sanskar',
   'धार्मिक': 'Dharmik',
   'आध्यात्मिक': 'Aadhyatmik',
   'जन्मदिन': 'Birthday',
-  'दीपावली': 'Diwali',
+  'दीपावली': 'Deepawali',
   'दिवाली': 'Diwali',
+  'दीवाली': 'Diwali',
   'होली': 'Holi',
-  'मुस्कान': 'Muskaan',
-  'आँखें': 'Aankhein',
-  'आँखों': 'Aankhon',
-  'आँसू': 'Aansu',
-  'आंसू': 'Aansu',
-  'चेहरा': 'Chehra',
-  'चेहरे': 'Chehre',
-  'नज़र': 'Nazar',
-  'नजर': 'Nazar',
-  'नज़रें': 'Nazrein',
-  'नजरें': 'Nazrein',
-  'नज़रों': 'Nazron',
-  'वक़्त': 'Waqt',
-  'वक्त': 'Waqt',
-  'सनम': 'Sanam',
-  'सफर': 'Safar',
-  'हमसफर': 'Hamsafar',
-  'मंजिल': 'Manzil',
-  'मंज़िल': 'Manzil',
-  'रास्ता': 'Raasta',
-  'रास्ते': 'Raaste',
-  'रास्तों': 'Raaston',
-  'ख्वाब': 'Khwab',
-  'ख़्वाब': 'Khwab',
-  'ख्वाबों': 'Khwabon',
-  'ख़्वाबों': 'Khwabon',
-  'ख्वाबो': 'Khwabon',
-  'ख़्वाबो': 'Khwabon',
-  'ख्वाहिश': 'Khwahish',
-  'ख्वाहिशें': 'Khwahishein',
-  'बेवफा': 'Bewafa',
-  'वफा': 'Wafa',
-  'धड़कन': 'Dhadkan',
-  'धड़कनें': 'Dhadkanein',
-  'सांसें': 'Saansein',
-  'सांस': 'Saans',
-  'तस्वीर': 'Tasveer',
-  'सुकून': 'Sukoon',
-  'एहसास': 'Ehsaas',
-  'जज़्बात': 'Jazbaat',
-  'जज्बात': 'Jazbaat',
-  'खूबसूरत': 'Khoobsurat',
-  'फूल': 'Phool',
-  'कांटे': 'Kaante',
-  'रोशनी': 'Roshni',
-  'उजाला': 'Ujaala',
-  'अंधेरा': 'Andhera',
-  'दीवाना': 'Deewana',
-  'दीवानी': 'Deewani',
-  'दीवाने': 'Deewane',
-  'मौसम': 'Mausam',
-  'दुआ': 'Dua',
-  'दुआओं': 'Duaon',
+  'ईद': 'Eid',
+  'ईदी': 'Eidi',
+  'बकरीद': 'Bakrid',
+  'क्रिसमस': 'Christmas',
+  'मैरी': 'Merry',
+  'जिंगल': 'Jingle',
+  'बेल्स': 'Bells',
+  'सांता': 'Santa',
+  'क्लॉज़': 'Claus',
+  'क्लॉज': 'Claus',
+  'क्लॉस': 'Claus',
+  'क्लोस': 'Claus',
+  'उपहार': 'uphaar',
+  'पुत्रोऽहं': "putro'ham",
+  'जे़वर': 'zewar',
+  'ज़ेवर': 'zewar',
+  'ईमान': 'imaan',
+  'कैंडल्स': 'Candles',
+  'केक': 'Cake',
+  'प्लम': 'Plum',
+  'कैरल्स': 'Carols',
+  'साइलेंट': 'Silent',
+  'नाइट': 'Night',
+  'सरप्राइज़': 'Surprise',
+  'सरप्राइज': 'Surprise',
+  'ट्री': 'Tree',
+  'दिसंबर': 'December',
+  'अक्टूबर': 'October',
+  'नवंबर': 'November',
+  'जनवरी': 'January',
+  'फ़रवरी': 'February',
+  'फरवरी': 'February',
+  'मार्च': 'March',
+  'अप्रैल': 'April',
+  'मई': 'May',
+  'जून': 'June',
+  'जुलाई': 'July',
+  'अगस्त': 'August',
+  'सितंबर': 'September',
+  'स्पेशल': 'Special',
+  'प्रिंस': 'Prince',
+  'परी': 'pari',
+  'फ़ोन': 'Phone',
+  'फोन': 'Phone',
+  'स्क्रीन': 'Screen',
+  'चैट': 'Chat',
+  'पासवर्ड': 'Password',
+  'कैलेंडर': 'Calendar',
+  'डिलीट': 'Delete',
+  'बाइक': 'Bike',
+  'सैलरी': 'Salary',
+  'स्कूल': 'School',
+  'बेंच': 'Bench',
+  'मेकअप': 'Makeup',
+  'जींस': 'Jeans',
+  'सूट': 'Suit',
+  'पार्क': 'Park',
+  'कॉफ़ी': 'Coffee',
+  'कॉफी': 'Coffee',
+  'पेंसिल': 'Pencil',
+  'स्टाइल': 'Style',
+  'ब्रांडेड': 'Branded',
+  'लिस्ट': 'List',
+  'टेबल': 'Table',
+  'टीवी': 'TV',
+  'रिमोट': 'Remote',
+  'जिम': 'Gym',
+  'फीस': 'Fees',
+  'फ़ीस': 'Fees',
+  'डंबल': 'Dumbbell',
+  'सेल्फ़ी': 'Selfie',
+  'सेल्फी': 'Selfie',
+  'आइसक्रीम': 'Ice Cream',
+  'स्टेटस': 'Status',
+  'कमेंट्स': 'Comments',
+  'स्माइल': 'Smile',
+  'चॉकलेट': 'Chocolate',
+  'इमोजी': 'Emoji',
+  'ओलंपिक': 'Olympic',
+  'साइकिल': 'Cycle',
+  'क्रॉस': 'Cross',
+  'रेड': 'Red',
+  'ब्रेल': 'Braille',
+  'एक्सप्लोर': 'Explore',
+  'क्लिक': 'Click',
+  'व्हाट्सएप': 'WhatsApp',
+  'इंस्टाग्राम': 'Instagram',
+  'फ़ेसबुक': 'Facebook',
+  'फेसबुक': 'Facebook',
+  'फ़ॉन्ट': 'Font',
+  'फ़ॉन्ट्स': 'Fonts',
+  'फोटो': 'Photo',
+  'फ़ोटो': 'Photo',
+  'मुस्कान': 'muskaan',
+  'मुस्कुराओ': 'muskurao',
+  'मुस्कुरा': 'muskura',
+  'मुस्कुराते': 'muskurate',
+  'मुस्कुराती': 'muskurati',
+  'मुस्कुराता': 'muskurata',
+  'मुस्कुराकर': 'muskurakar',
+  'आँखें': 'aankhein',
+  'आंखें': 'aankhein',
+  'आँखों': 'aankhon',
+  'आंखों': 'aankhon',
+  'आँसू': 'aansu',
+  'आंसू': 'aansu',
+  'आँसुओं': 'aansuon',
+  'आंसुओं': 'aansuon',
+  'अश्क': 'ashk',
+  'अश्क़': 'ashk',
+  'चेहरा': 'chehra',
+  'चेहरे': 'chehre',
+  'नज़र': 'nazar',
+  'नजर': 'nazar',
+  'नज़रें': 'nazrein',
+  'नजरें': 'nazrein',
+  'नज़रों': 'nazron',
+  'नजरों': 'nazron',
+  'वक़्त': 'waqt',
+  'वक्त': 'waqt',
+  'सनम': 'sanam',
+  'सफर': 'safar',
+  'सफ़र': 'safar',
+  'हमसफर': 'hamsafar',
+  'हमसफ़र': 'hamsafar',
+  'मंजिल': 'manzil',
+  'मंज़िल': 'manzil',
+  'मंज़िलें': 'manzilein',
+  'रास्ता': 'raasta',
+  'रास्ते': 'raaste',
+  'रास्तों': 'raaston',
+  'ख्वाब': 'khwab',
+  'ख़्वाब': 'khwab',
+  'ख्वाबों': 'khwabon',
+  'ख़्वाबों': 'khwabon',
+  'ख्वाबो': 'khwabon',
+  'ख़्वाबो': 'khwabon',
+  'ख्वाहिश': 'khwahish',
+  'ख़्वाहिश': 'khwahish',
+  'ख्वाहिशें': 'khwahishein',
+  'बेवफा': 'bewafa',
+  'बेवफ़ा': 'bewafa',
+  'बेवफ़ाई': 'bewafai',
+  'बेवफाई': 'bewafai',
+  'वफा': 'wafa',
+  'वफ़ा': 'wafa',
+  'वफ़ादार': 'wafadaar',
+  'वचन': 'vachan',
+  'वंदन': 'vandan',
+  'धड़कन': 'dhadkan',
+  'धड़कनें': 'dhadkanein',
+  'धड़कनों': 'dhadkanon',
+  'सांसें': 'saansein',
+  'साँसें': 'saansein',
+  'सांस': 'saans',
+  'साँस': 'saans',
+  'साँसों': 'saanson',
+  'सांसों': 'saanson',
+  'तस्वीर': 'tasveer',
+  'तस्वीरें': 'tasveerein',
+  'तस्वीरों': 'tasveeron',
+  'सुकून': 'sukoon',
+  'एहसास': 'ehsaas',
+  'जज़्बात': 'jazbaat',
+  'जज्बात': 'jazbaat',
+  'जज़्बातों': 'jazbaaton',
+  'जज्बातों': 'jazbaaton',
+  'खूबसूरत': 'khoobsurat',
+  'ख़ूबसूरत': 'khoobsurat',
+  'फूल': 'phool',
+  'फूलों': 'phoolon',
+  'फुलझड़ी': 'phuljhadi',
+  'कांटे': 'kaante',
+  'काँटे': 'kaante',
+  'काँटों': 'kaanton',
+  'कांटों': 'kaanton',
+  'रोशनी': 'roshni',
+  'रौशनी': 'roshni',
+  'उजाला': 'ujaala',
+  'उजालों': 'ujaalon',
+  'अंधेरा': 'andhera',
+  'अँधेरा': 'andhera',
+  'अंधेरों': 'andheron',
+  'दीवाना': 'deewana',
+  'दीवानी': 'deewani',
+  'दीवाने': 'deewane',
+  'दीवार': 'deewar',
+  'दीवारें': 'deewarein',
+  'मौसम': 'mausam',
+  'दुआ': 'dua',
+  'दुआएं': 'duayein',
+  'दुआएँ': 'duayein',
+  'दुआओं': 'duaon',
   'खुदा': 'Khuda',
+  'ख़ुदा': 'Khuda',
+  'रब': 'Rab',
+  'वाहेगुरु': 'Waheguru',
+  'यीशु': 'Yeshu',
+  'मसीह': 'Masih',
+  'भगवान': 'Bhagwan',
+  'ईश्वर': 'Ishwar',
+  'अल्लाह': 'Allah',
+  'लक्ष्मी': 'Lakshmi',
+  'गणेश': 'Ganesh',
+  'कृष्ण': 'Krishna',
+  'सूर्य': 'Surya',
+  'पर्व': 'parv',
+  'कवच': 'kavach',
+  'सवेरा': 'savera',
+  'वीर': 'veer',
+  'वीरों': 'veeron',
+  'शहीद': 'shaheed',
+  'शहीदों': 'shaheedon',
+  'आजादी': 'azadi',
+  'आज़ादी': 'azadi',
+  'तिरंगा': 'tiranga',
+  'तिरंगे': 'tirange',
+  'आरती': 'aarti',
+  'परंपरा': 'parampara',
+  'शिकवे': 'shikwe',
+  'शिकावे': 'shikwe',
+  'गिले': 'gile',
+  'नूर': 'noor',
+  'गूंज': 'goonj',
+  'गूँज': 'goonj',
+  'धूम': 'dhoom',
+  'आशीष': 'aashish',
+  'आशीर्वाद': 'aashirwad',
+  'मिठास': 'mithaas',
+  'मिठाई': 'mithai',
+  'चांदी': 'chandi',
+  'चाँदी': 'chandi',
+  'चांद': 'chaand',
+  'चाँद': 'chaand',
+  'चांदनी': 'chandni',
+  'चाँदनी': 'chandni',
+  'बारिश': 'baarish',
+  'बूंद': 'boond',
+  'बूँद': 'boond',
+  'बूंदें': 'boondein',
+  'बूँदें': 'boondein',
+  'हवा': 'hawa',
+  'हवाएं': 'hawayein',
+  'हवाएँ': 'hawayein',
+  'हवाओं': 'hawaon',
+  'चाय': 'chai',
+  'पानी': 'paani',
+  'हंसी': 'hansi',
+  'हँसी': 'hansi',
+  'हँसना': 'hansna',
+  'हँसते': 'hanste',
+  'उड़ान': 'udaan',
+  'सपना': 'sapna',
+  'सपने': 'sapne',
+  'सपनों': 'sapnon',
+  'बचपन': 'bachpan',
+  'अनमोल': 'anmol',
+  'कदम': 'kadam',
+  'क़दम': 'kadam',
+  'क़दमों': 'kadmon',
+  'कदमों': 'kadmon',
+  'लम्हा': 'lamha',
+  'लम्हे': 'lamhe',
+  'लम्हों': 'lamhon',
+  'महफिल': 'mehfil',
+  'महफ़िल': 'mehfil',
+  'महफिलों': 'mehfilon',
+  'दुनिया': 'duniya',
+  'ज़माना': 'zamana',
+  'जमाना': 'zamana',
+  'ज़माने': 'zamane',
+  'जमाने': 'zamane',
+  'मतलब': 'matlab',
+  'अक्सर': 'aksar',
+  'मजबूत': 'mazboot',
+  'मज़बूत': 'mazboot',
+  'मजबूती': 'mazbooti',
+  'मज़बूती': 'mazbooti',
+  'औकात': 'aukaat',
+  'औक़ात': 'aukaat',
+  'तौर': 'taur',
+  'दौर': 'daur',
+  'शौक': 'shauq',
+  'शौक़': 'shauq',
+  'ज़मीन': 'zameen',
+  'जमीन': 'zameen',
+  'ज़मीर': 'zameer',
+  'जमीर': 'zameer',
+  'आसमान': 'aasmaan',
+  'आसमाँ': 'aasmaan',
+  'सितारा': 'sitara',
+  'सितारे': 'sitaare',
+  'सितारों': 'sitaaron',
+  'तारे': 'taare',
+  'तारों': 'taaron',
+  'सूरज': 'suraj',
+  'धूप': 'dhoop',
+  'छाँव': 'chhanv',
+  'छांव': 'chhanv',
+  'साया': 'saaya',
+  'परछाई': 'parchhai',
+  'कागज': 'kagaz',
+  'कागज़': 'kagaz',
+  'किताब': 'kitaab',
+  'पन्नों': 'pannon',
+  'पन्ने': 'panne',
+  'पन्ना': 'panna',
+  'लफ़्ज़': 'lafz',
+  'लफ्ज़': 'lafz',
+  'लफ्ज': 'lafz',
+  'लफ़्ज़ों': 'lafzon',
+  'लफ्जों': 'lafzon',
+  'अल्फ़ाज़': 'alfaaz',
+  'गजल': 'ghazal',
+  'ग़ज़ल': 'ghazal',
+  'सच्चा': 'saccha',
+  'सच्ची': 'sacchi',
+  'सच्चे': 'sacche',
+  'झूठ': 'jhooth',
+  'झूठा': 'jhootha',
+  'झूठी': 'jhoothi',
+  'झूठे': 'jhoothe',
+  'भीड़': 'bheed',
+  'छोड़': 'chhod',
+  'छोड़कर': 'chhodkar',
+  'तोड़': 'tod',
+  'मोड़': 'mod',
+  'बहन': 'behen',
+  'बहना': 'behna',
+  'भाई': 'bhai',
+  'माँ': 'maa',
+  'मां': 'maa',
+  'पापा': 'papa',
+  'पिता': 'pita',
+  'बेटी': 'beti',
+  'बेटियां': 'betiyan',
+  'बेटियों': 'betiyon',
+  'बेटा': 'beta',
+  'बेटे': 'bete',
+  'बेटों': 'beton',
+  'परिवार': 'parivaar',
+  'रिश्ता': 'rishta',
+  'रिश्ते': 'rishte',
+  'रिश्तों': 'rishton',
+  'कहानी': 'kahani',
+  'कहानियाँ': 'kahaniyan',
+  'कहानियां': 'kahaniyan',
+  'आइना': 'aaina',
+  'आईना': 'aaina',
+  'आईने': 'aaine',
+  'गुलदस्ता': 'guldasta',
+  'ख़ामोश': 'khamosh',
+  'खामोश': 'khamosh',
+  'ख़ामोशी': 'khamoshi',
+  'खामोशी': 'khamoshi',
+  'ताजगी': 'taazgi',
+  'ताज़गी': 'taazgi',
+  'कामयाबी': 'kamyabi',
+  'सफलता': 'safalta',
+  'मंज़ूर': 'manzoor',
+  'कबूल': 'qubool',
+  'क़बूल': 'qubool',
+  'ताक़त': 'taqat',
+  'ताकत': 'taqat',
+  'हौसला': 'hausla',
+  'हौसले': 'hausle',
+  'हौसलों': 'hauslon',
+  'उम्मीद': 'ummeed',
+  'उम्मीदें': 'ummeedein',
+  'उम्मीदों': 'ummeedon',
+  'भरोसा': 'bharosa',
+  'यकीन': 'yakeen',
+  'यक़ीन': 'yakeen',
+  'नींद': 'neend',
+  'प्रीत': 'preet',
+  'गीत': 'geet',
+  'जीत': 'jeet',
+  'मीत': 'meet',
+  'हार': 'haar',
+  'दीया': 'diya',
+  'दीये': 'diye',
+  'दीप': 'deep',
+  'दीपों': 'deepon',
+  'दीपक': 'deepak',
+  'मंगलकारी': 'mangalkari',
+  'स्वतंत्रता': 'Swatantrata',
+  'गणतंत्र': 'Gantantra',
+  'संविधान': 'Samvidhan',
+  'महात्मा': 'Mahatma',
+  'मातृभूमि': 'Matribhoomi',
+  'चरखे': 'charkhe',
+  'बापू': 'Bapu',
+  'गणपति': 'Ganpati',
+  'आगमन': 'aagman',
+  'आगाज': 'aagaz',
+  'आगाज़': 'aagaz',
+  'आनंद': 'anand',
+  'शांति': 'shanti',
+  'भक्ति': 'bhakti',
+  'शक्ति': 'shakti',
+  'पवित्र': 'pavitra',
+  'पावन': 'paavan',
+  'शुभ': 'shubh',
+  'दिवस': 'diwas',
+  'जयंती': 'jayanti',
+  'त्यौहार': 'tyohar',
+  'ठंड': 'thand',
+  'ठंडी': 'thandi',
+  'कमरा': 'kamra',
+  'कमरे': 'kamre',
+  'खिड़की': 'khidki',
+  'दरवाजा': 'darwaza',
+  'दरवाज़ा': 'darwaza',
+  'दरवाजे': 'darwaze',
+  'दरवाज़े': 'darwaze',
+  'गहरा': 'gehra',
+  'गहरी': 'gehri',
+  'गहरे': 'gehre',
+  'पहले': 'pehle',
+  'पहला': 'pehla',
+  'पहली': 'pehli',
+  'अखबार': 'akhbaar',
+  'अख़बार': 'akhbaar',
+  'आजकल': 'aajkal',
+  'कड़वा': 'kadwa',
+  'कड़वी': 'kadwi',
+  'कड़वे': 'kadwe',
+  'कड़वाहट': 'kadwahat',
+  'नफरत': 'nafrat',
+  'नफ़रत': 'nafrat',
+  'अफसर': 'afsar',
+  'इकरार': 'iqraar',
+  'इक़रार': 'iqraar',
+  'विश्व': 'Vishwa',
+  'राष्ट्रीय': 'Rashtriya',
+  'अंतर्राष्ट्रीय': 'Antarrashtriya',
+  'भारतीय': 'Bharatiya',
+  'एवं': 'evam',
+  'जीवन': 'jeevan',
+  'इंसान': 'insaan',
+  'पीछे': 'peechhe',
+  'वादा': 'waada',
+  'वादे': 'waade',
+  'वादों': 'waadon',
+  'वापस': 'wapas',
+  'वजह': 'wajah',
+  'बेवजह': 'bewajah',
+  'परवाह': 'parwah',
+  'सवाल': 'sawaal',
+  'जवाब': 'jawaab',
+  'सावन': 'saawan',
+  'विश्वास': 'vishwas',
+  'वरदान': 'vardaan',
+  'स्वागत': 'swagat',
+  'स्वाद': 'swaad',
+  'स्वाभिमान': 'swabhimaan',
+  'स्वीकार': 'sweekar',
+  'स्वर्णिम': 'swarnim',
+  'द्वार': 'dwaar',
+  'श्रृंगार': 'shringar',
+  'शृंगार': 'shringar',
+  'महक': 'mehek',
+  'बीच': 'beech',
+  'मीलों': 'meelon',
+  'सीधा': 'seedha',
+  'सीधे': 'seedhe',
+  'सीने': 'seene',
+  'सीना': 'seena',
+  'जीने': 'jeene',
+  'जीना': 'jeena',
+  'धीमे': 'dheeme',
+  'चीज़': 'cheez',
+  'क़ीमत': 'keemat',
+  'क़रीब': 'kareeb',
+  'संगीत': 'sangeet',
+  'वीरान': 'veeran',
+  'बीवी': 'biwi',
+  'अच्छा': 'achha',
+  'अच्छी': 'achhi',
+  'अच्छे': 'achhe',
+  'शुरू': 'shuru',
+  'ठहर': 'theher',
+  'पाँव': 'paon',
+  'ऊँचा': 'ooncha',
+  'ऊँची': 'oonchi',
+  'ऊपर': 'oopar',
+  'बाज़ार': 'bazaar',
+  'हज़ार': 'hazaar',
+  'हज़ारों': 'hazaaron',
+  'ख़ास': 'khaas',
+  'खास': 'khaas',
+  'राज़': 'raaz',
+  'ग़लत': 'galat',
+  'पैग़ाम': 'paigaam',
+  'अंदाज़': 'andaaz',
+  'आज़ाद': 'azaad',
+  'चिराग़': 'chiraag',
+  'तारीख़': 'taarikh',
+  'मुक़ाम': 'mukaam',
+  'दहलीज़': 'dehleez',
+  'बरात': 'baraat',
+  'बारात': 'baraat',
+  'सौगात': 'saugaat',
+  'वास': 'vaas',
+  'फ़र्क़': 'farq',
+  'फूलवाले': 'phoolwale',
+  'अमृत': 'amrit',
+  'बिछड़ने': 'bichhadne',
+  'बिछड़ते': 'bichhadte',
+  'पकड़कर': 'pakadkar',
+  'गुज़रती': 'guzarti',
+  'गुज़रते': 'guzarte',
+  'गुज़रता': 'guzarta',
+  'ढूँढता': 'dhoondhta',
+  'ढूँढते': 'dhoondhte',
+  'ढूँढ': 'dhoondh',
+  'बढ़कर': 'badhkar',
 
   // Natural Grammar & Connector Words
   'है': 'hai',
@@ -1785,6 +2339,7 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'में': 'mein',
   'मैं': 'main',
   'नहीं': 'nahi',
+  'नही': 'nahi',
   'और': 'aur',
   'के': 'ke',
   'की': 'ki',
@@ -1792,11 +2347,13 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'को': 'ko',
   'से': 'se',
   'पर': 'par',
+  'पे': 'pe',
   'तक': 'tak',
   'ना': 'na',
+  'न': 'na',
   'मत': 'mat',
   'या': 'ya',
-  'तो': 'to',
+  'तो': 'toh',
   'जो': 'jo',
   'सो': 'so',
   'ही': 'hi',
@@ -1805,9 +2362,9 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'तुम': 'tum',
   'हम': 'hum',
   'आप': 'aap',
-  'वो': 'wo',
+  'वो': 'woh',
   'वह': 'woh',
-  'ये': 'ye',
+  'ये': 'yeh',
   'यह': 'yeh',
   'तेरा': 'tera',
   'तेरी': 'teri',
@@ -1818,20 +2375,55 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'हमारा': 'hamara',
   'हमारी': 'hamari',
   'हमारे': 'hamare',
+  'हमें': 'humein',
+  'हमसे': 'humse',
+  'हमने': 'humne',
   'आपका': 'aapka',
   'आपकी': 'aapki',
   'आपके': 'aapke',
+  'आपको': 'aapko',
+  'तुम्हारा': 'tumhara',
+  'तुम्हारी': 'tumhari',
+  'तुम्हारे': 'tumhare',
+  'तुम्हें': 'tumhein',
+  'मुझे': 'mujhe',
+  'मुझसे': 'mujhse',
+  'मुझको': 'mujhko',
+  'तुझे': 'tujhe',
+  'तुझसे': 'tujhse',
+  'तुझको': 'tujhko',
   'अपना': 'apna',
   'अपनी': 'apni',
   'अपने': 'apne',
   'अपनों': 'apnon',
+  'उसका': 'uska',
+  'उसकी': 'uski',
+  'उसके': 'uske',
+  'उसे': 'use',
+  'उससे': 'usse',
+  'उनका': 'unka',
+  'उनकी': 'unki',
+  'उनके': 'unke',
+  'उन्हें': 'unhein',
+  'उन्होनें': 'unhone',
+  'जिसे': 'jise',
+  'जिससे': 'jisse',
+  'जिनके': 'jinke',
+  'जिसके': 'jiske',
+  'जिसमें': 'jismein',
   'रात': 'raat',
+  'रातें': 'raatein',
+  'रातों': 'raaton',
   'दिन': 'din',
+  'दिनों': 'dinon',
+  'सुबह': 'subah',
+  'शाम': 'shaam',
   'बात': 'baat',
   'बातें': 'baatein',
   'बातों': 'baaton',
   'साथ': 'saath',
   'हाथ': 'haath',
+  'हाथों': 'haathon',
   'इंतज़ार': 'intezaar',
   'इंतजार': 'intezaar',
   'जाना': 'jaana',
@@ -1854,7 +2446,12 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'रहा': 'raha',
   'रही': 'rahi',
   'रहे': 'rahe',
+  'रहना': 'rehna',
+  'रहता': 'rehta',
+  'रहती': 'rehti',
+  'रहते': 'rehte',
   'करना': 'karna',
+  'करने': 'karne',
   'करती': 'karti',
   'करते': 'karte',
   'करता': 'karta',
@@ -1862,8 +2459,16 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'करो': 'karo',
   'किया': 'kiya',
   'देखा': 'dekha',
+  'देख': 'dekh',
+  'देखकर': 'dekhkar',
+  'देखते': 'dekhte',
   'कहा': 'kaha',
+  'कहता': 'kehta',
+  'कहती': 'kehti',
+  'कहते': 'kehte',
+  'कहना': 'kehna',
   'सुना': 'suna',
+  'सुनकर': 'sunkar',
   'देती': 'deti',
   'देते': 'dete',
   'देता': 'deta',
@@ -1872,25 +2477,51 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'ले': 'le',
   'लो': 'lo',
   'लिया': 'liya',
+  'लगा': 'laga',
+  'लगता': 'lagta',
+  'लगती': 'lagti',
+  'लगते': 'lagte',
+  'बनता': 'banta',
+  'बनती': 'banti',
+  'बनते': 'bante',
+  'बना': 'bana',
+  'बनाने': 'banane',
+  'मिलता': 'milta',
+  'मिलती': 'milti',
+  'मिलते': 'milte',
+  'लिखता': 'likhta',
+  'लिखती': 'likhti',
+  'लिखते': 'likhte',
+  'लिखकर': 'likhkar',
+  'दिखता': 'dikhta',
+  'दिखती': 'dikhti',
+  'दिखते': 'dikhte',
+  'बैठकर': 'baithkar',
+  'पढ़कर': 'padhkar',
   'खिल': 'khil',
   'खिलती': 'khilti',
-  'दुनिया': 'duniya',
   'बन': 'ban',
   'गया': 'gaya',
+  'गई': 'gayi',
   'गयी': 'gayi',
   'गए': 'gaye',
+  'नई': 'nayi',
+  'नयी': 'nayi',
+  'नया': 'naya',
+  'नये': 'naye',
+  'नए': 'naye',
+  'साल': 'saal',
   'भर': 'bhar',
   'ख़त्म': 'khatam',
   'खत्म': 'khatam',
+  'मर्ज़': 'marz',
+  'मर्ज': 'marz',
   'टूटते': 'tootte',
+  'टूट': 'toot',
   'टूटे': 'toote',
   'टूटा': 'toota',
   'डूबे': 'doobe',
   'डूबा': 'dooba',
-  'सच्ची': 'sacchi',
-  'सच्चा': 'saccha',
-  'सच': 'sach',
-  'झूठ': 'jhooth',
   'दूर': 'door',
   'पास': 'paas',
   'कहाँ': 'kahan',
@@ -1899,19 +2530,26 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'यहां': 'yahan',
   'वहाँ': 'wahan',
   'वहां': 'wahan',
-  'जहाँ': 'jahan',
   'जहां': 'jahan',
   'कब': 'kab',
   'जब': 'jab',
   'तब': 'tab',
   'अब': 'ab',
   'सब': 'sab',
+  'सबको': 'sabko',
+  'सबकी': 'sabki',
+  'सबके': 'sabke',
+  'सबका': 'sabka',
   'कभी': 'kabhi',
   'सभी': 'sabhi',
   'अभी': 'abhi',
   'तभी': 'tabhi',
   'कोई': 'koi',
   'कुछ': 'kuch',
+  'कितनी': 'kitni',
+  'कितना': 'kitna',
+  'कितने': 'kitne',
+  'आसानी': 'aasaani',
   'कैसा': 'kaisa',
   'कैसी': 'kaisi',
   'कैसे': 'kaise',
@@ -1919,13 +2557,103 @@ const HINGLISH_WORD_OVERRIDES: Record<string, string> = {
   'ऐसी': 'aisi',
   'ऐसे': 'aise',
   'जाए': 'jaaye',
+  'जाएँ': 'jaayein',
   'आए': 'aaye',
+  'आएँ': 'aayein',
   'पाए': 'paaye',
   'चाहिए': 'chahiye',
   'चाहता': 'chahta',
   'चाहती': 'chahti',
   'चाहते': 'chahte',
-  'चाहा': 'chaha'
+  'चाहा': 'chaha',
+  'लिए': 'liye',
+  'लिये': 'liye',
+  'हुए': 'hue',
+  'हुई': 'hui',
+  'हुआ': 'hua',
+  'बिना': 'bina',
+  'मगर': 'magar',
+  'लेकिन': 'lekin',
+  'क्यों': 'kyun',
+  'क्योंकि': 'kyunki',
+  'यूँ': 'yun',
+  'बहुत': 'bahut',
+  'ज्यादा': 'zyada',
+  'ज़्यादा': 'zyada',
+  'सिर्फ': 'sirf',
+  'सिर्फ़': 'sirf',
+  'खुद': 'khud',
+  'ख़ुद': 'khud',
+  'तूने': 'tune',
+  'मैंने': 'maine',
+  'उन्हीं': 'unhi',
+  'किये': 'kiye',
+  'गये': 'gaye',
+  'बनाकर': 'banakar',
+  'टूटने': 'tootne',
+  'टूटकर': 'tootkar',
+  'टूटी': 'tooti',
+  'वरना': 'warna',
+  'यहीं': 'yahin',
+  'वहीं': 'wahin',
+  'आई': 'aayi',
+  'करूँ': 'karoon',
+  'दूँ': 'doon',
+  'थीं': 'thin',
+  'नाम': 'naam',
+  'काम': 'kaam',
+  'सारे': 'saare',
+  'सारा': 'saara',
+  'जाने': 'jaane',
+  'आवाज़': 'aawaz',
+  'आवाज': 'aawaz',
+  'काग़ज़': 'kagaz',
+  'बाहों': 'baahon',
+  'बाँहों': 'baahon',
+  'राहों': 'raahon',
+  'महलों': 'mehlon',
+  'महल': 'mehel',
+  'जहान': 'jahaan',
+  'निशान': 'nishaan',
+  'निशाँ': 'nishaan',
+  'सादगी': 'saadgi',
+  'महकने': 'mehekne',
+  'महकती': 'mehekti',
+  'महकता': 'mehekta',
+  'बहकने': 'behekne',
+  'काँपता': 'kaanpta',
+  'भिड़': 'bheed',
+  'वाला': 'wala',
+  'वाली': 'wali',
+  'वाले': 'wale',
+  'वालों': 'walon',
+  'वही': 'wahi',
+  'अजीब': 'ajeeb',
+  'दीदार': 'deedaar',
+  'दास्ताँ': 'dastaan',
+  'दास्तान': 'dastaan',
+  'फ़ासला': 'faasla',
+  'फासला': 'faasla',
+  'सिवा': 'siwa',
+  'दवा': 'dawa',
+  'आबाद': 'aabaad',
+  'थाम': 'thaam',
+  'क़ाबू': 'kaaboo',
+  'काबू': 'kaaboo',
+  'जहाँ': 'jahaan',
+  'मान': 'maan',
+  'टीम': 'Team',
+  'ऑफिस': 'Office',
+  'स्पिरिट': 'Spirit',
+  'ऑनलाइन': 'Online',
+  'श्री': 'Shri',
+  'बुआ': 'bua',
+  'ध्वनि': 'dhwani',
+  'अष्ट': 'Ashta',
+  'दीपमाला': 'Deepmala',
+  'दीपांजलि': 'Deepanjali',
+  'कर्मक्षेत्र': 'Karmakshetra',
+  'मार्गदर्शन': 'Margdarshan'
 };
 
 const MULTI_WORD_HINGLISH_OVERRIDES: Array<[RegExp, string]> = [
@@ -1958,80 +2686,240 @@ const MULTI_WORD_HINGLISH_OVERRIDES: Array<[RegExp, string]> = [
   [/जन्मदिन\s+शायरी/gi, 'Birthday Shayari'],
   [/जन्मदिन\s+मुबारक/gi, 'Janamdin Mubarak'],
   [/गोद\s+भराई/gi, 'Godh Bharai'],
-  [/नामकरण\s*[-&]?\s*मुंडन/gi, 'Naamkaran & Mundan'],
+  [/नामकरण\s*(?:व|और|[-&])?\s*मुंडन/gi, 'Naamkaran & Mundan'],
   [/गृह\s+प्रवेश/gi, 'Grah Pravesh'],
-  [/नवजात\s+शिशु/gi, 'Newborn Babies']
+  [/नवजात\s+शिशु/gi, 'Newborn Babies'],
+  [/छोटा\s+प्रिंस/gi, 'Chhota Prince'],
+  [/मैरी\s+क्रिसमस/gi, 'Merry Christmas'],
+  [/साइलेंट\s+नाइट/gi, 'Silent Night'],
+  [/जिंगल\s+बेल्स/gi, 'Jingle Bells'],
+  [/सांता\s+क्लॉ[ज़ज]/gi, 'Santa Claus'],
+  [/सांता\s+का\s+सरप्राइ[ज़ज]/gi, 'Santa Ka Surprise'],
+  [/हग\s+डे/gi, 'Hug Day'],
+  [/किस\s+डे/gi, 'Kiss Day'],
+  [/रोज़\s+डे/gi, 'Rose Day'],
+  [/प्रपोज़\s+डे/gi, 'Propose Day'],
+  [/चॉकलेट\s+डे/gi, 'Chocolate Day'],
+  [/टेडी\s+डे/gi, 'Teddy Day'],
+  [/प्रॉमिस\s+डे/gi, 'Promise Day'],
+  [/वैलेंटाइन\s+डे/gi, 'Valentine Day'],
+  [/स्लैप\s+डे/gi, 'Slap Day'],
+  [/किक\s+डे/gi, 'Kick Day'],
+  [/परफ्यूम\s+डे/gi, 'Perfume Day'],
+  [/फ्लर्टिंग\s+डे/gi, 'Flirting Day'],
+  [/कन्फेशन\s+डे/gi, 'Confession Day'],
+  [/मिसिंग\s+डे/gi, 'Missing Day'],
+  [/ब्रेकअप\s+डे/gi, 'Breakup Day']
 ];
 
-export function convertHindiToHinglish(text: string): string {
+const LABIAL_CONSONANTS = new Set(['प', 'फ', 'फ़', 'ब', 'भ', 'म']);
+
+function transliterateDevanagariWordClean(token: string): string {
+  if (HINGLISH_WORD_OVERRIDES[token]) {
+    return HINGLISH_WORD_OVERRIDES[token];
+  }
+
+  const normalized = token
+    .replace(/([\u093E-\u094C\u094E\u094F\u0955-\u0957])\u093C/g, '\u093C$1')
+    .replace(/क़/g, 'क\u093C')
+    .replace(/ख़/g, 'ख\u093C')
+    .replace(/ग़/g, 'ग\u093C')
+    .replace(/ज़/g, 'ज\u093C')
+    .replace(/ड़/g, 'ड\u093C')
+    .replace(/ढ़/g, 'ढ\u093C')
+    .replace(/फ़/g, 'फ\u093C')
+    .normalize('NFC');
+  const rawChars = Array.from(normalized);
+
+  // Merge nukta pairs
+  const chars: string[] = [];
+  for (let i = 0; i < rawChars.length; i++) {
+    if (rawChars[i + 1] === '\u093C') {
+      chars.push(rawChars[i] + '\u093C');
+      i++;
+    } else {
+      chars.push(rawChars[i]);
+    }
+  }
+
+  // Parse into phonological syllables for accurate Hindi schwa deletion
+  type Unit =
+    | { kind: 'vowel'; base: string; nasal: string }
+    | { kind: 'cons'; base: string; matra: string; virama: boolean; nasal: string; rawCons: string }
+    | { kind: 'other'; text: string };
+
+  const units: Unit[] = [];
+  for (let i = 0; i < chars.length; i++) {
+    const ch = chars[i];
+    if (DEVANAGARI_VOWELS[ch]) {
+      let nasal = '';
+      if (chars[i + 1] === 'ं' || chars[i + 1] === 'ँ') {
+        const nextCons = chars[i + 2];
+        nasal = LABIAL_CONSONANTS.has(nextCons) && chars[i + 1] === 'ं' ? 'm' : 'n';
+        i++;
+      }
+      units.push({ kind: 'vowel', base: DEVANAGARI_VOWELS[ch], nasal });
+    } else if (DEVANAGARI_CONSONANTS[ch]) {
+      let base = DEVANAGARI_CONSONANTS[ch];
+      let rawCons = ch;
+      let virama = false;
+      let matra = '';
+      let nasal = '';
+
+      // Common ligatures: क्ष, त्र, ज्ञ, श्र
+      if (ch === 'क' && chars[i + 1] === '्' && chars[i + 2] === 'ष') {
+        base = 'ksh';
+        rawCons = 'ष';
+        i += 2;
+      } else if (ch === 'त' && chars[i + 1] === '्' && chars[i + 2] === 'र') {
+        base = 'tr';
+        rawCons = 'र';
+        i += 2;
+      } else if (ch === 'ज' && chars[i + 1] === '्' && chars[i + 2] === 'ञ') {
+        base = 'gy';
+        rawCons = 'ञ';
+        i += 2;
+      } else if (ch === 'श' && chars[i + 1] === '्' && chars[i + 2] === 'र') {
+        base = 'shr';
+        rawCons = 'र';
+        i += 2;
+      }
+
+      const after = chars[i + 1];
+      if (after === '्') {
+        virama = true;
+        i++;
+      } else if (after && DEVANAGARI_MATRAS[after]) {
+        matra = DEVANAGARI_MATRAS[after];
+        i++;
+      }
+
+      if (!virama && (chars[i + 1] === 'ं' || chars[i + 1] === 'ँ')) {
+        const nextUnitChar = chars[i + 2];
+        nasal = LABIAL_CONSONANTS.has(nextUnitChar) && chars[i + 1] === 'ं' ? 'm' : 'n';
+        i++;
+      }
+
+      units.push({ kind: 'cons', base, matra, virama, nasal, rawCons });
+    } else if (DEVANAGARI_MATRAS[ch]) {
+      units.push({ kind: 'other', text: DEVANAGARI_MATRAS[ch] });
+    } else if (ch === 'ं' || ch === 'ँ') {
+      units.push({ kind: 'other', text: 'n' });
+    } else if (ch === 'ः') {
+      units.push({ kind: 'other', text: 'h' });
+    } else if (ch === 'ऽ') {
+      units.push({ kind: 'other', text: "'" });
+    } else if (ch >= '०' && ch <= '९') {
+      units.push({ kind: 'other', text: String(ch.charCodeAt(0) - 0x0966) });
+    } else if (ch !== '्' && ch !== '\u093C') {
+      units.push({ kind: 'other', text: ch });
+    }
+  }
+
+  // Decide right-to-left whether bare consonant retains inherent schwa 'a'
+  const keepSchwa = new Array<boolean>(units.length).fill(false);
+  for (let i = units.length - 1; i >= 0; i--) {
+    const u = units[i];
+    if (u.kind !== 'cons' || u.virama || u.matra) continue;
+
+    if (i === units.length - 1) {
+      // Word-final consonant: keep 'a' only after conjunct + य (e.g. सूर्य -> surya, सत्य -> satya)
+      const prev = units[i - 1];
+      if (prev && prev.kind === 'cons' && prev.virama && u.rawCons === 'य') {
+        keepSchwa[i] = true;
+      } else {
+        keepSchwa[i] = false;
+      }
+      continue;
+    }
+
+    if (i === 0 || u.nasal) {
+      keepSchwa[i] = true;
+      continue;
+    }
+
+    const prev = units[i - 1];
+    const next = units[i + 1];
+    const nextHasVowel =
+      next &&
+      (next.kind === 'vowel' ||
+        (next.kind === 'cons' && !next.virama && Boolean(next.matra || keepSchwa[i + 1])));
+
+    // Keep schwa after virama conjunct, before virama conjunct, or when next bare consonant already dropped schwa
+    if (
+      (prev && prev.kind === 'cons' && prev.virama) ||
+      (next && next.kind === 'cons' && next.virama) ||
+      !nextHasVowel
+    ) {
+      keepSchwa[i] = true;
+    } else {
+      keepSchwa[i] = false;
+    }
+  }
+
+  let out = '';
+  for (let i = 0; i < units.length; i++) {
+    const u = units[i];
+    if (u.kind === 'vowel') {
+      out += u.base + u.nasal;
+    } else if (u.kind === 'cons') {
+      if (u.virama) {
+        out += u.base;
+      } else if (u.matra) {
+        out += u.base + u.matra + u.nasal;
+      } else {
+        out += u.base + (keepSchwa[i] || u.nasal ? 'a' : '') + u.nasal;
+      }
+    } else {
+      out += u.text;
+    }
+  }
+
+  return out
+    .replace(/en$/i, 'ein')
+    .replace(/iyen$/i, 'iye');
+}
+
+export function convertHindiToHinglish(
+  text: string,
+  options?: { titleCase?: boolean }
+): string {
   if (!text) return '';
-  if (!/[\u0900-\u097F]/.test(text)) {
-    return text;
-  }
-
-  let processed = text;
-  for (const [regex, replacement] of MULTI_WORD_HINGLISH_OVERRIDES) {
-    processed = processed.replace(regex, replacement);
-  }
-
+  let processed = text.replace(/।/g, '.');
   if (!/[\u0900-\u097F]/.test(processed)) {
     return processed;
   }
 
-  return processed
-    .split(/(\s+|[।,!?.:;()"'—–-])/g)
-    .map((token) => {
-      if (!token || !/[\u0900-\u097F]/.test(token)) {
-        if (token === '।') return '.';
-        return token;
-      }
-      if (HINGLISH_WORD_OVERRIDES[token]) {
-        return HINGLISH_WORD_OVERRIDES[token];
-      }
+  for (const [regex, replacement] of MULTI_WORD_HINGLISH_OVERRIDES) {
+    processed = processed.replace(regex, replacement);
+  }
 
-      const normalized = token
-        .replace(/क़/g, 'क\u093C')
-        .normalize('NFC');
-      const chars = Array.from(normalized);
-      let out = '';
-
-      for (let i = 0; i < chars.length; i++) {
-        const ch = chars[i];
-        const next = chars[i + 1] || '';
-
-        if (ch === '\u093C') continue;
-        const pair = next === '\u093C' ? ch + next : ch;
-        if (pair.length === 2) i++;
-        const after = chars[i + 1] || '';
-
-        if (DEVANAGARI_VOWELS[pair]) {
-          out += DEVANAGARI_VOWELS[pair];
-        } else if (DEVANAGARI_CONSONANTS[pair]) {
-          out += DEVANAGARI_CONSONANTS[pair];
-          if (after === '्') {
-            i++;
-          } else if (DEVANAGARI_MATRAS[after]) {
-            out += DEVANAGARI_MATRAS[after];
-            i++;
-          } else if (i < chars.length - 1) {
-            out += 'a';
-          }
-        } else if (DEVANAGARI_MATRAS[pair]) {
-          out += DEVANAGARI_MATRAS[pair];
-        } else if (pair === 'ं' || pair === 'ँ') {
-          out += 'n';
-        } else if (pair === 'ः') {
-          out += 'h';
-        } else if (pair >= '०' && pair <= '९') {
-          out += String(pair.charCodeAt(0) - 0x0966);
-        } else if (pair !== '्') {
-          out += pair;
+  let converted = processed;
+  if (/[\u0900-\u097F]/.test(processed)) {
+    converted = processed
+      .split(/(\s+|[।,!?.:;()"'—–-])/g)
+      .map((token) => {
+        if (!token || !/[\u0900-\u097F]/.test(token)) {
+          if (token === '।') return '.';
+          return token;
         }
-      }
+        return transliterateDevanagariWordClean(token);
+      })
+      .join('');
+  }
 
-      return out;
-    })
-    .join('');
+  if (options?.titleCase) {
+    return converted.replace(/\b([a-z])/g, (m) => m.toUpperCase());
+  }
+  return converted.replace(/^([^a-zA-Z]*)([a-z])/, (_, lead, ch) => `${lead}${ch.toUpperCase()}`);
+}
+
+export function convertHindiTitleToHinglish(title: string): string {
+  return convertHindiToHinglish(title, { titleCase: true });
+}
+
+export function convertHindiLineToHinglish(line: string): string {
+  return convertHindiToHinglish(line, { titleCase: false });
 }
 
 function resolveUpstreamGtxCode(apiCode: string): string {
@@ -2054,10 +2942,15 @@ export function getSyncTranslation(
   if (!cleanSource) return sourceHindiOrText;
 
   if (langId === 'default' || langId === 'hinglish') {
-    if (sourceEnglishFallback && sourceEnglishFallback.trim()) {
-      return sourceEnglishFallback.trim();
+    if (/[\u0900-\u097F]/.test(sourceHindiOrText)) {
+      const trimmed = sourceHindiOrText.trim();
+      const isShortTitleLike =
+        !trimmed.includes('\n') &&
+        trimmed.split(/\s+/).length <= 7 &&
+        !/[।.!?]$/.test(trimmed);
+      return convertHindiToHinglish(sourceHindiOrText, { titleCase: isShortTitleLike });
     }
-    return convertHindiToHinglish(sourceHindiOrText);
+    return sourceHindiOrText;
   }
   if (langId === 'hindi') {
     return sourceHindiOrText;

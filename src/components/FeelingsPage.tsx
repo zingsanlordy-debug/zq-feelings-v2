@@ -28,6 +28,8 @@ import {
   isStatic35LanguageReady
 } from '../data/static35/static35Loader';
 import { getCategorySeoDetail } from '../data/categories/categorySeoContent';
+import { convertHindiLineToHinglish, convertHindiTitleToHinglish } from '../utils/globalTranslations';
+import { AdsterraCategoryBanner } from './DiwaliAds';
 
 function extractMaafiSubFromCategory(rawCat?: string): MaafiSubCategory | 'general' {
   if (!rawCat) return 'general';
@@ -88,6 +90,8 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
     initialPage && initialPage >= 1 ? initialPage : 1
   );
   const { globalLanguage, activeLanguageOption, ui } = useGlobalLanguage();
+  const isHinglishMode =
+    activeLang === 'hi-Latn' || globalLanguage === 'default' || globalLanguage === 'hinglish';
 
   useEffect(() => {
     if (initialCategory) {
@@ -146,7 +150,15 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
     setCurrentPage(1);
     onSelectLanguageUrl?.(nextLang, currentCatKey);
     void triggerLoadLang(nextLang);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  useEffect(() => {
+    const rafId = requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return () => cancelAnimationFrame(rafId);
+  }, [activeCategory, maafiSubCategory, activeLang, currentPage]);
 
   const handlePageSelect = (nextPage: number) => {
     setCurrentPage(nextPage);
@@ -195,8 +207,12 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
   const fallbackHeading = activeMaafiSubObj
     ? activeMaafiSubObj.name
     : activeFeelObj
-      ? `${activeFeelObj.name} (${activeFeelObj.hindiName})`
-      : 'Feelings Shayari (फीलिंग्स शायरी)';
+      ? activeLang === 'hi-Latn'
+        ? activeFeelObj.name
+        : `${activeFeelObj.name} (${activeFeelObj.hindiName})`
+      : activeLang === 'hi-Latn'
+        ? 'Feelings Shayari'
+        : 'Feelings Shayari (फीलिंग्स शायरी)';
 
   const staticHeading = getStatic35CategoryHeading(currentCatKey, activeLang, fallbackHeading);
   const sectionShortLabel = activeMaafiSubObj
@@ -265,10 +281,12 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
         </div>
 
         {/* 2-3 Line SEO Friendly Category Intro (Google Top 1 Ranking) */}
-        {catSeoDetail?.introText && activeLang === 'hi' && (
+        {catSeoDetail?.introText && (activeLang === 'hi' || activeLang === 'hi-Latn') && (
           <div className="mt-3 bg-[#fff8f9] border border-[#ffe4e8] rounded-2xl p-4 sm:p-5 shadow-2xs">
             <p className="text-[14px] sm:text-[15px] font-semibold text-slate-700 leading-relaxed">
-              {catSeoDetail.introText}
+              {activeLang === 'hi-Latn'
+                ? convertHindiLineToHinglish(catSeoDetail.introText)
+                : catSeoDetail.introText}
             </p>
           </div>
         )}
@@ -309,10 +327,14 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
                 }
                 className="px-6 py-2.5 rounded-2xl bg-[#fff0f3] hover:bg-[#d94f70] text-[#d94f70] hover:text-white border border-[#ffd6df] font-bold text-[14px] transition-all cursor-pointer shadow-2xs"
               >
-                और शायरी लोड करें ({pagination.pageItems.length - visibleCardCount} बाकी) ↓
+                {isHinglishMode
+                  ? `Aur Shayari Load Karein (${pagination.pageItems.length - visibleCardCount} Baaki) ↓`
+                  : `और शायरी लोड करें (${pagination.pageItems.length - visibleCardCount} बाकी) ↓`}
               </button>
             </div>
           )}
+
+          {pagination.currentPage === 1 && <AdsterraCategoryBanner />}
 
           <ShayariPagination
             currentPage={pagination.currentPage}
@@ -331,7 +353,9 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
           {catSeoDetail?.relatedCategoryIds && catSeoDetail.relatedCategoryIds.length > 0 && (
             <section className="mt-8 pt-6 border-t-2 border-[#ffe4e8] space-y-3">
               <h3 className="font-rozha text-[18px] sm:text-[20px] font-bold text-[#d94f70]">
-                🔗 आपको यह शायरी भी पसंद आएगी (Related Categories):
+                {isHinglishMode
+                  ? '🔗 Aapko Yeh Shayari Bhi Pasand Aayegi (Related Categories):'
+                  : '🔗 आपको यह शायरी भी पसंद आएगी (Related Categories):'}
               </h3>
               <div className="flex flex-wrap gap-2.5">
                 {catSeoDetail.relatedCategoryIds.map((relId) => {
@@ -351,7 +375,11 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
                       }}
                       className="px-3.5 py-2 rounded-xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffd6df] hover:border-[#d94f70] text-[13px] sm:text-[14px] font-bold text-slate-800 hover:text-[#d94f70] transition-all shadow-2xs"
                     >
-                      {relDetail.categoryName} ({relDetail.hindiName}) →
+                      {relDetail.categoryName} (
+                      {isHinglishMode
+                        ? convertHindiTitleToHinglish(relDetail.hindiName)
+                        : relDetail.hindiName}
+                      ) →
                     </a>
                   );
                 })}
@@ -365,7 +393,9 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
               <div className="flex items-center gap-2">
                 <span className="text-2xl select-none">💡</span>
                 <h2 className="font-rozha text-[22px] sm:text-[24px] font-bold text-[#d94f70]">
-                  {catSeoDetail.categoryName} - अक्सर पूछे जाने वाले सवाल (FAQ)
+                  {isHinglishMode
+                    ? `${catSeoDetail.categoryName} - Aksar Pooche Jaane Wale Sawaal (FAQ)`
+                    : `${catSeoDetail.categoryName} - अक्सर पूछे जाने वाले सवाल (FAQ)`}
                 </h2>
               </div>
               <div className="space-y-3">
@@ -375,10 +405,10 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
                     className="bg-[#fff8f9] border border-[#ffe4e8] rounded-2xl p-4 sm:p-5 shadow-2xs"
                   >
                     <h3 className="font-bold text-[16px] sm:text-[17px] text-slate-900 mb-2">
-                      {faq.question}
+                      {isHinglishMode ? convertHindiLineToHinglish(faq.question) : faq.question}
                     </h3>
                     <p className="text-[14px] sm:text-[15px] text-slate-700 leading-relaxed font-medium">
-                      {faq.answer}
+                      {isHinglishMode ? convertHindiLineToHinglish(faq.answer) : faq.answer}
                     </p>
                   </div>
                 ))}
@@ -421,7 +451,7 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
                 }`}
               >
                 <span className="text-lg shrink-0">{cat.icon}</span>
-                <span className="text-[13px] sm:text-[14px] font-extrabold truncate">
+                <span className="text-[13px] sm:text-[14px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal] leading-tight">
                   {cat.id === 'boys'
                     ? 'Ladkon Ki Shayari'
                     : cat.id === 'girls'
@@ -456,7 +486,7 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
                 }`}
               >
                 <span className="text-lg shrink-0">{mSub.icon}</span>
-                <span className="text-[13px] sm:text-[14px] font-extrabold truncate">
+                <span className="text-[13px] sm:text-[14px] font-extrabold whitespace-normal [word-break:normal] [overflow-wrap:normal] leading-tight">
                   {mSub.englishTitle}
                 </span>
               </a>

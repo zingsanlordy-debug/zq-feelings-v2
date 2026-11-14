@@ -4,7 +4,9 @@ import { GLOBAL_LANGUAGES, GlobalLanguageId } from '../utils/globalTranslations'
 import { useGlobalLanguage } from '../context/GlobalLanguageContext';
 
 export const LanguageSelectorDropdown: React.FC = () => {
-  const { setGlobalLanguage, activeLanguageOption } = useGlobalLanguage();
+  const { globalLanguage, setGlobalLanguage, activeLanguageOption } = useGlobalLanguage();
+  const isHindiMode = globalLanguage === 'hindi';
+  const isEnglishMode = globalLanguage === 'english' || globalLanguage === 'english-uk';
   const [isOpen, setIsOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,9 +15,11 @@ export const LanguageSelectorDropdown: React.FC = () => {
   useEffect(() => {
     if (!isOpen) return;
 
-    // Focus search input on open
+    // Focus search input on open (desktop only to prevent mobile keyboard viewport jump)
     const focusTimer = setTimeout(() => {
-      searchInputRef.current?.focus();
+      if (window.innerWidth >= 640) {
+        searchInputRef.current?.focus({ preventScroll: true });
+      }
     }, 100);
 
     const handleOutsideClick = (event: MouseEvent) => {
@@ -43,6 +47,9 @@ export const LanguageSelectorDropdown: React.FC = () => {
     setGlobalLanguage(langId);
     setIsOpen(false);
     setSearchQuery('');
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
   };
 
   // Filtered lists
@@ -147,10 +154,14 @@ export const LanguageSelectorDropdown: React.FC = () => {
               <span className="text-2xl">🌐</span>
               <div>
                 <h3 className="font-outfit text-[14px] sm:text-[16px] font-black tracking-wide text-[#991B1B] uppercase">
-                  77+ Languages (77+ भाषाएँ)
+                  {isHindiMode ? '77+ Languages (77+ भाषाएँ)' : '77+ Languages'}
                 </h3>
                 <p className="text-[11px] sm:text-[12px] text-slate-500 font-semibold">
-                  1 Click = पूरी वेबसाइट, सभी शायरी एक ही भाषा में (Auto-Detect Active)
+                  {isHindiMode
+                    ? '1 Click = पूरी वेबसाइट, सभी शायरी एक ही भाषा में (Auto-Detect Active)'
+                    : isEnglishMode
+                    ? '1 Click = Entire website & all shayari in one language (Auto-Detect Active)'
+                    : '1 Click = Poori website, sabhi shayari ek hi bhasha me (Auto-Detect Active)'}
                 </p>
               </div>
             </div>
@@ -198,7 +209,11 @@ export const LanguageSelectorDropdown: React.FC = () => {
               <div>
                 <div className="text-[12px] font-extrabold uppercase tracking-wider text-[#991B1B] mb-2 px-1 flex items-center gap-1.5">
                   <span>🇮🇳</span>
-                  <span>29 Indian & Regional Languages (भारतीय एवं क्षेत्रीय भाषाएँ)</span>
+                  <span>
+                    {isHindiMode
+                      ? '29 Indian & Regional Languages (भारतीय एवं क्षेत्रीय भाषाएँ)'
+                      : '29 Indian & Regional Languages'}
+                  </span>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                   {filteredIndian.map((lang) => {
@@ -248,7 +263,11 @@ export const LanguageSelectorDropdown: React.FC = () => {
               <div className="pt-2 border-t border-[#ffe4e8]">
                 <div className="text-[12px] font-extrabold uppercase tracking-wider text-[#991B1B] mb-2 px-1 flex items-center gap-1.5">
                   <span>🌍</span>
-                  <span>48 Global Languages (विश्व की प्रमुख भाषाएँ)</span>
+                  <span>
+                    {isHindiMode
+                      ? '48 Global Languages (विश्व की प्रमुख भाषाएँ)'
+                      : '48 Global Languages'}
+                  </span>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                   {filteredGlobal.map((lang) => {

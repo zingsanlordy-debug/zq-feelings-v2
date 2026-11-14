@@ -646,627 +646,627 @@ export const DIWALI_35_PACKS: Record<string, Record<string, readonly [string, st
   },
   "hi-Latn": {
     "diwali-1": [
-      "दीपों की चमक",
+      "Deepon Ki Chamak",
       "Roshan ho saara jahan deepon ki kataar se,",
       "Khushiyan milein aapko apno ke pyaar se."
     ],
     "diwali-2": [
-      "लक्ष्मी जी का वास",
+      "Lakshmi Ji Ka Vaas",
       "Aaye aapke dwaar sukh-samriddhi aur dhan ki bahaar,",
       "Mubarak ho aapko Deepawali ka paawan tyohar."
     ],
     "diwali-3": [
-      "उजालों का सफर",
+      "Ujaalon Ka Safar",
       "Andhera chahe kitna bhi gehra ho jahan mein,",
       "Ek diya hi kaafi hai ujaalon ke nishan mein."
     ],
     "diwali-4": [
-      "दिल का दीया",
+      "Dil Ka Diya",
       "Sirf makaan nahi dil ka kona bhi roshan kijiye,",
       "Is Diwali sabko gale lagakar duayein dijiye."
     ],
     "diwali-5": [
-      "खुशियों की फुलझड़ी",
+      "Khushiyon Ki Phuljhadi",
       "Phuljhadi si muskaan aapke hothon par saji rahe,",
       "Zindagi mein khushiyon ki shehnai sada baji rahe."
     ],
     "diwali-6": [
-      "सोने का संसार",
+      "Sone Ka Sansar",
       "Sone-chandi se bhi keemti hai apno ka yeh saath,",
       "Deepawali par rahe sada sar par Ishwar ka haath."
     ],
     "diwali-7": [
-      "रंगोली और दीप",
+      "Rangoli Aur Deep",
       "Rangoli ke rangon se mehak uthe aapka sansaar,",
       "Deepawali laaye jeevan mein khushiyon ka ambaar."
     ],
     "diwali-8": [
-      "गिले-शिकवे दूर",
+      "Gile-Shikwe Door",
       "Mita do dilon se har puraani ranjish aur malaal,",
       "Diwali ka din hai chalo karein khushiyon ki shuruat."
     ],
     "diwali-9": [
-      "मिठाई की मिठास",
+      "Mithai Ki Mithaas",
       "Kaju katli aur gujhiya si meethi ho har ek baat,",
       "Har din ho Diwali jaisi aur poonam jaisi raat."
     ],
     "diwali-10": [
-      "सफलता का उजाला",
+      "Safalta Ka Ujaala",
       "Kaamyabi ke deepak aapke kadam choomte rahein,",
       "Aap sada khushiyon ke jhoole mein jhoomte rahein."
     ],
     "diwali-11": [
-      "दीपावली का पावन पर्व",
+      "Deepawali Ka Paavan Parv",
       "Deep jalte rahein mann se mann milte rahein,",
       "Gile-shikve saare dil se nikalte rahein."
     ],
     "diwali-12": [
-      "लक्ष्मी-गणेश की कृपा",
+      "Lakshmi-Ganesh Ki Kripa",
       "Maa Lakshmi ka aashirwaad aapke ghar sada rahe,",
       "Vighnaharta Ganesh ji ka saaya sar par rahe."
     ],
     "diwali-13": [
-      "घर-घर में रोशनी",
+      "Ghar-Ghar Mein Roshni",
       "Jagmag deepon ki thaali se aangan sajaiye,",
       "Mithai khilakar saare gile-shikve mitaiye."
     ],
     "diwali-14": [
-      "रोशनी का पर्व",
+      "Roshni Ka Parv",
       "Har raat Diwali jaisi roshan ho jaaye,",
       "Har din khushiyon ka mausam ho jaaye."
     ],
     "diwali-15": [
-      "सुख और समृद्धि की बहार",
+      "Sukh Aur Samriddhi Ki Bahar",
       "Pal-pal sunahare phool khilte rahein aapke aangan,",
       "Kabhi na ho kaanton se aapka saamna jeevan."
     ],
     "diwali-16": [
-      "दिलों का संगम",
+      "Dilon Ka Sangam",
       "Taaron ki tarah jagmagaye aapka sansaar,",
       "Sada bana rahe humare dilon mein pyaar."
     ],
     "diwali-17": [
-      "खुशियों के दीये",
+      "Khushiyon Ke Diye",
       "Ek diya vishwas ka, ek diya ummeed ka,",
       "Ek diya pyaar ka, aur ek diya preet ka."
     ],
     "diwali-18": [
-      "दीपों की बारात",
+      "Deepon Ki Baraat",
       "Chaand ki chaandni se bhi pyaari ho yeh raat,",
       "Lekar aayi hai Diwali deepon ki baaraat."
     ],
     "diwali-19": [
-      "सपनों का सवेरा",
+      "Sapnon Ka Savera",
       "Khushiyon ka ho sawera, gham ka na ho koi dera,",
       "Roshaniyon se bhar jaaye aashiyana tera."
     ],
     "diwali-20": [
-      "उम्मीदों की लौ",
+      "Ummeedon Ki Lau",
       "Jab-jab jalta hai diya mitti ka aangan mein,",
       "Nayi umang bhar jaati hai sabke is mann mein."
     ],
     "diwali-21": [
-      "प्यार का उजाला",
+      "Pyar Ka Ujaala",
       "Deepak ki lau jaise hawaon se lad jaati hai,",
       "Sacchi mohabbat bhi har mushkil se paar paati hai."
     ],
     "diwali-22": [
-      "सदा मुस्कुराते रहो",
+      "Sada Muskurate Raho",
       "Muskaan aapke hothon se kabhi na choote,",
       "Apno ka yeh pyaara saath kabhi na toote."
     ],
     "diwali-23": [
-      "धनतेरस से दीवाली तक",
+      "Dhanteras Se Diwali Tak",
       "Sone-chandi se chamke aapka har ek din,",
       "Khushiyan na gin pao aap apni ungliyon par gin."
     ],
     "diwali-24": [
-      "आंगन में रंगोली",
+      "Aangan Mein Rangoli",
       "Rangoli ke rangon mein ghuli ho meethas,",
       "Har ek pal ho aapke liye behad khaas."
     ],
     "diwali-25": [
-      "शुभ दीपावली का संकल्प",
+      "Shubh Deepawali Ka Sankalp",
       "Aao milkar nafrat ka andhera door bhagayein,",
       "Prem aur bhaichaare ka ek naya diya jalayein."
     ],
     "diwali-26": [
-      "धन्वंतरि कृपा और सेहत",
+      "Dhanvantri Kripa Aur Sehat",
       "Sone-chandi se zyada sehat ki daulat mile,",
       "Dhanvantari kripa se ghar mein khushiyon ka gulshan khile."
     ],
     "diwali-27": [
-      "शुभ शुरुआत और नए सपने",
+      "Shubh Shuruaat Aur Naye Sapne",
       "Dhanteras par sirf bartan hi nahi naye sapne bhi laayein,",
       "Apne aangan mein khushhali aur barkat ke deep jalayein."
     ],
     "diwali-28": [
-      "कुबेर का खजाना",
+      "Kuber Ka Khajana",
       "Kuber ka khazana aur maa Lakshmi ka saath ho,",
       "Aapke har kaam mein Ishwar ka pyara haath ho."
     ],
     "diwali-29": [
-      "चांदी का सिक्का और तकदीर",
+      "Chandi Ka Sikka Aur Taqdeer",
       "Chandi ka sikka chamke jaise aapki taqdeer,",
       "Dhanteras par poori ho aapke sapno ki tasveer."
     ],
     "diwali-30": [
-      "खुशियों की सौगात",
+      "Khushiyon Ki Saugaat",
       "Dhanteras ki paavan bela lekar aaye khushiyon ki saugaat,",
       "Kabhi na khaali rahe aapki jholi kabhi na ho tang halaat."
     ],
     "diwali-31": [
-      "आरोग्य और सच्चा धन",
+      "Aarogya Aur Saccha Dhan",
       "Sabse bada dhan hai acchi sehat aur apno ka pyaar,",
       "Mubarak ho aapko shubh Dhanteras ka yeh paavan tyohar."
     ],
     "diwali-32": [
-      "स्वर्णिम सवेरा",
+      "Swarnim Savera",
       "Sone si damak uthe aapki har ek subah,",
       "Dhanteras par kabool ho aapki har ek nek dua."
     ],
     "diwali-33": [
-      "बरकत का त्यौहार",
+      "Barkat Ka Tyohar",
       "Khushiyon se bhari ho aapki dukaan aur pyara sa ghar,",
       "Dhanteras ki roshni chamka de aapka har safar."
     ],
     "diwali-34": [
-      "नया विश्वास और मिठास",
+      "Naya Vishwas Aur Mithaas",
       "Naya bartan laaye nayi umang aur naya vishwas,",
       "Aapke jeevan mein ghule sada pyaar aur mithaas."
     ],
     "diwali-35": [
-      "दीप और धन का पैगाम",
+      "Deep Aur Dhan Ka Paigam",
       "Deepak ki pehli lau aaj de gayi yahi paigaam,",
       "Dhanteras par chamke aapka aur aapke parivaar ka naam."
     ],
     "diwali-36": [
-      "धन्वंतरि अमृत बूंदें",
+      "Dhanvantri Amrit Boondein",
       "Dhanvantari ji ki amrit boondein jeevan mein barsayein,",
       "Dhanteras ke is shubh din ki dil se shubhkaamnayein."
     ],
     "diwali-37": [
-      "समृद्धि का द्वार",
+      "Samriddhi Ka Dwaar",
       "Khushhali ka darwaza khule band ho saare gham,",
       "Dhanteras par aapki jholi mein khushiyan aayein hardam."
     ],
     "diwali-38": [
-      "शुभ लाभ का तिलक",
+      "Shubh Labh Ka Tilak",
       "Shubh-laabh ka tilak ho aur Lakshmi ji ka vaas,",
       "Dhanteras ka har pal ho aapke liye behad khaas."
     ],
     "diwali-39": [
-      "रिश्तों की असली दौलत",
+      "Rishton Ki Asli Daulat",
       "Apno ki sacchi muskaan hi asli daulat hai,",
       "Dhanteras ka yeh tyohar pyaar ki nemat hai."
     ],
     "diwali-40": [
-      "आरोग्य वरदान",
+      "Aarogya Vardaan",
       "Rog-dosh mitein aur mile lambi umr ka vardaan,",
       "Dhanteras par mahak uthe aapka saara jahaan."
     ],
     "diwali-41": [
-      "छोटी दिवाली का छोटा दीया",
+      "Chhoti Diwali Ka Chhota Diya",
       "Chhoti Diwali ka chhota sa deeya mitaye bada andhera,",
       "Khushiyon ki kiran lekar aaye aapke ghar naya savera."
     ],
     "diwali-42": [
-      "नरक चतुर्दशी मुक्ति",
+      "Narak Chaturdashi Mukti",
       "Yamraj ka bhay mite aur mann ka mite vikaar,",
       "Naraka Chaturdashi par mile sukh-shanti ka uphar."
     ],
     "diwali-43": [
-      "चौदह दीपों की पावन लौ",
+      "Chaudah Deepon Ki Paavan Lau",
       "Chaudah deepon ki paavan lau se roshan ho ghar-baar,",
       "Mubarak ho aapko Roop Chaudas ka yeh pyara tyohar."
     ],
     "diwali-44": [
-      "रूप निखरे मन का",
+      "Roop Nikhre Man Ka",
       "Roop nikhre mann ka aur chehre par rahe muskaan,",
       "Chhoti Diwali laaye aapke liye khushiyon ka vardaan."
     ],
     "diwali-45": [
-      "अंधकार पर रोशनी की जीत",
+      "Andhkar Par Roshni Ki Jeet",
       "Andhkaar ko maat dekar roshni ki ho jeet,",
       "Chhoti Diwali par gaaye dil khushiyon ke naye geet."
     ],
     "diwali-46": [
-      "शांति और प्रीत का आगाज़",
+      "Shanti Aur Preet Ka Aagaz",
       "Ek deeya shanti ka aur ek deeya pyaar ka,",
       "Roop Chaudas hai aagaaz deepon ke tyohar ka."
     ],
     "diwali-47": [
-      "बुराई का दहन",
+      "Burai Ka Dahan",
       "Mann ki har buraai ko aaj deep mein jala dena,",
       "Chhoti Diwali par har roothe ko hanskar mana lena."
     ],
     "diwali-48": [
-      "कल की दिवाली का उल्लास",
+      "Kal Ki Diwali Ka Ullas",
       "Kal badi Diwali hai aaj chhoti ka ullaas,",
       "Har din rahe aapke chehre par yoon hi vishwas."
     ],
     "diwali-49": [
-      "आंगन महक जाए",
+      "Aangan Mehek Jaaye",
       "Deep jalein chhaton par aur aangan mahak jaaye,",
       "Chhoti Diwali aapke jeevan mein sukh-samriddhi laaye."
     ],
     "diwali-50": [
-      "शुभ संदेश रूप चौदस",
+      "Shubh Sandesh Roop Chaudas",
       "Chhoti Diwali ka yeh pyara paigaam le lo,",
       "Khushiyon ke is utsav mein apno ka naam le lo."
     ],
     "diwali-51": [
-      "कान्हा की उंगली और गोवर्धन",
+      "Kanha Ki Ungli Aur Govardhan",
       "Kanhaiya ne ungli par uthaya tha Govardhan pahaad,",
       "Aapke jeevan se bhi tal jaaye har mushkil aur bhaar."
     ],
     "diwali-52": [
-      "अन्नकूट का पावन भोग",
+      "Annakoot Ka Paavan Bhog",
       "Annakoot ka bhog lage aur baje Krishna ki bansuri,",
       "Govardhan Puja par poori ho aapki har iccha adhoori."
     ],
     "diwali-53": [
-      "प्रकृति और गौ माता का मान",
+      "Prakriti Aur Gau Mata Ka Maan",
       "Prakriti ki puja aur gau mata ka maan,",
       "Govardhan Puja sikhati hai sabka karo samman."
     ],
     "diwali-54": [
-      "मुरली मनोहर की कृपा",
+      "Murli Manohar Ki Kripa",
       "Murli Manohar ki kripa se ghar mein barse pyaar,",
       "Mubarak ho aapko Govardhan Puja ka paavan tyohar."
     ],
     "diwali-55": [
-      "गिरिराज महाराज की शरण",
+      "Giriraj Maharaj Ki Sharan",
       "Giriraj Maharaj karein har sankat ka nivaaran,",
       "Sukh-samriddhi se bhar jaaye aapke jeevan ka har kaaran."
     ],
     "diwali-56": [
-      "गौ माता का आशीर्वाद",
+      "Gau Mata Ka Aashirwad",
       "Gau mata ke charnon mein hai chaaron dhaam ka vaas,",
       "Govardhan Puja laaye aapke ghar mein nayi mithaas."
     ],
     "diwali-57": [
-      "ब्रज की पावन माटी",
+      "Braj Ki Paavan Mati",
       "Braj ki paavan maati sa mahke aapka sansaar,",
       "Govardhan Puja par mile yash aur khushiyon ka uphar."
     ],
     "diwali-58": [
-      "कृष्ण भक्ति का विश्वास",
+      "Krishna Bhakti Ka Vishwas",
       "Krishna ki bhakti aur apno ka atoot vishwas,",
       "Govardhan Puja ka har pal bane sabse khaas."
     ],
     "diwali-59": [
-      "छप्पन भोग का थाल",
+      "Chhappan Bhog Ka Thal",
       "Chhappan bhog ki thaali aur prem bhara mann,",
       "Govardhan Puja se paavan ho aapka jeevan."
     ],
     "diwali-60": [
-      "सदा खुशहाली का वरदान",
+      "Sada Khushhali Ka Vardaan",
       "Kanha ki kripa se kabhi na aaye koi vipda,",
       "Govardhan Puja par khushhali rahe aapke ghar sada."
     ],
     "diwali-61": [
-      "रोली और अक्षत का पावन टीका",
+      "Roli Aur Akshat Ka Paavan Tika",
       "Roli-chawal ka paavan teeka aur behna ka pyaar,",
       "Bhai Dooj ka yeh bandhan hai sabse saccha aur pehredaar."
     ],
     "diwali-62": [
-      "बहना की अमर दुआ",
+      "Behna Ki Amar Dua",
       "Behna ki har dua mein bhai ki lambi umr ka naam,",
       "Bhai Dooj ke is paavan din ko jhukkar salaam."
     ],
     "diwali-63": [
-      "भाई का सच्चा वादा",
+      "Bhai Ka Saccha Waada",
       "Bhai ka vaada hai har mushkil mein saath nibhaye ga,",
       "Behna ke chehre ki hansi ko kabhi na khone dega."
     ],
     "diwali-64": [
-      "थाली में सजी मिठाई",
+      "Thali Mein Saji Mithai",
       "Thaali mein saji mithai aur maathe par laal tilak,",
       "Bhai-behan ke rishte ki chamak rahe swarg tak."
     ],
     "diwali-65": [
-      "प्यार का फरिश्ता",
+      "Pyar Ka Pharishta",
       "Resham ke dhaage se gehra hai yeh pyaar ka rishta,",
       "Bhai ke roop mein rab ne bheja ek farishta."
     ],
     "diwali-66": [
-      "बचपन की खट्टी-मीठी यादें",
+      "Bachpan Ki Khatti-Mithi Yaadein",
       "Roothna-manana aur bachpan ki wo saari baatein,",
       "Bhai Dooj par yaad aati hain wo pyari meethee raatein."
     ],
     "diwali-67": [
-      "स्नेह का अटूट धागा",
+      "Sneh Ka Atoot Dhaga",
       "Door rehkar bhi jo paas lage wo hai behna ka dulaar,",
       "Bhai Dooj ki hardik shubhkaamnayein baarambaar."
     ],
     "diwali-68": [
-      "माथे पे तिलक का मान",
+      "Mathe Pe Tilak Ka Maan",
       "Maathe pe tilak sajakar behna maangi yahi dua,",
       "Bhai ki har raah mein ho sirf khushiyon ka samaa."
     ],
     "diwali-69": [
-      "अमर प्रेम कहानी",
+      "Amar Prem Kahani",
       "Kaagaz ki naav aur wo baarish ka paani,",
       "Bhai-behan ke pyaar ki amar hai yeh kahani."
     ],
     "diwali-70": [
-      "यम और यमुना का वंदन",
+      "Yam Aur Yamuna Ka Vandan",
       "Yam aur Yamuna ke prem ka paavan yeh tyohar,",
       "Bhai Dooj laaye aapke jeevan mein khushiyon ki bahaar."
     ],
     "diwali-71": [
-      "अनमोल रिश्ता",
+      "Anmol Rishta",
       "Duniya ke saare rishton se anmol hai yeh pyaar,",
       "Bhai-behan ke chehre par saji rahe muskaan har baar."
     ],
     "diwali-72": [
-      "सात जन्मों का साथ",
+      "Sat Janmon Ka Saath",
       "Tilak ki khushboo se mahke bhai ka lalaat,",
       "Ishwar kare dono ka saath rahe saat janmon ke ghaat."
     ],
     "diwali-73": [
-      "खुशियों का नया राग",
+      "Khushiyon Ka Naya Rag",
       "Bhai Dooj ki subah laaye khushiyon ka naya raag,",
       "Khil uthe dono ke jeevan ka pyara sa baagh."
     ],
     "diwali-74": [
-      "हसीन ख्वाब बहना",
+      "Hasin Khwab Behna",
       "Nafrat ke is daur mein pyaar ki misaal ho tum,",
       "Meri pyari behna mera sabse haseen khwaab ho tum."
     ],
     "diwali-75": [
-      "शुभ भाई दूज वंदन",
+      "Shubh Bhai Dooj Vandan",
       "Bhai Dooj par Ishwar se yahi maangte hain vardaan,",
       "Dono bhai-behan ki shaan rahe hamesha Hindustan."
     ],
     "diwali-76": [
-      "परिवार संग दीया",
+      "Parivaar Sang Diya",
       "Apno ke saath baithkar jo deeya jalta hai,",
       "Usi roshni mein asli Diwali ka sukh palta hai."
     ],
     "diwali-77": [
-      "मां-बाप का आशीर्वाद",
+      "Maa-Bap Ka Aashirwad",
       "Maa-baap ke aashirwad se jagmagaye saara sansaar,",
       "Parivaar ke saath hi khoobsoorat lage Diwali ka tyohar."
     ],
     "diwali-78": [
-      "यारों की दीवाली",
+      "Yaron Ki Diwali",
       "Yaaron ke saath chaay ki chuski aur pataakhon ka shor,",
       "Sacchi dosti ki roshni kheenchti hai dil ki dor."
     ],
     "diwali-79": [
-      "दोस्ती का दीया",
+      "Dosti Ka Diya",
       "Ek deeya dosti ke naam ka jalana mere yaar,",
       "Door rehkar bhi kam na hoga hamara yeh saccha pyaar."
     ],
     "diwali-80": [
-      "मोहब्बत की रोशनी",
+      "Mohabbat Ki Roshni",
       "Tere chehre ki muskaan mere liye Diwali ka deeya hai,",
       "Meri har dhadkan ne sirf tujhse hi pyaar kiya hai."
     ],
     "diwali-81": [
-      "तेरे संग हर रात दीवाली",
+      "Tere Sang Har Raat Diwali",
       "Deep jalein ya na jalein teri maujoodgi hi kaafi hai,",
       "Tere saath har ek raat Diwali jaisi roshan rehti hai."
     ],
     "diwali-82": [
-      "शरारत और मिठास",
+      "Shararat Aur Mithaas",
       "Mithai chheenkar khaana aur phir gale se laga lena,",
       "Diwali par bhai-behan ki yahi to sabse pyari baat hai."
     ],
     "diwali-83": [
-      "बुजुर्गों का आशीष",
+      "Bujurgon Ka Aashish",
       "Buzurgon ke haath ka aashish aur bachhon ki kilkaari,",
       "Yahi banati hai ghar-ghar ki Diwali sabse pyari."
     ],
     "diwali-84": [
-      "महफिल-ए-यारां",
+      "Mehfil-E-Yaran",
       "Bachpan ke dost jab milkar deeya jalate hain,",
       "Purane wo haseen din phir se laut aate hain."
     ],
     "diwali-85": [
-      "इश्क की जगमगाहट",
+      "Ishq Ki Jagamgahat",
       "Teri aankhon ke noor se roshan hai mera aashiyana,",
       "Is Diwali par tu hi meri khushiyon ka thikaana."
     ],
     "diwali-86": [
-      "महालक्ष्मी स्तुति",
+      "Mahalakshmi Stuti",
       "Om Mahalakshmyai Namah ka goonje ghar mein jaap,",
       "Mit jaayein jeevan ke saare sankat aur paap."
     ],
     "diwali-87": [
-      "कमलासन पर विराजें मां",
+      "Kamlasan Par Virajein Maa",
       "Kamal aasan par viraajein maa Lakshmi aapke dwaar,",
       "Sukh-shanti aur aishwarya ka barse amrit dhaar."
     ],
     "diwali-88": [
-      "अमावस की रात पूर्णिमा सी",
+      "Amavas Ki Raat Poornima Si",
       "Amaavas ki raat bhi poornima si chamak jaaye,",
       "Maa Lakshmi ki kripa se ghar swarg ban jaaye."
     ],
     "diwali-89": [
-      "रिद्धि-सिद्धि संग गणपति",
+      "Riddhi-Siddhi Sang Ganpati",
       "Riddhi-Siddhi sang aayein Ganpati Maharaj,",
       "Poorn ho jaayein aapke saare adhoore kaaj."
     ],
     "diwali-90": [
-      "सोने की थाली और दीपमाला",
+      "Sone Ki Thali Aur Deepmala",
       "Sone ki thaali mein sajaakar deepon ki maala,",
       "Maa Lakshmi ne ghar ke har kone ko kar diya ujaala."
     ],
     "diwali-91": [
-      "अन्न और धन के भंडार",
+      "Ann Aur Dhan Ke Bhandar",
       "Dhan-dhaanya se bhare rahein aapke ann ke bhandaar,",
       "Sada bana rahe maa Lakshmi ka aapke sir par pyaar."
     ],
     "diwali-92": [
-      "वैभव और मान-सम्मान",
+      "Vaibhav Aur Maan-Samman",
       "Vaibhav, keerti aur maan-samman ka vardaan mile,",
       "Diwali ki raat aapke ghar mein sukh ka phool khile."
     ],
     "diwali-93": [
-      "शंख और घंटी की ध्वनि",
+      "Shankh Aur Ghanti Ki Dhwani",
       "Mangal deep jale chaukhat par baje shankh aur ghanti,",
       "Maa Lakshmi ki kripa se kabhi na ho khushiyon mein mandi."
     ],
     "diwali-94": [
-      "अष्ट लक्ष्मी का वास",
+      "Ashta Lakshmi Ka Vaas",
       "Ashta Lakshmi ka vaas ho aapke is pavitra dhaam,",
       "Har savera lekar aaye khushiyon ka naya paigaam."
     ],
     "diwali-95": [
-      "सच्ची श्रद्धा का फल",
+      "Sacchi Shraddha Ka Phal",
       "Sacchi shraddha se jo maa Lakshmi ko dhyaate hain,",
       "Wo zindagi ke har mod par khushhali hi paate hain."
     ],
     "diwali-96": [
-      "अंतर्मन की पावन ज्योति",
+      "Antarman Ki Paavan Jyoti",
       "Antarmann ki jyoti jagakar karna maa ka vandan,",
       "Mahak uthega Diwali par aapka pyara sa jeevan."
     ],
     "diwali-97": [
-      "श्री सूक्त की पावन ध्वनि",
+      "Shri Sookt Ki Paavan Dhwani",
       "Shri Suktam ke mantron se goonj uthe har ek kona,",
       "Maa Lakshmi ki kripa se sach ho har sapna salona."
     ],
     "diwali-98": [
-      "दया दृष्टि मां लक्ष्मी की",
+      "Daya Drishti Maa Lakshmi Ki",
       "Maa Lakshmi ki daya drishti jis par bhi ho jaaye,",
       "Rank bhi raja bane aur daridrata mit jaaye."
     ],
     "diwali-99": [
-      "चरणों में दीपांजलि",
+      "Charnon Mein Deepanjali",
       "Deepon ki anjali arpit karein maa ke shri charnon mein,",
       "Bhar jaaye sukh ka saagar aapke jeevan ke pannon mein."
     ],
     "diwali-100": [
-      "महापर्व दीपावली का संकल्प",
+      "Mahaparv Deepawali Ka Sankalp",
       "Deep jalein, jagmagaye Bharat, mite har andhkaar,",
       "Mangalmay ho aapko aur aapke poore parivaar ko Deepawali ka tyohar!"
     ],
     "diwali-101": [
-      "माँ का दुलार और दीवाली",
+      "Maa Ka Dular Aur Diwali",
       "Maa ke haathon ki mithai aur mamta ka sansaar mile,",
       "Is Diwali ghar ke har kone mein khushiyon ka tyohar khile."
     ],
     "diwali-102": [
-      "पिता का साया और हौसला",
+      "Pita Ka Saaya Aur Hausla",
       "Pita ka saaya sir par ho to har din Diwali ka ujaala hai,",
       "Unke mazboot kandhon ne hi humare sapnon ko sambhaala hai."
     ],
     "diwali-103": [
-      "भाई की यारी और दीये की लौ",
+      "Bhai Ki Yari Aur Diye Ki Lau",
       "Bhai ke sang pataakhe phodna aur hanste-hanste lad jaana,",
       "Diwali ka sabse pyara sukh hai apno ka ghar aana."
     ],
     "diwali-104": [
-      "बहन की रंगोली और मुस्कान",
+      "Behen Ki Rangoli Aur Muskaan",
       "Aangan mein behan ki sajaai rangoli sabse khaas lage,",
       "Uski khilkhilaati hansi se Diwali ka har pal paavan lage."
     ],
     "diwali-105": [
-      "परिवार का संगम",
+      "Parivaar Ka Sangam",
       "Ghar ki chaukhat par jab sab apne ek saath muskuraate hain,",
       "Mitti ke deeye bhi tab taaron se zyada jagmagaate hain."
     ],
     "diwali-106": [
-      "घर का सुकून और बरकत",
+      "Ghar Ka Sukoon Aur Barkat",
       "Badon ka aashirwad mile aur chhoton ka dher saara pyaar,",
       "Lakshmi ji ki kripa se mahke humara poora parivaar."
     ],
     "diwali-107": [
-      "घर के आँगन की रोशनी",
+      "Ghar Ke Aangan Ki Roshni",
       "Deeyon ki roshni se zyada roshan hai apno ka yeh saath,",
       "Diwali par salaamat rahe humare is bhare-poore parivaar ki baat."
     ],
     "diwali-108": [
-      "यारों की महफ़िल और फुलझड़ी",
+      "Yaron Ki Mehfil Aur Phuljhadi",
       "Mithai ka dibba khaali karna aur yaaron ki mehfil sajaana,",
       "Diwali asli tabhi banti hai jab doston ka ho aana-jaana."
     ],
     "diwali-109": [
-      "तू है तो दीवाली है",
+      "Tu Hai Toh Diwali Hai",
       "Pataakhe phoote na phoote teri yaari mein hi saara dam hai,",
       "Tu jo muskura de mere yaar to zindagi mein ujaala hi har dam hai."
     ],
     "diwali-110": [
-      "बचपन की मस्ती और दीप",
+      "Bachpan Ki Masti Aur Deep",
       "Gali ke mod par wo deeye jalaana aur chhupkar rocket chhodna,",
       "Dua hai is Diwali kabhi na chhoote doston se dil ka naata jodna."
     ],
     "diwali-111": [
-      "हँसी का पटाखा",
+      "Hansi Ka Patakha",
       "Phuljhadi si muskaan teri, rocket si teri udaan ho,",
       "Dost is Diwali tu jahan bhi rahe, tu hi mehfil ki shaan ho."
     ],
     "diwali-112": [
-      "दूर बैठे दोस्त को सलाम",
+      "Door Baithe Dost Ko Salam",
       "Door ho shehar chahe kitna bhi, dil se dil ka taar juda hai,",
       "Dost teri salaamati ke liye Diwali ke har deeye mein dua hai."
     ],
     "diwali-113": [
-      "यारी की अटूट चमक",
+      "Yari Ki Atoot Chamak",
       "Deeyon ki qataarein bujh sakti hain magar apni yaari ka noor nahi,",
       "Mubarak ho Diwali mere bhai, tu aankhon se bhale dil se door nahi."
     ],
     "diwali-114": [
-      "नई ऊंचाइयां और टीम स्पिरिट",
+      "Nayi Oonchaiyan Aur Team Spirit",
       "Sapnon ke har target ko chhoo lein aur chhoo lein safalta ka aasmaan,",
       "Deepawali laaye humari poori team ke liye nayi pehchaan aur samman."
     ],
     "diwali-115": [
-      "मार्गदर्शन और सम्मान",
+      "Margdarshan Aur Samman",
       "Aapke kushal netritva se roshan hua humare kaam ka har raasta,",
       "Diwali ke paavan avsar par aapko mile sukh-samriddhi ka vaasta."
     ],
     "diwali-116": [
-      "ऑफिस का साथ और सहयोग",
+      "Office Ka Saath Aur Sahyog",
       "Deadline ki bhaag-daud mein bhi jo chehre par muskaan sajaaye,",
       "Aise pyare sahkarmiyon ko Diwali ka paavan parv bahut raas aaye."
     ],
     "diwali-117": [
-      "साझेदारी और अटूट विश्वास",
+      "Sajhedari Aur Atoot Vishwas",
       "Humare is bharosemand rishte mein hamesha bana rahe vishwas ka deeya,",
       "Aapke sahyog ne hi humare har project ko naya aayaam diya."
     ],
     "diwali-118": [
-      "तरक्की और नए अवसर",
+      "Tarakki Aur Naye Avsar",
       "Mehnat ka deepak jale aur barse promotion va tarakki ka vardaan,",
       "Yeh Diwali aapke career ko de ek nayi aur buland udaan."
     ],
     "diwali-119": [
-      "कर्मक्षेत्र में खुशहाली",
+      "Karmakshetra Mein Khushhali",
       "Safalta ke deep jalein aur goonje har dil mein khushiyon ki taan,",
       "Deepawali ke is shubh avsar par badhe aapka kaarobaar aur sammaan."
     ],
     "diwali-120": [
-      "चाचा-ताऊ का स्नेह",
+      "Chacha-Taoo Ka Sneh",
       "Chacha-tau ka dulaar aur parivaar ka maan bana rahe,",
       "Diwali ke paavan ujaale se mahakta aapka aashiyana rahe."
     ],
     "diwali-121": [
-      "ननिहाल की मिठास",
+      "Nanihal Ki Mithaas",
       "Mama-mami ka pyara aashish aur nanihaal ki wo meethi yaad,",
       "Diwali laaye aapke aangan mein khushiyon ki anmol saugaat."
     ],
     "diwali-122": [
-      "बुआ-फूफाजी का दुलार",
+      "Bua-Phoophaji Ka Dular",
       "Bua ke haathon ka sneh aur phoophaji ki wo pyari muskaan,",
       "Deepawali par aapke ghar mein barse sukh, shaanti aur sammaan."
     ],
     "diwali-123": [
-      "पड़ोसियों संग दीवाली",
+      "Padosiyon Sang Diwali",
       "Deewaarein bhale alag hon par aangan mein ek hi deeya jalta hai,",
       "Padosiyon ka saath ho to har tyohar dil se sajta hai."
     ],
     "diwali-124": [
-      "रिश्तों की गर्माहट",
+      "Rishton Ki Garmahat",
       "Rishtedaari ki mithaas kabhi kam na ho, faasle saare mit jaayein,",
       "Is Diwali sabke gharon mein khushhali aur pyaar ke deep jal jaayein."
     ],
     "diwali-125": [
-      "सभी सगे-संबंधियों को प्रणाम",
+      "Sabhi Sage-Sambandhiyon Ko Pranam",
       "Har sage-sambandhi ke ghar mein sukh-samriddhi aur aarogya ka vaas ho,",
       "Deepawali ka yeh mahaparv aap sabhi ke liye sabse khaas ho."
     ]

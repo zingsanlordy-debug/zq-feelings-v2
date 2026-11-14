@@ -77,7 +77,9 @@ export const PublicWall: React.FC<PublicWallProps> = ({
   onOpenFavorites,
   onOpenCardModal
 }) => {
-  const { ui, isRtl } = useGlobalLanguage();
+  const { globalLanguage, ui, isRtl } = useGlobalLanguage();
+  const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
+  const isEnglishMode = globalLanguage === 'english' || globalLanguage === 'english-uk';
   const writeHeading = useTranslatedText('अपनी शायरी लिखें', 'Write Your Shayari');
 
   const [userName, setUserName] = useState('');
@@ -374,7 +376,11 @@ export const PublicWall: React.FC<PublicWallProps> = ({
               onClick={onOpenFavorites}
               className="min-h-[50px] px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-[17px] font-bold cursor-pointer transition-colors shrink-0"
             >
-              Pasandida ({favoritesCount}) देखें →
+              {isHinglishMode
+                ? `Pasandida (${favoritesCount}) Dekhein →`
+                : isEnglishMode
+                  ? `View Favorites (${favoritesCount}) →`
+                  : `Pasandida (${favoritesCount}) देखें →`}
             </button>
           </div>
         )}
@@ -384,11 +390,17 @@ export const PublicWall: React.FC<PublicWallProps> = ({
             {/* Field 1: Aapka Naam (Your Name) */}
             <div>
               <label className="block text-[20px] font-bold text-slate-900 mb-2.5">
-                Aapka Naam (Your Name)
+                {isHinglishMode ? 'Aapka Naam' : isEnglishMode ? 'Your Name' : 'Aapka Naam (Your Name)'}
               </label>
               <input
                 type="text"
-                placeholder="अपना नाम लिखें..."
+                placeholder={
+                  isHinglishMode
+                    ? 'Apna naam likhein...'
+                    : isEnglishMode
+                      ? 'Enter your name...'
+                      : 'अपना नाम लिखें...'
+                }
                 value={userName}
                 onChange={(e) => {
                   setUserName(e.target.value);
@@ -444,7 +456,13 @@ export const PublicWall: React.FC<PublicWallProps> = ({
             </div>
             <textarea
               rows={4}
-              placeholder="अपनी 100% मौलिक दिल छू लेने वाली शायरी यहाँ लिखें (कम से कम 10 शब्द, बिना किसी लिंक या कॉपी-पेस्ट के)..."
+              placeholder={
+                isHinglishMode
+                  ? 'Apni 100% original dil chhu lene wali shayari yahan likhein (kam se kam 10 words, bina kisi link ya copy-paste ke)...'
+                  : isEnglishMode
+                    ? 'Write your 100% original heartfelt shayari here (minimum 10 words, no links or copy-paste)...'
+                    : 'अपनी 100% मौलिक दिल छू लेने वाली शायरी यहाँ लिखें (कम से कम 10 शब्द, बिना किसी लिंक या कॉपी-पेस्ट के)...'
+              }
               value={shayariText}
               onChange={(e) => {
                 setShayariText(e.target.value);
@@ -459,7 +477,7 @@ export const PublicWall: React.FC<PublicWallProps> = ({
           {/* Field 4: Mood Emoji Selector */}
           <div>
             <label className="block text-[20px] font-bold text-slate-900 mb-3">
-              Mood Emoji चुनें:{' '}
+              {isHinglishMode ? 'Mood Emoji chunein:' : isEnglishMode ? 'Select Mood Emoji:' : 'Mood Emoji चुनें:'}{' '}
               <span className="text-2xl ml-1 align-middle">{moodEmoji}</span>
             </label>
             <div className="flex flex-wrap items-center gap-3">
@@ -515,7 +533,11 @@ export const PublicWall: React.FC<PublicWallProps> = ({
             </button>
             {!isOriginalDeclared && (
               <p className="text-[13px] font-semibold text-slate-600">
-                * पोस्ट LIVE करने के लिए ऊपर दिया गया Original Content बॉक्स टिक करना अनिवार्य है।
+                {isHinglishMode
+                  ? '* Post LIVE karne ke liye upar diya gaya Original Content box tick karna zaroori hai.'
+                  : isEnglishMode
+                    ? '* Checking the Original Content box above is required before posting LIVE.'
+                    : '* पोस्ट LIVE करने के लिए ऊपर दिया गया Original Content बॉक्स टिक करना अनिवार्य है।'}
               </p>
             )}
           </div>
@@ -526,14 +548,22 @@ export const PublicWall: React.FC<PublicWallProps> = ({
       <section className="space-y-6 pt-2">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 border-b border-[#ffe4e8] pb-4">
           <h2 className="font-rozha text-[26px] font-bold text-[#d94f70] leading-[1.45] break-words py-1">
-            ✍️ पाठकों की मौलिक शायरियाँ (Auto-LIVE Feed)
+            {isHinglishMode
+              ? '✍️ Readers Ki Original Shayariyan (Auto-LIVE Feed)'
+              : isEnglishMode
+                ? '✍️ Original Reader Shayaris (Auto-LIVE Feed)'
+                : '✍️ पाठकों की मौलिक शायरियाँ (Auto-LIVE Feed)'}
           </h2>
           <button
             type="button"
             onClick={onOpenFavorites}
             className="self-start sm:self-auto text-[18px] font-bold text-[#d94f70] hover:text-[#b32f4f] cursor-pointer"
           >
-            सभी Pasandida ({favoritesCount}) देखें →
+            {isHinglishMode
+              ? `Sabhi Pasandida (${favoritesCount}) Dekhein →`
+              : isEnglishMode
+                ? `View All Favorites (${favoritesCount}) →`
+                : `सभी Pasandida (${favoritesCount}) देखें →`}
           </button>
         </div>
 
