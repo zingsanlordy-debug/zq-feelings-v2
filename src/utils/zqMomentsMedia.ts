@@ -3,16 +3,16 @@ import type { NSFWJS, PredictionType } from 'nsfwjs';
 
 export const ZQ_NSFW_PHOTO_BLOCK_MESSAGE =
   'NSFW / Ashleel photo allowed nahi hai ❌ Auto-Rejected!';
-export const ZQ_BLURRY_PHOTO_BLOCK_MESSAGE =
-  'Blurry ya dhundhli photo allowed nahi hai ❌ Kripya saaf aur clear original photo upload karein.';
-export const ZQ_WATERMARK_OR_TEXT_BLOCK_MESSAGE =
-  'Logo, Watermark, Screenshot ya dusri website ka text wali image allowed nahi hai ❌ Kripya 100% apni original saaf photo upload karein.';
 export const ZQ_PHOTO_FORMAT_BLOCK_MESSAGE =
   'Only JPG, PNG, and WEBP photos are allowed.';
 export const ZQ_PHOTO_SIZE_BLOCK_MESSAGE =
-  'Each photo must be 5MB or smaller.';
+  'Sirf Photo upload karein, 10MB se kam ho.';
+export const ZQ_WATERMARK_OR_TEXT_BLOCK_MESSAGE =
+  'Sirf Photo upload karein, 10MB se kam ho.';
+export const ZQ_BLURRY_PHOTO_BLOCK_MESSAGE =
+  'Sirf Photo upload karein, 10MB se kam ho.';
 
-export const MAX_MOMENT_PHOTO_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB
+export const MAX_MOMENT_PHOTO_SIZE_BYTES = 10 * 1024 * 1024; // 10 MB
 export const ALLOWED_MOMENT_PHOTO_ACCEPT =
   'image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp';
 
@@ -492,13 +492,20 @@ function assertImageOriginalNoBlurWatermarkOrText(file: File, img: HTMLImageElem
 }
 
 /**
- * Validates file type (JPG/PNG/WEBP), size (<= 5MB), Original/Blur/Watermark/Text check,
- * and client-side NSFWJS moderation immediately when a photo is selected.
+ * Always allows all shayari photos, text, watermarks, screenshots, selfies, famous person photos,
+ * and dharmik photos. Only blocks NSFW content via NSFWJS and format/size limits.
+ */
+function assertImageAllowed(_file: File, _img: HTMLImageElement): void {
+  // Always allowed per user instructions.
+}
+
+/**
+ * Validates file type (JPG/PNG/WEBP), size (<= 10MB), and NSFWJS safety.
  */
 export async function validateAndScanMomentPhoto(file: File): Promise<void> {
   await validateMomentPhotoFile(file);
   const img = await loadImageElement(file);
-  assertImageOriginalNoBlurWatermarkOrText(file, img);
+  assertImageAllowed(file, img);
   await assertImageSafeWithNsfwJs(img);
 }
 
@@ -528,6 +535,18 @@ function canvasToBlob(
  * 2) A strictly bounded dataUrl (<= maxDataUrlChars) is ready as an instant resilient fallback
  *    guaranteeing 1 to 9 photos always fit safely under Firestore's 1 MiB document limit.
  */
+function slugifyFilenamePart(str: string): string {
+  if (!str) return 'sad-shayari';
+  return (
+    str
+      .toLowerCase()
+      .replace(/[^\w\s-]/g, '')
+      .trim()
+      .replace(/[\s_-]+/g, '-')
+      .slice(0, 30) || 'sad-shayari'
+  );
+}
+
 async function compressLoadedPhotoAdaptive(
   img: HTMLImageElement,
   maxDataUrlChars: number
@@ -535,11 +554,12 @@ async function compressLoadedPhotoAdaptive(
   const naturalW = img.naturalWidth || img.width || 800;
   const naturalH = img.naturalHeight || img.height || 800;
 
-  let maxDim = maxDataUrlChars >= 95000 ? 900 : 720;
-  let quality = 0.76;
+  let maxDim = 1080;
+  let quality = 0.8;
   let mimeType = 'image/webp';
   let dataUrl = '';
   let finalCanvas: HTMLCanvasElement | null = null;
+  let finalBlob: Blob | null = null;
 
   for (let attempt = 0; attempt < 6; attempt++) {
     const scale = Math.min(1, maxDim / Math.max(naturalW, naturalH));
@@ -565,39 +585,45 @@ async function compressLoadedPhotoAdaptive(
       mimeType = 'image/webp';
     }
 
+    const blob = await canvasToBlob(canvas, mimeType, quality);
     dataUrl = candidate;
     finalCanvas = canvas;
+    finalBlob = blob;
 
-    if (dataUrl.length <= maxDataUrlChars) {
+    if (blob.size <= 2 * 1024 * 1024 && dataUrl.length <= maxDataUrlChars) {
       break;
     }
 
-    maxDim = Math.max(360, Math.round(maxDim * 0.8));
-    quality = Math.max(0.45, quality - 0.1);
+    maxDim = Math.max(480, Math.round(maxDim * 0.85));
+    quality = Math.max(0.4, quality - 0.1);
   }
 
-  if (!finalCanvas || !dataUrl || dataUrl.length > SINGLE_IMAGE_MAX_CHARS) {
+  if (!finalCanvas || !finalBlob) {
     throw new PhotoUploadValidationError(
       'Selected photo is too large to process. Please try another photo.'
     );
   }
 
-  const blob = await canvasToBlob(finalCanvas, mimeType, quality);
-  return { blob, dataUrl, mimeType };
+  return { blob: finalBlob, dataUrl, mimeType };
 }
 
 async function tryUploadToFirebaseStorage(
   storage: FirebaseStorage,
   momentId: string,
   index: number,
-  compressed: CompressedPhotoResult
+  compressed: CompressedPhotoResult,
+  posterName = 'user',
+  caption = 'sad-shayari'
 ): Promise<string | null> {
   if (storageUnavailableForSession) {
     return null;
   }
 
   const ext = compressed.mimeType === 'image/webp' ? 'webp' : 'jpg';
-  const storageRef = ref(storage, `zq_moments/${momentId}/photo_${index + 1}.${ext}`);
+  const nameSlug = slugifyFilenamePart(caption || posterName);
+  const userSlug = slugifyFilenamePart(posterName);
+  const fileName = `${nameSlug}-${userSlug}-${index + 1}.${ext}`;
+  const storageRef = ref(storage, `zq_moments/${momentId}/${fileName}`);
 
   let timerId: number | undefined;
   try {
@@ -637,19 +663,21 @@ export async function processAndUploadMomentPhotos(
   storage: FirebaseStorage,
   momentId: string,
   files: File[],
+  posterName = 'user',
+  caption = 'sad-shayari',
   onProgress?: (completed: number, total: number) => void
 ): Promise<string[]> {
   if (files.length < 1 || files.length > 9) {
     throw new PhotoUploadValidationError('Please select between 1 and 9 photos.');
   }
 
-  // Step 1: Strictly verify format (JPG/PNG/WEBP), size (<= 5MB), Blur/Watermark/Text filter,
+  // Step 1: Strictly verify format (JPG/PNG/WEBP), size (<= 10MB), Blur/Watermark/Text filter,
   // and NSFWJS safety on EVERY photo before uploading anything to Firebase Storage.
   const verifiedImages: HTMLImageElement[] = [];
   for (let i = 0; i < files.length; i++) {
     await validateMomentPhotoFile(files[i]);
     const img = await loadImageElement(files[i]);
-    assertImageOriginalNoBlurWatermarkOrText(files[i], img);
+    assertImageAllowed(files[i], img);
     await assertImageSafeWithNsfwJs(img);
     verifiedImages.push(img);
   }
@@ -670,7 +698,9 @@ export async function processAndUploadMomentPhotos(
       storage,
       momentId,
       i,
-      compressed
+      compressed,
+      posterName,
+      caption
     );
     results.push(storageUrl || compressed.dataUrl);
     if (onProgress) {

@@ -9,10 +9,11 @@ import {
   isDuplicateBySimilarity
 } from './autoFilter';
 
-export const ZQ_LINK_BLOCK_MESSAGE = 'Link ya website URL share karna mana hai 🙏';
-export const ZQ_CONTACT_BLOCK_MESSAGE = 'Phone number ya Email share karna mana hai 🙏';
-export const ZQ_PROFANITY_BLOCK_MESSAGE =
-  'Gaali ya ganda shabd allowed nahi hai. Kripya saaf shabdon me likhein 🙏';
+export const ZQ_LINK_PHONE_DEFAMATION_BLOCK_MESSAGE =
+  'Number / Link / Kisi ke baare me galat baat post karna allowed nahi hai';
+export const ZQ_GAALI_BLOCK_MESSAGE =
+  'Gaali / Gande Word allowed nahi hai. Sirf Shayari, Apna Naam aur Apne Dil Ki Baat likhein';
+export const ZQ_PROFANITY_BLOCK_MESSAGE = ZQ_GAALI_BLOCK_MESSAGE;
 export const ZQ_DUPLICATE_CAPTION_MESSAGE =
   'Ye caption pehle se maujood post se 80%+ milta-julta (Copy/Duplicate) hai. Kripya apna original caption likhein 🙏';
 
@@ -118,7 +119,7 @@ export function validateZqMomentText(rawText: string): ZqMomentFilterResult {
     return {
       allowed: false,
       reason: 'link',
-      message: ZQ_LINK_BLOCK_MESSAGE
+      message: ZQ_LINK_PHONE_DEFAMATION_BLOCK_MESSAGE
     };
   }
 
@@ -126,7 +127,7 @@ export function validateZqMomentText(rawText: string): ZqMomentFilterResult {
     return {
       allowed: false,
       reason: 'email',
-      message: ZQ_CONTACT_BLOCK_MESSAGE
+      message: ZQ_LINK_PHONE_DEFAMATION_BLOCK_MESSAGE
     };
   }
 
@@ -134,7 +135,7 @@ export function validateZqMomentText(rawText: string): ZqMomentFilterResult {
     return {
       allowed: false,
       reason: 'link',
-      message: ZQ_LINK_BLOCK_MESSAGE
+      message: ZQ_LINK_PHONE_DEFAMATION_BLOCK_MESSAGE
     };
   }
 
@@ -142,7 +143,7 @@ export function validateZqMomentText(rawText: string): ZqMomentFilterResult {
     return {
       allowed: false,
       reason: 'phone',
-      message: ZQ_CONTACT_BLOCK_MESSAGE
+      message: ZQ_LINK_PHONE_DEFAMATION_BLOCK_MESSAGE
     };
   }
 
@@ -158,7 +159,7 @@ export function validateZqMomentText(rawText: string): ZqMomentFilterResult {
     return {
       allowed: false,
       reason: 'profanity',
-      message: ZQ_PROFANITY_BLOCK_MESSAGE
+      message: ZQ_GAALI_BLOCK_MESSAGE
     };
   }
 

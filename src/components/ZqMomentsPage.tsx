@@ -4,6 +4,7 @@ import {
   MessageCircle,
   Share2,
   ImagePlus,
+  Camera,
   Send,
   Check,
   UserPlus,
@@ -97,6 +98,13 @@ function getAvatarInitial(name: string): string {
   if (!trimmed) return 'Z';
   const chars = Array.from(trimmed);
   return chars[0].toUpperCase();
+}
+
+function formatMomentPostTitle(caption: string, posterName: string): string {
+  const cleanCaption = caption.replace(/\n/g, ' ').trim();
+  const words = cleanCaption.split(/\s+/).slice(0, 6).join(' ');
+  const titlePart = words ? `${words}...` : 'Shayari Status';
+  return `${titlePart} - ${posterName} | Dil Ki Awaz`;
 }
 
 function readJsonSet(key: string): Record<string, boolean> {
@@ -344,6 +352,7 @@ export const ZqMomentsPage: React.FC<ZqMomentsPageProps> = () => {
   const isComposingRef = useRef(false);
   const textareaRef = useRef<HTMLTextAreaElement | null>(null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
+  const cameraInputRef = useRef<HTMLInputElement | null>(null);
   const createBoxRef = useRef<HTMLDivElement | null>(null);
 
   // Global Real-time Feed + Initial Seed Feed State
@@ -1050,14 +1059,14 @@ export const ZqMomentsPage: React.FC<ZqMomentsPageProps> = () => {
               </div>
             </div>
 
-            {/* Field 4 (Bottom): Photo Upload (MIN 1, MAX 9 photos with Dynamic Grid Preview) */}
+            {/* Field 4 (Bottom): Photo Upload (MIN 1, MAX 9 photos with Gallery & Camera buttons) */}
             <div className="space-y-3">
               <div className="flex items-center justify-between gap-2">
                 <span className="text-[15px] font-bold text-slate-800">
                   Photos ({draftPhotos.length}/9)
                 </span>
                 <span className="text-[12px] text-slate-500 text-right">
-                  Original Only · No Logo/Watermark/Blur/NSFW
+                  Sirf Photo upload karein, 10MB se kam ho
                 </span>
               </div>
 
@@ -1066,6 +1075,15 @@ export const ZqMomentsPage: React.FC<ZqMomentsPageProps> = () => {
                 type="file"
                 accept={ALLOWED_MOMENT_PHOTO_ACCEPT}
                 multiple
+                onChange={handleSelectPhotos}
+                className="hidden"
+              />
+
+              <input
+                ref={cameraInputRef}
+                type="file"
+                accept={ALLOWED_MOMENT_PHOTO_ACCEPT}
+                capture="environment"
                 onChange={handleSelectPhotos}
                 className="hidden"
               />
@@ -1079,28 +1097,36 @@ export const ZqMomentsPage: React.FC<ZqMomentsPageProps> = () => {
               )}
 
               {draftPhotos.length < 9 && (
-                <button
-                  type="button"
-                  disabled={isCheckingPhotos || isPosting}
-                  onClick={() => fileInputRef.current?.click()}
-                  className="w-full min-h-[52px] px-4 py-3 rounded-2xl border border-dashed border-[#d94f70]/60 bg-[#fff8f9] hover:bg-[#fff0f3] text-[#d94f70] text-[16px] font-bold flex items-center justify-center gap-2 transition-colors cursor-pointer disabled:opacity-60 whitespace-nowrap"
-                >
-                  {isCheckingPhotos ? (
-                    <>
-                      <Loader2 className="w-5 h-5 animate-spin shrink-0" />
-                      <span>Auto-Filter scanning photo...</span>
-                    </>
-                  ) : (
-                    <>
-                      <ImagePlus className="w-5 h-5 shrink-0" />
-                      <span>
-                        {draftPhotos.length === 0
-                          ? 'Select 1 to 9 Original Photos'
-                          : `Add More Photos (${draftPhotos.length}/9)`}
-                      </span>
-                    </>
-                  )}
-                </button>
+                <div className="grid grid-cols-2 gap-3">
+                  <button
+                    type="button"
+                    disabled={isCheckingPhotos || isPosting}
+                    onClick={() => fileInputRef.current?.click()}
+                    className="min-h-[52px] px-4 py-3 rounded-2xl border border-dashed border-[#d94f70]/60 bg-[#fff8f9] hover:bg-[#fff0f3] text-[#d94f70] text-[16px] font-bold flex items-center justify-center gap-2 transition-colors cursor-pointer disabled:opacity-60 whitespace-nowrap"
+                  >
+                    {isCheckingPhotos ? (
+                      <>
+                        <Loader2 className="w-5 h-5 animate-spin shrink-0" />
+                        <span>Scanning...</span>
+                      </>
+                    ) : (
+                      <>
+                        <ImagePlus className="w-5 h-5 shrink-0" />
+                        <span>Gallery ({draftPhotos.length}/9)</span>
+                      </>
+                    )}
+                  </button>
+
+                  <button
+                    type="button"
+                    disabled={isCheckingPhotos || isPosting}
+                    onClick={() => cameraInputRef.current?.click()}
+                    className="min-h-[52px] px-4 py-3 rounded-2xl border border-dashed border-[#d94f70]/60 bg-[#fff8f9] hover:bg-[#fff0f3] text-[#d94f70] text-[16px] font-bold flex items-center justify-center gap-2 transition-colors cursor-pointer disabled:opacity-60 whitespace-nowrap"
+                  >
+                    <Camera className="w-5 h-5 shrink-0" />
+                    <span>Camera</span>
+                  </button>
+                </div>
               )}
             </div>
 
@@ -1200,6 +1226,13 @@ export const ZqMomentsPage: React.FC<ZqMomentsPageProps> = () => {
                   key={post.id}
                   className="bg-white border border-slate-200/90 rounded-3xl overflow-hidden shadow-2xs transition-shadow hover:shadow-sm"
                 >
+                  {/* SEO Article H2 Title */}
+                  <div className="px-4 sm:px-5 pt-3.5 pb-0.5">
+                    <h2 className="text-[14px] font-bold text-[#d94f70] tracking-wide truncate">
+                      {formatMomentPostTitle(post.caption, post.posterName)}
+                    </h2>
+                  </div>
+
                   {/* a) TOP: Left = Round profile icon + Poster Name + Time Ago | Right = Follow button */}
                   <div className="px-4 sm:px-5 py-4 flex items-center justify-between gap-3">
                     <div className="flex items-center gap-3 min-w-0">
@@ -1307,7 +1340,7 @@ export const ZqMomentsPage: React.FC<ZqMomentsPageProps> = () => {
                     <div className="px-3 sm:px-4 pb-3">
                       <DynamicMomentPhotoGrid
                         photos={post.images}
-                        altPrefix={`${post.posterName} - Hindi Shayari Photo Status on ZQ Moments`}
+                        altPrefix={post.caption ? `${post.caption} - ${post.posterName} | Dil Ki Awaz` : `${post.posterName} Shayari`}
                         onPhotoClick={(photoIdx) =>
                           setLightboxState({
                             photos: post.images,

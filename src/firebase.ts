@@ -620,6 +620,8 @@ export async function createZqMomentPost(input: CreateZqMomentInput): Promise<st
     storage,
     momentId,
     input.files,
+    cleanPosterName,
+    cleanCaption,
     input.onUploadProgress
   );
 
