@@ -21,7 +21,8 @@ export type AppRoute =
   | 'terms'
   | 'disclaimer'
   | 'about'
-  | 'contact';
+  | 'contact'
+  | 'not-found';
 
 interface HeaderProps {
   currentRoute: AppRoute;

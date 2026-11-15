@@ -705,7 +705,7 @@ export function parseLocationToRoute(pathname: string, hash = ''): ParsedSeoRout
     });
   }
 
-  return withPage({ route: 'home' });
+  return { route: 'not-found' };
 }
 
 /**
@@ -750,6 +750,21 @@ export function getSeoMetadataForState(params: {
       section: 'Hindi Shayari Search',
       keywords: [q, 'Best New Shayari 2026', 'Shayari Search', 'ZQ Feelings', 'Dil Ki Awaaz'],
       breadcrumbs: [{ name: 'Home', path: '/' }]
+    };
+  }
+
+  if (route === 'not-found') {
+    return {
+      title: `Shayari Nahi Mili - 404 Error | ZQ Feelings - Dil Ki Awaaz`,
+      description: `Aap jis page ko dhoondh rahe hain woh nahi mila. 5,900+ Best Shayari in Hindi, English & 77 Languages sirf ZQ Feelings par padhiye.`,
+      canonicalPath: '/404',
+      h1: '404 - Shayari Nahi Mili (शायरी नहीं मिली)',
+      section: 'Page Not Found',
+      keywords: ['404', 'Shayari Nahi Mili', 'ZQ Feelings', 'Dil Ki Awaaz'],
+      breadcrumbs: [
+        { name: 'Home', path: '/' },
+        { name: '404 Not Found', path: '/404' }
+      ]
     };
   }
 

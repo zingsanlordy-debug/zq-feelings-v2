@@ -91,6 +91,9 @@ const LegalPage = lazy(() =>
 const ShayariDetailPage = lazy(() =>
   import('./components/ShayariDetailPage').then((m) => ({ default: m.ShayariDetailPage }))
 );
+const NotFoundPage = lazy(() =>
+  import('./components/NotFoundPage').then((m) => ({ default: m.NotFoundPage }))
+);
 import {
   buildCleanSeoUrl,
   parseLocationToRoute,
@@ -1399,6 +1402,16 @@ export default function App() {
                   <p className="text-gray-600 font-medium">Shayari load ho rahi hai...</p>
                 </div>
               )
+            )}
+
+            {/* 404 NOT FOUND ROUTE */}
+            {currentRoute === 'not-found' && (
+              <NotFoundPage
+                onNavigateHome={() => navigateTo('home')}
+                onNavigateFeelings={() => navigateTo('feelings', 'love')}
+                onNavigateFestival={() => navigateTo('festival', 'diwali')}
+                onNavigateValentine={() => navigateTo('valentine-week')}
+              />
             )}
 
             {/* LEGAL & SUPPORT ROUTES (/about-us, /privacy-policy, /terms-and-conditions, /disclaimer, /contact-us) */}
