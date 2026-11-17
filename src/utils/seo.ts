@@ -74,30 +74,26 @@ export interface PageSeoMeta {
 import { getActiveSiteOrigin, isFreeHostingPreviewHost } from './siteOrigin';
 
 export const SITE_NAME_FULL = 'ZQ Feelings - Dil Ki Awaaz';
-export const HOME_SEO_TITLE = 'Best New Shayari 2026 | ZQ Feelings - Dil Ki Awaaz';
+export const HOME_SEO_TITLE = 'Dil Ki Awaaz - Best Hindi Shayari | Love, Sad & 2 Line Shayari | ZQ Feelings';
 export const HOME_SEO_DESCRIPTION =
-  '5,900+ Best Shayari in Hindi & 77 Languages. Love, Sad, Attitude & Festival Shayari. 240+ Stylish Fonts, 1-Click Copy, WhatsApp Share & Photo Card Download.';
+  '5900+ Best Hindi Shayari - Love Shayari, Sad Shayari, Heart Touching 2 Line Shayari, Romantic & Dard Bhari Shayari.';
 
 export function formatTopicSeoTitle(topic: string): string {
   const cleanTopic = topic.trim();
   if (!cleanTopic) return HOME_SEO_TITLE;
-  return `${cleanTopic} Best New Shayari 2026 | ${SITE_NAME_FULL}`;
+  return `${cleanTopic} Shayari in Hindi - Best ${cleanTopic} Shayari & Wishes | ZQ Feelings`;
 }
 
 export function formatTopicSeoDescription(topic?: string): string {
-  if (!topic || !topic.trim()) {
+  const cleanTopic = (topic || '').trim();
+  if (!cleanTopic) {
     return HOME_SEO_DESCRIPTION;
   }
-  const cleanTopic = topic.trim();
-  const fullCandidate = `Read ${cleanTopic} - Best New Shayari 2026 in Hindi, English and more. Latest Love, Sad, Attitude, Miss You Shayari only on ZQ Feelings - Dil Ki Awaaz.`;
-  if (fullCandidate.length <= 160) {
-    return fullCandidate;
+  const baseDesc = `Best ${cleanTopic} Shayari. Heart Touching 2 Line Shayari, Wishes & Status collection on Dil Ki Awaaz.`;
+  if (baseDesc.length > 200) {
+    return baseDesc.slice(0, 197) + '...';
   }
-  const mediumCandidate = `Read ${cleanTopic} - Best New Shayari 2026 in Hindi, English and more. Latest Love, Sad, Attitude Shayari only on ZQ Feelings - Dil Ki Awaaz.`;
-  if (mediumCandidate.length <= 160) {
-    return mediumCandidate;
-  }
-  return `Read ${cleanTopic} - Best New Shayari 2026 in Hindi, English and more only on ZQ Feelings - Dil Ki Awaaz.`;
+  return baseDesc;
 }
 
 /**

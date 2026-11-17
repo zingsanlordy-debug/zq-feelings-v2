@@ -172,26 +172,13 @@ export const HomePage: React.FC<HomePageProps> = ({
   const hLine = (s: string) => (isHinglishMode ? convertHindiLineToHinglish(s) : s);
   const momentsDesc = useTranslatedText(ui.homeMomentsDesc);
   const openMomentsText = useTranslatedText(ui.openZqMoments);
-  const trendingPagination = useMemo(
-    () => getPaginatedSlice(trendingShayaris, currentPage),
-    [trendingShayaris, currentPage]
-  );
+  const recentTwoShayaris = useMemo(() => {
+    const loveItem = trendingShayaris.find((s) => String(s.category).toLowerCase().includes('love') || String(s.categoryName).toLowerCase().includes('love')) || trendingShayaris[0];
+    const sadItem = trendingShayaris.find((s) => String(s.category).toLowerCase().includes('sad') || String(s.categoryName).toLowerCase().includes('sad')) || trendingShayaris[1];
+    return [loveItem, sadItem].filter(Boolean) as Shayari[];
+  }, [trendingShayaris]);
 
-  const [visibleTrendingCount, setVisibleTrendingCount] = useState<number>(10);
-  useEffect(() => {
-    setVisibleTrendingCount(10);
-  }, [currentPage]);
 
-  useEffect(() => {
-    if (visibleTrendingCount >= trendingPagination.pageItems.length) return;
-    const handleScroll = () => {
-      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 900) {
-        setVisibleTrendingCount((prev) => Math.min(prev + 10, trendingPagination.pageItems.length));
-      }
-    };
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, [visibleTrendingCount, trendingPagination.pageItems.length]);
 
   const orderedFeelingChips = useMemo<FeelingChipItem[]>(() => {
     const map = new Map<string, FeelingChipItem>();
@@ -619,7 +606,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       {/* 7. RECENT & TRENDING SHAYARI */}
       {trendingShayaris.length > 0 && isFavorite && onToggleFavorite && (
         <section className="order-1 md:order-5 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-4 sm:p-9 flex flex-col gap-5 sm:gap-6">
-          <div className="order-1 flex flex-wrap items-center justify-between gap-3 border-b border-[#ffe4e8] pb-4 sm:pb-5">
+          <div className="flex flex-col gap-3 border-b border-[#ffe4e8] pb-4 sm:pb-5">
             <div className="flex items-center gap-3">
               <Flame className="w-7 h-7 text-[#d94f70] shrink-0" />
               <h2 className="font-rozha text-[21px] sm:text-[26px] font-bold text-[#d94f70] leading-snug">
@@ -631,152 +618,37 @@ export const HomePage: React.FC<HomePageProps> = ({
               </h2>
             </div>
 
-            {onOpenWriteShayari && (
+            <div className="flex flex-col gap-2.5 pt-1">
+              {onOpenWriteShayari && (
+                <a
+                  href="/apni-shayari-likhe"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onOpenWriteShayari();
+                  }}
+                  className="inline-flex items-center justify-between px-4 py-2.5 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[14px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer shadow-xs max-w-sm"
+                >
+                  <span>Apni Shayari Likhe</span>
+                  <ArrowRight className="w-4 h-4" />
+                </a>
+              )}
+
               <a
-                href="/apni-shayari-likhe"
+                href="/christmas-shayari"
                 onClick={(e) => {
                   e.preventDefault();
-                  onOpenWriteShayari();
+                  onOpenFestival('christmas');
                 }}
-                className="inline-flex items-center gap-1.5 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[13px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer"
+                className="inline-flex items-center justify-between px-4 py-2.5 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[14px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer shadow-xs max-w-sm"
               >
-                <span>Apni Shayari Likhe</span>
+                <span>Christmas Day Special Wishes Shayari Collection</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
-            )}
-          </div>
-
-          {/* 4 Naye Pages Links (100 Nayi Shayari x 35 Languages) */}
-          <div className="order-5 md:order-2 p-4 sm:p-6 rounded-2xl bg-white border border-[#ffd6df] shadow-2xs space-y-3.5">
-            <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#ffe4e8] pb-3">
-              <div className="flex items-center gap-2">
-                <Sparkles className="w-5 h-5 text-[#d94f70]" />
-                <h3 className="font-rozha text-[18px] sm:text-[20px] font-bold text-slate-900">
-                  100 Nayi Diwali Shayari (4 Naye Pages • 35 Languages Translated)
-                </h3>
-              </div>
-              <span className="text-[12px] font-black uppercase tracking-wider px-3 py-1 rounded-full bg-[#fff0f3] text-[#d94f70] border border-[#ffd6df]">
-                100% Original
-              </span>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
-              <a
-                href="/diwali-shayari/page/2"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onOpenFestival('diwali', 'hi', 2);
-                }}
-                className="group p-4 rounded-xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] hover:border-[#d94f70] transition-all flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className="text-2xl select-none">🪔</span>
-                    <span className="px-2 py-0.5 rounded-md bg-white text-[#d94f70] border border-[#ffd6df] text-[12px] font-extrabold">
-                      Page 2 • 26-50
-                    </span>
-                  </div>
-                  <h4 className="font-bold text-[16px] text-slate-900 group-hover:text-[#d94f70] transition-colors leading-snug">
-                    Dhanteras &amp; Choti Diwali
-                  </h4>
-                  <p className="text-[13px] text-slate-600 mt-1">
-                    25 Nayi Wishes • 35 Languages
-                  </p>
-                </div>
-                <div className="mt-3 pt-2 border-t border-[#ffd6df]/60 flex items-center justify-between text-[13px] font-bold text-[#d94f70]">
-                  <span>Page 2 Dekhein</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </a>
-
-              <a
-                href="/diwali-shayari/page/3"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onOpenFestival('diwali', 'hi', 3);
-                }}
-                className="group p-4 rounded-xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] hover:border-[#d94f70] transition-all flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className="text-2xl select-none">🌸</span>
-                    <span className="px-2 py-0.5 rounded-md bg-white text-[#d94f70] border border-[#ffd6df] text-[12px] font-extrabold">
-                      Page 3 • 51-75
-                    </span>
-                  </div>
-                  <h4 className="font-bold text-[16px] text-slate-900 group-hover:text-[#d94f70] transition-colors leading-snug">
-                    Govardhan Puja &amp; Bhai Dooj
-                  </h4>
-                  <p className="text-[13px] text-slate-600 mt-1">
-                    25 Nayi Wishes • 35 Languages
-                  </p>
-                </div>
-                <div className="mt-3 pt-2 border-t border-[#ffd6df]/60 flex items-center justify-between text-[13px] font-bold text-[#d94f70]">
-                  <span>Page 3 Dekhein</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </a>
-
-              <a
-                href="/diwali-shayari/page/4"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onOpenFestival('diwali', 'hi', 4);
-                }}
-                className="group p-4 rounded-xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] hover:border-[#d94f70] transition-all flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className="text-2xl select-none">✨</span>
-                    <span className="px-2 py-0.5 rounded-md bg-white text-[#d94f70] border border-[#ffd6df] text-[12px] font-extrabold">
-                      Page 4 • 76-100
-                    </span>
-                  </div>
-                  <h4 className="font-bold text-[16px] text-slate-900 group-hover:text-[#d94f70] transition-colors leading-snug">
-                    Maha Lakshmi Puja &amp; Parivaar
-                  </h4>
-                  <p className="text-[13px] text-slate-600 mt-1">
-                    25 Nayi Wishes • 35 Languages
-                  </p>
-                </div>
-                <div className="mt-3 pt-2 border-t border-[#ffd6df]/60 flex items-center justify-between text-[13px] font-bold text-[#d94f70]">
-                  <span>Page 4 Dekhein</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </a>
-
-              <a
-                href="/diwali-shayari/page/5"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onOpenFestival('diwali', 'hi', 5);
-                }}
-                className="group p-4 rounded-xl bg-[#fff8f9] hover:bg-[#fff0f3] border border-[#ffe4e8] hover:border-[#d94f70] transition-all flex flex-col justify-between"
-              >
-                <div>
-                  <div className="flex items-center justify-between gap-2 mb-2">
-                    <span className="text-2xl select-none">🎁</span>
-                    <span className="px-2 py-0.5 rounded-md bg-white text-[#d94f70] border border-[#ffd6df] text-[12px] font-extrabold">
-                      Page 5 • 101-125
-                    </span>
-                  </div>
-                  <h4 className="font-bold text-[16px] text-slate-900 group-hover:text-[#d94f70] transition-colors leading-snug">
-                    Family, Friends, Office &amp; Rishtedar
-                  </h4>
-                  <p className="text-[13px] text-slate-600 mt-1">
-                    25 Nayi Wishes • 35 Languages
-                  </p>
-                </div>
-                <div className="mt-3 pt-2 border-t border-[#ffd6df]/60 flex items-center justify-between text-[13px] font-bold text-[#d94f70]">
-                  <span>Page 5 Dekhein</span>
-                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </a>
             </div>
           </div>
 
-          <div className="order-2 md:order-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
-            {trendingPagination.pageItems.slice(0, visibleTrendingCount).map((shayari) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
+            {recentTwoShayaris.map((shayari) => (
               <ShayariCard
                 key={shayari.id}
                 shayari={shayari}
@@ -788,36 +660,6 @@ export const HomePage: React.FC<HomePageProps> = ({
                 onOpenDetail={onOpenDetail}
               />
             ))}
-          </div>
-
-          {visibleTrendingCount < trendingPagination.pageItems.length && (
-            <div className="order-3 md:order-4 text-center">
-              <button
-                type="button"
-                onClick={() =>
-                  setVisibleTrendingCount((prev) =>
-                    Math.min(prev + 10, trendingPagination.pageItems.length)
-                  )
-                }
-                className="px-6 py-2.5 rounded-2xl bg-[#fff0f3] hover:bg-[#d94f70] text-[#d94f70] hover:text-white border border-[#ffd6df] font-bold text-[14px] transition-all cursor-pointer shadow-2xs"
-              >
-                {isHinglishMode
-                  ? `Aur Shayari Dekhein (${trendingPagination.pageItems.length - visibleTrendingCount} Baaki) ↓`
-                  : `और शायरी देखें (${trendingPagination.pageItems.length - visibleTrendingCount} बाकी) ↓`}
-              </button>
-            </div>
-          )}
-
-          <div className="order-4 md:order-5">
-            <ShayariPagination
-              currentPage={trendingPagination.currentPage}
-              totalPages={trendingPagination.totalPages}
-              startIndex={trendingPagination.startIndex}
-              endIndex={trendingPagination.endIndex}
-              totalItems={trendingPagination.totalItems}
-              onPageChange={(pg) => onPageChange?.(pg)}
-              getPageHref={(pg) => (pg <= 1 ? '/' : `/page/${pg}`)}
-            />
           </div>
         </section>
       )}

@@ -277,7 +277,7 @@ for (const entry of entries) {
       `Description SSR/Client mismatch on ${entry.path}:\n  SSR:    ${serverMeta.description}\n  Client: ${clientMeta.description}`
     );
   }
-  if (!serverMeta.title.includes('ZQ Feelings')) {
+  if (!/zq feelings/i.test(serverMeta.title)) {
     auditErrors.push(
       `Title missing required brand suffix on ${entry.path}: "${serverMeta.title}"`
     );

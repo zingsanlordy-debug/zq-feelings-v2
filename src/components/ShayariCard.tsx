@@ -373,8 +373,8 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
         </h3>
       </div>
 
-      {/* SHAYARI CONTENT (19px, LINE HEIGHT 1.8, GENEROUS MOBILE PADDING) */}
-      <div className="px-6 py-8 sm:px-9 sm:py-10 flex-1 flex flex-col justify-center min-h-[210px] bg-[#fff8f9]">
+      {/* SHAYARI CONTENT */}
+      <div className="px-4 py-4 sm:px-6 sm:py-5 flex-1 flex flex-col justify-center bg-[#fff8f9]">
         <div className="relative py-3 px-2 sm:px-3">
           <span className="absolute -top-4 left-0 text-4xl font-serif text-[#d94f70]/30 select-none">
             “
@@ -448,7 +448,7 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
                 }}
                 title={font.description}
                 style={font.fontFamily ? { fontFamily: font.fontFamily } : undefined}
-                className={`min-h-[48px] flex-shrink-0 px-4 py-2.5 rounded-xl text-[18px] font-bold transition-all cursor-pointer border whitespace-nowrap ${font.fontClass || ''} ${
+                className={`min-h-[36px] flex-shrink-0 px-3 py-1.5 rounded-xl text-[14px] font-bold transition-all cursor-pointer border whitespace-nowrap ${font.fontClass || ''} ${
                   isActive
                     ? 'bg-[#d94f70] text-white border-[#d94f70] shadow-xs scale-105'
                     : 'bg-[#fff8f9] text-slate-800 border-[#ffe4e8] hover:border-[#d94f70] hover:text-[#d94f70]'
@@ -461,19 +461,19 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
         </div>
       </div>
 
-      {/* CARD FOOTER: ACTIONS (18px BOLD BUTTONS & INCREASED PADDING) */}
-      <div className="p-5 sm:p-6 bg-white flex flex-wrap items-center justify-between gap-3.5 border-t border-[#ffe4e8]">
+      {/* CARD FOOTER: COMPACT ACTIONS */}
+      <div className="p-3.5 sm:p-4 bg-white flex flex-wrap items-center justify-between gap-2.5 border-t border-[#ffe4e8]">
         {!onlyCopyAndWhatsapp && (
-          <div className="flex items-center gap-2.5">
+          <div className="flex items-center gap-2">
             <button
               onClick={handleLike}
-              className={`min-h-[52px] flex items-center gap-2 px-4 py-3 rounded-2xl text-[18px] font-bold cursor-pointer transition-all border ${
+              className={`min-h-[40px] flex items-center gap-1.5 px-3 py-2 rounded-xl text-[14px] font-bold cursor-pointer transition-all border ${
                 hasLiked
                   ? 'bg-[#fff0f3] text-[#d94f70] border-[#d94f70]'
                   : 'bg-white text-slate-800 border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff8f9]'
               }`}
             >
-              <Heart className={`w-5 h-5 ${hasLiked ? 'fill-[#d94f70]' : ''}`} />
+              <Heart className={`w-4 h-4 ${hasLiked ? 'fill-[#d94f70]' : ''}`} />
               <span>{likes.toLocaleString()}</span>
             </button>
 
@@ -487,9 +487,9 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
                       ? 'View & write comments'
                       : 'टिप्पणी देखें व लिखें (Comments)'
                 }
-                className="min-h-[52px] flex items-center gap-2 px-4 py-3 rounded-2xl text-[18px] font-bold text-slate-800 bg-white border border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3] cursor-pointer transition-colors"
+                className="min-h-[40px] flex items-center gap-1.5 px-3 py-2 rounded-xl text-[14px] font-bold text-slate-800 bg-white border border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3] cursor-pointer transition-colors"
               >
-                <MessageCircle className="w-5 h-5" />
+                <MessageCircle className="w-4 h-4" />
                 <span>{shayari.comments?.length || shayari.commentsCount || 0}</span>
               </button>
             )}
@@ -509,27 +509,27 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
                   )
                 }
                 title={ui.downloadBtn}
-                className="min-h-[52px] flex items-center gap-2 px-4 py-3 rounded-2xl text-[18px] font-bold text-slate-800 bg-white border border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3] cursor-pointer transition-colors"
+                className="min-h-[40px] flex items-center gap-1.5 px-3 py-2 rounded-xl text-[14px] font-bold text-slate-800 bg-white border border-[#ffe4e8] hover:text-[#d94f70] hover:bg-[#fff0f3] cursor-pointer transition-colors"
               >
-                <Download className="w-5 h-5" />
+                <Download className="w-4 h-4" />
                 <span className="hidden sm:inline">{ui.downloadBtn}</span>
               </button>
             )}
           </div>
         )}
 
-        {/* PRIMARY ACTIONS: BOTTOM COPY & WHATSAPP BUTTONS (18px BOLD) */}
+        {/* PRIMARY ACTIONS: BOTTOM COPY & WHATSAPP BUTTONS */}
         <div
-          className={`flex items-center gap-3 ${
+          className={`flex items-center gap-2 ${
             onlyCopyAndWhatsapp ? 'w-full' : 'w-full sm:w-auto'
           }`}
         >
           {/* COPY BUTTON */}
           <button
             onClick={handleCopy}
-            className={`min-h-[52px] ${
+            className={`min-h-[40px] ${
               onlyCopyAndWhatsapp ? 'flex-1' : 'flex-1 sm:flex-initial'
-            } flex items-center justify-center gap-2 px-5 py-3.5 rounded-2xl text-[18px] font-bold transition-all cursor-pointer shadow-xs active:scale-95 border ${
+            } flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl text-[14px] font-bold transition-all cursor-pointer shadow-xs active:scale-95 border ${
               copied
                 ? 'bg-emerald-600 text-white border-emerald-600 shadow-emerald-500/20'
                 : 'bg-white text-slate-900 hover:text-[#d94f70] hover:bg-[#fff0f3] border-2 border-[#ffe4e8]'
@@ -537,12 +537,12 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
           >
             {copied ? (
               <>
-                <Check className="w-5 h-5 text-emerald-200" />
+                <Check className="w-4 h-4 text-emerald-200" />
                 <span>{ui.copiedBtn}</span>
               </>
             ) : (
               <>
-                <Copy className="w-5 h-5 text-[#d94f70]" />
+                <Copy className="w-4 h-4 text-[#d94f70]" />
                 <span>{ui.copyBtn}</span>
               </>
             )}
@@ -555,11 +555,11 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
             rel="noopener noreferrer"
             aria-label="Share on WhatsApp"
             title="Share on WhatsApp"
-            className={`min-h-[52px] ${
+            className={`min-h-[40px] ${
               onlyCopyAndWhatsapp ? 'flex-1' : 'flex-1 sm:flex-initial'
-            } flex items-center justify-center gap-2 px-4 py-3.5 rounded-2xl text-[17px] font-bold text-white bg-[#25D366] hover:bg-[#20ba59] shadow-sm hover:shadow-md transition-all cursor-pointer active:scale-95 border border-[#20ba59]`}
+            } flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl text-[14px] font-bold text-white bg-[#25D366] hover:bg-[#20ba59] shadow-sm hover:shadow-md transition-all cursor-pointer active:scale-95 border border-[#20ba59]`}
           >
-            <svg aria-hidden="true" className="w-5 h-5 fill-white shrink-0" viewBox="0 0 24 24">
+            <svg aria-hidden="true" className="w-4 h-4 fill-white shrink-0" viewBox="0 0 24 24">
               <path d="M12.031 2C6.51 2 2.016 6.494 2.016 12.016c0 1.968.563 3.867 1.64 5.515L2 22l4.64-1.609c1.578.984 3.39 1.516 5.39 1.516 5.524 0 10.016-4.493 10.016-10.016C22.047 6.494 17.555 2 12.031 2zm5.782 14.328c-.25.703-1.453 1.344-2.016 1.39-.562.047-1.125.204-3.75-0.89-3.234-1.344-5.328-4.64-5.484-4.844-.156-.203-1.28-1.703-1.28-3.25 0-1.547.812-2.312 1.094-2.625.28-.312.625-.39.843-.39.219 0 .438 0 .625.015.204.016.485-.078.75.563.282.688.954 2.328 1.032 2.484.078.157.14.36.031.579-.109.218-.172.343-.343.546-.172.204-.36.454-.516.61-.172.172-.36.36-.156.703.203.344.906 1.485 1.938 2.406 1.328 1.188 2.453 1.563 2.797 1.735.344.172.547.14.75-.094.203-.235.875-1.016 1.109-1.36.234-.343.469-.281.781-.171.313.109 1.985.937 2.328 1.109.344.172.578.25.656.39.078.14.078.813-.172 1.516z" />
             </svg>
             <span>{ui.whatsappBtn}</span>
@@ -572,9 +572,9 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
             rel="noopener noreferrer"
             aria-label="Share on Facebook"
             title="Share on Facebook"
-            className="min-h-[52px] flex items-center justify-center gap-1.5 px-4 py-3.5 rounded-2xl text-[17px] font-bold text-white bg-[#1877F2] hover:bg-[#1666d1] shadow-sm hover:shadow-md transition-all cursor-pointer active:scale-95 border border-[#1666d1]"
+            className="min-h-[40px] flex items-center justify-center gap-1.5 px-3.5 py-2 rounded-xl text-[14px] font-bold text-white bg-[#1877F2] hover:bg-[#1666d1] shadow-sm hover:shadow-md transition-all cursor-pointer active:scale-95 border border-[#1666d1]"
           >
-            <svg aria-hidden="true" className="w-5 h-5 fill-white shrink-0" viewBox="0 0 24 24">
+            <svg aria-hidden="true" className="w-4 h-4 fill-white shrink-0" viewBox="0 0 24 24">
               <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" />
             </svg>
             <span className="hidden sm:inline">Facebook</span>
