@@ -180,7 +180,7 @@ const RUSTAM_AMBER_HORIZON_SCENE = svgToDataUri(`
 </svg>
 `);
 
-const BASE_SEED_TIME_MS = 1761782400000; // Fixed deterministic baseline so SSR/CSR match cleanly
+const BASE_SEED_TIME_MS = new Date('2026-11-10T10:00:00Z').getTime(); // Deterministic baseline in November 2026 (post-launch)
 
 /**
  * RULE 5A: 5 Initial Original Posts in ZQ Moment

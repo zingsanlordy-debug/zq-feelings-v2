@@ -415,5 +415,17 @@ export function resolveShayariLanguage(
     return shayari.language;
   }
 
-  return detectShayariLanguage(rawLines.join('\n'), activeLanguage);
+  const joined = rawLines.join(' ');
+  const words = joined.toLowerCase().match(/[a-z]+/g) || [];
+  const hinglishMarkers = new Set([
+    'hai', 'hain', 'hoon', 'hun', 'hu', 'tha', 'thi', 'raha', 'rahi', 'rahe',
+    'mein', 'se', 'ko', 'ka', 'ki', 'ke', 'ne', 'kya', 'kuch', 'koi', 'tum', 'tera', 'teri', 'tere',
+    'mera', 'meri', 'mere', 'apna', 'apni', 'apne', 'nahi', 'nahin', 'nhi', 'bhi', 'aur', 'lekin', 'karna'
+  ]);
+  const hasHinglishMarker = words.some((w) => hinglishMarkers.has(w));
+  if (!hasHinglishMarker && words.length > 0 && !/[\u0900-\u097F\u0600-\u06FF]/.test(joined)) {
+    return 'english';
+  }
+
+  return detectShayariLanguage(joined, activeLanguage);
 }

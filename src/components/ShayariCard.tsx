@@ -42,6 +42,7 @@ import { PostReportTriggerAndDrawer, UgcSeoSafeFooter } from './PostReportAndFoo
 import { formatShayariCopyText } from '../utils/copyShayariFormat';
 import { getShayariPath } from '../utils/shayariSlug';
 import { getActiveSiteOrigin } from '../utils/siteOrigin';
+import { formatTimeAgo } from '../utils/autoFilter';
 
 export interface ShayariCardProps {
   shayari: Shayari;
@@ -105,8 +106,28 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
   targetSpeechLang,
   isRtl
 }) => {
+  const computedTimeAgo = useMemo(() => {
+    if (timeAgoLabel) return timeAgoLabel;
+    let hash = 0;
+    for (let i = 0; i < shayari.id.length; i++) {
+      hash = (hash * 31 + shayari.id.charCodeAt(i)) % 14;
+    }
+    const now = Date.now();
+    const millis = now - hash * 24 * 60 * 60 * 1000 - (hash % 5) * 3600 * 1000;
+    return formatTimeAgo(millis, now);
+  }, [timeAgoLabel, shayari.id]);
+
+  const [likes, setLikes] = useState(() => {
+    if (shayari.initialLikes && shayari.initialLikes >= 10 && shayari.initialLikes <= 35) {
+      return shayari.initialLikes;
+    }
+    let hash = 0;
+    for (let i = 0; i < shayari.id.length; i++) {
+      hash = (hash * 37 + shayari.id.charCodeAt(i)) % 26;
+    }
+    return 10 + hash;
+  });
   const [copied, setCopied] = useState(false);
-  const [likes, setLikes] = useState(shayari.initialLikes);
   const [hasLiked, setHasLiked] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
   const { fontSizeMode } = useFontSize();
@@ -263,18 +284,10 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
                 <span aria-hidden="true" className="text-slate-300">
                   ·
                 </span>
-                <span className="text-slate-700">{languageTagLabel}</span>
-                {timeAgoLabel && (
-                  <>
-                    <span aria-hidden="true" className="text-slate-300">
-                      ·
-                    </span>
-                    <span className="inline-flex items-center gap-1 text-slate-500 font-semibold">
-                      <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                      <span>{timeAgoLabel}</span>
-                    </span>
-                  </>
-                )}
+                <span className="inline-flex items-center gap-1 text-slate-500 font-semibold">
+                  <Clock className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                  <span>{computedTimeAgo}</span>
+                </span>
               </div>
               {authorDisplayName && (
                 <div className="mt-1 flex items-center gap-1.5 text-[15px] text-slate-700 font-bold min-w-0">
@@ -403,7 +416,7 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
           </div>
         </div>
 
-        {/* Author signature & Language Tag */}
+        {/* Author signature & Date */}
         <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-[16px] text-[#d94f70] font-bold">
           <Sparkles className="w-4 h-4 text-[#d94f70]" />
           {authorDisplayName ? (
@@ -411,53 +424,70 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
           ) : (
             <span className="zq-feelings-logo">ZQ FEELINGS 💗</span>
           )}
-          <span className="text-[15px] text-slate-700 font-bold">({languageTagLabel})</span>
-          {timeAgoLabel && (
-            <span className="text-[14px] text-slate-500 font-semibold">· {timeAgoLabel}</span>
-          )}
+          <span className="text-[14px] text-slate-500 font-semibold">· {computedTimeAgo}</span>
           {displayLines.length === 2 && (
             <span className="text-[14px] text-amber-800 font-bold">· ⚡ 2 Lines Status</span>
           )}
         </div>
       </div>
 
-      {/* LANGUAGE-SPECIFIC DYNAMIC FONTS SELECTOR */}
-      <div className="px-5 sm:px-6 py-4 bg-white border-t border-b border-[#ffe4e8]">
-        <div className="flex items-center justify-between mb-2.5">
-          <span className="text-[16px] font-bold text-slate-800 flex items-center gap-2">
-            <span>{ui.stylesLabel}</span>
-            <span className="text-[#d94f70] font-extrabold">{currentFontOption.name}</span>
-            <span className="text-[12px] px-2.5 py-0.5 rounded-full bg-[#fff0f3] text-[#d94f70] font-extrabold border border-[#ffd6df]">
-              {availableFonts.length} Fonts
-            </span>
+      {/* COMPACT STYLES SECTION (ONE SINGLE SMALL LINE) */}
+      <div className="px-4 py-2.5 bg-white border-t border-b border-[#ffe4e8] flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 min-w-0">
+          <span className="text-[13px] font-bold text-slate-700 whitespace-nowrap">
+            Styles: {availableFonts.length} Fonts →
           </span>
-          <span className="text-[14px] text-slate-500 font-semibold">{ui.scrollStylesHint}</span>
         </div>
-
-        {/* Horizontally scrollable chips */}
-        <div className="flex gap-2.5 overflow-x-auto pb-2 scrollbar-thin scrollbar-thumb-pink-200">
-          {availableFonts.map((font) => {
-            const isActive = selectedFont === font.id;
-            return (
-              <button
-                key={font.id}
-                type="button"
-                onClick={() => {
-                  setSelectedFont(font.id);
-                  if (font.googleFontFamily) loadGoogleFontAsync(font.googleFontFamily);
-                }}
-                title={font.description}
-                style={font.fontFamily ? { fontFamily: font.fontFamily } : undefined}
-                className={`min-h-[36px] flex-shrink-0 px-3 py-1.5 rounded-xl text-[14px] font-bold transition-all cursor-pointer border whitespace-nowrap ${font.fontClass || ''} ${
-                  isActive
-                    ? 'bg-[#d94f70] text-white border-[#d94f70] shadow-xs scale-105'
-                    : 'bg-[#fff8f9] text-slate-800 border-[#ffe4e8] hover:border-[#d94f70] hover:text-[#d94f70]'
-                }`}
-              >
-                {font.displayName}
-              </button>
-            );
-          })}
+        <div className="flex items-center gap-1 flex-1 min-w-0 justify-end">
+          <button
+            type="button"
+            onClick={() => {
+              const el = document.getElementById(`fonts-scroll-${shayari.id}`);
+              if (el) el.scrollBy({ left: -100, behavior: 'smooth' });
+            }}
+            className="w-6 h-6 rounded-md bg-[#fff8f9] border border-[#ffe4e8] text-[#d94f70] flex items-center justify-center font-bold text-xs hover:bg-[#fff0f3] shrink-0 cursor-pointer"
+            title="Scroll Left"
+          >
+            ‹
+          </button>
+          <div
+            id={`fonts-scroll-${shayari.id}`}
+            className="flex gap-1 overflow-x-auto pb-0.5 scrollbar-none flex-1 max-w-[240px] sm:max-w-[320px]"
+          >
+            {availableFonts.map((font) => {
+              const isActive = selectedFont === font.id;
+              return (
+                <button
+                  key={font.id}
+                  type="button"
+                  onClick={() => {
+                    setSelectedFont(font.id);
+                    if (font.googleFontFamily) loadGoogleFontAsync(font.googleFontFamily);
+                  }}
+                  title={font.description}
+                  style={font.fontFamily ? { fontFamily: font.fontFamily } : undefined}
+                  className={`h-[28px] flex-shrink-0 px-2 py-0.5 rounded-md text-[13px] font-bold transition-all cursor-pointer border whitespace-nowrap ${font.fontClass || ''} ${
+                    isActive
+                      ? 'bg-[#d94f70] text-white border-[#d94f70] shadow-2xs'
+                      : 'bg-[#fff8f9] text-slate-700 border-[#ffe4e8] hover:border-[#d94f70] hover:text-[#d94f70]'
+                  }`}
+                >
+                  {font.displayName}
+                </button>
+              );
+            })}
+          </div>
+          <button
+            type="button"
+            onClick={() => {
+              const el = document.getElementById(`fonts-scroll-${shayari.id}`);
+              if (el) el.scrollBy({ left: 100, behavior: 'smooth' });
+            }}
+            className="w-6 h-6 rounded-md bg-[#fff8f9] border border-[#ffe4e8] text-[#d94f70] flex items-center justify-center font-bold text-xs hover:bg-[#fff0f3] shrink-0 cursor-pointer"
+            title="Scroll Right"
+          >
+            ›
+          </button>
         </div>
       </div>
 
