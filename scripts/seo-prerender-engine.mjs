@@ -92,6 +92,7 @@ export const SSR_VALENTINE_LANGS = [
   { code: 'ur', hreflang: 'ur', slug: 'urdu', isoPrefix: 'ur', englishName: 'Urdu', nativeLabel: 'اردو' },
   { code: 'bho', hreflang: 'bho', slug: 'bhojpuri', isoPrefix: 'bho', englishName: 'Bhojpuri', nativeLabel: 'भोजपुरी' },
   { code: 'bgc', hreflang: 'bgc', slug: 'haryanvi', isoPrefix: 'bgc', englishName: 'Haryanvi', nativeLabel: 'हरियाणवी' },
+  { code: 'ne', hreflang: 'ne', slug: 'nepali', isoPrefix: 'ne', englishName: 'Nepali', nativeLabel: 'नेपाली' },
   { code: 'en-US', hreflang: 'en-US', slug: 'english', isoPrefix: 'en', englishName: 'English (USA)', nativeLabel: 'English' },
   { code: 'en-GB', hreflang: 'en-GB', slug: 'english-uk', isoPrefix: 'en-gb', englishName: 'English (UK)', nativeLabel: 'English (UK)' },
   { code: 'es', hreflang: 'es', slug: 'spanish', isoPrefix: 'es', englishName: 'Spanish', nativeLabel: 'Español' },
@@ -134,6 +135,12 @@ const SSR_HOLIDAY_35 = {
 };
 
 function getSsrDiwali35Seo(code) {
+  if (code === 'ne') {
+    return {
+      title: "125 Best Diwali Wishes in Nepali 2026 | ZQ Feelings",
+      description: "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Nepali. Copy and share on WhatsApp. Diwali 8 Nov 2026."
+    };
+  }
   if (code === 'hi') {
     return {
       title: "125+ Best Diwali Shayari 2026 in Hindi - Happy Diwali Shayari | ZQ Feelings",

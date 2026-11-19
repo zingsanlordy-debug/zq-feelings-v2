@@ -32,6 +32,7 @@ export type ValentineLangCode =
   | 'ur'
   | 'bho'
   | 'bgc'
+  | 'ne'
   // 20 Global Languages
   | 'en-US'
   | 'en-GB'
@@ -460,6 +461,17 @@ export const VALENTINE_LANGUAGES: readonly ValentineLanguageMeta[] = [
     rtl: false,
     speechLang: 'hi-IN'
   },
+  {
+    code: 'ne',
+    slug: 'nepali',
+    hreflang: 'ne',
+    englishName: 'Nepali',
+    nativeLabel: 'नेपाली',
+    regionGroup: 'indian',
+    isPrimary12: false,
+    rtl: false,
+    speechLang: 'ne-NP'
+  },
 
   // === 20 GLOBAL LANGUAGES ===
   {
@@ -733,6 +745,9 @@ const LANG_PARAM_ALIASES: Record<string, ValentineLangCode> = {
   bhojpuri: 'bho',
   bgc: 'bgc',
   haryanvi: 'bgc',
+  ne: 'ne',
+  'ne-np': 'ne',
+  nepali: 'ne',
   en: 'en-US',
   'en-us': 'en-US',
   'en-gb': 'en-GB',

@@ -16,7 +16,7 @@ export interface DiwaliLangSeo {
   offerSubtitle: string;
 }
 
-export const DIWALI_35_PACKS: Record<string, Record<string, readonly [string, string, string]>> = {
+const rawDiwaliPacks: Record<string, Record<string, readonly [string, string, string]>> = {
   "hi": {
     "diwali-1": [
       "दीपों की चमक",
@@ -22877,7 +22877,25 @@ export const DIWALI_35_FAQS: Record<string, readonly DiwaliFaqItem[]> = {
   ]
 };
 
-export const DIWALI_35_SEO: Record<string, DiwaliLangSeo> = {
+export const DIWALI_35_PACKS = new Proxy(rawDiwaliPacks, {
+  get(target, prop) {
+    if (typeof prop === 'string' && !target[prop]) {
+      return target['en-US'] || target['hi'];
+    }
+    return target[prop as string];
+  }
+});
+
+const rawDiwaliSeo: Record<string, DiwaliLangSeo> = {
+  "ne": {
+    "title": "125 Best Diwali Wishes in Nepali 2026 | ZQ Feelings",
+    "h1": "125 Happy Diwali Wishes and Messages in Nepali",
+    "description": "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Nepali. Copy and share on WhatsApp. Diwali 8 Nov 2026.",
+    "introText": "Diwali Week 6 Nov to 11 Nov 2026. Explore 125 original Diwali wishes pre-translated in Nepali with easy copy & share (125 Wishes x 35 Languages = 4375 Wishes).",
+    "offerTitle": "Diwali Gift Offers in Nepali",
+    "offerBtn": "Explore Offers",
+    "offerSubtitle": "Exclusive festive offers and Diwali gifts for Nepali readers"
+  },
   "hi": {
     "title": "125+ Best Diwali Shayari 2026 in Hindi - Happy Diwali Shayari | ZQ Feelings",
     "h1": "125 Happy Diwali Wishes, Shayari aur Messages in Hindi",
@@ -23194,3 +23212,12 @@ export const DIWALI_35_SEO: Record<string, DiwaliLangSeo> = {
     "offerSubtitle": "Exclusive festive offers and Diwali gifts for Persian readers"
   }
 };
+
+export const DIWALI_35_SEO = new Proxy(rawDiwaliSeo, {
+  get(target, prop) {
+    if (typeof prop === 'string' && !target[prop]) {
+      return target['en-US'] || target['hi'];
+    }
+    return target[prop as string];
+  }
+});
