@@ -37,10 +37,45 @@ const GlobalLanguageContext = createContext<GlobalLanguageContextValue>({
   speechLangCode: 'hi-IN'
 });
 
+function extractLanguageFromPathOrQuery(): GlobalLanguageId | null {
+  if (typeof window === 'undefined') return null;
+  try {
+    const path = (window.location?.pathname || '').toLowerCase();
+    for (const l of GLOBAL_LANGUAGES) {
+      if (
+        path.includes(`/${l.id}/`) ||
+        path.endsWith(`/${l.id}`) ||
+        path.includes(`/${l.apiCode.toLowerCase()}/`) ||
+        path.endsWith(`/${l.apiCode.toLowerCase()}`)
+      ) {
+        return l.id;
+      }
+    }
+    if (window.location?.search) {
+      const searchParams = new URLSearchParams(window.location.search);
+      const langParam = searchParams.get('lang')?.toLowerCase().trim();
+      if (langParam) {
+        const matched = GLOBAL_LANGUAGES.find(
+          (l) => l.id === langParam || l.apiCode.toLowerCase() === langParam
+        );
+        if (matched) return matched.id;
+      }
+    }
+  } catch {
+    // ignore
+  }
+  return null;
+}
+
 export const GlobalLanguageProvider: React.FC<{ children: React.ReactNode }> = ({
   children
 }) => {
   const [globalLanguage, setGlobalLanguageState] = useState<GlobalLanguageId>(() => {
+    // Rule 2: URL takes highest priority
+    const fromUrl = extractLanguageFromPathOrQuery();
+    if (fromUrl) return fromUrl;
+
+    // Rule 3: Saved user preference
     try {
       const saved = window.localStorage.getItem(GLOBAL_LANG_STORAGE_KEY);
       if (saved && VALID_LANGUAGE_IDS.has(saved)) {
@@ -49,8 +84,21 @@ export const GlobalLanguageProvider: React.FC<{ children: React.ReactNode }> = (
     } catch {
       // ignore storage read error
     }
-    return detectDeviceGlobalLanguage();
+
+    // Rule 1: Direct Home Page default = Hinglish
+    return 'hinglish';
   });
+
+  useEffect(() => {
+    const handleUrlChange = () => {
+      const fromUrl = extractLanguageFromPathOrQuery();
+      if (fromUrl && fromUrl !== globalLanguage) {
+        setGlobalLanguageState(fromUrl);
+      }
+    };
+    window.addEventListener('popstate', handleUrlChange);
+    return () => window.removeEventListener('popstate', handleUrlChange);
+  }, [globalLanguage]);
 
   const setGlobalLanguage = (nextLang: GlobalLanguageId) => {
     setGlobalLanguageState(nextLang);
@@ -241,13 +289,16 @@ export const TranslatedText: React.FC<{
   const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
   const fallback = english || defaultDisplay;
   const translated = useTranslatedText(text, fallback);
+  const source = defaultDisplay || text;
+  const hinglishText = /[\u0900-\u097F]/.test(source) ? convertHindiToHinglish(source) : source;
 
   if (isHinglishMode) {
-    const source = defaultDisplay || text;
-    return <>{/[\u0900-\u097F]/.test(source) ? convertHindiToHinglish(source) : source}</>;
+    return <>{hinglishText}</>;
   }
-  if ((globalLanguage === 'english' || globalLanguage === 'english-uk') && (defaultDisplay || english)) {
-    return <>{defaultDisplay || english}</>;
-  }
-  return <>{translated}</>;
+  return (
+    <span className="inline-flex flex-col">
+      <span>{translated}</span>
+      <span className="text-[11px] font-normal text-slate-500 italic mt-0.5">({hinglishText})</span>
+    </span>
+  );
 };
