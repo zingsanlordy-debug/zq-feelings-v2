@@ -125,6 +125,7 @@ export interface Shayari {
   categoryName: string;
   categoryIcon: string;
   title: string;
+  titleEnglish?: string;
   lines: string[]; // 2 lines or 4 lines
   linesHindi: string[];
   linesHinglish: string[];

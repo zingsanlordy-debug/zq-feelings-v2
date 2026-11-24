@@ -6,7 +6,6 @@
 import React, { useState, useEffect, useMemo, useRef, useDeferredValue, Suspense, lazy } from 'react';
 import { Analytics } from "@vercel/analytics/react";
 import { ConfettiSparkles } from './components/ConfettiSparkles';
-import { BindasIntroModal } from './components/BindasIntroModal';
 import { Header, AppRoute } from './components/Header';
 import { HomePage } from './components/HomePage';
 import { Footer } from './components/Footer';
@@ -994,9 +993,6 @@ export default function App() {
     <div className="relative min-h-screen w-full max-w-full overflow-x-clip bg-white text-slate-800 flex flex-col font-poppins selection:bg-[#d94f70] selection:text-white">
       {/* 2. THEME: WHITE BACKGROUND WITH LIGHT PINK AMBIENCE & PASTEL FLOATING HEARTS */}
       <ConfettiSparkles />
-
-      {/* 2-Second Google-Safe Bindas Intro Screen */}
-      <BindasIntroModal />
 
       {/* Website Header with 3D Pink Headline and 4 Main Buttons */}
       <Header

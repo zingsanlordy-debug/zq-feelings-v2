@@ -209,7 +209,8 @@ export function useTranslatedShayariLines(
 ): { lines: string[]; languageBadge: string; isRtl: boolean } {
   const { globalLanguage, activeLanguageOption, isRtl } = useGlobalLanguage();
 
-  const joinedHindi = useMemo(() => linesHindi.join('\n'), [linesHindi]);
+  const safeLinesHindi = Array.isArray(linesHindi) ? linesHindi : [];
+  const joinedHindi = useMemo(() => safeLinesHindi.join('\n'), [safeLinesHindi]);
   const joinedEnglish = useMemo(
     () => (linesEnglish && linesEnglish.length > 0 ? linesEnglish.join('\n') : undefined),
     [linesEnglish]

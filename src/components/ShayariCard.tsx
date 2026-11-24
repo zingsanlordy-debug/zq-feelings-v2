@@ -36,7 +36,8 @@ import {
 import {
   getStatic35CategoryHeading,
   getStatic35ShayariLines,
-  getStatic35ShayariTitle
+  getStatic35ShayariTitle,
+  hasStatic35ContentForShayari
 } from '../data/static35/static35Loader';
 import { PostReportTriggerAndDrawer, UgcSeoSafeFooter } from './PostReportAndFooter';
 import { formatShayariCopyText } from '../utils/copyShayariFormat';
@@ -149,7 +150,7 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
   }, [availableFonts]);
 
   const currentFontOption = useMemo(
-    () => availableFonts.find((f) => f.id === selectedFont) || availableFonts[0],
+    () => availableFonts.find((f) => f.id === selectedFont) || availableFonts[0] || HINDI_FONTS_30[0],
     [availableFonts, selectedFont]
   );
 
@@ -400,7 +401,7 @@ const ShayariCardView: React.FC<ResolvedCardViewProps> = ({
             itemProp="text"
             dir={isRtl ? 'rtl' : 'ltr'}
             style={currentFontOption?.fontFamily ? { fontFamily: currentFontOption.fontFamily } : undefined}
-            className={`space-y-3.5 text-center tracking-wide transition-all duration-200 ${shayariTypographyClass} ${currentFontOption.fontClass || ''} ${selectedFont === 'sparkle' ? 'bg-[#fff0f3] p-5 rounded-2xl border border-[#ffe4e8]' : ''} ${selectedFont === 'neon' ? 'drop-shadow-[0_2px_10px_rgba(255,100,50,0.4)] text-[#d94f70]' : ''}`}
+            className={`space-y-3.5 text-center tracking-wide transition-all duration-200 ${shayariTypographyClass} ${currentFontOption?.fontClass || ''} ${selectedFont === 'sparkle' ? 'bg-[#fff0f3] p-5 rounded-2xl border border-[#ffe4e8]' : ''} ${selectedFont === 'neon' ? 'drop-shadow-[0_2px_10px_rgba(255,100,50,0.4)] text-[#d94f70]' : ''}`}
           >
             {displayLines.map((line, idx) => (
               <p
@@ -689,7 +690,7 @@ const LiveShayariCardBranch: React.FC<ShayariCardProps> = (props) => {
     shayari.linesUrdu
   );
 
-  const translatedTitle = useTranslatedText(shayari.title);
+  const translatedTitle = useTranslatedText(shayari.title, shayari.titleEnglish);
   const translatedCategoryName = useTranslatedText(shayari.categoryName);
 
   const effectiveLanguage = resolveShayariLanguage(shayari, rawLines, currentLanguage);
@@ -730,7 +731,11 @@ const LiveShayariCardBranch: React.FC<ShayariCardProps> = (props) => {
 };
 
 export const ShayariCard: React.FC<ShayariCardProps> = (props) => {
-  if (props.staticLangCode && !props.shayari.id.startsWith('christmas-')) {
+  if (
+    props.staticLangCode &&
+    !props.shayari.id.startsWith('christmas-') &&
+    hasStatic35ContentForShayari(props.shayari, props.staticLangCode)
+  ) {
     return <Static35ShayariCardBranch {...props} staticLangCode={props.staticLangCode} />;
   }
   return <LiveShayariCardBranch {...props} />;

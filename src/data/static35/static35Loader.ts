@@ -5,6 +5,7 @@ import {
   STATIC35_INLINE_TITLES
 } from './static35TitlesBase';
 import { DIWALI_35_PACKS } from './diwali35Data';
+import { convertHindiTitleToHinglish } from '../../utils/globalTranslations';
 
 export type Static35EntryTuple = readonly [string, ...string[]];
 export type Static35LangMap = Record<string, Static35EntryTuple>;
@@ -157,10 +158,10 @@ export function getStatic35ShayariTitle(
   }
   const inlinePair = STATIC35_INLINE_TITLES[shayari.id];
   if (lang === 'en-US') {
-    return inlinePair?.[0] || shayari.title;
+    return inlinePair?.[0] || shayari.titleEnglish || shayari.title;
   }
   if (lang === 'hi-Latn') {
-    return inlinePair?.[1] || shayari.title;
+    return inlinePair?.[1] || convertHindiTitleToHinglish(shayari.title);
   }
   const pack = loadedLanguageMaps.get(lang);
   const tuple = pack?.[shayari.id];
@@ -168,6 +169,29 @@ export function getStatic35ShayariTitle(
     return tuple[0];
   }
   return lang.startsWith('en') ? inlinePair?.[0] || shayari.title : shayari.title;
+}
+
+export function hasStatic35CategoryHeading(
+  catKey: string,
+  lang: ValentineLangCode
+): boolean {
+  return Boolean(STATIC35_CATEGORY_HEADINGS[lang]?.[catKey]);
+}
+
+export function hasStatic35ContentForShayari(
+  shayari: Shayari,
+  lang: ValentineLangCode
+): boolean {
+  if (lang === 'hi' || lang === 'hi-Latn') {
+    return true;
+  }
+  if (shayari.id.startsWith('diwali-')) {
+    return Boolean(DIWALI_35_PACKS[lang]?.[shayari.id]);
+  }
+  if (lang === 'en-US') {
+    return Boolean(STATIC35_INLINE_TITLES[shayari.id]?.[0] || shayari.titleEnglish);
+  }
+  return Boolean(loadedLanguageMaps.get(lang)?.[shayari.id]);
 }
 
 /**

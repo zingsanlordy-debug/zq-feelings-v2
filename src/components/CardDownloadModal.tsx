@@ -109,8 +109,8 @@ export const CardDownloadModal: React.FC<CardDownloadModalProps> = ({
 
           {/* Shayari in Selected Font (19px, line-height 1.8) */}
           <div
-            className={`space-y-3 text-[19px] leading-[1.8] font-semibold text-slate-900 ${fontOption.fontClass || ''}`}
-            style={fontOption.fontFamily ? { fontFamily: fontOption.fontFamily } : undefined}
+            className={`space-y-3 text-[19px] leading-[1.8] font-semibold text-slate-900 ${fontOption?.fontClass || ''}`}
+            style={fontOption?.fontFamily ? { fontFamily: fontOption.fontFamily } : undefined}
           >
             {displayLines.map((line, idx) => (
               <p

@@ -25,6 +25,7 @@ import {
 import {
   ensureStatic35LanguageLoaded,
   getStatic35CategoryHeading,
+  hasStatic35CategoryHeading,
   isStatic35LanguageReady
 } from '../data/static35/static35Loader';
 import { getCategorySeoDetail } from '../data/categories/categorySeoContent';
@@ -203,6 +204,10 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
   );
 
   const langMeta = VALENTINE_LANGUAGE_MAP.get(activeLang) || VALENTINE_LANGUAGES[0];
+  const effectiveRtl = activeLanguageOption ? activeLanguageOption.rtl : langMeta.rtl;
+  const effectiveNativeLabel = activeLanguageOption
+    ? activeLanguageOption.nativeLabel
+    : langMeta.nativeLabel;
 
   const fallbackHeading = activeMaafiSubObj
     ? activeMaafiSubObj.name
@@ -215,6 +220,20 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
         : 'Feelings Shayari (फीलिंग्स शायरी)';
 
   const staticHeading = getStatic35CategoryHeading(currentCatKey, activeLang, fallbackHeading);
+  const hasStaticHeading =
+    activeLang === 'hi' ||
+    activeLang === 'hi-Latn' ||
+    hasStatic35CategoryHeading(currentCatKey, activeLang);
+  const translatedDynamicHeading = useTranslatedText(
+    fallbackHeading,
+    activeMaafiSubObj
+      ? activeMaafiSubObj.englishTitle
+      : activeFeelObj
+        ? activeFeelObj.name
+        : 'Feelings Shayari'
+  );
+  const displayHeading = hasStaticHeading ? staticHeading : translatedDynamicHeading;
+
   const sectionShortLabel = activeMaafiSubObj
     ? `${activeMaafiSubObj.englishTitle} Shayari`
     : activeFeelObj
@@ -227,6 +246,15 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
     () => getCategorySeoDetail(activeCategory !== 'all' ? activeCategory : undefined),
     [activeCategory]
   );
+
+  const rawCatIntroText = catSeoDetail?.introText || '';
+  const translatedCatIntroText = useTranslatedText(rawCatIntroText);
+  const displayCatIntroText =
+    activeLang === 'hi-Latn'
+      ? convertHindiLineToHinglish(rawCatIntroText)
+      : activeLang === 'hi'
+        ? rawCatIntroText
+        : translatedCatIntroText;
 
   const [visibleCardCount, setVisibleCardCount] = useState<number>(10);
   useEffect(() => {
@@ -246,7 +274,7 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
 
   return (
     <div
-      dir={langMeta.rtl ? 'rtl' : 'ltr'}
+      dir={effectiveRtl ? 'rtl' : 'ltr'}
       className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 space-y-6 bg-white"
     >
       {/* Top Category Header + Back to Home + 35-Language Static Drawer */}
@@ -272,23 +300,19 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
                 : activeFeelObj
                   ? `${activeFeelObj.icon} `
                   : '💗 '}
-              {staticHeading}
+              {displayHeading}
             </h1>
           </div>
           <span className="px-3.5 py-1 rounded-full bg-[#fff0f3] text-[#d94f70] font-extrabold text-[14px] sm:text-[15px] border border-[#ffe4e8] tabular-nums">
-            {categoryShayaris.length} Shayari • {langMeta.nativeLabel}
+            {categoryShayaris.length} Shayari • {effectiveNativeLabel}
           </span>
         </div>
 
         {/* 2-3 Line SEO Friendly Category Intro (Google Top 1 Ranking) */}
-        {catSeoDetail?.introText && (
+        {rawCatIntroText && (
           <div className="mt-3 bg-[#fff8f9] border border-[#ffe4e8] rounded-2xl p-4 sm:p-5 shadow-2xs">
             <p className="text-[14px] sm:text-[15px] font-semibold text-slate-700 leading-relaxed">
-              {activeLang === 'hi-Latn'
-                ? convertHindiLineToHinglish(catSeoDetail.introText)
-                : activeLang === 'hi'
-                  ? catSeoDetail.introText
-                  : useTranslatedText(catSeoDetail.introText)}
+              {displayCatIntroText}
             </p>
           </div>
         )}
