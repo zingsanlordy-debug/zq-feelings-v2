@@ -179,13 +179,15 @@ export function useTranslatedText(
     }
 
     setTranslated(sourceHindiOrText);
-    void requestDynamicTranslation(sourceHindiOrText, globalLanguage, englishFallback).then(
-      (res) => {
+    void requestDynamicTranslation(sourceHindiOrText, globalLanguage, englishFallback)
+      .then((res) => {
         if (!cancelled) {
           setTranslated(res);
         }
-      }
-    );
+      })
+      .catch(() => {
+        // ignore network error
+      });
 
     return () => {
       cancelled = true;
@@ -252,11 +254,15 @@ export function useTranslatedShayariLines(
     }
 
     setAsyncStanza(fallbackText);
-    void requestDynamicTranslation(joinedHindi, globalLanguage, joinedEnglish).then((res) => {
-      if (!cancelled) {
-        setAsyncStanza(res);
-      }
-    });
+    void requestDynamicTranslation(joinedHindi, globalLanguage, joinedEnglish)
+      .then((res) => {
+        if (!cancelled) {
+          setAsyncStanza(res);
+        }
+      })
+      .catch(() => {
+        // ignore network error
+      });
 
     return () => {
       cancelled = true;

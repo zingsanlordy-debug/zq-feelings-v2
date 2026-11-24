@@ -3,11 +3,14 @@ import App from './App.tsx';
 import './index.css';
 import { FontSizeProvider } from './context/FontSizeContext';
 import { GlobalLanguageProvider } from './context/GlobalLanguageContext';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 createRoot(document.getElementById('root')!).render(
-  <GlobalLanguageProvider>
-    <FontSizeProvider>
-      <App />
-    </FontSizeProvider>
-  </GlobalLanguageProvider>
+  <ErrorBoundary>
+    <GlobalLanguageProvider>
+      <FontSizeProvider>
+        <App />
+      </FontSizeProvider>
+    </GlobalLanguageProvider>
+  </ErrorBoundary>
 );
