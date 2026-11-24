@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ArrowLeft, Heart, Menu, Moon, Search, Sun, X } from 'lucide-react';
 import { LanguageSelectorDropdown } from './LanguageSelectorDropdown';
-import { useGlobalLanguage } from '../context/GlobalLanguageContext';
+import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
 
 export type AppRoute =
   | 'home'
@@ -184,12 +184,7 @@ export const Header: React.FC<HeaderProps> = ({
     onNavigate(route);
   };
 
-  const fullHomeDescription =
-    globalLanguage === 'english'
-      ? 'Discover 5,900+ original shayaris across 63+ categories including Love, Sad, Attitude, Festivals & Sanskar. Supported in 77 languages with 240+ stylish fonts, 1-click copy, and WhatsApp/Instagram/Facebook share. Download custom photo cards, write your own shayari, or upload photos in ZQ Moments — 100% Free!'
-      : globalLanguage === 'urdu'
-        ? '63 سے زیادہ زمروں میں 5,900 سے زائد دل چھو لینے والی اصل شاعری، جن میں محبت، درد، تہوار اور رسومات شامل ہیں۔ 77 زبانوں اور 240 سے زیادہ اسٹائلش فونٹس کے ساتھ 1-کلک کاپی، واٹس ایپ شیئر، فوٹو کارڈ ڈاؤن لوڈ، اپنی شاعری اور لمحات — 100% مفت!'
-        : EXACT_HOME_SEO_DESCRIPTION;
+  const fullHomeDescription = useTranslatedText(EXACT_HOME_SEO_DESCRIPTION);
 
   return (
     <header className="w-full max-w-full border-b border-[#ffe4e8] bg-white shadow-xs">

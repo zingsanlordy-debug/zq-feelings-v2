@@ -71,11 +71,11 @@ export const GlobalLanguageProvider: React.FC<{ children: React.ReactNode }> = (
   children
 }) => {
   const [globalLanguage, setGlobalLanguageState] = useState<GlobalLanguageId>(() => {
-    // Rule 2: URL takes highest priority
+    // 1st Priority: URL language (/ta/, /ur/, etc.)
     const fromUrl = extractLanguageFromPathOrQuery();
     if (fromUrl) return fromUrl;
 
-    // Rule 3: Saved user preference
+    // 2nd Priority: Saved user preference in localStorage
     try {
       const saved = window.localStorage.getItem(GLOBAL_LANG_STORAGE_KEY);
       if (saved && VALID_LANGUAGE_IDS.has(saved)) {
@@ -85,8 +85,14 @@ export const GlobalLanguageProvider: React.FC<{ children: React.ReactNode }> = (
       // ignore storage read error
     }
 
-    // Rule 1: Direct Home Page default = Hinglish
-    return 'hinglish';
+    // 3rd Priority: Mobile / Browser language auto-detection (77 languages)
+    const detected = detectDeviceGlobalLanguage();
+    if (detected && VALID_LANGUAGE_IDS.has(detected) && detected !== 'hinglish') {
+      return detected;
+    }
+
+    // 4th Priority: English fallback
+    return 'english';
   });
 
   useEffect(() => {
@@ -231,7 +237,12 @@ export function useTranslatedShayariLines(
     return getSyncTranslation(joinedHindi, joinedEnglish, globalLanguage);
   }, [globalLanguage, linesUrdu, linesHinglish, linesEnglish, joinedHindi, joinedEnglish]);
 
-  const [asyncStanza, setAsyncStanza] = useState<string>(syncStanza ?? joinedHindi);
+  const fallbackText =
+    globalLanguage === 'hindi' || globalLanguage === 'hinglish' || globalLanguage === 'default'
+      ? joinedHindi
+      : (joinedEnglish || joinedHindi);
+
+  const [asyncStanza, setAsyncStanza] = useState<string>(syncStanza ?? fallbackText);
 
   useEffect(() => {
     let cancelled = false;
@@ -240,7 +251,7 @@ export function useTranslatedShayariLines(
       return;
     }
 
-    setAsyncStanza(joinedHindi);
+    setAsyncStanza(fallbackText);
     void requestDynamicTranslation(joinedHindi, globalLanguage, joinedEnglish).then((res) => {
       if (!cancelled) {
         setAsyncStanza(res);
@@ -250,7 +261,7 @@ export function useTranslatedShayariLines(
     return () => {
       cancelled = true;
     };
-  }, [syncStanza, joinedHindi, joinedEnglish, globalLanguage]);
+  }, [syncStanza, joinedHindi, joinedEnglish, globalLanguage, fallbackText]);
 
   const finalStanza = syncStanza ?? asyncStanza;
   const lines = useMemo(

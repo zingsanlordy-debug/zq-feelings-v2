@@ -603,66 +603,7 @@ export const HomePage: React.FC<HomePageProps> = ({
         </div>
       </section>
 
-      {/* 7. RECENT & TRENDING SHAYARI */}
-      {trendingShayaris.length > 0 && isFavorite && onToggleFavorite && (
-        <section className="order-1 md:order-5 bg-[#fff8f9] border border-[#ffe4e8] rounded-3xl p-4 sm:p-9 flex flex-col gap-5 sm:gap-6">
-          <div className="flex flex-col gap-3 border-b border-[#ffe4e8] pb-4 sm:pb-5">
-            <div className="flex items-center gap-3">
-              <Flame className="w-7 h-7 text-[#d94f70] shrink-0" />
-              <h2 className="font-rozha text-[21px] sm:text-[26px] font-bold text-[#d94f70] leading-snug">
-                <TranslatedText
-                  text="ट्रेंडिंग और नई शायरी (Recent & Trending Shayari)"
-                  english="Recent & Trending Shayari"
-                  defaultDisplay="Recent & Trending Shayari"
-                />
-              </h2>
-            </div>
 
-            <div className="flex flex-col gap-2.5 pt-1">
-              {onOpenWriteShayari && (
-                <a
-                  href="/apni-shayari-likhe"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    onOpenWriteShayari();
-                  }}
-                  className="inline-flex items-center justify-between px-4 py-2.5 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[14px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer shadow-xs max-w-sm"
-                >
-                  <span>Apni Shayari Likhe</span>
-                  <ArrowRight className="w-4 h-4" />
-                </a>
-              )}
-
-              <a
-                href="/christmas-shayari"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onOpenFestival('christmas');
-                }}
-                className="inline-flex items-center justify-between px-4 py-2.5 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[14px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer shadow-xs max-w-sm"
-              >
-                <span>Christmas Day Special Wishes Shayari Collection</span>
-                <ArrowRight className="w-4 h-4" />
-              </a>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6">
-            {recentTwoShayaris.map((shayari) => (
-              <ShayariCard
-                key={shayari.id}
-                shayari={shayari}
-                isFavorite={isFavorite(shayari.id)}
-                onToggleFavorite={onToggleFavorite}
-                currentLanguage={currentLanguage}
-                onOpenCardModal={onOpenCardModal}
-                onOpenComments={onOpenComments}
-                onOpenDetail={onOpenDetail}
-              />
-            ))}
-          </div>
-        </section>
-      )}
 
       {/* 8. APNI SHAYARI LIKHE */}
       {onOpenWriteShayari && (

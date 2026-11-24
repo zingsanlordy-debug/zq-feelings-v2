@@ -730,7 +730,7 @@ const LiveShayariCardBranch: React.FC<ShayariCardProps> = (props) => {
 };
 
 export const ShayariCard: React.FC<ShayariCardProps> = (props) => {
-  if (props.staticLangCode) {
+  if (props.staticLangCode && !props.shayari.id.startsWith('christmas-')) {
     return <Static35ShayariCardBranch {...props} staticLangCode={props.staticLangCode} />;
   }
   return <LiveShayariCardBranch {...props} />;

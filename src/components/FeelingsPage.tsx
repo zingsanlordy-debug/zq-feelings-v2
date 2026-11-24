@@ -11,7 +11,7 @@ import { ShayariCard } from './ShayariCard';
 import { ShayariPagination } from './ShayariPagination';
 import { getPaginatedSlice } from '../utils/pagination';
 import { Shayari, FontStyleId, MaafiSubCategory } from '../types/shayari';
-import { useGlobalLanguage } from '../context/GlobalLanguageContext';
+import { useGlobalLanguage, useTranslatedText } from '../context/GlobalLanguageContext';
 import {
   VALENTINE_LANGUAGE_MAP,
   VALENTINE_LANGUAGES,
@@ -281,12 +281,14 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
         </div>
 
         {/* 2-3 Line SEO Friendly Category Intro (Google Top 1 Ranking) */}
-        {catSeoDetail?.introText && (activeLang === 'hi' || activeLang === 'hi-Latn') && (
+        {catSeoDetail?.introText && (
           <div className="mt-3 bg-[#fff8f9] border border-[#ffe4e8] rounded-2xl p-4 sm:p-5 shadow-2xs">
             <p className="text-[14px] sm:text-[15px] font-semibold text-slate-700 leading-relaxed">
               {activeLang === 'hi-Latn'
                 ? convertHindiLineToHinglish(catSeoDetail.introText)
-                : catSeoDetail.introText}
+                : activeLang === 'hi'
+                  ? catSeoDetail.introText
+                  : useTranslatedText(catSeoDetail.introText)}
             </p>
           </div>
         )}
@@ -425,7 +427,7 @@ export const FeelingsPage: React.FC<FeelingsPageProps> = ({
       {/* ALL FEELINGS CATEGORIES */}
       <section className="pt-6 border-t-2 border-[#ffe4e8] space-y-5">
         <h2 className="font-rozha text-[22px] sm:text-[26px] font-bold text-[#d94f70]">
-          💗 All Feelings Shayari Categories (35 Languages)
+          💗 All Feelings Shayari Categories
         </h2>
 
         <div className="grid grid-cols-1 min-[360px]:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">

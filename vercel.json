@@ -7,6 +7,146 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/diwali(.*)",
+      "destination": "/diwali-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/holi(.*)",
+      "destination": "/holi-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/eid(.*)",
+      "destination": "/eid-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/christmas(.*)",
+      "destination": "/christmas-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/new-year(.*)",
+      "destination": "/new-year-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/rakhi(.*)",
+      "destination": "/rakshabandhan-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/rakshabandhan(.*)",
+      "destination": "/rakshabandhan-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/navratri(.*)",
+      "destination": "/navratri-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/dussehra(.*)",
+      "destination": "/dussehra-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/janmashtami(.*)",
+      "destination": "/janmashtami-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/shivratri(.*)",
+      "destination": "/mahashivratri-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/republic-day(.*)",
+      "destination": "/republic-day-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/independence-day(.*)",
+      "destination": "/independence-day-shayari$1",
+      "permanent": true
+    },
+    {
+      "source": "/love(.*)",
+      "destination": "/feelings/love-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/sad(.*)",
+      "destination": "/feelings/sad-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/attitude(.*)",
+      "destination": "/feelings/attitude-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/dosti(.*)",
+      "destination": "/feelings/dosti-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/birthday(.*)",
+      "destination": "/feelings/birthday-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/good-morning(.*)",
+      "destination": "/feelings/good-morning-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/good-night(.*)",
+      "destination": "/feelings/good-night-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/motivational(.*)",
+      "destination": "/feelings/motivational-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/breakup(.*)",
+      "destination": "/feelings/breakup-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/bewafa(.*)",
+      "destination": "/feelings/bewafa-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/sorry(.*)",
+      "destination": "/feelings/sorry-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/alone(.*)",
+      "destination": "/feelings/alone-shayari/$1",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/terms-and-conditions",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
       "source": "/feelings/romantic-love-shayari(.*)",
       "destination": "/feelings/love-shayari/$1",
       "permanent": true

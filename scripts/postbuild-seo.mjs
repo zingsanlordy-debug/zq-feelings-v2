@@ -131,6 +131,16 @@ for (const lang of SSR_VALENTINE_LANGS) {
   }
 }
 
+// Guarantee all languages x 5 pages of Christmas are pre-rendered into static HTML
+for (const lang of SSR_VALENTINE_LANGS) {
+  for (let pg = 1; pg <= 5; pg++) {
+    const iso = lang.isoPrefix || 'hi';
+    const basePath = `/${iso}/christmas-shayari`;
+    const fullPath = pg === 1 ? basePath : `${basePath}/page/${pg}`;
+    routesToPrerender.add(fullPath);
+  }
+}
+
 let generatedCount = 0;
 for (const rawRoute of routesToPrerender) {
   const cleanRel = rawRoute.replace(/^\/+|\/+$/g, '');

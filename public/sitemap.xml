@@ -475,6 +475,36 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/diwali-shayari</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/diwali-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/diwali-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/diwali-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/diwali-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/en/diwali-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1201,6 +1231,12 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/new-year-shayari</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/en/new-year-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1375,10 +1411,58 @@
     <priority>0.88</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/hi-latn/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi-latn/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi-latn/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi-latn/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/hi-latn/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/ta/christmas-shayari</loc>
@@ -1387,10 +1471,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ta/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ta/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ta/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ta/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/te/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/te/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/te/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/te/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/te/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/kn/christmas-shayari</loc>
@@ -1399,10 +1531,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/kn/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/kn/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/kn/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/kn/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/ml/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ml/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ml/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ml/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ml/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/mr/christmas-shayari</loc>
@@ -1411,10 +1591,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/mr/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/mr/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/mr/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/mr/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/gu/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/gu/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/gu/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/gu/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/gu/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/bn/christmas-shayari</loc>
@@ -1423,10 +1651,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bn/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bn/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bn/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bn/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/pa/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pa/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pa/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pa/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pa/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/or/christmas-shayari</loc>
@@ -1435,10 +1711,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/or/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/or/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/or/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/or/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/as/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/as/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/as/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/as/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/as/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/ur/christmas-shayari</loc>
@@ -1447,10 +1771,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ur/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ur/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ur/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ur/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/bho/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bho/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bho/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bho/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bho/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/bgc/christmas-shayari</loc>
@@ -1459,10 +1831,88 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bgc/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bgc/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bgc/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/bgc/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/christmas-shayari</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ne/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/en/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/en-gb/christmas-shayari</loc>
@@ -1471,10 +1921,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en-gb/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en-gb/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en-gb/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/en-gb/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/es/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/es/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/es/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/es/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/es/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/pt/christmas-shayari</loc>
@@ -1483,10 +1981,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pt/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pt/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pt/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pt/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/fr/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fr/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fr/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fr/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fr/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/de/christmas-shayari</loc>
@@ -1495,10 +2041,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/de/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/de/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/de/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/de/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/it/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/it/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/it/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/it/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/it/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/ja/christmas-shayari</loc>
@@ -1507,10 +2101,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ja/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ja/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ja/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ja/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/ko/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ko/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ko/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ko/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ko/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/ar/christmas-shayari</loc>
@@ -1519,10 +2161,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ar/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ar/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ar/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ar/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/th/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/th/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/th/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/th/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/th/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/tl/christmas-shayari</loc>
@@ -1531,10 +2221,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tl/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tl/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tl/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tl/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/ru/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ru/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ru/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ru/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/ru/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/zh-cn/christmas-shayari</loc>
@@ -1543,10 +2281,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/zh-cn/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/zh-cn/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/zh-cn/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/zh-cn/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/id/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/id/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/id/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/id/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/id/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/tr/christmas-shayari</loc>
@@ -1555,10 +2341,58 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tr/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tr/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tr/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/tr/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/vi/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/vi/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/vi/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/vi/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/vi/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/nl/christmas-shayari</loc>
@@ -1567,16 +2401,88 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/nl/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/nl/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/nl/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/nl/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/pl/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pl/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pl/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pl/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/pl/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/fa/christmas-shayari</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fa/christmas-shayari/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fa/christmas-shayari/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fa/christmas-shayari/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/fa/christmas-shayari/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/lohri-shayari</loc>
@@ -2354,6 +3260,54 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/haryanvi/page/8</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/6</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/7</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings-shayari/nepali/page/8</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -4129,6 +5083,60 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/6</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/7</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/8</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/nepali/page/9</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/love-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -5749,6 +6757,42 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/nepali/page/6</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -6919,6 +7963,36 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/yaad-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/yaad-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/yaad-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/yaad-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/yaad-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/yaad-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -7789,6 +8863,24 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/kismat-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/kismat-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/kismat-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/kismat-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -8414,6 +9506,24 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/khushi-shayari/haryanvi/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/khushi-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/khushi-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/khushi-shayari/nepali/page/3</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -9314,6 +10424,42 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/haryanvi/page/6</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/alone-shayari/nepali/page/6</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -10579,6 +11725,42 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/nepali/page/6</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/motivational-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -11839,6 +13021,42 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/nepali/page/5</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/nepali/page/6</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/sorry-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -12919,6 +14137,30 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/attitude-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/attitude-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/attitude-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/attitude-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/attitude-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -13754,6 +14996,30 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/boys-shayari/haryanvi/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/boys-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/boys-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/boys-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/boys-shayari/nepali/page/4</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -14599,6 +15865,30 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/girls-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/girls-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/girls-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/girls-shayari/nepali/page/4</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/girls-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -15259,6 +16549,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/dosti-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/dosti-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/dosti-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -15674,6 +16976,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/bewafa-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/bewafa-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/bewafa-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -16099,6 +17413,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/breakup-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/breakup-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/breakup-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -16514,6 +17840,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/good-morning-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/good-morning-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/good-morning-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -16939,6 +18277,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/good-night-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/good-night-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/good-night-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -17354,6 +18704,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/2-line-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/2-line-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/2-line-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -17779,6 +19141,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/family-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/family-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/family-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -18194,6 +19568,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/bhai-behen-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/bhai-behen-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/bhai-behen-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -18619,6 +20005,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/birthday-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/birthday-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/birthday-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -19034,6 +20432,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/miss-you-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/miss-you-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/miss-you-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -19459,6 +20869,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/heart-touching-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/heart-touching-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/heart-touching-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -19874,6 +21296,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/emotional-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/emotional-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/emotional-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -20299,6 +21733,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-love-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-love-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/sad-love-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -20719,6 +22165,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/khwab-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/khwab-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/khwab-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -21134,6 +22592,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/matlabi-duniya-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/matlabi-duniya-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/matlabi-duniya-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -21649,6 +23119,24 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/funny-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/funny-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/funny-shayari/nepali/page/3</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/funny-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -22099,6 +23587,12 @@
     <priority>0.78</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/sharabi-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/sharabi-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -22304,6 +23798,12 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/maa-se-maafi-shayari/haryanvi</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/maa-se-maafi-shayari/nepali</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.78</priority>
@@ -22519,6 +24019,12 @@
     <priority>0.78</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/papa-se-maafi-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/papa-se-maafi-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -22724,6 +24230,12 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/biwi-se-maafi-shayari/haryanvi</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/biwi-se-maafi-shayari/nepali</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.78</priority>
@@ -22939,6 +24451,12 @@
     <priority>0.78</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/feelings/husband-se-maafi-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/feelings/husband-se-maafi-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -23144,6 +24662,12 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/haryanvi</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/nepali</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
@@ -23444,6 +24968,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/rose-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/rose-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/rose-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -23869,6 +25405,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/propose-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/propose-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/propose-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -24284,6 +25832,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/chocolate-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/chocolate-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/chocolate-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -24709,6 +26269,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/teddy-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/teddy-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/teddy-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -25124,6 +26696,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/promise-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/promise-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/promise-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -25549,6 +27133,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/hug-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/hug-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/hug-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -25964,6 +27560,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/kiss-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/kiss-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/kiss-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -26389,6 +27997,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/valentine-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/valentine-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/valentine-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -26804,6 +28424,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/slap-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/slap-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/slap-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -27229,6 +28861,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/kick-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/kick-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/kick-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -27644,6 +29288,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/perfume-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/perfume-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/perfume-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -28069,6 +29725,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/flirting-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/flirting-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/flirting-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -28484,6 +30152,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/confession-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/confession-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/confession-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>
@@ -28909,6 +30589,18 @@
     <priority>0.70</priority>
   </url>
   <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/missing-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/missing-day-shayari/nepali/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/missing-day-shayari/english</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -29324,6 +31016,18 @@
   </url>
   <url>
     <loc>https://dil-ki-awaaz.vercel.app/valentine-week/breakup-day-shayari/haryanvi/page/2</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/breakup-day-shayari/nepali</loc>
+    <lastmod>2026-11-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.78</priority>
+  </url>
+  <url>
+    <loc>https://dil-ki-awaaz.vercel.app/valentine-week/breakup-day-shayari/nepali/page/2</loc>
     <lastmod>2026-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.70</priority>

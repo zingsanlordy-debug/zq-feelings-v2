@@ -30,6 +30,7 @@ import {
   parseStatic35LangToken
 } from '../data/static35/static35Meta';
 import { DIWALI_35_FAQS, DIWALI_35_SEO } from '../data/static35/diwali35Data';
+import { CHRISTMAS_35_FAQS, CHRISTMAS_35_SEO } from '../data/static35/christmas35Data';
 import { getCategorySeoDetail } from '../data/categories/categorySeoContent';
 
 export interface ParsedSeoRoute {
@@ -913,6 +914,47 @@ export function getSeoMetadataForState(params: {
             { name: 'Home', path: '/' },
             { name: 'Festival Shayari', path: '/festival-shayari' },
             { name: 'Diwali Wishes 2026', path: hindiBasePath },
+            ...(hasCustomLang ? [{ name: langMeta.englishName, path: langBasePath }] : []),
+            ...(activePage >= 2 ? [{ name: `Page ${activePage}`, path: canonicalPath }] : [])
+          ],
+          faqs
+        };
+      }
+
+      if (festivalCat === 'christmas') {
+        const cSeo = CHRISTMAS_35_SEO[langMeta.code] || CHRISTMAS_35_SEO['hi'];
+        const title =
+          activePage >= 2
+            ? `${cSeo.title.replace(/\s*\|\s*ZQ Feelings.*$/, '')} - Page ${activePage} | ZQ Feelings`
+            : cSeo.title;
+        const description =
+          activePage >= 2 ? `${cSeo.description} (Page ${activePage})` : cSeo.description;
+        const h1 = activePage >= 2 ? `${cSeo.h1} - Page ${activePage}` : cSeo.h1;
+        const faqs = (CHRISTMAS_35_FAQS[langMeta.code] || CHRISTMAS_35_FAQS['hi']).map((f) => ({
+          question: f.question,
+          answer: f.answer
+        }));
+
+        return {
+          title,
+          description,
+          canonicalPath,
+          hreflangPrefixSlug: 'christmas-shayari',
+          valentinePageSuffix: pageSuffix,
+          langCode: langMeta.hreflang,
+          h1,
+          section: '125 Christmas Wishes, Shayari & Messages 2027',
+          keywords: [
+            '125 Best Christmas Wishes 2027',
+            'Merry Christmas Shayari',
+            'Santa Claus Quotes',
+            'Christmas Family Wishes',
+            'ZQ Feelings'
+          ],
+          breadcrumbs: [
+            { name: 'Home', path: '/' },
+            { name: 'Festival Shayari', path: '/festival-shayari' },
+            { name: 'Christmas Wishes 2027', path: hindiBasePath },
             ...(hasCustomLang ? [{ name: langMeta.englishName, path: langBasePath }] : []),
             ...(activePage >= 2 ? [{ name: `Page ${activePage}`, path: canonicalPath }] : [])
           ],

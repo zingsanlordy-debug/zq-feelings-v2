@@ -135,6 +135,24 @@ const SSR_HOLIDAY_35 = {
 };
 
 function getSsrDiwali35Seo(code) {
+  if (code === 'ja') {
+    return {
+      title: "2026年ディワリのお祝いメッセージとシャヤリ集 | ZQ Feelings",
+      description: "2026年の最高のディワリお祝いシャヤリとメッセージ集。ラクシュミプージャやダンテラスの温かい祈りをワンタップでコピーしてWhatsAppでシェアしよう。"
+    };
+  }
+  if (code === 'ar') {
+    return {
+      title: "أفضل تهاني عيد ديوالي 2026 - رسائل وأشعار ديوالي | ZQ Feelings",
+      description: "أفضل تهاني عيد ديوالي وديوالي شاياري لعام 2026. اكتشف أروع رسائل لاكشمي بوجا ودارتيراس مع نسخ ومشاركة مباشرة على واتساب لتشارك الفرحة مع أحبابك."
+    };
+  }
+  if (code === 'ko') {
+    return {
+      title: "125 Best Diwali Wishes in Korean 2026 | ZQ Feelings",
+      description: "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Korean. Copy and share on WhatsApp."
+    };
+  }
   if (code === 'ne') {
     return {
       title: "125 Best Diwali Wishes in Nepali 2026 | ZQ Feelings",
@@ -163,6 +181,33 @@ function getSsrDiwali35Seo(code) {
   return {
     title: `125 Best Diwali Wishes in ${langObj.englishName} 2026 | ZQ Feelings`,
     description: `Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in ${langObj.englishName}. Copy and share on WhatsApp. Diwali 8 Nov 2026.`
+  };
+}
+
+function getSsrChristmas35Seo(code) {
+  if (code === 'hi') {
+    return {
+      title: "125 क्रिसमस शायरी 2027 - हैप्पी क्रिसमस डे विशेज शायरी | ZQ Feelings",
+      description: "125+ सर्वश्रेष्ठ क्रिसमस शायरी 2027। मेरी क्रिसमस विशेज, सांता क्लॉस कोट्स और यीशु मसीह संदेश 1-क्लिक में कॉपी और व्हाट्सएप पर शेयर करें。"
+    };
+  }
+  if (code === 'hi-Latn') {
+    return {
+      title: "125 Christmas Shayari 2027 in Hinglish - Happy Christmas Day Wishes | ZQ Feelings",
+      description: "100+ Best Merry Christmas Wishes 2027 in Hinglish, Santa Claus quotes & greetings for family & friends. Copy & share on WhatsApp. Christmas 25 Dec 2027."
+    };
+  }
+  if (code === 'en-US') {
+    return {
+      title: "125 Best Christmas Wishes & Shayari 2027 in English - Merry Christmas Quotes | ZQ Feelings",
+      description: "100+ Best Merry Christmas Wishes 2027 in English, Santa Claus quotes & greetings for family & friends. Copy & share on WhatsApp. Christmas 25 Dec 2027."
+    };
+  }
+  const langObj = SSR_VALENTINE_LANGS.find((l) => l.code === code) || SSR_VALENTINE_LANGS[0];
+  const engName = langObj.englishName;
+  return {
+    title: `125 Best Christmas Wishes & Shayari 2027 in ${engName} - Merry Christmas Quotes | ZQ Feelings`,
+    description: `100+ Best Merry Christmas Wishes 2027 in ${engName}, Santa Claus quotes & greetings for family & friends. Copy & share on WhatsApp. Christmas 25 Dec 2027.`
   };
 }
 
@@ -1321,6 +1366,38 @@ export function resolveServerSeoMeta(rawPathname) {
           { name: 'Home', path: '/' },
           { name: 'Festival Shayari', path: '/festival-shayari' },
           { name: 'Diwali Wishes 2026', path: hindiBasePath },
+          ...(hasCustomLang ? [{ name: langMeta.englishName, path: langBasePath }] : []),
+          ...(pg >= 2 ? [{ name: `Page ${pg}`, path: canonicalPath }] : [])
+        ]
+      };
+    }
+
+    if (holidayId === 'christmas') {
+      const iso = langMeta.isoPrefix || 'hi';
+      const hindiBasePath = `/hi/christmas-shayari`;
+      const langBasePath = `/${iso}/christmas-shayari`;
+      const canonicalPath = pg >= 2 ? `${langBasePath}/page/${pg}` : langBasePath;
+      const pageSuffix = pg >= 2 ? `/page/${pg}` : undefined;
+
+      const cSeo = getSsrChristmas35Seo(langMeta.code);
+      const title =
+        pg >= 2
+          ? `${cSeo.title.replace(/\s*\|\s*ZQ Feelings.*$/, '')} - Page ${pg} | ZQ Feelings`
+          : cSeo.title;
+      const description = pg >= 2 ? `${cSeo.description} (Page ${pg})` : cSeo.description;
+
+      return {
+        title,
+        description,
+        canonicalPath,
+        hreflangPrefixSlug: 'christmas-shayari',
+        valentinePageSuffix: pageSuffix,
+        langCode: langMeta.hreflang,
+        robots: 'index, follow',
+        breadcrumbs: [
+          { name: 'Home', path: '/' },
+          { name: 'Festival Shayari', path: '/festival-shayari' },
+          { name: 'Christmas Wishes 2027', path: hindiBasePath },
           ...(hasCustomLang ? [{ name: langMeta.englishName, path: langBasePath }] : []),
           ...(pg >= 2 ? [{ name: `Page ${pg}`, path: canonicalPath }] : [])
         ]

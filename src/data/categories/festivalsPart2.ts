@@ -9362,6 +9362,4906 @@ export const FESTIVALS_PART_2: Shayari[] = [
     ]
   },
   {
+    "id": "christmas-26",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सर्द हवाओं में सांता का संदेश आया",
+    "lines": [
+      "सर्द हवाओं में सांता का संदेश आया,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सर्द हवाओं में सांता का संदेश आया,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Sard hawaon mein santa ka sandesh aaya,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "In cold winter winds Santa's message came.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1338,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-26-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-27",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस की रात तारों की छांव तले",
+    "lines": [
+      "क्रिसमस की रात तारों की छांव तले,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस की रात तारों की छांव तले,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas ki raat taaron ki chhaon tale,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "On Christmas night under starry skies.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1351,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-27-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-28",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर दिल में आज मोहब्बत का दिया जले",
+    "lines": [
+      "हर दिल में आज मोहब्बत का दिया जले,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर दिल में आज मोहब्बत का दिया जले,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har dil mein aaj mohabbat ka diya jale,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May the lamp of love burn in every heart today.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1364,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-28-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-29",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "गांव की गलियों में गूंजे क्रिसमस के गीत",
+    "lines": [
+      "गांव की गलियों में गूंजे क्रिसमस के गीत,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "गांव की गलियों में गूंजे क्रिसमस के गीत,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Gaon ki galiyon mein goonje christmas ke geet,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas songs echo in village alleys.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1377,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-29-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-30",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "शहर की चमक में अपनों का प्यार मिले",
+    "lines": [
+      "शहर की चमक में अपनों का प्यार मिले,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "शहर की चमक में अपनों का प्यार मिले,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Shehar ki chamak mein apnon ka pyar mile,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "In city lights may you find loved ones' love.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1390,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-30-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-31",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "यीशु मसीह के चरणों में झुकता है संसार",
+    "lines": [
+      "यीशु मसीह के चरणों में झुकता है संसार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "यीशु मसीह के चरणों में झुकता है संसार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Yeshu masih ke charnon mein jhukta hai sansaar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "The world bows at the feet of Lord Jesus.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1403,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-31-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-32",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "खुशियों की डलिया लेकर सांता आया द्वार",
+    "lines": [
+      "खुशियों की डलिया लेकर सांता आया द्वार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "खुशियों की डलिया लेकर सांता आया द्वार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Khushiyon ki daliya lekar santa aaya dwar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Santa arrived at the door with a basket of joy.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1416,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-32-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-33",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "बर्फ की चादर पर मोमबत्तियों का प्रकाश",
+    "lines": [
+      "बर्फ की चादर पर मोमबत्तियों का प्रकाश,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "बर्फ की चादर पर मोमबत्तियों का प्रकाश,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Barf ki chaadar par mombattiyeon ka prakash,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Candlelight glows on a blanket of snow.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1429,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-33-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-34",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "बचपन की यादें और क्रिसमस का तोहफा",
+    "lines": [
+      "बचपन की यादें और क्रिसमस का तोहफा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "बचपन की यादें और क्रिसमस का तोहफा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Bachpan ki yaadein aur christmas ka tohfa,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Childhood memories and Christmas gifts.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1442,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-34-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-35",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिल से दुआ निकले हर अपने के वास्ते",
+    "lines": [
+      "दिल से दुआ निकले हर अपने के वास्ते,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिल से दुआ निकले हर अपने के वास्ते,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Dil se dua nikle har apne ke vaaste,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Prayers rise from the heart for every dear one.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1455,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-35-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-36",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "केले के पत्तों पर जगमग दीये और लाइट्स",
+    "lines": [
+      "केले के पत्तों पर जगमग दीये और लाइट्स,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "केले के पत्तों पर जगमग दीये और लाइट्स,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Jagmag diye aur lights ka yeh pyara mela,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Twinkle lights and glowing lamps all around.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1468,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-36-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-37",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "रात बारह बजे चर्च की घंटियों की गूंज",
+    "lines": [
+      "रात बारह बजे चर्च की घंटियों की गूंज,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "रात बारह बजे चर्च की घंटियों की गूंज,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Raat barah baje church ki ghantiyeon ki goonj,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Midnight echo of church bells ringing.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1481,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-37-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-38",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "तेरी यादों के बिना अधूरा है क्रिसमस",
+    "lines": [
+      "तेरी यादों के बिना अधूरा है क्रिसमस,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "तेरी यादों के बिना अधूरा है क्रिसमस,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Teri yaadon ke bina adhura hai christmas,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas is incomplete without your memories.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1494,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-38-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-39",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "चॉकलेट और केक की मिठास से सजे रिश्ते",
+    "lines": [
+      "चॉकलेट और केक की मिठास से सजे रिश्ते,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "चॉकलेट और केक की मिठास से सजे रिश्ते,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Chocolate aur cake ki mithaas se saje rishte,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Relationships sweetened with chocolate and cake.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1507,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-39-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-40",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सर्दियों की इस शाम में तेरा इंतज़ार है",
+    "lines": [
+      "सर्दियों की इस शाम में तेरा इंतज़ार है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सर्दियों की इस शाम में तेरा इंतज़ार है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Sardiyon ki is shaam mein tera intezaar hai,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Waiting for you in this wintry evening.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1520,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-40-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-41",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस ट्री पर सजी उम्मीदों की झालर",
+    "lines": [
+      "क्रिसमस ट्री पर सजी उम्मीदों की झालर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस ट्री पर सजी उम्मीदों की झालर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas tree par saji ummeedon ki jhalar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Rays of hope decorated on the Christmas tree.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1533,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-41-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-42",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "घर के आंगन में बच्चों की किलकारियां",
+    "lines": [
+      "घर के आंगन में बच्चों की किलकारियां,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "घर के आंगन में बच्चों की किलकारियां,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Ghar ke aangan mein bachchon ki kilkariyaan,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Children's cheerful laughter in the courtyard.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1546,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-42-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-43",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दूर देश से आया कोई अपना प्यारा सांता",
+    "lines": [
+      "दूर देश से आया कोई अपना प्यारा सांता,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दूर देश से आया कोई अपना प्यारा सांता,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Door desh se aaya koi apna pyara santa,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "A sweet Santa came from a distant land.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1559,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-43-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-44",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "यीशु के संदेश से महक उठे ये दुनिया",
+    "lines": [
+      "यीशु के संदेश से महक उठे ये दुनिया,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "यीशु के संदेश से महक उठे ये दुनिया,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Yeshu ke sandesh se mehak uthe yeh duniya,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May this world fragrance with Jesus' message.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1572,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-44-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-45",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर एक सांसी में बसा है क्रिसमस का जश्न",
+    "lines": [
+      "हर एक सांसी में बसा है क्रिसमस का जश्न,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर एक सांसी में बसा है क्रिसमस का जश्न,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har ek saans mein basa hai christmas ka jashn,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas celebration dwells in every breath.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1585,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-45-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-46",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सफ़ेद बर्फ में लाल सांता की प्यारी चाल",
+    "lines": [
+      "सफ़ेद बर्फ में लाल सांता की प्यारी चाल,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सफ़ेद बर्फ में लाल सांता की प्यारी चाल,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Safed barf mein laal santa ki pyari chaal,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Red Santa's cute walk in white snow.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1598,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-46-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-47",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "अपनों की हंसी से रोशन हो क्रिसमस ट्री",
+    "lines": [
+      "अपनों की हंसी से रोशन हो क्रिसमस ट्री,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "अपनों की हंसी से रोशन हो क्रिसमस ट्री,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Apnon ki hansi se roshan ho christmas tree,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May the Christmas tree glow with loved ones' smiles.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1611,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-47-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-48",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिल की गहराइयों से मेरी क्रिसमस दोस्तों",
+    "lines": [
+      "दिल की गहराइयों से मेरी क्रिसमस दोस्तों,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिल की गहराइयों से मेरी क्रिसमस दोस्तों,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Dil ki gehraiyon se meri christmas doston,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Merry Christmas friends from the depth of my heart.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1624,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-48-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-49",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "गांव के मेलों जैसी क्रिसमस की रौनक",
+    "lines": [
+      "गांव के मेलों जैसी क्रिसमस की रौनक,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "गांव के मेलों जैसी क्रिसमस की रौनक,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Gaon ke melon jaisi christmas ki raunak,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas charm like a village fair.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1637,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-49-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-50",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "शहर की ऊंची इमारतों पर जगमगाती लाइट",
+    "lines": [
+      "शहर की ऊंची इमारतों पर जगमगाती लाइट,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "शहर की ऊंची इमारतों पर जगमगाती लाइट,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Shehar ki unchi imaraton par jagmagati light,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Twinkling lights on tall city buildings.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1650,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-50-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-51",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "मखमली रातों में दुआओं का असर दिखे",
+    "lines": [
+      "मखमली रातों में दुआओं का असर दिखे,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "मखमली रातों में दुआओं का असर दिखे,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Makhmali raaton mein duaaon ka asar dikhe,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May the power of prayers show in velvet nights.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1663,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-51-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-52",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "प्यार का पैगाम लेकर आया दिसंबर महीना",
+    "lines": [
+      "प्यार का पैगाम लेकर आया दिसंबर महीना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "प्यार का पैगाम लेकर आया दिसंबर महीना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Pyar ka paigaam lekar aaya december mahina,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "December arrived carrying a message of love.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1676,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-52-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-53",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सांता की झोली से बरसे खुशियों के फूल",
+    "lines": [
+      "सांता की झोली से बरसे खुशियों के फूल,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सांता की झोली से बरसे खुशियों के फूल,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Santa ki jholi se barse khushiyon ke phool,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Flowers of joy rain from Santa's bag.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1689,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-53-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-54",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "रंग-बिरंगे उपहारों से भरा है हर कोना",
+    "lines": [
+      "रंग-बिरंगे उपहारों से भरा है हर कोना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "रंग-बिरंगे उपहारों से भरा है हर कोना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Rang-birange upaharon se bhara hai har kona,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Every corner is filled with colorful gifts.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1702,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-54-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-55",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "यीशु की रहमत से महके हर एक का घर",
+    "lines": [
+      "यीशु की रहमत से महके हर एक का घर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "यीशु की रहमत से महके हर एक का घर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Yeshu ki rehmat se mehke har ek ka ghar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May every home fragrance with Jesus' grace.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1715,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-55-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-56",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दोस्ती का रिश्ता और क्रिसमस का पर्व",
+    "lines": [
+      "दोस्ती का रिश्ता और क्रिसमस का पर्व,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दोस्ती का रिश्ता और क्रिसमस का पर्व,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Dosti ka rishta aur christmas ka parv,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "The bond of friendship and the festival of Christmas.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1728,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-56-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-57",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "ठंड के मौसम में चाय और क्रिसमस के किस्से",
+    "lines": [
+      "ठंड के मौसम में चाय और क्रिसमस के किस्से,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "ठंड के मौसम में चाय और क्रिसमस के किस्से,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Thand ke mausam mein chai aur christmas ke kisse,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Tea and Christmas tales in the chilly weather.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1741,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-57-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-58",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "तू जो मिल जाए तो हर दिन क्रिसमस है",
+    "lines": [
+      "तू जो मिल जाए तो हर दिन क्रिसमस है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "तू जो मिल जाए तो हर दिन क्रिसमस है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Tu jo mil jaye toh har din christmas hai,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "If I find you, every day is Christmas.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1754,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-58-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-59",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "मोमबत्ती की लौ से अंधेरा दूर भगाएं",
+    "lines": [
+      "मोमबत्ती की लौ से अंधेरा दूर भगाएं,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "मोमबत्ती की लौ से अंधेरा दूर भगाएं,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Mombatti ki lau se andhera door bhagayein,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Drive away darkness with candle flames.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1767,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-59-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-60",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "खुशियों का यह मेला कभी न हो कम",
+    "lines": [
+      "खुशियों का यह मेला कभी न हो कम,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "खुशियों का यह मेला कभी न हो कम,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Khushiyon ka yeh mela kabhi na ho kam,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May this carnival of joy never fade.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1780,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-60-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-61",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सांता क्लॉस की टोपी में छिपा है जादू",
+    "lines": [
+      "सांता क्लॉस की टोपी में छिपा है जादू,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सांता क्लॉस की टोपी में छिपा है जादू,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Santa claus ki topi mein chhipa hai jaadu,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Magic is hidden in Santa Claus's cap.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1793,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-61-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-62",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस की सुबह लाई नई उम्मीदों की किरण",
+    "lines": [
+      "क्रिसमस की सुबह लाई नई उम्मीदों की किरण,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस की सुबह लाई नई उम्मीदों की किरण,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas ki subah layi nayi ummeedon ki kiran,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas morning brought new rays of hope.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1806,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-62-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-63",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिसंबर की ठंडक में दिलों की गर्माहट",
+    "lines": [
+      "दिसंबर की ठंडक में दिलों की गर्माहट,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिसंबर की ठंडक में दिलों की गर्माहट,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "December ki thandak mein dilon ki garmaahat,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Warmth of hearts in December's chill.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1819,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-63-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-64",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "अपनों के संग बीता हर पल खास होता है",
+    "lines": [
+      "अपनों के संग बीता हर पल खास होता है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "अपनों के संग बीता हर पल खास होता है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Apnon ke sang beeta har pal khaas hota hai,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Every moment spent with loved ones is special.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1832,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-64-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-65",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "यीशु मसीह का आशीर्वाद सदा साथ रहे",
+    "lines": [
+      "यीशु मसीह का आशीर्वाद सदा साथ रहे,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "यीशु मसीह का आशीर्वाद सदा साथ रहे,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Yeshu masih ka aashirwad sada saath rahe,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May Lord Jesus' blessing always be with us.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1845,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-65-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-66",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "तारे जमीन पर उतर आए ऐसा है क्रिसमस",
+    "lines": [
+      "तारे जमीन पर उतर आए ऐसा है क्रिसमस,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "तारे जमीन पर उतर आए ऐसा है क्रिसमस,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Taare zameen par utar aaye aisa hai christmas,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas is like stars descending on earth.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1858,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-66-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-67",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "रिश्तों की मिठास और क्रिसमस का केक",
+    "lines": [
+      "रिश्तों की मिठास और क्रिसमस का केक,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "रिश्तों की मिठास और क्रिसमस का केक,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Rishton ki mithaas aur christmas ka cake,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Sweetness of relationships and Christmas cake.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1871,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-67-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-68",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "गांव की मिट्टी में क्रिसमस का अपना रंग",
+    "lines": [
+      "गांव की मिट्टी में क्रिसमस का अपना रंग,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "गांव की मिट्टी में क्रिसमस का अपना रंग,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Gaon ki mitti mein christmas ka apna rang,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas has its own color in village soil.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1884,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-68-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-69",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "शहर की भागदौड़ में सांता की मुस्कान",
+    "lines": [
+      "शहर की भागदौड़ में सांता की मुस्कान,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "शहर की भागदौड़ में सांता की मुस्कान,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Shehar ki bhaagdaud mein santa ki muskaan,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Santa's smile in the rush of the city.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1897,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-69-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-70",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर दुआ कबूल हो इस क्रिसमस की रात",
+    "lines": [
+      "हर दुआ कबूल हो इस क्रिसमस की रात,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर दुआ कबूल हो इस क्रिसमस की रात,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har dua kubool ho is christmas ki raat,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May every prayer be accepted on this Christmas night.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1010,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-70-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-71",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "प्यार भरे संदेशों से सजी हो मोबाइल स्क्रीन",
+    "lines": [
+      "प्यार भरे संदेशों से सजी हो मोबाइल स्क्रीन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "प्यार भरे संदेशों से सजी हो मोबाइल स्क्रीन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Pyar bhare sandeshon se saji ho mobile screen,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Mobile screen decorated with loving messages.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1023,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-71-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-72",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "बर्फ के गोलों से खेलें बच्चे इस पावन दिन",
+    "lines": [
+      "बर्फ के गोलों से खेलें बच्चे इस पावन दिन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "बर्फ के गोलों से खेलें बच्चे इस पावन दिन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Barf ke golon se khele bachche is paawan din,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Children play with snowballs on this holy day.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1036,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-72-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-73",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस की रोशनी में चमकता है आशियाना",
+    "lines": [
+      "क्रिसमस की रोशनी में चमकता है आशियाना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस की रोशनी में चमकता है आशियाना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas ki roshni mein chamakta hai aashiyana,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Home shines in the glow of Christmas lights.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1049,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-73-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-74",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "तेरी हंसी से बड़ा कोई तोहफा नहीं",
+    "lines": [
+      "तेरी हंसी से बड़ा कोई तोहफा नहीं,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "तेरी हंसी से बड़ा कोई तोहफा नहीं,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Teri hansi se bada koi tohfa nahi,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "There is no greater gift than your smile.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1062,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-74-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-75",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "प्रभु यीशु के जन्मोत्सव पर झूमे सारा जहां",
+    "lines": [
+      "प्रभु यीशु के जन्मोत्सव पर झूमे सारा जहां,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "प्रभु यीशु के जन्मोत्सव पर झूमे सारा जहां,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Prabhu yeshu ke janmotsav par jhoome saara jahan,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "The whole world dances on Lord Jesus' birth anniversary.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1075,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-75-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-76",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिल से जो मांगो वो मिल जाए इस पर्व पर",
+    "lines": [
+      "दिल से जो मांगो वो मिल जाए इस पर्व पर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिल से जो मांगो वो मिल जाए इस पर्व पर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Dil se jo maango woh mil jaye is parv par,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May you get what you ask from the heart on this festival.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1088,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-76-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-77",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सांता की बग्गी और आसमान का नीला रंग",
+    "lines": [
+      "सांता की बग्गी और आसमान का नीला रंग,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सांता की बग्गी और आसमान का नीला रंग,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Santa ki baggi aur aasman ka neela rang,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Santa's sleigh and the blue sky.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1101,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-77-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-78",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सर्द रातों की चादर में लिपटा प्यार",
+    "lines": [
+      "सर्द रातों की चादर में लिपटा प्यार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सर्द रातों की चादर में लिपटा प्यार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Sard raaton ki chaadar mein lipta pyar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Love wrapped in the blanket of cold nights.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1114,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-78-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-79",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर एक चेहरे पर मुस्कान बिखेर दो आज",
+    "lines": [
+      "हर एक चेहरे पर मुस्कान बिखेर दो आज,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर एक चेहरे पर मुस्कान बिखेर दो आज,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har ek chehre par muskaan bikher do aaj,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Spread a smile on every face today.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1127,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-79-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-80",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "खुशबू बिखर रही है पावन क्रिसमस पर्व की",
+    "lines": [
+      "खुशबू बिखर रही है पावन क्रिसमस पर्व की,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "खुशबू बिखर रही है पावन क्रिसमस पर्व की,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Khushboo bikhar rahi hai paawan christmas parv ki,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Fragrance of the holy Christmas festival spreads.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1140,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-80-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-81",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दोस्त यार मिलकर करें सांता का स्वागत",
+    "lines": [
+      "दोस्त यार मिलकर करें सांता का स्वागत,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दोस्त यार मिलकर करें सांता का स्वागत,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Dost yaar milkar karein santa ka swagat,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Friends gather to welcome Santa.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1153,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-81-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-82",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस का हर लम्हा खास बन जाए",
+    "lines": [
+      "क्रिसमस का हर लम्हा खास बन जाए,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस का हर लम्हा खास बन जाए,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas ka har lamha khaas ban jaye,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Every moment of Christmas becomes special.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1166,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-82-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-83",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "जीवन में कभी न आए कोई भी गम की रात",
+    "lines": [
+      "जीवन में कभी न आए कोई भी गम की रात,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "जीवन में कभी न आए कोई भी गम की रात,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Jeevan mein kabhi na aaye koi bhi gam ki raat,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May no night of sorrow ever enter life.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1179,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-83-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-84",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "यीशु का नूर रोशन करे आपकी तकदीर",
+    "lines": [
+      "यीशु का नूर रोशन करे आपकी तकदीर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "यीशु का नूर रोशन करे आपकी तकदीर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Yeshu ka noor roshan kare aapki taqdeer,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May Jesus' divine light illuminate your destiny.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1192,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-84-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-85",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "मेरी क्रिसमस की बधाई हो मेरे हमसफर",
+    "lines": [
+      "मेरी क्रिसमस की बधाई हो मेरे हमसफर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "मेरी क्रिसमस की बधाई हो मेरे हमसफर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Meri christmas ki badhai ho mere hamsafar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Happy Merry Christmas greetings my life partner.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1205,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-85-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-86",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "रात का सन्नाटा और चर्च की मीठी धुन",
+    "lines": [
+      "रात का सन्नाटा और चर्च की मीठी धुन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "रात का सन्नाटा और चर्च की मीठी धुन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Raat ka sannata aur church ki meethi dhun,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Night silence and sweet church tunes.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1218,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-86-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-87",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सांता का सरप्राइज और बच्चों की ख़ुशी",
+    "lines": [
+      "सांता का सरप्राइज और बच्चों की ख़ुशी,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सांता का सरप्राइज और बच्चों की ख़ुशी,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Santa ka surprise aur bachchon ki khushi,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Santa's surprise and children's happiness.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1231,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-87-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-88",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "गांव की चौपाल पर क्रिसमस की चर्चा",
+    "lines": [
+      "गांव की चौपाल पर क्रिसमस की चर्चा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "गांव की चौपाल पर क्रिसमस की चर्चा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Gaon ki chaupal par christmas ki charcha,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Discussion of Christmas at the village square.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1244,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-88-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-89",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "मॉल की सजावट और क्रिसमस का उल्लास",
+    "lines": [
+      "मॉल की सजावट और क्रिसमस का उल्लास,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "मॉल की सजावट और क्रिसमस का उल्लास,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Mall ki sajaawat aur christmas ka ullaas,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Mall decoration and Christmas excitement.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1257,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-89-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-90",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिसंबर की विदाई पर खुशियों का तोहफा",
+    "lines": [
+      "दिसंबर की विदाई पर खुशियों का तोहफा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिसंबर की विदाई पर खुशियों का तोहफा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "December ki vidai par khushiyon ka tohfa,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "A gift of joy on December's farewell.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1270,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-90-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-91",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर तरफ गूंजे मेरी क्रिसमस के तराने",
+    "lines": [
+      "हर तरफ गूंजे मेरी क्रिसमस के तराने,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर तरफ गूंजे मेरी क्रिसमस के तराने,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har taraf goonje meri christmas ke taraane,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Merry Christmas songs echo everywhere.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1283,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-91-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-92",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "खुदा की रहमत बरसे आपके परिवार पर",
+    "lines": [
+      "खुदा की रहमत बरसे आपके परिवार पर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "खुदा की रहमत बरसे आपके परिवार पर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Khuda ki rehmat barse aapke parivar par,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May God's grace shower upon your family.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1296,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-92-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-93",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सपनों की दुनिया में सांता का आगमन",
+    "lines": [
+      "सपनों की दुनिया में सांता का आगमन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सपनों की दुनिया में सांता का आगमन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Sapnon ki duniya mein santa ka aagaman,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Santa's arrival in the world of dreams.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1309,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-93-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-94",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिल से दिल मिलें इस क्रिसमस के बहाने",
+    "lines": [
+      "दिल से दिल मिलें इस क्रिसमस के बहाने,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिल से दिल मिलें इस क्रिसमस के बहाने,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Dil se dil milein is christmas ke bahane,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Hearts meet on the pretext of this Christmas.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1322,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-94-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-95",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "जीवन में मिठास घोले क्रिसमस का त्योहार",
+    "lines": [
+      "जीवन में मिठास घोले क्रिसमस का त्योहार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "जीवन में मिठास घोले क्रिसमस का त्योहार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Jeevan mein mithaas khole christmas ka tyohar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May Christmas festival add sweetness to life.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1335,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-95-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-96",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "यीशु के दरबार में झुका है मेरा सिर",
+    "lines": [
+      "यीशु के दरबार में झुका है मेरा सिर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "यीशु के दरबार में झुका है मेरा सिर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Yeshu ke darbar mein jhuka hai mera sir,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "My head bows at the court of Jesus.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1348,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-96-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-97",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सर्दियों की धूप में गर्माहट का एहसास",
+    "lines": [
+      "सर्दियों की धूप में गर्माहट का एहसास,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सर्दियों की धूप में गर्माहट का एहसास,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Sardiyon ki dhoop mein garmaahat ka ehsaas,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Feeling of warmth in winter sunlight.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1361,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-97-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-98",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "तू पास हो तो हर त्यौहार मुकम्मल है",
+    "lines": [
+      "तू पास हो तो हर त्यौहार मुकम्मल है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "तू पास हो तो हर त्यौहार मुकम्मल है,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Tu paas ho toh har tyohar mukammal hai,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Every festival is complete when you are near.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1374,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-98-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-99",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "खुशियों के दीये जलाओ मिलकर यार",
+    "lines": [
+      "खुशियों के दीये जलाओ मिलकर यार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "खुशियों के दीये जलाओ मिलकर यार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Khushiyon ke diye jalao milkar yaar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Light the lamps of joy together friends.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1387,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-99-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-100",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस की शाम लाए ढेरों सौगातें",
+    "lines": [
+      "क्रिसमस की शाम लाए ढेरों सौगातें,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस की शाम लाए ढेरों सौगातें,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas ki shaam laye dheron saugaatein,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas evening brings countless gifts.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1400,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-100-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-101",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "बड़ों का आशीर्वाद और छोटों का प्यार",
+    "lines": [
+      "बड़ों का आशीर्वाद और छोटों का प्यार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "बड़ों का आशीर्वाद और छोटों का प्यार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Badon ka aashirwad aur chhoton ka pyar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Elders' blessings and youngsters' love.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1413,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-101-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-102",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सजी हुई महफिल और क्रिसमस का उल्लास",
+    "lines": [
+      "सजी हुई महफिल और क्रिसमस का उल्लास,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सजी हुई महफिल और क्रिसमस का उल्लास,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Saji hui mehfil aur christmas ka ullaas,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Decorated gathering and Christmas cheer.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1426,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-102-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-103",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर दिल में उम्मीद की एक नई अलख",
+    "lines": [
+      "हर दिल में उम्मीद की एक नई अलख,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर दिल में उम्मीद की एक नई अलख,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har dil mein ummeed ki ek nayi alakh,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "A new spark of hope in every heart.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1439,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-103-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-104",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "प्रभु की कृपा से महके आंगन सारा",
+    "lines": [
+      "प्रभु की कृपा से महके आंगन सारा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "प्रभु की कृपा से महके आंगन सारा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Prabhu ki kripa se mehke aangan saara,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May the entire courtyard fragrance with Lord's grace.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1452,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-104-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-105",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस मुबारक हो दिल की गहराई से",
+    "lines": [
+      "क्रिसमस मुबारक हो दिल की गहराई से,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस मुबारक हो दिल की गहराई से,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas mubarak ho dil ki gehraai se,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Merry Christmas from the depth of my heart.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1465,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-105-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-106",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सफेद बर्फ और लाल सांता का प्यारा मेल",
+    "lines": [
+      "सफेद बर्फ और लाल सांता का प्यारा मेल,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सफेद बर्फ और लाल सांता का प्यारा मेल,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Safed barf aur laal santa ka pyara mel,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Lovely match of white snow and red Santa.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1478,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-106-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-107",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "हर घर में हो यीशु मसीह की महिमा",
+    "lines": [
+      "हर घर में हो यीशु मसीह की महिमा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "हर घर में हो यीशु मसीह की महिमा,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Har ghar mein ho yeshu masih ki mahima,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May Lord Jesus' glory be in every home.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1491,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-107-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-108",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "गांव के स्कूल में क्रिसमस का फंक्शन",
+    "lines": [
+      "गांव के स्कूल में क्रिसमस का फंक्शन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "गांव के स्कूल में क्रिसमस का फंक्शन,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Gaon ke school mein christmas ka function,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas function in the village school.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1504,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-108-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-109",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "शहर की पार्टियों में क्रिसमस की धूम",
+    "lines": [
+      "शहर की पार्टियों में क्रिसमस की धूम,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "शहर की पार्टियों में क्रिसमस की धूम,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Shehar ki party mein christmas ki dhoom,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Christmas buzz in city parties.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1517,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-109-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-110",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "अपनों के साथ कटे क्रिसमस की हर रात",
+    "lines": [
+      "अपनों के साथ कटे क्रिसमस की हर रात,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "अपनों के साथ कटे क्रिसमस की हर रात,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Apnon ke saath kate christmas ki har raat,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Every Christmas night spent with dear ones.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1530,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-110-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-111",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिसंबर की ठंड में प्यार की गर्माहट",
+    "lines": [
+      "दिसंबर की ठंड में प्यार की गर्माहट,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिसंबर की ठंड में प्यार की गर्माहट,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "December ki thand mein pyar ki garmaahat,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Warmth of love in December's chill.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1543,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-111-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-112",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सांता की झोली से मिले अनमोल उपहार",
+    "lines": [
+      "सांता की झोली से मिले अनमोल उपहार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सांता की झोली से मिले अनमोल उपहार,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Santa ki jholi se mile anmol upahaar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Receive precious gifts from Santa's bag.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1556,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-112-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-113",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "चर्च की प्रार्थना में गूंजे सबका नाम",
+    "lines": [
+      "चर्च की प्रार्थना में गूंजे सबका नाम,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "चर्च की प्रार्थना में गूंजे सबका नाम,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Church ki prarthana mein goonje sabka naam,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Everyone's name echoes in church prayer.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1569,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-113-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-114",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "तेरी बाहों में मिले मुझे क्रिसमस का सुकून",
+    "lines": [
+      "तेरी बाहों में मिले मुझे क्रिसमस का सुकून,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "तेरी बाहों में मिले मुझे क्रिसमस का सुकून,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Teri baahon mein mile mujhe christmas ka sukoon,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "I find Christmas peace in your arms.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1582,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-114-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-115",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "रोशन हो हर एक रास्ता खुशियों से",
+    "lines": [
+      "रोशन हो हर एक रास्ता खुशियों से,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "रोशन हो हर एक रास्ता खुशियों से,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Roshan ho har ek raasta khushiyon se,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May every path be illuminated with joy.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1595,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-115-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-116",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "प्रभु यीशु का संदेश है प्रेम और शांति",
+    "lines": [
+      "प्रभु यीशु का संदेश है प्रेम और शांति,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "प्रभु यीशु का संदेश है प्रेम और शांति,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Prabhu yeshu ka sandesh hai prem aur shanti,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Jesus' message is love and peace.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1608,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-116-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-117",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सर्द हवाओं का शोर और दिल का सुकून",
+    "lines": [
+      "सर्द हवाओं का शोर और दिल का सुकून,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सर्द हवाओं का शोर और दिल का सुकून,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Sard hawaon ka shor aur dil ka sukoon,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Noise of cold winds and peace of heart.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1621,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-117-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-118",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "क्रिसमस का त्यौहार लाए जीवन में बाहर",
+    "lines": [
+      "क्रिसमस का त्यौहार लाए जीवन में बाहर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "क्रिसमस का त्यौहार लाए जीवन में बाहर,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Christmas ka tyohar laye jeevan mein bahaar,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May Christmas festival bring spring in life.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1634,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-118-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-119",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "खुशियों की फुलझड़ी से सजे आसमान",
+    "lines": [
+      "खुशियों की फुलझड़ी से सजे आसमान,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "खुशियों की फुलझड़ी से सजे आसमान,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Khushiyon ki phuljhadi se saje aasman,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May the sky be decorated with sparklers of joy.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1647,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-119-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-120",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दोस्तों के संग मिलकर मनाएं क्रिसमस",
+    "lines": [
+      "दोस्तों के संग मिलकर मनाएं क्रिसमस,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दोस्तों के संग मिलकर मनाएं क्रिसमस,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Doston ke sang milkar manayein christmas,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Celebrate Christmas together with friends.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1660,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-120-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-121",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "जीवन का हर दिन क्रिसमस जैसा सुहाना हो",
+    "lines": [
+      "जीवन का हर दिन क्रिसमस जैसा सुहाना हो,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "जीवन का हर दिन क्रिसमस जैसा सुहाना हो,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Jeevan ka har din christmas jaisa suhaana ho,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May every day of life be as pleasant as Christmas.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1673,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-121-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-122",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "सांता क्लॉस लाए आपके लिए नई उम्मीदें",
+    "lines": [
+      "सांता क्लॉस लाए आपके लिए नई उम्मीदें,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "सांता क्लॉस लाए आपके लिए नई उम्मीदें,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Santa claus laye aapke liye nayi ummeedein,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May Santa Claus bring new hopes for you.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1686,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-122-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
+    "id": "christmas-123",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "दिसंबर की इस रात में सजें नए सपने",
+    "lines": [
+      "दिसंबर की इस रात में सजें नए सपने,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "दिसंबर की इस रात में सजें नए सपने,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "December ki is raat mein sajen naye sapne,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "New dreams decorate this December night.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1699,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-123-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 1
+      }
+    ]
+  },
+  {
+    "id": "christmas-124",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "ईश्वर की कृपा से पूर्ण हो हर मनोकामना",
+    "lines": [
+      "ईश्वर की कृपा से पूर्ण हो हर मनोकामना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "ईश्वर की कृपा से पूर्ण हो हर मनोकामना,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Ishwar ki kripa se purna ho har manokamna,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "May every wish be fulfilled by God's grace.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1712,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-124-1",
+        "userName": "तन्मय",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 2
+      }
+    ]
+  },
+  {
+    "id": "christmas-125",
+    "category": "christmas",
+    "categoryType": "festival",
+    "categoryName": "Christmas",
+    "categoryIcon": "🎄",
+    "title": "मेरी क्रिसमस 2027 की अनंत शुभकामनाएं",
+    "lines": [
+      "मेरी क्रिसमस 2027 की अनंत शुभकामनाएं,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHindi": [
+      "मेरी क्रिसमस 2027 की अनंत शुभकामनाएं,",
+      "खुशियों से भर जाए आपका हर एक द्वार।",
+      "प्रभु यीशु की कृपा से सजे आपका संसार,",
+      "मुबारक हो आपको क्रिसमस का यह पावन त्यौहार।"
+    ],
+    "linesHinglish": [
+      "Meri christmas 2027 ki anant shubhkaamnayein,",
+      "Khushiyon se bhar jaye aapke jeevan ka har dwar.",
+      "Prabhu Yeshu ki kripa se saje aapka sansaar,",
+      "Mubarak ho aapko christmas ka yeh paawan tyohar."
+    ],
+    "linesEnglish": [
+      "Infinite best wishes for Merry Christmas 2027.",
+      "May joy and happiness knock on your door.",
+      "With blessings of Lord Christ forevermore,",
+      "Celebrating Christmas together as one core."
+    ],
+    "tags": [
+      "Happy Christmas",
+      "ZQ Feelings"
+    ],
+    "author": "ZQ-FEELINGS 👑 Official",
+    "isOfficial": true,
+    "initialLikes": 1725,
+    "commentsCount": 1,
+    "comments": [
+      {
+        "id": "c-christmas-125-1",
+        "userName": "रवि",
+        "text": "बेहद प्यारी और दिल को छू लेने वाली क्रिसमस शायरी 2027! 🎄✨",
+        "date": "22 Oct 2026",
+        "likes": 3
+      }
+    ]
+  },
+  {
     "id": "lohri-1",
     "category": "lohri",
     "categoryType": "festival",

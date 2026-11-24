@@ -42,7 +42,7 @@ export const Static35TopLanguageSelector: React.FC<Static35TopLanguageSelectorPr
           className="min-h-[42px] px-4 py-2 rounded-2xl bg-[#fff0f3] hover:bg-[#ffe4e8] text-[#991B1B] border border-[#fecdd3] font-extrabold text-[14px] sm:text-[15px] inline-flex items-center gap-2 shadow-2xs cursor-pointer transition-colors"
         >
           <Globe className="w-4 h-4 text-[#e11d48]" />
-          <span>35 Languages: {activeMeta.nativeLabel}</span>
+          <span>77 Languages: {activeMeta.nativeLabel}</span>
           {drawerOpen ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
         </button>
         {isLoadingLang && (

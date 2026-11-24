@@ -23095,10 +23095,10 @@ const rawDiwaliSeo: Record<string, DiwaliLangSeo> = {
     "offerSubtitle": "Exclusive festive offers and Diwali gifts for Italian readers"
   },
   "ja": {
-    "title": "125 Best Diwali Wishes in Japanese 2026 | ZQ Feelings",
-    "h1": "125 Happy Diwali Wishes and Messages in Japanese",
-    "description": "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Japanese. Copy and share on WhatsApp. Diwali 8 Nov 2026.",
-    "introText": "Diwali Week 6 Nov to 11 Nov 2026. Explore 125 original Diwali wishes pre-translated in Japanese with easy copy & share (125 Wishes x 35 Languages = 4375 Wishes).",
+    "title": "2026年ディワリのお祝いメッセージとシャヤリ集 | ZQ Feelings",
+    "h1": "ディワリのお祝いメッセージと心温まるシャヤリ",
+    "description": "2026年の最高のディワリお祝いシャヤリとメッセージ集。ラクシュミプージャやダンテラスの温かい祈りをワンタップでコピーしてWhatsAppでシェアしよう。",
+    "introText": "2026年のディワリウィーク。ダンテラス、ラクシュミプージャ、ディワリの祝福メッセージを簡単にコピーしてWhatsAppやSNSでシェアしよう。",
     "offerTitle": "Diwali Gift Offers in Japanese",
     "offerBtn": "Explore Offers",
     "offerSubtitle": "Exclusive festive offers and Diwali gifts for Japanese readers"
@@ -23106,17 +23106,17 @@ const rawDiwaliSeo: Record<string, DiwaliLangSeo> = {
   "ko": {
     "title": "125 Best Diwali Wishes in Korean 2026 | ZQ Feelings",
     "h1": "125 Happy Diwali Wishes and Messages in Korean",
-    "description": "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Korean. Copy and share on WhatsApp. Diwali 8 Nov 2026.",
-    "introText": "Diwali Week 6 Nov to 11 Nov 2026. Explore 125 original Diwali wishes pre-translated in Korean with easy copy & share (125 Wishes x 35 Languages = 4375 Wishes).",
+    "description": "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Korean. Copy and share on WhatsApp.",
+    "introText": "Diwali Week. Explore original Diwali wishes pre-translated in Korean with easy copy & share.",
     "offerTitle": "Diwali Gift Offers in Korean",
     "offerBtn": "Explore Offers",
     "offerSubtitle": "Exclusive festive offers and Diwali gifts for Korean readers"
   },
   "ar": {
-    "title": "125 Best Diwali Wishes in Arabic 2026 | ZQ Feelings",
-    "h1": "125 Happy Diwali Wishes and Messages in Arabic",
-    "description": "Read 100+ Happy Diwali Wishes, Dhanteras, Lakshmi Puja and Bhai Dooj greetings in Arabic. Copy and share on WhatsApp. Diwali 8 Nov 2026.",
-    "introText": "Diwali Week 6 Nov to 11 Nov 2026. Explore 125 original Diwali wishes pre-translated in Arabic with easy copy & share (125 Wishes x 35 Languages = 4375 Wishes).",
+    "title": "أفضل تهاني عيد ديوالي 2026 - رسائل وأشعار ديوالي | ZQ Feelings",
+    "h1": "أجمل تهاني ورسائل وأشعار عيد ديوالي السعيد",
+    "description": "أفضل تهاني عيد ديوالي وديوالي شاياري لعام 2026. اكتشف أروع رسائل لاكشمي بوجا ودارتيراس مع نسخ ومشاركة مباشرة على واتساب لتشارك الفرحة مع أحبابك.",
+    "introText": "احتفالات ديوالي 2026. استكشف أجمل تهاني ورسائل ديوالي ودارتيراس ولاكشمي بوجا مع إمكانية النسخ والمشاركة الفورية على واتساب.",
     "offerTitle": "Diwali Gift Offers in Arabic",
     "offerBtn": "Explore Offers",
     "offerSubtitle": "Exclusive festive offers and Diwali gifts for Arabic readers"
