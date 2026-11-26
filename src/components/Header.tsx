@@ -37,7 +37,7 @@ export const EXACT_HOME_SEO_TITLE =
   'All in One Shayari Collection - Love, Sad, Festival, Diwali, Holi, Sanatan Hindu, Islamic Muslim & Hindi Urdu English Special Shayari | ZQ-FEELINGS - Dil Ki Awaaz';
 
 export const EXACT_HOME_SEO_DESCRIPTION =
-  '5,900+ se zyada dil chhu lene wali original shayariyan — Love, Sad, Attitude, Dosti, Festival, Dharmik aur Sanskar jaise 63+ Categories me. 77 bhashaon aur 240+ Stylish Fonts ka support, jisme shayari ka font badal kar 1-click me Copy aur Audio sun sakte hain. WhatsApp, Instagram aur Facebook par turant share karein, ya sundar Photo Card banakar Download karein. Apni Shayari Likhe me apne jazbaat bayan karein aur ZQ Moments me photo upload karke yaadein sajayein — 100% Free!';
+  '11,340+ Shayari — Love, Sad, Attitude, Dosti, Festival, Dharmik aur Sanskar jaise 204+ Categories me. 77 Languages aur 240+ Stylish Fonts ka support, jisme shayari ka font badal kar 1-click me Copy aur Audio sun sakte hain. WhatsApp, Instagram aur Facebook par turant share karein, ya sundar Photo Card banakar Download karein. Apna Moment (Apni Shayari Likhe) me apne jazbaat bayan karein aur ZQ Moments me yaadein sajayein — 100% Free!';
 
 interface MenuNavItem {
   route: AppRoute;
@@ -361,19 +361,30 @@ export const Header: React.FC<HeaderProps> = ({
           {/* 2. JUST BELOW TITLE — 2-LINE EXPANDABLE ON MOBILE, EXACT FULL DESCRIPTION ON DESKTOP */}
           <div className="max-w-5xl mx-auto bg-[#fff8f9] border sm:border-2 border-[#ffd6df] rounded-xl sm:rounded-2xl px-3.5 py-2 sm:px-8 sm:py-5 text-center shadow-2xs">
             <div className="sm:hidden">
-              <p
-                className={`text-[12.5px] font-medium text-slate-900 leading-[1.45] ${
-                  isDescExpanded ? '' : 'line-clamp-2'
-                }`}
-              >
-                {isDescExpanded
-                  ? fullHomeDescription
-                  : '5,900+ Best Shayari in 63+ Categories, 77 Languages & 240+ Fonts. Copy, Share & Download.'}
-              </p>
+              {isDescExpanded ? (
+                <p className="text-[12.5px] font-medium text-slate-900 leading-[1.45]">
+                  {fullHomeDescription}
+                </p>
+              ) : (
+                <div className="space-y-1.5 text-center">
+                  <p className="text-[13px] font-bold text-[#9f1239] leading-[1.35]">
+                    Love, Sad, Attitude aur har Festival ke liye shayari hai.
+                  </p>
+                  <p className="text-[12.5px] font-extrabold leading-[1.5] flex flex-wrap items-center justify-center gap-x-2 gap-y-0.5">
+                    <span className="text-[#d94f70]">11,340+ Shayari</span>
+                    <span className="text-slate-400">•</span>
+                    <span className="text-[#7c3aed]">77 Languages</span>
+                    <span className="text-slate-400">•</span>
+                    <span className="text-[#059669]">204+ Categories</span>
+                    <span className="text-slate-400">•</span>
+                    <span className="text-[#d97706]">240+ Stylish Fonts</span>
+                  </p>
+                </div>
+              )}
               <button
                 type="button"
                 onClick={() => setIsDescExpanded((prev) => !prev)}
-                className="mt-1 inline-block text-[12px] font-extrabold text-[#d94f70] underline cursor-pointer"
+                className="mt-1.5 inline-block text-[12px] font-extrabold text-[#d94f70] underline cursor-pointer"
               >
                 {isDescExpanded ? 'Show Less' : 'Read More'}
               </button>

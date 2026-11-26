@@ -34,6 +34,8 @@ const CATEGORY_HASHTAG_MAP: Record<string, readonly [string, string]> = {
   'matlabi-duniya': ['MatlabiDuniya', 'ZamanaShayari'],
   funny: ['FunnyShayari', 'ComedyShayari'],
   sharabi: ['SharabiShayari', 'Maikhana'],
+  'self-love': ['SelfLoveShayari', 'KhudSePyar'],
+  sukoon: ['SukoonShayari', 'DilKaSukoon'],
 
   // Maafi Subcategories
   'maa-se-maafi': ['MaaSeMaafi', 'SorryMom'],

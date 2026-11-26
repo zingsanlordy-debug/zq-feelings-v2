@@ -77,7 +77,7 @@ import { getActiveSiteOrigin, isFreeHostingPreviewHost } from './siteOrigin';
 export const SITE_NAME_FULL = 'ZQ Feelings - Dil Ki Awaaz';
 export const HOME_SEO_TITLE = 'Dil Ki Awaaz - Best Hindi Shayari | Love, Sad & 2 Line Shayari | ZQ Feelings';
 export const HOME_SEO_DESCRIPTION =
-  '5900+ Best Hindi Shayari - Love Shayari, Sad Shayari, Heart Touching 2 Line Shayari, Romantic & Dard Bhari Shayari.';
+  '11,340+ Best Hindi Shayari & Status in 204+ Categories & 77 Languages. 240+ Stylish Fonts, Copy & WhatsApp Share Buttons, Apna Moment Likhne Wala Feature — 100% Free!';
 
 export function formatTopicSeoTitle(topic: string): string {
   const cleanTopic = topic.trim();

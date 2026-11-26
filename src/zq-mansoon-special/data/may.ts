@@ -3143,7 +3143,7 @@ export const MAY_COLLECTION: MonthCollection = {
       "id": "may-international-chai-day",
       "monthId": "may",
       "dateLabel": "21 May",
-      "nameEnglish": "International Chai & Sukoon Day",
+      "nameEnglish": "International Chai Day",
       "nameHindi": "अंतर्राष्ट्रीय चाय की चुस्की दिवस",
       "icon": "☕",
       "significance": "अदरक-इलायची वाली गरम चाय की प्याली और अपनों के संग मीठी गपशप का जश्न",

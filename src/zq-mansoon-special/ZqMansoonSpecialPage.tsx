@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { ArrowLeft } from 'lucide-react';
 import { Shayari, FontStyleId } from '../types/shayari';
 import { MonthId } from './types';
@@ -39,6 +39,8 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
   const normalizeMonth = (m?: MonthId | 'all'): MonthId | 'all' => (!m ? 'january' : m);
 
   const [selectedMonth, setSelectedMonth] = useState<MonthId | 'all'>(normalizeMonth(initialMonth));
+  const [selectedDayId, setSelectedDayId] = useState<string>('all');
+  const prevInitialMonthRef = useRef<MonthId | 'all' | undefined>(initialMonth);
   const [currentPage, setCurrentPage] = useState<number>(
     initialPage && initialPage >= 1 ? initialPage : 1
   );
@@ -48,6 +50,10 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
   useEffect(() => {
     if (initialMonth) {
       setSelectedMonth(normalizeMonth(initialMonth));
+      if (prevInitialMonthRef.current !== initialMonth) {
+        setSelectedDayId('all');
+        prevInitialMonthRef.current = initialMonth;
+      }
     }
     setCurrentPage(initialPage && initialPage >= 1 ? initialPage : 1);
   }, [initialMonth, initialPage]);
@@ -57,7 +63,7 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
     return () => cancelAnimationFrame(rafId);
-  }, [selectedMonth, currentPage]);
+  }, [selectedMonth, selectedDayId, currentPage]);
 
   const handlePageSelect = (nextPage: number) => {
     setCurrentPage(nextPage);
@@ -80,12 +86,20 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
     activeMonthObj ? `${activeMonthObj.nameEnglish} Shayari` : '12 Months Special Days Shayari'
   );
 
-  const monthItems = useMemo(
+  const rawMonthItems = useMemo(
     () =>
       selectedMonth === 'all'
         ? ALL_FLAT_SPECIAL_SHAYARIS
         : ALL_FLAT_SPECIAL_SHAYARIS.filter((entry) => entry.monthId === selectedMonth),
     [selectedMonth]
+  );
+
+  const monthItems = useMemo(
+    () =>
+      selectedDayId === 'all'
+        ? rawMonthItems
+        : rawMonthItems.filter((entry) => entry.dayId === selectedDayId),
+    [rawMonthItems, selectedDayId]
   );
 
   const pagination = useMemo(
@@ -141,6 +155,7 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
               onClick={(e) => {
                 e.preventDefault();
                 setSelectedMonth(m.id);
+                setSelectedDayId('all');
                 setCurrentPage(1);
                 onSelectMonth?.(m.id);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -157,6 +172,52 @@ export const ZqMansoonSpecialPage: React.FC<ZqMansoonSpecialPageProps> = ({
           );
         })}
       </div>
+
+      {/* Month Category Filter Selector */}
+      {activeMonthObj && activeMonthObj.days.length > 0 && (
+        <div className="flex flex-wrap items-center gap-2 pt-1">
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedDayId('all');
+              setCurrentPage(1);
+              onPageChange?.(1);
+            }}
+            className={`min-h-[38px] px-3 py-1.5 rounded-xl text-[12px] sm:text-[13px] font-bold border inline-flex items-center gap-1.5 transition-all cursor-pointer ${
+              selectedDayId === 'all'
+                ? 'bg-[#d94f70] text-white border-[#d94f70] shadow-2xs'
+                : 'bg-[#fff8f9] hover:bg-white text-slate-700 border-[#ffd6df] hover:border-[#d94f70]'
+            }`}
+          >
+            <span>✨</span>
+            <span>All ({rawMonthItems.length})</span>
+          </button>
+          {activeMonthObj.days.map((day) => {
+            const isSelectedDay = selectedDayId === day.id;
+            const dayTitle = globalLanguage === 'hindi' ? day.nameHindi : day.nameEnglish;
+            return (
+              <button
+                key={day.id}
+                type="button"
+                onClick={() => {
+                  setSelectedDayId(day.id);
+                  setCurrentPage(1);
+                  onPageChange?.(1);
+                }}
+                className={`min-h-[38px] px-3 py-1.5 rounded-xl text-[12px] sm:text-[13px] font-bold border inline-flex items-center gap-1.5 transition-all cursor-pointer ${
+                  isSelectedDay
+                    ? 'bg-[#d94f70] text-white border-[#d94f70] shadow-2xs'
+                    : 'bg-[#fff8f9] hover:bg-white text-slate-700 border-[#ffd6df] hover:border-[#d94f70]'
+                }`}
+              >
+                <span>{day.icon}</span>
+                <span>{dayTitle}</span>
+                <span className="opacity-80 tabular-nums">({day.shayaris.length})</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       {/* DIRECT SHAYARI CARDS */}
       {pagination.pageItems.length > 0 && (

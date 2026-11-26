@@ -22,10 +22,16 @@ import {
   TranslatedText
 } from '../context/GlobalLanguageContext';
 import {
+  UI_TRANSLATIONS,
   convertHindiTitleToHinglish,
   convertHindiLineToHinglish
 } from '../utils/globalTranslations';
-import { VALENTINE_CATEGORIES, ValentineCategoryId, ValentineLangCode } from '../data/valentineWeekMeta';
+import {
+  VALENTINE_CATEGORIES,
+  ValentineCategoryId,
+  ValentineCategoryMeta,
+  ValentineLangCode
+} from '../data/valentineWeekMeta';
 import { ShayariCard } from './ShayariCard';
 import { ShayariPagination } from './ShayariPagination';
 import { getPaginatedSlice } from '../utils/pagination';
@@ -97,6 +103,8 @@ const SYSTEMATIC_FEELING_ORDER: readonly string[] = [
   'biwi-se-maafi',
   'husband-se-maafi',
   'motivational',
+  'self-love',
+  'sukoon',
   'kismat',
   'attitude',
   'boys',
@@ -147,6 +155,122 @@ interface FeelingChipItem {
   href: string;
 }
 
+const HOME_VALENTINE_ENGLISH_SUBTITLES: Record<ValentineCategoryId, string> = {
+  'rose-day': 'First morning of love and heartfelt feelings wrapped inside crimson rose petals',
+  'propose-day': 'Sincere and simple confession from a beating heart to walk together for a lifetime',
+  'chocolate-day': 'Smiles sweeter than chocolate and lovely poetry celebrating sweetness in relationships',
+  'teddy-day': 'Innocence, tender warmth, and cute teddy shayari for feeling close even from afar',
+  'promise-day': 'Far from empty vows, true promises of holding hands through every sun and shade',
+  'hug-day': 'A comforting wordless embrace that melts away all tiredness and sorrow',
+  'kiss-day': 'Poetry of gentle affection and reverence, from a loving forehead kiss to touching the soul',
+  'valentine-day': 'A special celebration of true love, a lifelong companion, and prayers from the heart',
+  'slap-day': 'Shayari answering false promises, deceit, and ego with a confident smile and self-respect',
+  'kick-day': 'Courage to leave bitter memories and selfish bonds behind for a fresh new beginning',
+  'perfume-day': 'Soft fragrance of memories, warmth of character, and fresh feelings of loving yourself',
+  'flirting-day': 'Playful teasing, expressive glances, and mischievous shayari full of sweet smiles',
+  'confession-day': 'The day to speak unspoken thoughts and true feelings kept inside the heart for years',
+  'missing-day': 'Poetry of quiet evenings, old chats, and memories soaked in missing someone special',
+  'breakup-day': 'Bidding goodbye to an incomplete bond without complaints and choosing peace and self-respect'
+};
+
+function useHomeValentineText(hindi: string, english: string, hinglish?: string): string {
+  const { globalLanguage } = useGlobalLanguage();
+  const translated = useTranslatedText(hindi, english);
+  if (hinglish && (globalLanguage === 'default' || globalLanguage === 'hinglish')) {
+    return hinglish;
+  }
+  return translated;
+}
+
+interface ValentineHomeCardProps {
+  vCat: ValentineCategoryMeta;
+  onOpenValentineWeek: (category?: ValentineCategoryId) => void;
+}
+
+const ValentineHomeCard: React.FC<ValentineHomeCardProps> = ({
+  vCat,
+  onOpenValentineWeek
+}) => {
+  const { globalLanguage, ui } = useGlobalLanguage();
+  const isValentinePart = vCat.partLabel === 'Valentine Week';
+  const borderAccent = isValentinePart
+    ? 'border-rose-200 hover:border-[#e11d48]'
+    : 'border-pink-200 hover:border-[#be123c]';
+  const gradientAccent = isValentinePart
+    ? 'from-[#e11d48] to-[#f43f5e]'
+    : 'from-[#9f1239] to-[#db2777]';
+  const badgeAccent = isValentinePart
+    ? 'bg-rose-50 text-rose-700 border-rose-200'
+    : 'bg-pink-50 text-pink-800 border-pink-200';
+
+  const catHindiShort = vCat.hindiName.replace(/\s*शायरी$/i, '').trim();
+  const hindiDate = vCat.dateLabel.replace(/\bFeb\b/g, 'फ़रवरी');
+
+  const countLabel = useHomeValentineText(
+    `${vCat.count} शायरी`,
+    `${vCat.count} Shayari`,
+    `${vCat.count} Shayari`
+  );
+  const categoryDateTitle = useHomeValentineText(
+    `${catHindiShort} - ${hindiDate}`,
+    `${vCat.shortName} - ${vCat.dateLabel}`,
+    `${vCat.shortName} - ${vCat.dateLabel}`
+  );
+  const secondaryTitle = useHomeValentineText(
+    vCat.hindiName,
+    `${vCat.shortName} Shayari`,
+    convertHindiTitleToHinglish(vCat.hindiName)
+  );
+  const translatedSubtitle = useHomeValentineText(
+    vCat.subtitle,
+    HOME_VALENTINE_ENGLISH_SUBTITLES[vCat.id],
+    convertHindiLineToHinglish(vCat.subtitle)
+  );
+  const dynamicClickHere = useTranslatedText('यहाँ क्लिक करें', 'Click Here');
+  const uiKey = globalLanguage === 'default' ? 'hinglish' : globalLanguage;
+  const hasPretranslatedClickHere = Boolean(UI_TRANSLATIONS[uiKey]?.clickHere);
+  const clickHereLabel = hasPretranslatedClickHere ? ui.clickHere : dynamicClickHere;
+
+  return (
+    <a
+      href={`/valentine-week/${vCat.id}-shayari`}
+      onClick={(e) => {
+        e.preventDefault();
+        onOpenValentineWeek(vCat.id);
+      }}
+      className={`group relative flex flex-col justify-between p-6 rounded-3xl bg-white border-2 ${borderAccent} hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer text-left`}
+    >
+      <div>
+        <div className="flex items-center justify-between gap-2 mb-4">
+          <div
+            className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${gradientAccent} text-white flex items-center justify-center text-3xl shadow-sm group-hover:scale-105 transition-transform`}
+          >
+            {vCat.icon}
+          </div>
+          <span
+            className={`px-3 py-1 rounded-xl text-[13px] font-extrabold border ${badgeAccent}`}
+          >
+            {countLabel}
+          </span>
+        </div>
+
+        <h3 className="font-rozha text-[22px] font-bold text-slate-900 group-hover:text-[#d94f70] leading-snug">
+          {categoryDateTitle}
+        </h3>
+        <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{secondaryTitle}</p>
+        <p className="mt-2.5 text-[14px] text-slate-600 font-medium leading-relaxed line-clamp-2">
+          {translatedSubtitle}
+        </p>
+      </div>
+
+      <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between text-[15px] font-bold text-[#d94f70]">
+        <span>{clickHereLabel}</span>
+        <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+      </div>
+    </a>
+  );
+};
+
 export const HomePage: React.FC<HomePageProps> = ({
   onOpenFestival,
   onOpenFeelings,
@@ -172,6 +296,16 @@ export const HomePage: React.FC<HomePageProps> = ({
   const hLine = (s: string) => (isHinglishMode ? convertHindiLineToHinglish(s) : s);
   const momentsDesc = useTranslatedText(ui.homeMomentsDesc);
   const openMomentsText = useTranslatedText(ui.openZqMoments);
+  const valentineSectionHeading = useHomeValentineText(
+    'वैलेंटाइन वीक स्पेशल - 7 फरवरी से 21 फरवरी - 15 दिन - 600 शायरी',
+    'Valentine Week Special - 7 Feb to 21 Feb - 15 Days - 600 Shayari',
+    'Valentine Week Special - 7 Feb to 21 Feb - 15 Days - 600 Shayari'
+  );
+  const valentineAll600Btn = useHomeValentineText(
+    'सभी 600 शायरी',
+    'All 600 Shayari',
+    'All 600 Shayari'
+  );
   const recentTwoShayaris = useMemo(() => {
     const loveItem = trendingShayaris.find((s) => String(s.category).toLowerCase().includes('love') || String(s.categoryName).toLowerCase().includes('love')) || trendingShayaris[0];
     const sadItem = trendingShayaris.find((s) => String(s.category).toLowerCase().includes('sad') || String(s.categoryName).toLowerCase().includes('sad')) || trendingShayaris[1];
@@ -405,7 +539,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="flex items-center gap-3">
             <Heart className="w-7 h-7 text-[#e11d48] fill-[#e11d48] shrink-0" />
             <h2 className="font-rozha text-[24px] sm:text-[26px] font-bold text-[#d94f70] leading-snug">
-              Valentine Week Special - 7 Feb to 21 Feb - 15 Days - 600 Shayari
+              {valentineSectionHeading}
             </h2>
           </div>
 
@@ -417,64 +551,19 @@ export const HomePage: React.FC<HomePageProps> = ({
             }}
             className="inline-flex items-center gap-1.5 px-4 py-2 rounded-2xl bg-white border border-[#ffd6df] hover:border-[#d94f70] text-[14px] sm:text-[15px] font-extrabold text-[#d94f70] hover:bg-[#d94f70] hover:text-white transition-all cursor-pointer"
           >
-            <span>All 600 Shayari</span>
+            <span>{valentineAll600Btn}</span>
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {VALENTINE_CATEGORIES.map((vCat) => {
-            const isValentinePart = vCat.partLabel === 'Valentine Week';
-            const borderAccent = isValentinePart
-              ? 'border-rose-200 hover:border-[#e11d48]'
-              : 'border-pink-200 hover:border-[#be123c]';
-            const gradientAccent = isValentinePart
-              ? 'from-[#e11d48] to-[#f43f5e]'
-              : 'from-[#9f1239] to-[#db2777]';
-            const badgeAccent = isValentinePart
-              ? 'bg-rose-50 text-rose-700 border-rose-200'
-              : 'bg-pink-50 text-pink-800 border-pink-200';
-
-            return (
-              <a
-                key={vCat.id}
-                href={`/valentine-week/${vCat.id}-shayari`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  onOpenValentineWeek(vCat.id);
-                }}
-                className={`group relative flex flex-col justify-between p-6 rounded-3xl bg-white border-2 ${borderAccent} hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer text-left`}
-              >
-                <div>
-                  <div className="flex items-center justify-between gap-2 mb-4">
-                    <div
-                      className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${gradientAccent} text-white flex items-center justify-center text-3xl shadow-sm group-hover:scale-105 transition-transform`}
-                    >
-                      {vCat.icon}
-                    </div>
-                    <span
-                      className={`px-3 py-1 rounded-xl text-[13px] font-extrabold border ${badgeAccent}`}
-                    >
-                      {vCat.count} Shayari
-                    </span>
-                  </div>
-
-                  <h3 className="font-rozha text-[22px] font-bold text-slate-900 group-hover:text-[#d94f70] leading-snug">
-                    {vCat.shortName} - {vCat.dateLabel}
-                  </h3>
-                  <p className="text-[16px] font-bold text-[#d94f70] mt-0.5">{hTitle(vCat.hindiName)}</p>
-                  <p className="mt-2.5 text-[14px] text-slate-600 font-medium leading-relaxed line-clamp-2">
-                    {hLine(vCat.subtitle)}
-                  </p>
-                </div>
-
-                <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between text-[15px] font-bold text-[#d94f70]">
-                  <span>{ui.clickHere}</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </div>
-              </a>
-            );
-          })}
+          {VALENTINE_CATEGORIES.map((vCat) => (
+            <ValentineHomeCard
+              key={vCat.id}
+              vCat={vCat}
+              onOpenValentineWeek={onOpenValentineWeek}
+            />
+          ))}
         </div>
       </section>
 

@@ -2,6 +2,11 @@ import { Shayari } from '../types/shayari';
 import { FESTIVALS_PART_1 } from './categories/festivalsPart1';
 import { FESTIVALS_PART_2 } from './categories/festivalsPart2';
 import { FESTIVALS_PART_3 } from './categories/festivalsPart3';
+import {
+  FESTIVALS_CHRISTMAS_75_TO_200,
+  FESTIVALS_REPUBLIC_DAY_175_TO_200,
+  FESTIVALS_NEW_YEAR_175_TO_200
+} from './categories/festivalsPart4_200';
 import { FEELINGS_ALL } from './categories/feelingsAll';
 import {
   EXPANDED_OLD_8_FEELINGS,
@@ -13,6 +18,13 @@ import {
   SHARABI_SHAYARIS
 } from './categories/feelings';
 import { EXPANDED_FEELINGS_200 } from './categories/feelings/expanded200';
+import { PHASE2_FEELINGS_200 } from './categories/feelings/phase2';
+import {
+  PHASE3_BHAG3_FEELINGS_200,
+  PHASE3_BHAG4_FEELINGS_200
+} from './categories/feelings/phase3';
+import { UNIQUE_SELF_LOVE_200 } from './categories/feelings/selfLove200';
+import { UNIQUE_SUKOON_200 } from './categories/feelings/sukoon200';
 import { ZQ_OFFICIAL_DEFAULTS } from './categories/zqOfficialDefaults';
 import { RELIGIOUS_CATEGORIES, RELIGIOUS_SHAYARIS } from './categories/index';
 import { MAAFI_SUBCATEGORIES, MAAFI_SPECIAL_SHAYARIS } from './maafi/index';
@@ -99,13 +111,21 @@ const MERGED_FEELINGS_SHAYARIS: Shayari[] = mergeAndDeduplicateFeelingsShayaris(
   ...NEW_FEELINGS_PART_4,
   ...NEW_FEELINGS_PART_5,
   ...SHARABI_SHAYARIS,
-  ...EXPANDED_FEELINGS_200
+  ...EXPANDED_FEELINGS_200,
+  ...PHASE2_FEELINGS_200,
+  ...PHASE3_BHAG3_FEELINGS_200,
+  ...PHASE3_BHAG4_FEELINGS_200,
+  ...UNIQUE_SELF_LOVE_200,
+  ...UNIQUE_SUKOON_200
 ]);
 
 export const SHAYARI_LIST: Shayari[] = [
   ...FESTIVALS_PART_1,
   ...FESTIVALS_PART_2,
   ...FESTIVALS_PART_3,
+  ...FESTIVALS_CHRISTMAS_75_TO_200,
+  ...FESTIVALS_REPUBLIC_DAY_175_TO_200,
+  ...FESTIVALS_NEW_YEAR_175_TO_200,
   ...MERGED_FEELINGS_SHAYARIS,
   ...MAAFI_SPECIAL_SHAYARIS,
   ...RELIGIOUS_SHAYARIS,

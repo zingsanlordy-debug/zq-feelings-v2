@@ -6,7 +6,7 @@ export const SITE_BRAND = 'ZQ Feelings - Dil Ki Awaaz';
 export const SITE_NAME_FULL = 'ZQ Feelings - Dil Ki Awaaz';
 export const HOME_SEO_TITLE = 'Dil Ki Awaaz - Best Hindi Shayari | Love, Sad & 2 Line Shayari | ZQ Feelings';
 export const HOME_SEO_DESCRIPTION =
-  '5900+ Best Hindi Shayari - Love Shayari, Sad Shayari, Heart Touching 2 Line Shayari, Romantic & Dard Bhari Shayari.';
+  '11,340+ Best Hindi Shayari & Status in 204+ Categories & 77 Languages. 240+ Stylish Fonts, Copy & WhatsApp Share Buttons, Apna Moment Likhne Wala Feature — 100% Free!';
 export const DEFAULT_PRODUCTION_ORIGIN = 'https://dil-ki-awaaz.vercel.app';
 
 export function isPreviewHostname(hostname) {
@@ -256,8 +256,8 @@ export const SSR_FESTIVALS = [
   },
   {
     id: 'birthday',
-    name: 'Birthday',
-    hindiName: 'जन्मदिन',
+    name: 'Birthday Wishes',
+    hindiName: 'जन्मदिन शुभकामनाएं',
     seoTitle: 'Happy Birthday Wishes Shayari in Hindi | ZQ Feelings',
     seoDescription:
       'Best Happy Birthday Wishes Shayari in Hindi (जन्मदिन मुबारक शायरी) for friend, brother, sister & lover with 20 stylish fonts & WhatsApp share.'
@@ -468,7 +468,7 @@ export const SSR_FEELINGS = [
   { id: '2-line', name: '2 Line Shayari', hindiName: 'दो लाइन शायरी', slug: '/feelings/2-line-shayari/', seoDescription: 'Short & deep 2 Line Shayari & Do Line Status in Hindi (दो लाइन की बेहतरीन शायरी) with 20 stylish fonts, copy & WhatsApp share.' },
   { id: 'family', name: 'Family Shayari', hindiName: 'परिवार शायरी', slug: '/feelings/family-shayari/', seoDescription: 'Warm Family, Maa Papa & Ghar Parivar Shayari in Hindi (परिवार और माँ-पापा शायरी) with 20 stylish fonts, copy & WhatsApp share.' },
   { id: 'bhai-behen', name: 'Bhai Behen Shayari', hindiName: 'भाई बहन शायरी', slug: '/feelings/bhai-behen-shayari/', seoDescription: 'Loving Bhai Behen, Brother & Sister Shayari in Hindi (भाई-बहन के प्यार की शायरी) with 20 stylish fonts, copy & WhatsApp share.' },
-  { id: 'birthday-feelings', name: 'Birthday Shayari', hindiName: 'जन्मदिन शायरी', slug: '/feelings/birthday-shayari/', seoDescription: 'Heartfelt Birthday Wishes & Janmdin Mubarak Shayari in Hindi (जन्मदिन मुबारक फीलिंग्स शायरी) with 20 stylish fonts & WhatsApp share.' },
+  { id: 'birthday-feelings', name: 'Birthday Feelings Shayari', hindiName: 'बर्थडे फीलिंग्स शायरी', slug: '/feelings/birthday-shayari/', seoDescription: 'Heartfelt Birthday Wishes & Janmdin Mubarak Shayari in Hindi (जन्मदिन मुबारक फीलिंग्स शायरी) with 20 stylish fonts & WhatsApp share.' },
   { id: 'miss-you', name: 'Miss You Shayari', hindiName: 'मिस यू शायरी', slug: '/feelings/miss-you-shayari/', seoDescription: 'Touching Miss You & Teri Kami Shayari in Hindi (मिस यू और तेरी कमी शायरी) with 20 stylish fonts, one-click copy & WhatsApp share.' },
   { id: 'heart-touching', name: 'Heart Touching Shayari', hindiName: 'हार्ट टचिंग शायरी', slug: '/feelings/heart-touching-shayari/', seoDescription: 'Deep Heart Touching & Dil Chhoo Lene Wali Shayari in Hindi (दिल छू लेने वाली शायरी) with 20 stylish fonts & WhatsApp share.' },
   { id: 'emotional', name: 'Emotional Shayari', hindiName: 'इमोशनल शायरी', slug: '/feelings/emotional-shayari/', seoDescription: 'Soulful Emotional & Jazbaati Shayari in Hindi (जज़्बाती और इमोशनल शायरी) in 35 languages & 20 stylish fonts — ZQ Feelings.' },
@@ -476,7 +476,9 @@ export const SSR_FEELINGS = [
   { id: 'khwab', name: 'Khwab Shayari', hindiName: 'ख़्वाब शायरी', slug: '/feelings/khwab-shayari/', seoDescription: 'Dreamy Khwab & Sapne Shayari in Hindi (ख़्वाब और सपनों की शायरी) with 20 stylish fonts, one-click copy & WhatsApp share.' },
   { id: 'matlabi-duniya', name: 'Matlabi Duniya Shayari', hindiName: 'मतलबी दुनिया शायरी', slug: '/feelings/matlabi-duniya-shayari/', seoDescription: 'Real-life Matlabi Duniya & Matlabi Log Shayari in Hindi (मतलबी दुनिया और मतलबी लोग शायरी) with 20 stylish fonts & WhatsApp share.' },
   { id: 'funny', name: 'Funny Shayari', hindiName: 'फनी शायरी', slug: '/feelings/funny-shayari/', seoDescription: 'Hilarious Funny, Jokes, Comedy & Chutkule Shayari in Hindi (मज़ेदार फनी जोक्स और चुटकुले शायरी) with 20 stylish fonts & share.' },
-  { id: 'sharabi', name: 'Sharabi Shayari', hindiName: 'शराबी शायरी', slug: '/feelings/sharabi-shayari/', seoDescription: 'Soulful Sharabi, Maikhana, Jaam & Mehfil Shayari in Hindi (शराबी और मयख़ाना शायरी) with 20 stylish fonts, copy & WhatsApp share.' }
+  { id: 'sharabi', name: 'Sharabi Shayari', hindiName: 'शराबी शायरी', slug: '/feelings/sharabi-shayari/', seoDescription: 'Soulful Sharabi, Maikhana, Jaam & Mehfil Shayari in Hindi (शराबी और मयख़ाना शायरी) with 20 stylish fonts, copy & WhatsApp share.' },
+  { id: 'self-love', name: 'Self Love Shayari', hindiName: 'सेल्फ लव शायरी', slug: '/feelings/self-love-shayari/', seoDescription: 'Empowering Self Love & Khud Se Pyar Shayari in Hindi (सेल्फ लव और आत्मसम्मान शायरी) with 20 stylish fonts, copy & WhatsApp share.' },
+  { id: 'sukoon', name: 'Sukoon Shayari', hindiName: 'सुकून शायरी', slug: '/feelings/sukoon-shayari/', seoDescription: 'Peaceful Sukoon, Chain & Inner Peace Shayari in Hindi (सुकून और दिल को चैन देने वाली शायरी) with 20 stylish fonts & WhatsApp share.' }
 ];
 
 export const SSR_CATEGORY_SEO_MAP = {
@@ -644,7 +646,10 @@ const SSR_FEELINGS_MERGE_MAP = {
   'matlabi-duniya': 'matlabi-duniya',
   funny: 'funny',
   sharabi: 'sharabi',
-  maikhana: 'sharabi'
+  maikhana: 'sharabi',
+  'self-love': 'self-love',
+  selflove: 'self-love',
+  sukoon: 'sukoon'
 };
 
 export const SSR_MAAFI_SUBS = [

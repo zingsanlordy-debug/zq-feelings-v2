@@ -1970,7 +1970,7 @@ export const OCTOBER_COLLECTION: MonthCollection = {
       "id": "oct-mental-peace-day",
       "monthId": "october",
       "dateLabel": "10 October",
-      "nameEnglish": "Mental Peace & Sukoon Day",
+      "nameEnglish": "World Mental Wellness Day",
       "nameHindi": "मन का सुकून एवं मानसिक संबल दिवस",
       "icon": "🌿",
       "significance": "भागदौड़ के बीच मन की थकान उतारने, खुलकर बात करने और एक-दूसरे का हौसला बनने का दिन",

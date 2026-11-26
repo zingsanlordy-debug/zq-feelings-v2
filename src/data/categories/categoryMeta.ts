@@ -98,8 +98,8 @@ export const FESTIVAL_CATEGORIES = [
   },
   {
     id: 'birthday',
-    name: 'Birthday',
-    hindiName: 'जन्मदिन',
+    name: 'Birthday Wishes',
+    hindiName: 'जन्मदिन शुभकामनाएं',
     icon: '🎂',
     seoTitle: 'Happy Birthday Wishes Shayari in Hindi | ZQ Feelings',
     seoDescription:
@@ -499,8 +499,8 @@ export const FEELINGS_CATEGORIES: readonly FeelingsCategoryMeta[] = [
   },
   {
     id: 'birthday-feelings',
-    name: 'Birthday Shayari',
-    hindiName: 'जन्मदिन शायरी',
+    name: 'Birthday Feelings Shayari',
+    hindiName: 'बर्थडे फीलिंग्स शायरी',
     slug: '/feelings/birthday-shayari/',
     icon: '🎂',
     seoDescription:
@@ -577,6 +577,24 @@ export const FEELINGS_CATEGORIES: readonly FeelingsCategoryMeta[] = [
     icon: '🍷',
     seoDescription:
       'Soulful Sharabi, Maikhana, Jaam & Mehfil Shayari in Hindi (शराबी और मयख़ाना शायरी) with 20 stylish fonts, copy & WhatsApp share.'
+  },
+  {
+    id: 'self-love',
+    name: 'Self Love Shayari',
+    hindiName: 'सेल्फ लव शायरी',
+    slug: '/feelings/self-love-shayari/',
+    icon: '🪞',
+    seoDescription:
+      'Empowering Self Love & Khud Se Pyar Shayari in Hindi (सेल्फ लव और आत्मसम्मान शायरी) with 20 stylish fonts, copy & WhatsApp share.'
+  },
+  {
+    id: 'sukoon',
+    name: 'Sukoon Shayari',
+    hindiName: 'सुकून शायरी',
+    slug: '/feelings/sukoon-shayari/',
+    icon: '🕊️',
+    seoDescription:
+      'Peaceful Sukoon, Chain & Inner Peace Shayari in Hindi (सुकून और दिल को चैन देने वाली शायरी) with 20 stylish fonts & WhatsApp share.'
   }
 ] as const;
 
@@ -626,7 +644,10 @@ export const FEELINGS_CATEGORY_MERGE_MAP: Record<string, string> = {
   'matlabi-duniya': 'matlabi-duniya',
   funny: 'funny',
   sharabi: 'sharabi',
-  maikhana: 'sharabi'
+  maikhana: 'sharabi',
+  'self-love': 'self-love',
+  selflove: 'self-love',
+  sukoon: 'sukoon'
 };
 
 export function normalizeFeelingsCategoryId(categoryId: string): string {

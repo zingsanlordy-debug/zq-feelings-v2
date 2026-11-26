@@ -33,8 +33,8 @@ export const Footer: React.FC<FooterProps> = ({
   const { globalLanguage, ui, isRtl } = useGlobalLanguage();
   const isHinglishMode = globalLanguage === 'default' || globalLanguage === 'hinglish';
   const aboutDesc = useTranslatedText(
-    'ZQ FEELINGS - दिल की आवाज़ हिंदी शायरी, स्टेटस, त्यौहार विशेस, फीलिंग्स शायरी और 12 महीनों के खास दिनों की शुभकामनाओं का एक साफ़-सुथरा मंच है, जहाँ आप अपनी शायरी भी लिख और सहेज सकते हैं।',
-    'ZQ FEELINGS - Dil Ki Awaaz is a clean home for Shayari, Status, Festival Wishes, Feelings Poetry, and 12 Months Special Days greetings where you can also write and save your own poetry.'
+    'ZQ FEELINGS - दिल की आवाज़ 11,340+ हिंदी शायरी, स्टेटस, त्यौहार विशेस, फीलिंग्स शायरी और 12 महीनों के खास दिनों का 204+ Categories और 77 Languages वाला सबसे बड़ा मंच है, जहाँ Copy & Share बटन, 240+ Stylish Fonts और अपनी शायरी (Apna Moment) लिखने की सुविधा मिलती है।',
+    'ZQ FEELINGS - Dil Ki Awaaz is the largest clean home with 11,340+ Shayaris, Status, Festival Wishes, 204+ Categories, 77 Languages, Copy & Share buttons, 240+ Stylish Fonts, and Apna Moment writing feature.'
   );
   const contactHint = useTranslatedText(
     'सुझाव, सहयोग या किसी भी प्रश्न के लिए हमसे संपर्क करें:',

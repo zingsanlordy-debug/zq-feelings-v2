@@ -34,7 +34,7 @@ export const HOLIDAY_35_META: Record<
     hindiName: 'नया साल',
     dateLabel: '1 January',
     icon: '🎉',
-    count: 25
+    count: 200
   },
   christmas: {
     id: 'christmas',
@@ -43,7 +43,7 @@ export const HOLIDAY_35_META: Record<
     hindiName: 'क्रिसमस डे',
     dateLabel: '25 December',
     icon: '🎄',
-    count: 25
+    count: 200
   },
   diwali: {
     id: 'diwali',

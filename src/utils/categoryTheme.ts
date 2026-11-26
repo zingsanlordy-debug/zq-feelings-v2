@@ -56,7 +56,8 @@ const NATURE_PATRIOTIC_CATEGORIES = new Set([
   'gandhi-jayanti',
   'onam',
   'zindagi',
-  'christmas'
+  'christmas',
+  'sukoon'
 ]);
 
 const SUNRISE_MOTIVATIONAL_CATEGORIES = new Set([
@@ -66,7 +67,8 @@ const SUNRISE_MOTIVATIONAL_CATEGORIES = new Set([
   'lohri',
   'makar-sankranti',
   'baisakhi',
-  'pongal'
+  'pongal',
+  'self-love'
 ]);
 
 export function getCategoryGradientTheme(
